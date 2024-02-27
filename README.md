@@ -2,6 +2,9 @@
 
 ### Any help in collecting and sharing data related to fires, topography, vegetation, forest is welcome
 
+
+### Almost every reference is missing, I'll update the sources and references later
+
 ## Collection of Available sources:
 
 Currently being used (✅)
