@@ -1,0 +1,38 @@
+ano                                     2012
+codigo_sgif                         BL112219
+tipo                               Florestal
+distrito                               Viseu
+concelho                             Tarouca
+freguesia                    Várzea da Serra
+local                        VÁRZEA DA SERRA
+ine                                   182009
+x                                     224699
+y                                     447799
+data_alerta                       2012-02-13
+hora_alerta                         15:53:00
+data_extincao                     2012-02-13
+hora_extincao                       17:58:00
+data_primeira_intervencao         2012-02-13
+hora_primeira_intervencao           16:06:00
+fonte_alerta                          Outros
+nut                               PT11071509
+area_povoamento                          0.0
+area_mato                                2.0
+area_agricola                            0.0
+area_pov_mato                            2.0
+area_total                               2.0
+reacendimento                              0
+queimada                                   0
+falso_alarme                               0
+fogacho                                    0
+incendio                                   1
+agricola                                   0
+perimetro                                NaN
+aps                                      NaN
+causa                                  630.0
+tipo_causa                      Desconhecida
+regiao_prof                   Trás-os-Montes
+ugf                                    Douro
+LAT                                 40.99706
+LON                                 -7.82628
+Name: 8944, dtype: object
