@@ -41,3 +41,14 @@ https://www.evidentlyai.com/classification-metrics/accuracy-precision-recall
 
 ## Comparison
 https://www.ipma.pt/en/riscoincendio/rcm.pt/index.jsp#4#0407
+
+@misc{https://doi.org/10.15468/dl.zwfmbt,
+  doi = {10.15468/DL.ZWFMBT},
+  url = {https://www.gbif.org/occurrence/download/0023511-240216155721649},
+  author = {{GBIF.Org User}},
+  keywords = {GBIF, biodiversity, species occurrences},
+  title = {Occurrence Download},
+  publisher = {The Global Biodiversity Information Facility},
+  year = {2024},
+  copyright = {Creative Commons Attribution 4.0 International}
+}

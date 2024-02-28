@@ -1,0 +1,114 @@
+ano                                               2011
+codigo_sgif                                  BL3111793
+tipo                                         Florestal
+distrito                                        Aveiro
+concelho                          Santa Maria da Feira
+freguesia                                     Pigeiros
+local                             R. da Bajouca (Vale)
+ine                                              10920
+x                                               174286
+y                                               445844
+data_alerta                                 2011-07-06
+hora_alerta                                   16:27:00
+data_extincao                               2011-07-06
+hora_extincao                                 17:25:00
+data_primeira_intervencao                   2011-07-06
+hora_primeira_intervencao                     16:40:00
+fonte_alerta                                 Populares
+nut                                         PT11060220
+area_povoamento                                    0.0
+area_mato                                          0.0
+area_agricola                                      0.0
+area_pov_mato                                      0.0
+area_total                                         0.0
+reacendimento                                        1
+queimada                                             0
+falso_alarme                                         0
+fogacho                                              1
+incendio                                             0
+agricola                                             0
+perimetro                                          NaN
+aps                                                NaN
+causa                                            630.0
+tipo_causa                                Desconhecida
+regiao_prof                        Entre Douro e Minho
+ugf                          AMP e Entre Douro e Vouga
+LAT                                          40.950941
+LON                                           -8.48447
+Name: 3486, dtype: object
+ano                                               2011
+codigo_sgif                                  BL3113903
+tipo                                         Florestal
+distrito                                        Aveiro
+concelho                          Santa Maria da Feira
+freguesia                                       Canedo
+local                                          Sameiro
+ine                                              10903
+x                                               173043
+y                                               449090
+data_alerta                                 2011-10-13
+hora_alerta                                   21:43:00
+data_extincao                               2011-10-13
+hora_extincao                                 23:00:00
+data_primeira_intervencao                   2011-10-13
+hora_primeira_intervencao                     21:55:00
+fonte_alerta                                 Populares
+nut                                         PT11060203
+area_povoamento                                    0.0
+area_mato                                         0.13
+area_agricola                                      0.0
+area_pov_mato                                     0.13
+area_total                                        0.13
+reacendimento                                        0
+queimada                                             0
+falso_alarme                                         0
+fogacho                                              1
+incendio                                             0
+agricola                                             0
+perimetro                                          NaN
+aps                                                NaN
+causa                                              6.0
+tipo_causa                                Desconhecida
+regiao_prof                        Entre Douro e Minho
+ugf                          AMP e Entre Douro e Vouga
+LAT                                          41.017568
+LON                                          -8.451857
+Name: 11955, dtype: object
+ano                                                            2011
+codigo_sgif                                               DM4113438
+tipo                                                      Florestal
+distrito                                                      Braga
+concelho                                                      Braga
+freguesia                                                    Vilaça
+local                        PARQUE INDUSTRIAL(VILAÇA)M-1 (CRESPOS)
+ine                                                           30360
+x                                                            180889
+y                                                            515106
+data_alerta                                              2011-10-15
+hora_alerta                                                11:49:00
+data_extincao                                            2011-10-15
+hora_extincao                                              14:55:00
+data_primeira_intervencao                                2011-10-15
+hora_primeira_intervencao                                  12:05:00
+fonte_alerta                                              Populares
+nut                                                      PT11020360
+area_povoamento                                                 0.0
+area_mato                                                     0.001
+area_agricola                                                   0.0
+area_pov_mato                                                 0.001
+area_total                                                    0.001
+reacendimento                                                     0
+queimada                                                          0
+falso_alarme                                                      0
+fogacho                                                           1
+incendio                                                          0
+agricola                                                          0
+perimetro                                                       NaN
+aps                                                             NaN
+causa                                                           NaN
+tipo_causa                                                      NaN
+regiao_prof                                     Entre Douro e Minho
+ugf                                                          Tâmega
+LAT                                                       41.516047
+LON                                                       -8.483834
+Name: 11957, dtype: object
