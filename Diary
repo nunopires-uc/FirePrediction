@@ -48,9 +48,10 @@ Faro,Faro,Sé,Esteiro da Garganta - 2104.6810002066204
 Faro,Faro,Faro,Praia de Faro -> value is a bit off
 
 2010:
-Santarém,Cartaxo,Valada,ESTRADA DO SETIL (VILA CHÃ DE OURIQUE) -> 1560.5771997576376
-Castelo Branco,Sertã,Cabeçudo, Tojal -> value is on another district
-Porto,Felgueiras,Pinheiro, Igreja -> value is a bit off
+Porto,Vila Nova de Gaia,Oliveira do Douro,Monte da Virgem -> Values recalculated   
+Santarém,Cartaxo,Valada,ESTRADA DO SETIL (VILA CHÃ DE OURIQUE)
+Castelo Branco,Sertã,Cabeçudo,Tojal
+Porto,Felgueiras,Pinheiro,Igreja
 
 2009:
 Castelo Branco,Castelo Branco,Castelo Branco,Fonte Santa
