@@ -67,4 +67,9 @@ The    6th National Forest Inventory was co-funded by the Portuguese Carbon 
 
 FWI https://docs.niwa.co.nz/eco/fwsys/ref/EquationsandFORTRANfortheCFFWI.pdf
 
+fwi formulas https://github.com/buckinha/pyfwi/blob/master/pyFWI/FWIFunctions.py
+
 nuts/europa map https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/nuts
+
+portuguese borders: https://www.naturalearthdata.com/downloads/10m-cultural-vectors/
+Portuguese border coordinates: http://location.zone/pt/
