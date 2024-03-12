@@ -62,3 +62,9 @@ The geographic area considered for the original study was Portugal Mainland.
 Funding
 
 The    6th National Forest Inventory was co-funded by the Portuguese Carbon Fund (FPC - Fundo Português de Carbono), by ICNF, I.P. and the European Union, through the Environment Operational Programme (application 1.1/00021– Documentos Estruturantes da Conservação da Natureza e da Biodiversidade). The preparation of this resource for publication through GBIF was supported by Project PORBIOTA―Portuguese E-Infrastructure for Information and Research on Biodiversity (POCI-01-0145-FEDER-022127), under the Operational Thematic Program for Competitiveness and Internationalization (POCI), under the PORTUGAL 2020 Partnership Agreement, through the European Regional Development Fund (FEDER) and FCT.
+
+
+
+FWI https://docs.niwa.co.nz/eco/fwsys/ref/EquationsandFORTRANfortheCFFWI.pdf
+
+nuts/europa map https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/nuts
