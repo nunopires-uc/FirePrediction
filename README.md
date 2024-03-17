@@ -73,3 +73,5 @@ nuts/europa map https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/a
 
 portuguese borders: https://www.naturalearthdata.com/downloads/10m-cultural-vectors/
 Portuguese border coordinates: http://location.zone/pt/
+
+fwi scale https://www.researchgate.net/figure/Fire-Weather-Index-FWI-scale-and-interpretation_tbl1_368321358
