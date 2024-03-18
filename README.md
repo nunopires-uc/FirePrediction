@@ -75,3 +75,6 @@ portuguese borders: https://www.naturalearthdata.com/downloads/10m-cultural-vect
 Portuguese border coordinates: http://location.zone/pt/
 
 fwi scale https://www.researchgate.net/figure/Fire-Weather-Index-FWI-scale-and-interpretation_tbl1_368321358
+
+
+Copernicus -> Fire danger indices historical data from the Copernicus Emergency Management Service 
