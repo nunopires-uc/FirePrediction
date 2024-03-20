@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMapEvents } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, useMapEvents, Polyline } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { Icon, divIcon, point } from "leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
@@ -7,9 +7,21 @@ import './WorldMapstyles.css'
 import { Grid, Paper } from "@mui/material";
 import READCSV, {READCSVAllRows} from './ReadCsv';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-import { Checkbox } from '@mui/material';
+import { Checkbox, TextField } from '@mui/material';
 
 
+function distanceTwoPoints(lat1, lon1, lat2, lon2) {
+    const R = 6371e3; // Radius of the Earth in meters
+    const phi1 = lat1 * (Math.PI / 180); // converting degrees to radians
+    const phi2 = lat2 * (Math.PI / 180);
+    const delta_phi = (lat2 - lat1) * (Math.PI / 180);
+    const delta_lambda = (lon2 - lon1) * (Math.PI / 180);
+
+    const a = Math.sin(delta_phi / 2) ** 2 + Math.cos(phi1) * Math.cos(phi2) * Math.sin(delta_lambda / 2) ** 2;
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+    return R * c; // Distance in meters
+}
 
 export default function WorldMap() {
     const [showPanel, setShowPanel] = useState(false);
@@ -21,20 +33,19 @@ export default function WorldMap() {
     const [selectedFields, setSelectedFields] = useState([]);
     const colors = ["#ACC3A6", "#5D6D7E", "#A569BD", "#F1948A", "#45B39D", "#F1C40F", "#E74C3C", "#34495E", "#16A085", "#27AE60"];
     const [panelWidth, setPanelWidth] = useState(4);
+    const [selectedMarker, setSelectedMarker] = useState(null);
 
+    const [clickedMarkerIndexes, setClickedMarkerIndexes] = useState([]);
 
-    /*const csvFile = fs.readFileSync('./dataset/sample.csv', 'utf8');
-    Papa.parse(csvFile, {
-        header: true,
-        complete: function(results) {
-            const selectedColumns = results.data.map(row => ({
-                column1: row.column1,
-                column2: row.column2,
-            }));
-    
-            console.log(selectedColumns);
-        }
-    });*/
+    const getNewMarkerFromCSV = async (fileName) => {
+        const data = await READCSVAllRows(`/dataset/${fileName}`);
+        const newMarker = {
+            geocode: [data[1].latitude, data[1].longitude], // Assuming the CSV file has latitude and longitude columns
+            popUp: 'New Marker'
+        };
+        return newMarker;
+    };
+
 
     useEffect(() => {
         READCSV('/dataset/sample.csv').then(data => {
@@ -58,8 +69,12 @@ export default function WorldMap() {
         }
     }, [selectedMarkerIndex, selectedEntries]);
 
-    console.log(markers);
+    //console.log(markers);
 
+    useEffect(() => {
+        console.log(clickedMarkerIndexes);
+    }, [clickedMarkerIndexes]);
+    
     const handleClose = () => {
         setShowPanel(false);
     };
@@ -68,9 +83,9 @@ export default function WorldMap() {
         const map = useMapEvents({
             click: () => {
                 setShowPanel(false);
+                setSelectedMarker(null); // Reset selected marker when map is clicked
             },
         });
-    
         return null;
     };
 
@@ -85,32 +100,25 @@ export default function WorldMap() {
             }
         });
     };
-    
-    
 
-
-
-
-    /*const markers = [{
-        geocode: [48.86, 2.3522],
-        popUp: "Hello"},
-        {geocode: [48.85, 2.3522],
-        popUp: "my"},
-        {geocode: [48.855, 2.34],
-        popUp: "darling"},
-    ]*/
-
-    const customIcon = new Icon(
-        {
-            //iconUrl: require("./img/marker-icon.png"),
-            iconUrl: "https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png",
-
+    const customIcon = new Icon({
+            iconUrl: process.env.PUBLIC_URL + '/img/fire-icon.svg',
             iconSize: [38, 38],
             iconAnchor: [12, 41],
             popupAnchor: [1, -34],
             shadowSize: [41, 41]
         }
     );
+
+
+    const WeatherStationIcon = new Icon({
+        iconUrl: process.env.PUBLIC_URL + '/img/station-icon.svg',
+        iconSize: [54, 54],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+    });
+
 
     const createCustomClusterIcon = function (cluster) {
         return divIcon({
@@ -120,7 +128,7 @@ export default function WorldMap() {
         });
     }
 
-    const handleMarkerClick = (index) => {
+    const handleMarkerClick = async (index) => {
         console.log(index);
         setSelectedMarkerIndex(index);
         setShowPanel(true);
@@ -133,7 +141,11 @@ export default function WorldMap() {
         }).catch(error => {
             console.error(error);
         });
+        setSelectedMarker({ ...markers[index], newMarker: await getNewMarkerFromCSV(fileName) });
+        setClickedMarkerIndexes(prevIndexes => [...prevIndexes, index]);
     }
+
+    
 
 
 
@@ -156,11 +168,33 @@ export default function WorldMap() {
                         chunkedLoading
                         iconCreateFunction={createCustomClusterIcon}
                     >
-                        {markers.map((marker, index) => (
-                            <Marker position={marker.geocode} key={marker.geocode} icon={customIcon} eventHandlers={{ click: () => handleMarkerClick(index) }}>
-                                <Popup>{marker.popUp}</Popup>
-                            </Marker>
-                        ))}
+                        {markers.map((marker, index) => {
+                            // Skip rendering the selected marker in this loop
+                            if (selectedMarker && marker.geocode[0] === selectedMarker.geocode[0] && marker.geocode[1] === selectedMarker.geocode[1]) {
+                                return null;
+                            }
+
+                            return (
+                                <Marker position={marker.geocode} key={marker.geocode} icon={customIcon} eventHandlers={{ click: () => handleMarkerClick(index) }}>
+                                    <Popup>{marker.popUp}</Popup>
+                                </Marker>
+                            );
+                        })}
+                        {selectedMarker && (
+                            <>
+                                <Marker position={selectedMarker.geocode} key={selectedMarker.geocode} icon={customIcon}>
+                                    <Popup>{selectedMarker.popUp}</Popup>
+                                </Marker>
+                                <Marker position={selectedMarker.newMarker.geocode} key={selectedMarker.newMarker.geocode} icon={WeatherStationIcon}>
+                                <Tooltip permanent>
+                                    {selectedMarker.newMarker.popUp}
+                                    <br />
+                                    Distance: {distanceTwoPoints(selectedMarker.geocode[0], selectedMarker.geocode[1], selectedMarker.newMarker.geocode[0], selectedMarker.newMarker.geocode[1])} meters
+                                </Tooltip>
+                                </Marker>
+                                <Polyline positions={[selectedMarker.geocode, selectedMarker.newMarker.geocode]} color="red" />
+                            </>
+                        )}
                     </MarkerClusterGroup>
                 </MapContainer>
             </Grid>
@@ -172,14 +206,26 @@ export default function WorldMap() {
         <Paper elevation={3} style={{ height: '100%', overflow: 'auto', backgroundColor: 'white' }}>
         {markerData && (
             <div>
-                {/* ... */}
+                <TextField
+                label="Distance"
+                value={selectedMarker ? distanceTwoPoints(
+                    selectedMarker.geocode[0], 
+                    selectedMarker.geocode[1], 
+                    selectedMarker.newMarker.geocode[0], 
+                    selectedMarker.newMarker.geocode[1]
+                ) : ''}
+                InputProps={{
+                    readOnly: true,
+                }}
+                style={{ marginTop: '20px' }}
+                />
                 <form>
                     <label>
                         Number of entries:
                         <input type="number" value={selectedEntries} onChange={e => setSelectedEntries(e.target.value)} />
                     </label>
                     {Object.keys(markerData).map(key => (
-                        key !== 'latitude' && key !== 'longitude' && key !== 'altitude' && (
+                        key !== 'latitude' && key !== 'longitude' && key !== 'altitude' && key !== 'hourly.time' && (
                             <label key={key}>
                                 <Checkbox checked={selectedFields.includes(key)} onChange={() => handleFieldChange(key)} />
                                 {key}
