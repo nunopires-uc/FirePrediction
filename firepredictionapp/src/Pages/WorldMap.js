@@ -34,6 +34,7 @@ export default function WorldMap() {
     const colors = ["#ACC3A6", "#5D6D7E", "#A569BD", "#F1948A", "#45B39D", "#F1C40F", "#E74C3C", "#34495E", "#16A085", "#27AE60"];
     const [panelWidth, setPanelWidth] = useState(4);
     const [selectedMarker, setSelectedMarker] = useState(null);
+    const [clickedMarkerData, setClickedMarkerData] = useState({});
 
     const [clickedMarkerIndexes, setClickedMarkerIndexes] = useState([]);
 
@@ -54,6 +55,12 @@ export default function WorldMap() {
             console.error(error);
         });
     }, []);
+
+    useEffect(() => {
+        if (!showPanel) {
+            setClickedMarkerIndexes([]);
+        }
+    }, [showPanel]);
 
 
     useEffect(() => {
@@ -134,13 +141,16 @@ export default function WorldMap() {
         setShowPanel(true);
         const fileNames = ['outputONE.csv', 'outputTWO.csv', 'outputTHREE.csv'];
         const fileName = fileNames[index];
-        READCSVAllRows(`/dataset/${fileName}`).then(data => {
+        /*READCSVAllRows(`/dataset/${fileName}`).then(data => {
             setMarkerData(data[0]);
             setGraphData(data.slice(0, selectedEntries));
             console.log(data);
         }).catch(error => {
             console.error(error);
-        });
+        });*/
+        const data = await READCSVAllRows(`/dataset/${fileName}`);
+        setClickedMarkerData(prevData => ({ ...prevData, [index]: data }));
+
         setSelectedMarker({ ...markers[index], newMarker: await getNewMarkerFromCSV(fileName) });
         setClickedMarkerIndexes(prevIndexes => [...prevIndexes, index]);
     }
@@ -233,22 +243,24 @@ export default function WorldMap() {
                         )
                     ))}
                 </form>
-                <LineChart width={800} height={500} data={graphData}>
-                    <XAxis dataKey="hourly.time"/>
-                    <YAxis/>
-                    <CartesianGrid stroke="#eee" strokeDasharray="5 5"/>
-                    <Legend />
-                    <Tooltip />
-                    {selectedFields.map((field, index) => (
-                        <Line 
-                            type="natural" 
-                            dataKey={field} 
-                            stroke={colors[index % colors.length]} 
-                            name={field} 
-                            key={field} 
-                        />
-                    ))}
-                </LineChart>
+                {clickedMarkerIndexes.map(index => (
+    <LineChart width={800} height={500} data={clickedMarkerData[index].slice(0, selectedEntries)}>
+        <XAxis dataKey="hourly.time"/>
+        <YAxis/>
+        <CartesianGrid stroke="#eee" strokeDasharray="5 5"/>
+        <Legend />
+        <Tooltip />
+        {selectedFields.map((field, index) => (
+            <Line 
+                type="natural" 
+                dataKey={field} 
+                stroke={colors[index % colors.length]} 
+                name={field} 
+                key={field} 
+            />
+        ))}
+    </LineChart>
+))}
             </div>
         )}
         </Paper>
