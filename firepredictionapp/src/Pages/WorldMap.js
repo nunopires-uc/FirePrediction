@@ -7,7 +7,7 @@ import './WorldMapstyles.css'
 import { Grid, Paper } from "@mui/material";
 import READCSV, {READCSVAllRows} from './ReadCsv';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-import { Checkbox, TextField } from '@mui/material';
+import { Box, TextField, FormControlLabel, Checkbox } from '@mui/material';
 
 
 function distanceTwoPoints(lat1, lon1, lat2, lon2) {
@@ -41,7 +41,7 @@ export default function WorldMap() {
     const getNewMarkerFromCSV = async (fileName) => {
         const data = await READCSVAllRows(`/dataset/${fileName}`);
         const newMarker = {
-            geocode: [data[1].latitude, data[1].longitude], // Assuming the CSV file has latitude and longitude columns
+            geocode: [data[1].latitude, data[1].longitude],
             popUp: 'New Marker'
         };
         return newMarker;
@@ -69,7 +69,8 @@ export default function WorldMap() {
             const fileName = fileNames[selectedMarkerIndex];
             READCSVAllRows(`/dataset/${fileName}`).then(data => {
                 setMarkerData(data[0]);
-                setGraphData(data.slice(0, selectedEntries));
+                //setGraphData(data.slice(0, selectedEntries));
+                setGraphData(data.slice(Math.max(0, data.length - selectedEntries)));
             }).catch(error => {
                 console.error(error);
             });
@@ -90,7 +91,7 @@ export default function WorldMap() {
         const map = useMapEvents({
             click: () => {
                 setShowPanel(false);
-                setSelectedMarker(null); // Reset selected marker when map is clicked
+                setSelectedMarker(null);
             },
         });
         return null;
@@ -99,10 +100,8 @@ export default function WorldMap() {
     const handleFieldChange = (field) => {
         setSelectedFields(prevFields => {
             if (prevFields.includes(field)) {
-                // If the field is already selected, unselect it
                 return prevFields.filter(f => f !== field);
             } else {
-                // If the field is not selected, select it
                 return [...prevFields, field];
             }
         });
@@ -179,7 +178,6 @@ export default function WorldMap() {
                         iconCreateFunction={createCustomClusterIcon}
                     >
                         {markers.map((marker, index) => {
-                            // Skip rendering the selected marker in this loop
                             if (selectedMarker && marker.geocode[0] === selectedMarker.geocode[0] && marker.geocode[1] === selectedMarker.geocode[1]) {
                                 return null;
                             }
@@ -210,57 +208,68 @@ export default function WorldMap() {
             </Grid>
             {showPanel && (
     <Grid item xs={panelWidth}>
-        <button onClick={() => setPanelWidth(prevWidth => prevWidth === 4 ? 8 : 4)}>
-            Expand/Collapse Panel
-        </button>
+        
         <Paper elevation={3} style={{ height: '100%', overflow: 'auto', backgroundColor: 'white' }}>
         {markerData && (
             <div>
-                <TextField
-                label="Distance"
-                value={selectedMarker ? distanceTwoPoints(
-                    selectedMarker.geocode[0], 
-                    selectedMarker.geocode[1], 
-                    selectedMarker.newMarker.geocode[0], 
-                    selectedMarker.newMarker.geocode[1]
-                ) : ''}
-                InputProps={{
-                    readOnly: true,
-                }}
-                style={{ marginTop: '20px' }}
-                />
-                <form>
-                    <label>
-                        Number of entries:
-                        <input type="number" value={selectedEntries} onChange={e => setSelectedEntries(e.target.value)} />
-                    </label>
-                    {Object.keys(markerData).map(key => (
-                        key !== 'latitude' && key !== 'longitude' && key !== 'altitude' && key !== 'hourly.time' && (
-                            <label key={key}>
-                                <Checkbox checked={selectedFields.includes(key)} onChange={() => handleFieldChange(key)} />
-                                {key}
-                            </label>
-                        )
-                    ))}
-                </form>
-                {clickedMarkerIndexes.map(index => (
-    <LineChart width={800} height={500} data={clickedMarkerData[index].slice(0, selectedEntries)}>
-        <XAxis dataKey="hourly.time"/>
-        <YAxis/>
-        <CartesianGrid stroke="#eee" strokeDasharray="5 5"/>
-        <Legend />
-        <Tooltip />
-        {selectedFields.map((field, index) => (
-            <Line 
-                type="natural" 
-                dataKey={field} 
-                stroke={colors[index % colors.length]} 
-                name={field} 
-                key={field} 
+
+                <button onClick={() => setPanelWidth(prevWidth => prevWidth === 4 ? 8 : 4)}>
+                        Expand/Collapse Panel
+                </button>
+                <Box component="form" sx={{ m: 1 }}>
+    <TextField
+        label="Distance"
+        value={selectedMarker ? distanceTwoPoints(
+            selectedMarker.geocode[0], 
+            selectedMarker.geocode[1], 
+            selectedMarker.newMarker.geocode[0], 
+            selectedMarker.newMarker.geocode[1]
+        ) : ''}
+        InputProps={{
+            readOnly: true,
+        }}
+    />
+    <TextField
+        label="Number of entries"
+        type="number"
+        value={selectedEntries}
+        onChange={e => setSelectedEntries(e.target.value)}
+    />
+    {Object.keys(markerData).map(key => (
+        key !== 'latitude' && key !== 'longitude' && key !== 'altitude' && key !== 'time' && (
+            <FormControlLabel
+                key={key}
+                control={
+                    <Checkbox
+                        checked={selectedFields.includes(key)}
+                        onChange={() => handleFieldChange(key)}
+                    />
+                }
+                label={key}
             />
-        ))}
-    </LineChart>
-))}
+        )
+    ))}
+</Box>
+                
+                
+                {clickedMarkerIndexes.map(index => (
+                    <LineChart width={800} height={500} data={clickedMarkerData[index].slice(Math.max(0, clickedMarkerData[index].length - selectedEntries))}>
+                    <XAxis dataKey="time"/>
+                    <YAxis/>
+                    <CartesianGrid stroke="#eee" strokeDasharray="5 5"/>
+                    <Legend />
+                    <Tooltip />
+                    {selectedFields.map((field, index) => (
+                    <Line 
+                    type="natural" 
+                    dataKey={field} 
+                    stroke={colors[index % colors.length]} 
+                    name={field} 
+                    key={field} 
+                    />
+                    ))}
+                    </LineChart>
+                ))}
             </div>
         )}
         </Paper>
