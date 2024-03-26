@@ -25,4 +25,4 @@ print(response.status_code)
 if((response.status_code == 200)):
     data = response.json()
     df = pd.json_normalize(data)
-    df.to_csv(f"sample2015v2.csv", index=False)
+    df.to_csv(f"Samples/CopernicusToOpenMeteo/s2015.csv", index=False)
