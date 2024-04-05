@@ -1,0 +1,165 @@
+\chapter{Introduction}
+
+Por ler:
+\begin{itemize}
+    \item FWI features - \url{https://www.for.gov.bc.ca/ftp/!Project/FireBehaviour/Canadian%20Fire%20Behaviour%20for%20AU/FWI%20Tables.pdf}
+\end{itemize}
+
+
+
+
+
+\label{sec:introduction}
+
+In 2017, a forest fire broke out in Pedrógão Grande, located in the central Region of Portugal. This disaster claimed the lives of 66 citizens and burned an area of 47 thousand hectares. The wildfire was significantly shaped by a thunderstorm and an intense heatwave, with temperatures exceeding 40ºC and a relative humidity bellow 20\%. Within an hour, the fire spread from 2940 to 6740 burned hectares. The majority of fatalities were caused by flame exposure and smoke inhalation as residents attempted to flee the encroaching fires that threatened their houses \cite{viegas2018wildfires}. 
+
+
+What if Portugal had better means of predicting forest fires? Could a disaster like this be avoided? First and foremost, it is necessary to comprehend what constitutes a forest fire and the threat it poses. 
+
+
+A forest fire is a wildfire that burns uncontrollably in a forest, meadow, scrubland, or cultivated land \cite{britannica2023wildfire}. It can be caused by weather and erupt spontaneously as a result of lightning or the heat of the sun. Forest fires are becoming more frequent as a result of climate change and human activity, wreaking havoc on the environment, economy, and human health.
+
+
+Given the complexities of fire and the challenges it poses in modern times, the goal is to develop a system that processes and aggregates data related to wildfires from multiple sources to classify forest fire severity.
+
+
+The risk of fire in a wilderness environment fluctuates with the weather and is influenced by topography. Factors such as drought, heat, and wind all contribute to the ferocity of a fire. Human activities like unsupervised campfires, abandoned cigarettes, and other human influences also exacerbate forest fire ignition \cite{britannica2023wildfire, 10010889, EOSDA2023, arif2021role}. Forest fires are harmful to people and the environment because they pollute the air, destroy infrastructure, compel people to evacuate, and endanger biodiversity \cite{WorldEconomicForum2023}.
+
+
+Forest fires are a common occurrence in many areas throughout the world. Portugal is a geographical location that stands out not only in terms of the number of occurrences, but also in terms of the extent of the burned lands. \cite{silva2012}.
+According to the "Commission report on forest fires", in Europe more than 340,000 hectares were burned in 2020. Romania being the most affected country, followed by Portugal in second place \cite{ec2021forestfires}.
+
+
+
+
+The fires burning today in many parts of the world are bigger, more intense, and last longer than they used to. In Portugal, only after 1990 were flames larger than 10,000 hectares documented, which shows that in recent years, the burned area has been steadily increasing\cite{viegas2018wildfires}.
+
+
+
+
+\section{Context}
+\label{subsec:sec1}
+
+Decision support systems are critical in a variety of emergency scenarios, notably in early wildfire forecasts, which will lessen the disaster's damage and ease the control of wildfires through civil protection and firefighting efforts \cite{DEI2023}.
+
+
+The availability of data derived from volunteer contributions allows the development of models for recognising wildfire incidents.
+This involves localising and tracking the event over time and space. Anticipating the likelihood of a forest fire breakout before it begins by calculating the link between fire risk and other relevant factors such as meteorological conditions or topography \cite{DEI2023}. 
+
+
+Providing adequately structured and validated information will aid in a increasing understanding of a wildfire event and will make real-time decision-making easier \cite{Abid2021, DEI2023}.
+
+In addition to being mentioned previously, where the hazards of fire and their consequences were examined. Table \ref{table_2023_fires_portugal} illustrates why it is important to develop solutions that will understand wildfires and avoid disaster. Table \ref{table_2023_fires_portugal} shows that Portugal is one of the European nations most afflicted by fire. In the last ten years, Portugal has had an average of 13298 fires per year and 123876 hectares of land burned. 
+
+
+The aim is to develop a set of modules that take on another viewpoint regarding decision-making support systems in forest fire management. Providing spatial, temporal and risk monitoring that can be used in an organised way to ease decision-making. It is therefore necessary to understand how fire ignition factors correlate to each other, how and why a fire ignites.
+
+
+
+
+
+
+\begin{table}[h!]
+\caption{Number of rural fires and corresponding extent of burnt area in mainland Portugal, per year, between 1 January and 15 October 2023 January and 15 October 2023 \cite{icnf2023report}}
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Year} & \textbf{No. of rural fires} & \multicolumn{4}{c|}{\textbf{Burnt area (ha)}} \\
+\cline{3-6}
+ & & \textbf{Settlements} & \textbf{Forest} & \textbf{Agricultural area} & \textbf{Total} \\
+\hline
+2013 & 21917 & 54905 & 94564 & 7858 & 157327 \\
+2014 & 9095 & 8701 & 10889 & 2954 & 22544 \\
+2015 & 18945 & 23461 & 39538 & 3796 & 66795 \\
+2016 & 14980 & 77390 & 82505 & 6290 & 166185 \\
+2017 & 19104 & 328851 & 168611 & 39669 & 537131 \\
+2018 & 11451 & 21873 & 19114 & 3091 & 44078 \\
+2019 & 10528 & 21411 & 15831 & 4608 & 41850 \\
+2020 & 9182 & 31682 & 27826 & 6315 & 65823 \\
+2021 & 7452 & 8077 & 16105 & 2947 & 27129 \\
+2022 & 10323 & 55304 & 43591 & 11015 & 109910 \\
+2023 & 7635 & 19281 & 12994 & 2145 & 34420 \\
+\hline
+\textbf{Average 2013-2022} & 13298 & 63165 & 51857 & 8854 & 123876 \\
+\hline
+\end{tabular}%
+}
+\label{table_2023_fires_portugal}
+\end{table}
+
+\subsection{FireLoc}
+\label{fireloc}
+FireLoc was a project funded by the \gls{fct}, which has now come to an end. This thesis is a follow-up to the studies that were carried out as part of the project. The modules to be developed will therefore be integrated with the project's previous material.
+
+
+
+
+FireLoc had the goal of creating a system that would enable any volunteer citizen with a smartphone to report a spotted fire. It enabled fire spottery by taking the location of the observation point automatically. It also permitted the capture of an image during the observation (such as a smartphone photo) and provided information that allowed the observed phenomenon to be georeferenced, such as the orientation (which the device automatically determines) \cite{silva2020fire, Fireloc2023}.
+
+
+
+
+\subsection{Main Issues}
+The currently ongoing, global change-induced, intensification of the fire regime has escalated from being primarily an ecological problem to also becoming a civil protection issue \cite{f12040469}. 
+
+
+Every biome is impacted by wildfires, including grasslands, tundra, savannahs, and forests. Every year, more than 400 million hectares of land worldwide experience fire damage, with savannahs and grasslands accounting for 70\% of these incidents \cite{UNDESA2023}.
+
+
+Issues regarding forest fires can influence multiple stakeholders and biodiversity. The following are issues under which it is important to carry out forest fire mitigation:
+\begin{itemize}
+    \item Wildfires have impacts on the environment, society, and economy \cite{UNDESA2023};
+    \item Wildfires are an issue that need an effective strategy for predicting and preventing them \cite{9726029};
+    \item Effective fire control needs precise timely information regarding fire occurrence, spread, and environmental effect and how environmental elements impact the risk of forest fires \cite{arif2021role, 10085661};
+    \item When compared to the pace of wildfire propagation, current surveillance technologies are slow \cite{9726029};
+    \item Forest fire control is essential for mitigating the detrimental effects of wildfires on the environment and communities \cite{10085661};
+    \item False alarms are one of the most serious issues with forest fire protection systems \cite{9726029};
+    \item Wildfires wreak havoc on people, the environment, and the economy \cite{10085661} \cite{Sharma2020};
+    \item Wildfires cause irreversible environmental and atmospheric harm. One-third of all carbon dioxide residing in the atmosphere comes from wildfires \cite{doi:10.1155/2014/597368};
+    \item Investments and measures to reduce the danger and effects of wildfires have not been enough to address this expanding hazard, despite the evidently negative effects of wildfires \cite{UNDESA2023}.
+\end{itemize}
+
+
+\section{Objectives}
+Given the extent of wildfire issues and the complex nature of fire, it is important to provide a solution that tackles forest fire management at its core. Therefore, the goal is to provide a set of system modules that will:
+\begin{itemize}
+    \item Analyse, evaluate and collect volunteer contributions;
+    \item Build a data pipeline capable of extracting, transforming, and loading data from a variety of sources;
+    \item Categorise the severity of a wildfire event using machine learning and statistical methodologies, as well as to determine the most relevant elements for fire occurrence, susceptibility, and risk;
+    \item Aggregate contributions related to the same wildfire;
+    \item Create new insights due to aggregation analysis;
+    \item Apply data fusion methodologies to wildfire data;
+    \item Determine the best way to visualise the results and deliver findings in a clear, engaging, and intuitive manner that can improve decision-making in emergency situations with data visualisation tools.
+\end{itemize}
+
+
+\subsection{Benefits of system implementation}
+The creation of the different modules will result in the following implementation benefits:
+\begin{itemize}
+    \item Increased Accuracy: By utilising machine learning techniques, the system is able to create more accurate predictions based on past data;
+    \item Improved Emergency Response: Aiding decision-making in emergency circumstances. Making them more prone to respond more effectively and efficiently by offering geographical and temporal surveillance of incidents;
+    \item Early notice: The system gives early notice of probable forest fires, making it possible to take preventive actions to lessen the danger of fire;
+    \item Improved Forest Fire Management: The system is meant to process, validate, and aggregate volunteer contributions, categorise the severity of a forest fire event, identify its geolocation, and track its temporal evolution;
+    \item Economical: The suggested approach is less expensive than standard techniques of monitoring and forecasting forest fires, which frequently rely on manual labour due to its automated nature;
+    \item Data-Driven: Because the system is data-driven, it is possible to continuously enhance the prediction model based on fresh data;
+    \item Data Visualisation: Utilising the best approach to visualise the findings, making it simpler to grasp and analyse the data.
+\end{itemize}
+
+
+\subsection{Document Outline}
+This document is organised into a total of five chapters.
+The first chapter provides a contextualization of wildfires, fire issues, objectives, and implementation benefits.
+
+
+The second chapter supplies a background description of multiple topics related to the project.
+
+
+In the third chapter, a state-of-the-art analysis of fire occurrence, risk prediction, and fire susceptibility is performed. The chapter also includes literature in regards to data aggregation, fusion, enhancement, and data visualisation tools.
+
+
+In the fourth chapter, a solution proposal is defined and the problem is categorised. Finally, the fifth chapter concludes the document.
+
+
+\cleardoublepage
+\glsresetall

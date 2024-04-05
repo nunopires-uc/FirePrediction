@@ -1,0 +1,264 @@
+% Contact Nuno Laranjeiro cnl@dei.uc.pt for any feedback, suggestions, or corrections regarding this template.
+
+% ************************************ CONFIGURATION *****************************************
+% Fill in _all_ items in this configuration section with your Thesis details.                                                                      
+
+% If you are writing a Phd Thesis, change *msc* to *phd* in the following line
+\def\thesistype{msc}                                                     
+
+% docLanguage is the main language of the document. Possible options are: en,pt
+\def\docLanguage{en} 
+
+\def\titleEN{Intelligent system for localising and monitoring forest fires}
+\def\subtitleEN{}
+
+\def\titlePT{Sistema inteligente para localização e monitorização de incêndios florestais}
+\def\subtitlePT{}
+
+% MSc Theses - cover page
+\def\descMScEN{Dissertation in the context of the Master in Informatics Engineering, specialization in Information Systems, advised by Professor Alberto Cardoso and Professor Jacinto Estima and presented to the Department of Informatics Engineering of the Faculty of Sciences and Technology of the University of Coimbra.}
+
+\def\descMScPT{Dissertação no âmbito do Mestrado em Engenharia Informática, especialização em Sistemas de Informação, orientada pelo Professor Alberto Cardoso e Professor Jacinto Estima e apresentada ao Departamento de Engenharia Informática da Faculdade de Ciências e Tecnologia da Universidade de Coimbra.}
+
+% PhD Theses - cover page
+\def\descPhDEN{Thesis in the context of the <full name of the doctoral program, including branches/areas if applicable>, advised by Professor <full name of the supervisor> and presented at <name of the academic unit>/<name of the department within the academic unit, if applicable>.}
+
+\def\descPhDPT{Tese no âmbito do <nome completo do doutoramento, incluindo ramos/área se aplicável> orientada pelo/a Professor/a <nome completo do orientador> e apresentada <à nome da unidade orgânica>/<ao nome do departamento, se aplicável da/do nome da unidade orgânica>.}
+
+
+% MSc Theses - title Page
+\def\titlePageDescMScEN{Dissertation in the context of the Master in Informatics Engineering, specialization in Information Systems, advised by Professor Alberto Cardoso and Professor Jacinto Estima and presented to the Department of Informatics Engineering of the Faculty of Sciences and Technology of the University of Coimbra.}
+\def\titlePageDescMScPT{Dissertação no âmbito do Mestrado em Engenharia Informática, especialização em Sistemas de Informação, orientada pelo Professor Alberto Cardoso e Professor Jacinto Estima e apresentada ao Departamento de Engenharia Informática da Faculdade de Ciências e Tecnologia da Universidade de Coimbra.}
+
+
+% PhD Theses - title Page
+\def\titlePageDescPhdEN{PhD Thesis submitted to the University of Coimbra\\Advised by Professor <Supervisor's name>.}
+\def\titlePageDescPhdPT{Tese de Doutoramento submetida à Universidade de Coimbra\\Orientada pelo Professor <Nome do Orientador>.}
+
+
+\def\author{Nuno Pires}
+\def\dateEN{January 2024}
+\def\datePT{Janeiro 2024}
+% ********************************** END CONFIGURATION ***************************************
+
+
+
+\documentclass[twoside, 12pt, a4paper]{book}
+
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=3.5cm,right=2.5cm,headsep=12pt]{geometry}
+\usepackage[final]{pdfpages}
+
+\usepackage[absolute,overlay]{textpos}
+
+
+\usepackage{ifthen}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\ifthenelse{\equal{\docLanguage}{en}}
+{
+	\usepackage[english]{babel}
+}
+{
+	\usepackage[portuguese]{babel}
+}
+
+\usepackage{graphicx}
+\usepackage{glossaries}
+\usepackage{tabularx}
+\usepackage{mathpazo}
+\usepackage{xcolor, soulutf8, afterpage}  
+\usepackage{emptypage}
+\usepackage{setspace}
+\usepackage{placeins}
+
+\usepackage[disable]{todonotes}
+
+\ifthenelse{\equal{\thesistype}{msc}}
+{
+
+	%Cor do fundo da capa, lombada e contracapa: C 17%, M 27%, Y 45%, K 4% (~ Pantone 7753C)
+	\definecolor{cover-background}{cmyk}{0.17 0.27 0.45 0.04}
+	%Cor das marcas e Tipografia: C 44%, M 50%, Y 68%, K 45% (~ Pantone 448C)
+	\definecolor{cover-foreground}{cmyk}{0.44 0.50 0.68 0.45}
+}
+{
+	%Cor do fundo da capa, lombada e contracapa: C 17%, M 26%, Y 67%, K 4% (~ Pantone 480C)
+	\definecolor{cover-background}{cmyk}{0.17 0.26 0.67 0.04}
+	%Cor das marcas e Tipografia: C 44%, M 50%, Y 68%, K 45% (~ Pantone 448C)
+	\definecolor{cover-foreground}{cmyk}{0.44 0.50 0.68 0.45}
+}
+
+
+
+\usepackage[page,titletoc,title]{appendix} 
+
+\usepackage{subcaption}
+
+\usepackage[sort&compress,round]{natbib}
+\renewcommand{\cite}[1]{\citep{#1}}
+
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+
+\usepackage{notoccite}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{babel}
+\usepackage{url}
+
+
+%Remove all paragraph indentation
+\setlength\parindent{0pt}
+
+
+% --------------- headers and footers control ----------------------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
+\fancyhead[LE]{\ifnum \value{chapter}>0\sl{\nouppercase{\chaptertitlename~\thechapter}}\fi}
+\fancyhead[RE]{}
+\fancyhead[LO]{}
+\fancyhead[RO]{\sl{\nouppercase{\leftmark}}}
+
+%\fancyhead[RE,LO]{\rightmark}
+\renewcommand{\headrulewidth}{0.4pt}
+%---------------------------------------------------------------------
+
+\makenoidxglossaries
+\usepackage[hidelinks,bookmarks=true]{hyperref}
+
+\input{frontmatter/7-acronyms}
+
+\begin{document}
+\setlength{\parskip}{0.7em}
+
+%---------------------------------- FRONTMATTER ---------------------------------- 
+\frontmatter
+
+\input{frontmatter/1-coverpage}
+\cleardoublepage
+
+\ifthenelse{\equal{\docLanguage}{en}}
+{ 
+	\input{frontmatter/2-titlepage}
+	\cleardoublepage	
+	\def\docLanguage{pt}
+	\input{frontmatter/2-titlepage}
+	\cleardoublepage
+	\def\docLanguage{en}
+}
+{
+	\input{frontmatter/2-titlepage}
+	\cleardoublepage	
+	\def\docLanguage{en}
+	\input{frontmatter/2-titlepage}
+	\cleardoublepage
+	\def\docLanguage{pt}
+}
+
+
+\ifthenelse{\equal{\thesistype}{phd}}
+{ 
+	\input{frontmatter/3-funding}
+	\cleardoublepage
+}{}
+
+
+%\input{frontmatter/4-acknowledgements}
+%\cleardoublepage
+
+\ifthenelse{\equal{\docLanguage}{en}}
+{
+	\input{frontmatter/5-abstract-EN.tex}
+	\cleardoublepage
+	\input{frontmatter/5-abstract-PT.tex}
+	\cleardoublepage
+}
+{%else
+	\input{frontmatter/5-abstract-PT.tex}
+	\cleardoublepage
+	\input{frontmatter/5-abstract-EN.tex}
+	\cleardoublepage
+}
+
+\ifthenelse{\equal{\thesistype}{phd}}
+{
+	\input{frontmatter/6-publications.tex}
+	\cleardoublepage
+}{}
+%-----------------------------------------------------------------------------------
+
+% Set paragraph spacing to use in ToC and other lists
+\setlength{\parskip}{0em}
+
+% Make sure acronyms don't appear in the ToC
+\glsunsetall
+\tableofcontents
+\glsresetall
+
+\cleardoublepage
+
+
+% List of acronyms
+\glsnogroupskiptrue
+
+\ifthenelse{\equal{\docLanguage}{en}}
+{
+	\def\acronymsTitle{Acronyms}
+}
+{
+	\def\acronymsTitle{Acrónimos}
+}
+\printnoidxglossary[type=\acronymtype,style=list,title={\acronymsTitle}, nonumberlist]
+
+\cleardoublepage
+
+\listoffigures
+\cleardoublepage
+
+\listoftables
+\cleardoublepage
+
+%------------------------------
+\mainmatter
+\setlength{\parskip}{0.7em}
+%\input{text/1-introduction}
+%\input{text/15-background}
+%\input{text/2-sota}
+%\input{text/4-solution}
+\input{text/5-Implementation}
+\input{text/6-graphs.tex}
+%\input{text/3-conclusion}
+%\input{texfiles/2-state-of-the-art}
+%\input{texfiles/3-methodology}
+%...
+
+%\bibliographystyle{plainnat} 
+%\bibliographystyle{apalike}
+\bibliographystyle{apalike}
+
+\ifthenelse{\equal{\docLanguage}{en}}
+{
+	\renewcommand{\bibname}{References}
+}
+{
+	\renewcommand{\bibname}{Referências}
+}
+
+
+\bibliography{references}
+
+%\begin{appendices}
+%\input{text/9-appendices}
+%\end{appendices}
+%------------------------------
+
+
+\end{document}
+%Document end

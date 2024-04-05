@@ -1,0 +1,359 @@
+\chapter{Implementation}
+\label{sec:implementation}
+
+\section{Data Sources}
+
+\subsection{Historical record of fires from 1980 to 2015 in mainland Portugal \cite{centraldedados_incendios_website}\cite{centraldedados_incendios} \cite{icnf2024}}
+
+\begin{table}[h!]
+\caption{Field description of Historical fires from 1980 to 2015}
+\label{forest_inventory}
+\centering
+\small
+\begin{tabular}{|c|p{7.5cm}|} % Adjust width as necessary
+\hline
+\textbf{Variable} & \textbf{Description}\\
+\hline
+ano  & Year of fire occurrence \\
+\hline
+codigo\_sgif & Unique identifier for the fire occurrence \\
+\hline
+tipo  & Kind of wildfire. The available options are: forest, slash-and-burn, false alarm, and agricultural.\\
+\hline
+distrito  & District of fire occurrence. \\
+\hline
+concelho  & Municipality of fire occurrence. \\
+\hline
+freguesia  & Parish of fire occurrence.\\
+\hline
+local  & Local of fire occurrence. \\
+\hline
+ine  & Not described or explained anywhere. \\
+\hline
+x | y  & Wildfire location. \\
+\hline
+data\_alerta  & Wildfire warning date. \\
+\hline
+hora\_alerta  & Wildfire warning hour. \\
+\hline
+data\_extincao & Wildfire complete extinguishment date. \\
+\hline
+hora\_extincao & Hour of wildfire complete extinguishment. \\
+\hline
+data\_primeira\_intervencao & Date of first fire intervention \\
+\hline
+hora\_primeira\_intervencao & Hour of first fire intervention \\
+\hline
+fonte\_alerta & Authority or group of people who reported the fire first. \\
+\hline
+nut & A Unique identifier for a given nomenclature of territorial units for statistics. \\
+\hline
+area\_povoamento & Burnt settlement area. \\
+\hline
+area\_mato & Burnt bush area.  \\
+\hline
+area\_agricola & Burnt agricultural area. \\
+\hline
+area\_pov\_mato & Sum of burned area from the burnt settlement area and burnt agricultural area.\\
+\hline
+area\_total & Total burnt area. \\
+\hline
+reacendimento & Describes if a given fire is a re-ignition from a previous wildfire. \\
+\hline
+queimada & Identifies if a fire is a slash-and-burn. \\
+\hline
+falso\_alarme & Identifies if a false alarm. \\
+\hline
+fogacho & Identifies if it is a specific type of fire named a blaze. \\
+\hline
+incendio & Identifies if it is a fire. \\
+\hline
+causa & Numerical identifier for a fire cause. \\
+\hline
+tipo\_causa & Description of fire cause. The available options are unknown, deliberate, natural, negligent fire, and undefined. \\
+\hline
+\end{tabular}
+\end{table}
+
+
+\subsection{Historical record of fires from 2013 to 2023 in mainland Portugal \cite{icnf2024}}
+
+Data retrieved from the api endpoint \url{https://fogos.icnf.pt/localizador/webserviceocorrencias.asp?ano=YEAR}
+\begin{table}[h!]
+\caption{Field description of Historical fires from 2013 to 2024}
+\label{forest_inventory}
+\centering
+\small
+\begin{tabular}{|c|p{7.5cm}|} % Adjust width as necessary
+\hline
+\textbf{Variable} & \textbf{Description}\\
+\hline
+CODIGO id  & Unique identifier for the fire occurrence \\
+\hline
+DISTRITO  & District of fire occurrence. \\
+\hline
+TIPO  & Kind of wildfire. The available options are: forest and agricultural fire.\\
+\hline
+ANO  & Year of fire occurrence \\
+\hline
+AREAPOV & Burnt settlement area. \\
+\hline
+AREAMATO & Burnt bush area.  \\
+\hline
+AREAAGRIC & Burnt agricultural area. \\
+\hline
+AREATOTAL & Total burnt area. \\
+\hline
+
+distrito  & District of fire occurrence. \\
+\hline
+concelho  & Municipality of fire occurrence. \\
+\hline
+freguesia  & Parish of fire occurrence\\
+\hline
+local  & Local of fire occurrence \\
+\hline
+ine  & Not described or explained anywhere. \\
+\hline
+x | y  & Wildfire location. \\
+\hline
+data\_alerta  & Wildfire warning date. \\
+\hline
+hora\_alerta  & Wildfire warning hour. \\
+\hline
+data\_extincao & Wildfire complete extinguishment date. \\
+\hline
+hora\_extincao & Hour of wildfire complete extinguishment. \\
+\hline
+data\_primeira\_intervencao & Date of first fire intervention \\
+\hline
+hora\_primeira\_intervencao & Hour of first fire intervention \\
+\hline
+fonte\_alerta & Authority or group of people who reported the fire first. \\
+\hline
+nut & A Unique identifier for a given nomenclature of territorial units for statistics. \\
+\hline
+
+
+
+area\_pov\_mato & Sum of burned area from the burnt settlement area and burnt agricultural area.\\
+\hline
+
+reacendimento & Describes if a given fire is a re-ignition from a previous wildfire. \\
+\hline
+queimada & Identifies if a fire is a slash-and-burn. \\
+\hline
+falso\_alarme & Identifies if a false alarm. \\
+\hline
+fogacho & Identifies if it is a specific type of fire named a blaze. \\
+\hline
+incendio & Identifies if it is a fire. \\
+\hline
+causa & Numerical identifier for a fire cause. \\
+\hline
+tipo\_causa & Description of fire cause. The available options are unknown, deliberate, natural, negligent fire, and undefined. \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+
+
+\subsection{Open-meteo hourly weather variables \cite{Zippenfenig_Open-Meteo}}
+Historical Weather \cite{Zippenfenig_Open-Meteo} from \cite{Hersbach_ERA5}, \cite{Munoz_ERA5_LAND} and \cite{Schimanke_CERRA}
+\begin{table}[h!]
+\caption{Hourly weather variables from Open-meteo}
+\centering
+\small
+\begin{tabular}{|c|c|p{10cm}|} % Adjust width as necessary
+\hline
+\textbf{Variable} & \textbf{Unit} & \textbf{Description}\\
+\hline
+Temperature & °C & Air temperature 2 metres above ground. \\
+\hline
+Relative Humidity & \% & Relative humidity 2 metres above ground. \\
+\hline
+Dew & °C & Dew point 2 metres above ground. \\
+\hline
+Apparent Temperature & °C & Apparent temperature is the 
+result of a wind chill factor, relative humidity, and solar radiation. \\
+\hline
+Pressure & hPa & Atmospheric air pressure reduced to mean sea level. \\
+\hline
+Surface Pressure & hPa & Surface pressure reduced to mean sea level. \\
+\hline
+Precipitation & mm & Sum of preceding hour precipitation including rain, showers, and snow. \\
+\hline
+Rain & mm & Preceding hour of liquid precipitation. \\
+\hline
+Snowfall & cm & Preceding hour of snowfall amount. \\
+\hline
+Cloud cover low & \% & Fog and low level clouds up to an altitude of 2 kilometres. \\
+\hline
+Cloud cover mid & \% & Clouds floating at a medium level with altitudes ranging from 2 kilometres to six kilometres. \\
+\hline
+Cloud cover high & \% & Clouds floating at an altitude of 6 kilometres. \\
+\hline
+Shortwave radiation & $W/m^2$ & Shortwave solar radiation.  \\
+\hline
+Direct radiation & $W/m^2$ & Direct solar radiation. \\
+\hline
+Direct normal irradiance & $W/m^2$ & Direct solar irradiance.  \\
+\hline
+Diffuse radiation & $W/m^2$ & Diffuse solar radiation.  \\
+\hline
+Global tilted irradiance & $W/m^2$ & Total radiation received on a tilted pane.  \\
+\hline
+Sunshine duration & Seconds & Duration of sunshine in seconds.  \\
+\hline
+Wind speed at 10m & km/h & Speed of the wind, 10 metres above ground.  \\
+\hline
+Wind speed at 100m & km/h & Speed of the wind, 100 metres above ground.  \\
+\hline
+Wind direction at 10m & ° & Wind direction at 10 metres above ground.  \\
+\hline
+Wind direction at 100m & ° & Wind direction at 100 metres above ground.  \\
+\hline
+Wind gusts & km/h & Wind gusts at 10 metres above ground.  \\
+\hline
+Evapotranspiration & mm & Evapotranspiration value for the required irrigation for plants calculated from temperature, wind speed, humidity, and solar radiation. \\
+\hline
+Weather code & WMO code & Numeric codes for weather conditions.  \\
+\hline
+Snow depth & meters & The depth of snow on the ground.  \\
+\hline
+Vapour pressure deficit & kPa & Vapour pressure deficit in kilopascal.\\
+\hline
+Soil temperature & °C & Average soil temperature ranging from 0 to 7cm, 7 to 28cm, 28 to 100cm, and 100 to 255cm below ground.\\
+\hline
+Soil moisture & $m^3/m^3$ & Average soil moisture ranging from 0 to 7cm, 7 to 28cm, 28 to 100cm, and 100 to 255cm depths.\\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Fire danger indices historical data from the Copernicus Emergency Management Service \cite{CopernicusCDS2019}}
+The dataset "Fire danger indices historical data from the Copernicus Emergency Management Service" \cite{CopernicusCDS2019} provided by ECMWF, contains full historical reconstruction of weather conditions suitable for the origin, spread, and sustainability of natural occurring fires. 
+
+It embodies fire danger indices from three distinct models created in Canada, United States and Australia. The fire danger indices are obtained from historical simulations and weather forecast provided by the dataset ECMWF ERA5 reanalysis. 
+
+The available data starts from January 1940 and it extends all the way through 2023, but the data records are regularly extended with time as ERA5 forcing data becomes available. The variables contained in the dataset are expressed in the table \ref{copernicus_danger_indices}.
+\begin{table}[h!]
+
+\caption{Fire danger indices from historical data}
+\label{copernicus_danger_indices}
+\centering
+\small
+\begin{tabular}{|c|c|p{7.5cm}|} % Adjust width as necessary
+\hline
+\textbf{Variable} & \textbf{Unit} & \textbf{Description}\\
+\hline
+Build-up index & Dimensionless & Weighted combination of the Duff moisture code and Drought code. \\
+\hline
+Burning index & Dimensionless & Measure that explains how difficult it is to control a fire. \\
+\hline
+Danger rating & Dimensionless & Equivalent to the FWI but with class level definitions of very low, low, medium, high, very high and extreme. \\
+\hline
+Drought code & Dimensionless & Component representing fuel availability, and the influence of recent temperatures and rainfall events on fuel availability. \\
+\hline
+Duff moisture code & Dimensionless & Moisture content in loosely-compacted organic layers of moderate depth. Duff moisture code fuels are affected by rain, temperature and relative humidity. \\
+\hline
+Energy release component & $J/m^2$ & Available energy within the burning front at the head of a fire. \\
+\hline
+Fine fuel moisture code & Dimensionless &  Moisture content in litter. Representative of the top litter layer less than 1-2 cm deep. \\
+\hline
+Fire daily severity index & Dimensionless &  A numerical assessment of the difficulty of controlling flames. \\
+\hline
+Fire danger index & Dimensionless &  Metric that hold the chances of a fire starting. \\
+\hline
+Fire weather index & Dimensionless &  Combination of Initial spread index and Build-up index. Numerical rating of the potential fire intensity. \\
+\hline
+Ignition component & \% &  Probability of a firebrand that will require suppression action. \\
+\hline
+Keetch-Byram drought index & Dimensionless &  The total impact of evapotranspiration and precipitation in causing cumulative moisture shortage in deep duff and higher soil layers. \\
+\hline
+Spread component & Dimensionless &  Measure of the spead at which a headfire would spread. \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+\subsection{Forest Inventory 2015 \cite{uva2021forestry,https://doi.org/10.15468/dl.zwfmbt}}
+Forest Inventory 2015 contains 579422 occurrences of forest inventory for mainland Portugal. The data was gathered using aerial images and ground surveys that covered mainland Portugal. 
+\begin{table}[h!]
+\caption{Forest Inventory 2015}
+\label{forest_inventory}
+\centering
+\small
+\begin{tabular}{|c|p{7.5cm}|} % Adjust width as necessary
+\hline
+\textbf{Variable} & \textbf{Description}\\
+\hline
+gbifID | datasetKey | ocurrenceID  & Identifiers for the occurrence of trees and the dataset. \\
+\hline
+kingdom & Kingdom classification of a given Tree. \\
+\hline
+phylum & Phylum classification of a given Tree. \\
+\hline
+class & Taxonomic class. \\
+\hline
+order & Taxonomic Order of a Tree. \\
+\hline
+genus & Tree genus. \\
+\hline
+species & Data containing the species of a given tree. \\
+\hline
+taxonRank & Data containing the highest taxonomic rank available for a given tree group. \\
+\hline
+scientificName | verbatimScientificName & Scientific name for the available taxonomic classification. \\
+\hline
+
+verbatimScientificNameAuthorship & Scientific name authorship for the available taxonomic classification. \\
+\hline
+
+countryCode & Contry code of Portugal. \\
+\hline
+
+locality & Name of a locality containing a given tree. \\
+\hline
+
+stateProvince &  Name of a district containing a given tree. \\
+\hline
+
+occurrenceStatus & Describes if a tree is still present.   \\
+\hline
+
+decimalLatitude & Latitude for the tree occurrence. \\
+\hline
+
+decimalLongitude & Longitude for the tree occurrence \\
+\hline
+
+coordinateUncertaintyInMeters & Uncertainty for a given tree location in metres. \\
+\hline
+
+eventDate | year & Year of event record. \\
+\hline
+
+taxonKey & Taxonomic key for the highest available classification for a tree \\
+\hline
+
+speciesKey & Individual key for a given tree species if available. \\
+\hline
+
+speciesKey & Individual key for a given tree species if available. \\
+\hline
+
+institutionCode & Unique identifier for ICNF. \\
+\hline
+
+collectionCode & Unique collection identifier for the institutionCode. \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+
+\section{Entry Selection}
