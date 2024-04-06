@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 0-main.aux
+The style file: apalike.bst
+Database file #1: references.bib
+Warning--entry type for "geopandas" isn't style-file defined
+--line 697 of file references.bib
+Warning--entry type for "plotly" isn't style-file defined
+--line 737 of file references.bib
+Warning--entry type for "Zippenfenig_Open-Meteo" isn't style-file defined
+--line 870 of file references.bib
+Warning--I didn't find a database entry for "Sevinç2023"
+You've used 84 entries,
+            1935 wiz_defined-function locations,
+            937 strings with 20432 characters,
+and the built_in function-call counts, 33547 in all, are:
+= -- 3183
+> -- 1820
+< -- 57
++ -- 662
+- -- 638
+* -- 2868
+:= -- 6091
+add.period$ -- 254
+call.type$ -- 84
+change.case$ -- 729
+chr.to.int$ -- 84
+cite$ -- 84
+duplicate$ -- 1145
+empty$ -- 1983
+format.name$ -- 749
+if$ -- 6359
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 47
+newline$ -- 421
+num.names$ -- 258
+pop$ -- 584
+preamble$ -- 1
+purify$ -- 735
+quote$ -- 0
+skip$ -- 921
+stack$ -- 0
+substring$ -- 1850
+swap$ -- 133
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 504
+warning$ -- 0
+while$ -- 234
+width$ -- 0
+write$ -- 1058
+(There were 4 warnings)

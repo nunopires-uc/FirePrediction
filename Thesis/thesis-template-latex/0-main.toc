@@ -1,0 +1,83 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Context}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}FireLoc}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Main Issues}{3}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Objectives}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Benefits of system implementation}{5}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Document Outline}{5}{subsection.1.2.2}%
+\contentsline {chapter}{\numberline {2}Background}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Forest Fire Management}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Importance of decision support systems in emergency situations}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Importance of voluntary contributions}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Spatial and Temporal prediction}{9}{section.2.4}%
+\contentsline {chapter}{\numberline {3}State of the Art}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Importance of Machine Learning in Forest fire prediction}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Mathematical models in forest fire prediction}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Influencing factors}{12}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Forest fire occurrence prediction}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Decision tree}{13}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Random Forest Algorithm}{13}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Boosted Decision trees}{14}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Logistic Regression}{14}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}ANN}{14}{subsection.3.4.5}%
+\contentsline {subsubsection}{Comparing ANN and SVM}{15}{subsubsection*.11}%
+\contentsline {subsubsection}{ANN with KBDI}{15}{subsubsection*.13}%
+\contentsline {subsection}{\numberline {3.4.6}Explainable Artificial Intelligence (XAI)}{16}{subsection.3.4.6}%
+\contentsline {section}{\numberline {3.5}Forest fire susceptibility prediction}{16}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}BRT, GLM and MDA}{16}{subsection.3.5.1}%
+\contentsline {section}{\numberline {3.6}Forest fire risk prediction}{17}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Multilayer perceptron and Fuzzy logic supervised approach}{17}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Ant-miner algorithm}{18}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Fuzzy Inference}{19}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Auto-sklearn}{20}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}DFP-MnBpAnn}{21}{subsection.3.6.5}%
+\contentsline {section}{\numberline {3.7}Methodologies for data aggregation, fusion, and enhancement}{22}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Data aggregation}{22}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Data fusion}{23}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Data enhancement}{23}{subsection.3.7.3}%
+\contentsline {section}{\numberline {3.8}Tools for data visualization}{24}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Seaborn}{24}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Folium}{24}{subsection.3.8.2}%
+\contentsline {subsection}{\numberline {3.8.3}GeoPlot}{24}{subsection.3.8.3}%
+\contentsline {subsection}{\numberline {3.8.4}Plotly}{25}{subsection.3.8.4}%
+\contentsline {subsection}{\numberline {3.8.5}Rasterio}{25}{subsection.3.8.5}%
+\contentsline {subsection}{\numberline {3.8.6}Pydeck}{25}{subsection.3.8.6}%
+\contentsline {subsection}{\numberline {3.8.7}Rasterstats}{25}{subsection.3.8.7}%
+\contentsline {subsection}{\numberline {3.8.8}Fiona}{25}{subsection.3.8.8}%
+\contentsline {section}{\numberline {3.9}State-of-the-art conclusion}{25}{section.3.9}%
+\contentsline {chapter}{\numberline {4}Solution Proposal}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Problem definition}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Proposed Methodology}{28}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Data Pipeline}{28}{subsection.4.2.1}%
+\contentsline {subsubsection}{Data extraction}{28}{subsubsection*.22}%
+\contentsline {subsubsection}{Data transformation}{29}{subsubsection*.23}%
+\contentsline {subsubsection}{Data loading}{29}{subsubsection*.24}%
+\contentsline {subsection}{\numberline {4.2.2}Data Fusion}{29}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Data enhancement}{29}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Classification Models}{29}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Data Visualisation}{29}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Outcome}{30}{subsection.4.2.6}%
+\contentsline {section}{\numberline {4.3}Planning and organisation}{30}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Risk analysis}{31}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Success Evaluation Criteria}{31}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Classification performance}{32}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Visualization effectiveness}{32}{subsection.4.5.2}%
+\contentsline {chapter}{\numberline {5}Implementation}{33}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Data Sources}{33}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Historical record of fires from 1980 to 2015 in mainland Portugal \citep {centraldedados_incendios_website}\citep {centraldedados_incendios} \citep {icnf2024}}{33}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Historical record of fires from 2013 to 2023 in mainland Portugal \citep {icnf2024}}{33}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Open-meteo hourly weather variables \citep {Zippenfenig_Open-Meteo}}{33}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Fire danger indices historical data from the Copernicus Emergency Management Service \citep {CopernicusCDS2019}}{33}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Forest Inventory 2015 \citep {uva2021forestry,https://doi.org/10.15468/dl.zwfmbt}}{35}{subsection.5.1.5}%
+\contentsline {section}{\numberline {5.2}Entry Selection}{36}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Graphs}{39}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Simulated FWI variables}{39}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Comparison of Copernicus and Simulated FWI}{42}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Hourly FWI variables}{45}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Evolution of maximum and minimum daily values of FWI variables}{47}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Difference between the daily maximum and minimum values of the FWI variables}{47}{section.6.5}%
+\contentsline {section}{\numberline {6.6}3-day time frame mean tendency graphs of FWI variables}{47}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Comparison of mean FWI variables 15 days prior to the wildfire}{51}{section.6.7}%
+\contentsline {chapter}{\numberline {7}Conclusion}{53}{chapter.7}%
+\contentsline {chapter}{References}{55}{chapter*.65}%
