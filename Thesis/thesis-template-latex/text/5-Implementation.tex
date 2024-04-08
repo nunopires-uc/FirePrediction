@@ -5,6 +5,9 @@
 
 \subsection{Historical record of fires from 1980 to 2015 in mainland Portugal \cite{centraldedados_incendios_website}\cite{centraldedados_incendios} \cite{icnf2024}}
 
+//describe dataset here, how many entries?
+\label{historical_sites_no_coords}
+
 \begin{table}[h!]
 \caption{Field description of Historical fires from 1980 to 2015}
 \label{forest_inventory}
@@ -26,7 +29,7 @@ concelho  & Municipality of fire occurrence. \\
 \hline
 freguesia  & Parish of fire occurrence.\\
 \hline
-local  & Local of fire occurrence. \\
+local  & Location of fire occurrence. \\
 \hline
 ine  & Not described or explained anywhere. \\
 \hline
@@ -62,13 +65,13 @@ reacendimento & Describes if a given fire is a re-ignition from a previous wildf
 \hline
 queimada & Identifies if a fire is a slash-and-burn. \\
 \hline
-falso\_alarme & Identifies if a false alarm. \\
+falso\_alarme & Identifies if it is a false alarm. \\
 \hline
 fogacho & Identifies if it is a specific type of fire named a blaze. \\
 \hline
 incendio & Identifies if it is a fire. \\
 \hline
-causa & Numerical identifier for a fire cause. \\
+causa & Numerical identifier for the fire cause. \\
 \hline
 tipo\_causa & Description of fire cause. The available options are unknown, deliberate, natural, negligent fire, and undefined. \\
 \hline
@@ -77,8 +80,12 @@ tipo\_causa & Description of fire cause. The available options are unknown, deli
 
 
 \subsection{Historical record of fires from 2013 to 2023 in mainland Portugal \cite{icnf2024}}
+\label{dataset_icnf2013_2023}
 
-Data retrieved from the api endpoint \url{https://fogos.icnf.pt/localizador/webserviceocorrencias.asp?ano=YEAR}
+Data retrieved from the API \href{https://fogos.icnf.pt/localizador/webserviceocorrencias.asp?ano=YEAR}{endpoint}.
+//describe dataset here, how many entries?
+
+
 \begin{table}[h!]
 \caption{Field description of Historical fires from 2013 to 2024}
 \label{forest_inventory}
@@ -104,19 +111,54 @@ AREAAGRIC & Burnt agricultural area. \\
 \hline
 AREATOTAL & Total burnt area. \\
 \hline
+REACENDIMENTOS & Boolean value for reignition. \\
+\hline
+FOGACHO & Boolean value for small fire. \\
+\hline
+NCCO & Non specified identifier. \\
+\hline
+NOMECCO & Not described or explained anywhere. \\
+\hline
+DATAALERTA & Wildfire warning date. \\
+\hline
+HORAALERTA & Wildfire warning hour. \\
+\hline
+LOCAL & Location of fire occurrence \\
+\hline
+CONCELHO & Municipality of fire occurrence. \\
+\hline
+FREGUESIA & Parish of fire occurrence\\
+\hline
+FONTEALERTA & Authority or group of people who reported the fire first. \\
+\hline
+INE & Not described or explained anywhere. \\
+\hline
+X | Y & Wildfire location. \\
+\hline
+DIA & Day of the fire occurrence. \\
+\hline
+MES & Month of fire occurrence. \\
+\hline
+HORA & Fire hour of occurrence. \\
+\hline
+OPERADOR & Not described or explained anywhere. \\
+\hline
+PERIMETRO & Not described or explained anywhere. \\
+\hline
+APS & Not described or explained anywhere. \\
+\hline
+CAUSA & Numerical identifier for the fire cause. \\
+\hline
+TIPOCAUSA & Description of fire cause. The available options differ from year to year. \\
 
 distrito  & District of fire occurrence. \\
 \hline
-concelho  & Municipality of fire occurrence. \\
-\hline
-freguesia  & Parish of fire occurrence\\
-\hline
+
+
 local  & Local of fire occurrence \\
 \hline
-ine  & Not described or explained anywhere. \\
-\hline
-x | y  & Wildfire location. \\
-\hline
+
+
 data\_alerta  & Wildfire warning date. \\
 \hline
 hora\_alerta  & Wildfire warning hour. \\
@@ -238,6 +280,8 @@ The dataset "Fire danger indices historical data from the Copernicus Emergency M
 It embodies fire danger indices from three distinct models created in Canada, United States and Australia. The fire danger indices are obtained from historical simulations and weather forecast provided by the dataset ECMWF ERA5 reanalysis. 
 
 The available data starts from January 1940 and it extends all the way through 2023, but the data records are regularly extended with time as ERA5 forcing data becomes available. The variables contained in the dataset are expressed in the table \ref{copernicus_danger_indices}.
+
+
 \begin{table}[h!]
 
 \caption{Fire danger indices from historical data}
@@ -281,6 +325,9 @@ Spread component & Dimensionless &  Measure of the spead at which a headfire wou
 
 \subsection{Forest Inventory 2015 \cite{uva2021forestry,https://doi.org/10.15468/dl.zwfmbt}}
 Forest Inventory 2015 contains 579422 occurrences of forest inventory for mainland Portugal. The data was gathered using aerial images and ground surveys that covered mainland Portugal. 
+//describe dataset here
+
+
 \begin{table}[h!]
 \caption{Forest Inventory 2015}
 \label{forest_inventory}
@@ -354,6 +401,93 @@ collectionCode & Unique collection identifier for the institutionCode. \\
 \end{table}
 
 
+\section{Additional sources of Data}
+The python library geopy \cite{geopy} was used to geolocate multiple locations, resolving district, parish, municipalities, and localities to sets of coordinates. Geopy utilises multiple geocoding web services like OpenStreetMap Nominatim and Google Geocoding API to resolve locations. 
+
+
+The Google Maps service \cite{googlexmaps} was used to manually check if the extracted data from Open-Meteo corresponded to the intended location. It was also used to analyse some errors that were found in the location of some entries.
+
+
+
+
+\section{Creating the dataset}
+The dataset described in \ref{historical_sites_no_coords} is composed of multiple files describing historical occurrences since 1980 until 2015. Prior to 2001, the fields from each file became unstandardized, and there's no explicit parameter mentioning a natural wildfire cause. Therefore, the time frame considered was from 2001 to 2012. The latter years were rejected due to the fact that entries from \ref{historical_sites_no_coords} do not contain any explicit latitude and longitude. They rely on territorial entities such as districts, municipalities, parishes, and NUTS to describe locations.
+
+The second historical wildfire dataset \ref{dataset_icnf2013_2023} is also composed of multiple files. Its time frame is from 2013 until 2023. Unlike dataset \ref{historical_sites_no_coords}, entries do contain an explicit latitude and longitude values. It also features descriptive territorial entities. 
+
+
+\subsection{Entry selection}
+Entries whose cause was deliberate or negligent fire were excluded. The fire causes contained, by order of importance, in the dataset are: natural, reignition, unknown, and undefined.
+Entries that were undefined as causes differed from those with unknown causes because their cause field was blank, and entries that had unknown causes were explicitly described as unknown.
+
+falta: tabela com o número de entradas antes e depois
+
+
+
+\subsection{Geocoding places from 2001 to 2012 historical wildfire locations}
+The dataset entries featured in \ref{historical_sites_no_coords} contain no direct field leading up to the real site location coordinates. To tackle this issue, an algorithm with the help of the geopy library \cite{geopy} was made to resolve the names of historial wildfire places to a set of coordinates.
+
+
+Using multiple combinations, attempts were made to geocode the location, featuring the combinations in the table \ref{geocoding_entries_2001_2012}. The district, municipality, parish, and local (if available) of each entry were utilized for this purpose. Sometimes, the name of the exact wildfire locality was enclosed in brackets, requiring processing using strings to extract it.
+
+
+
+\begin{table}[h!]
+	\caption{Combinations for local geocoding}
+	\label{geocoding_entries_2001_2012}
+	\centering
+	\small
+	\begin{tabular}{|c|p{7.5cm}|} % Adjust width as necessary
+		\hline
+		\textbf{Combination}\\
+		\hline
+		Local, District\\
+		\hline
+		Local, Parish, District\\
+		\hline
+		Local, Parish, Municipality\\
+		\hline
+		Local, Parish, Municipality, District\\
+		\hline
+		Parish, Municipality, District\\
+		\hline
+		Local, Parish, District\\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+These combinations caused errors in the location of some entries because the geocoders returned coordinates in other countries, such as Spain and Brazil, due to similar names in some locations. The entries that produced errors underwent recalculation, with the addition of "Portugal" at the end. An example of this usage is  {\it Parish, District, Portugal}.
+
+After each entry was resolved, their latitude and longitude were added as values in the columns LAT and LON of each corresponding file.
+
+
+A very minor sample of entries couldn't be geocoded using this method. Therefore they were manually geocoded from the Google Maps service. 
+
+
+
+\subsection{Retrieving historical meteorological data}
+In order to retrieve historical meteorological data a python script was made. It went through each historial fire location, and downloaded 
+
+
+exemplo de query: 
+
+
+\subsection{Com o algoritmo das arvores}
+haversine formula da distncia
+
+
+\subsection{Locations in the middle of the sea.}
+Between 2013 and 2023, some of the featured locations were in the middle of the ocean. Although having a real-life location set explicitly in the file when using services like Google Maps, its coordinates were undeniably wrong. These multiple geolocation errors were discovered when trying to pin multiple species of trees to a single location with a distance function calculator. The algorithm yielded values that were outside of the range spectrum of 1500km. Leading to the manual confirmation of these errors with the help of the Google Maps service.
+
+
+\section{Python libraries used in the conception of the dataset}
+requests
+pandas
+os to check if files already existed.
+
+
 
 
 \section{Entry Selection}
+Specifity how many entries raw files have.

@@ -130,6 +130,10 @@ Clickworker (2023).
 \newblock Data enhancement - content marketing glossary.
 \newblock Accessed: 2023-12-18.
 
+\bibitem[Community, 2023]{geopy}
+Community, T.~G. (2023).
+\newblock Geopy.
+
 \bibitem[Contributors, 2021]{pydeck}
 Contributors, P. (2021).
 \newblock {\em Pydeck}.
@@ -214,6 +218,11 @@ Goldammer, J.~G., Frost, P.~G., Jurvélius, M., Kamminga, E.~M., Kruger, T.,
   experiences from africa, asia and europe.
 \newblock \url{https://www.fao.org/3/AC798E/ac798e09.htm#fnB6}.
 \newblock Accessed: 02-12-2023.
+
+\bibitem[{Google}, 2024]{googlexmaps}
+{Google} (2024).
+\newblock Google maps.
+\newblock \url{https://www.google.com/maps}.
 
 \bibitem[Hersbach et~al., 2023]{Hersbach_ERA5}
 Hersbach, H., Bell, B., Berrisford, P., Biavati, G., Horányi, A.,

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.5)  5 APR 2024 15:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.5)  6 APR 2024 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1689,7 +1689,7 @@ LaTeX Info: Redefining \nameref on input line 138.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<frontmatter/logo-uc-gold.pdf, id=316, 285.065pt x 241.90375pt>
+<frontmatter/logo-uc-gold.pdf, id=336, 285.065pt x 241.90375pt>
 File: frontmatter/logo-uc-gold.pdf Graphic file (type pdf)
 <use frontmatter/logo-uc-gold.pdf>
 Package pdftex.def Info: frontmatter/logo-uc-gold.pdf  used on input line 15.
@@ -1736,7 +1736,7 @@ Package pdftex.def Info: frontmatter/logo-uc-gold.pdf  used on input line 15.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<frontmatter/logo-dei.pdf, id=331, 459.7175pt x 334.24875pt>
+<frontmatter/logo-dei.pdf, id=351, 459.7175pt x 334.24875pt>
 File: frontmatter/logo-dei.pdf Graphic file (type pdf)
 <use frontmatter/logo-dei.pdf>
 Package pdftex.def Info: frontmatter/logo-dei.pdf  used on input line 15.
@@ -2080,8 +2080,8 @@ Overfull \hbox (7.98778pt too wide) in paragraph at lines 206--207
 s con-nected by weighted
  []
 
-<frontmatter/imgs/Screenshot from 2023-11-28 11-07-47.png, id=988, 1184.425pt x
- 1682.285pt>
+<frontmatter/imgs/Screenshot from 2023-11-28 11-07-47.png, id=1017, 1184.425pt 
+x 1682.285pt>
 File: frontmatter/imgs/Screenshot from 2023-11-28 11-07-47.png Graphic file (ty
 pe png)
 <use frontmatter/imgs/Screenshot from 2023-11-28 11-07-47.png>
@@ -2102,7 +2102,7 @@ Overfull \hbox (4.59215pt too wide) in paragraph at lines 243--244
 -er-al-is-abil-ity across
  []
 
-<frontmatter/imgs/fuzzy_prediction_model.PNG, id=1002, 359.84438pt x 190.46156p
+<frontmatter/imgs/fuzzy_prediction_model.PNG, id=1031, 359.84438pt x 190.46156p
 t>
 File: frontmatter/imgs/fuzzy_prediction_model.PNG Graphic file (type png)
 <use frontmatter/imgs/fuzzy_prediction_model.PNG>
@@ -2112,7 +2112,7 @@ nput line 254.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<frontmatter/imgs/p_ocurrencia_incendio.PNG, id=1009, 523.9575pt x 185.94469pt>
+<frontmatter/imgs/p_ocurrencia_incendio.PNG, id=1038, 523.9575pt x 185.94469pt>
 
 File: frontmatter/imgs/p_ocurrencia_incendio.PNG Graphic file (type png)
 <use frontmatter/imgs/p_ocurrencia_incendio.PNG>
@@ -2157,7 +2157,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [20 <./frontmatter/imgs/fuzzy_prediction_model.PNG> <./frontmatter/imgs/p_ocurr
 encia_incendio.PNG>]
-<frontmatter/imgs/hybrid_methodology.PNG, id=1038, 475.7775pt x 264.99pt>
+<frontmatter/imgs/hybrid_methodology.PNG, id=1066, 475.7775pt x 264.99pt>
 File: frontmatter/imgs/hybrid_methodology.PNG Graphic file (type png)
 <use frontmatter/imgs/hybrid_methodology.PNG>
 Package pdftex.def Info: frontmatter/imgs/hybrid_methodology.PNG  used on input
@@ -2197,7 +2197,7 @@ Overfull \hbox (3.11644pt too wide) in paragraph at lines 377--378
 ined from many sources
  []
 
-<frontmatter/imgs/ffdf2.png, id=1077, 810.02625pt x 867.24pt>
+<frontmatter/imgs/ffdf2.png, id=1105, 810.02625pt x 867.24pt>
 File: frontmatter/imgs/ffdf2.png Graphic file (type png)
 <use frontmatter/imgs/ffdf2.png>
 Package pdftex.def Info: frontmatter/imgs/ffdf2.png  used on input line 387.
@@ -2260,7 +2260,7 @@ Chapter 4.
 
 
 ]
-<frontmatter/imgs/Group 1.png, id=1189, 3300.33pt x 1230.5975pt>
+<frontmatter/imgs/Group 1.png, id=1217, 3300.33pt x 1230.5975pt>
 File: frontmatter/imgs/Group 1.png Graphic file (type png)
 <use frontmatter/imgs/Group 1.png>
 Package pdftex.def Info: frontmatter/imgs/Group 1.png  used on input line 36.
@@ -2301,12 +2301,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [30]
-<frontmatter/imgs/g1.png, id=1230, 1186.4325pt x 575.14874pt>
+<frontmatter/imgs/g1.png, id=1258, 1186.4325pt x 575.14874pt>
 File: frontmatter/imgs/g1.png Graphic file (type png)
 <use frontmatter/imgs/g1.png>
 Package pdftex.def Info: frontmatter/imgs/g1.png  used on input line 107.
 (pdftex.def)             Requested size: 426.79135pt x 206.89542pt.
-<frontmatter/imgs/g2.png, id=1231, 1188.44pt x 397.485pt>
+<frontmatter/imgs/g2.png, id=1259, 1188.44pt x 397.485pt>
 File: frontmatter/imgs/g2.png Graphic file (type png)
 <use frontmatter/imgs/g2.png>
 Package pdftex.def Info: frontmatter/imgs/g2.png  used on input line 114.
@@ -2455,36 +2455,36 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 79.
+(hyperref)                removing `\begingroup' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 79.
+(hyperref)                removing `\let' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 79.
+(hyperref)                removing `\<let>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 79.
+(hyperref)                removing `\NAT@ctype' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 79.
+(hyperref)                removing `\z@' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 79.
+(hyperref)                removing `\let' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 79.
+(hyperref)                removing `\new@ifnextchar' on input line 80.
 
 
-Overfull \hbox (113.05814pt too wide) in paragraph at lines 81--158
-\T1/ppl/m/n/12 Data re-trieved from the api end-point []$\T1/cmtt/m/n/12 https 
-: / / fogos . icnf . pt / localizador / webserviceocorrencias .
+Overfull \hbox (66.4861pt too wide) in paragraph at lines 82--84
+\T1/ppl/m/n/12 Data re-trieved from the API []$\T1/cmtt/m/n/12 https : / / fogo
+s . icnf . pt / localizador / webserviceocorrencias .
  []
 
 
@@ -2492,43 +2492,43 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 163.
+(hyperref)                removing `\begingroup' on input line 166.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 163.
+(hyperref)                removing `\let' on input line 166.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 163.
+(hyperref)                removing `\<let>-command' on input line 166.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 163.
+(hyperref)                removing `\NAT@ctype' on input line 166.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 163.
+(hyperref)                removing `\z@' on input line 166.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 163.
+(hyperref)                removing `\let' on input line 166.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 163.
+(hyperref)                removing `\new@ifnextchar' on input line 166.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 163.
+(hyperref)                removing `subscript' on input line 166.
 
 
-Overfull \hbox (69.85553pt too wide) in paragraph at lines 169--233
+Overfull \hbox (69.85553pt too wide) in paragraph at lines 172--236
  [][] 
  []
 
 
-Overfull \hbox (13.5688pt too wide) in paragraph at lines 164--234
+Overfull \hbox (13.5688pt too wide) in paragraph at lines 167--237
 \T1/ppl/m/n/12 Historical Weather ([]Zip-pen-fenig[], []2023[]) from ([]Hers-ba
 ch et al.[], []2023[]), ([]Muñoz Sabater[],
  []
@@ -2537,53 +2537,53 @@ ch et al.[], []2023[]), ([]Muñoz Sabater[],
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (13.16862pt too wide) in paragraph at lines 235--235
+Overfull \hbox (13.16862pt too wide) in paragraph at lines 238--238
 |[]\T1/ppl/b/n/14.4 Fire dan-ger in-dices his-tor-i-cal data from the Coper-ni-
 cus Emer-
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 235.
+(hyperref)                removing `\begingroup' on input line 238.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 235.
+(hyperref)                removing `\let' on input line 238.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 235.
+(hyperref)                removing `\<let>-command' on input line 238.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 235.
+(hyperref)                removing `\NAT@ctype' on input line 238.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 235.
+(hyperref)                removing `\z@' on input line 238.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 235.
+(hyperref)                removing `\let' on input line 238.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 235.
+(hyperref)                removing `\new@ifnextchar' on input line 238.
 
 [33
 
 ]
-Underfull \hbox (badness 1584) in paragraph at lines 257--258
+Underfull \hbox (badness 1584) in paragraph at lines 260--261
 []|\T1/ppl/m/n/10.95 Component rep-re-sent-ing fuel avail-abil-ity,
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 269--270
+Underfull \hbox (badness 1308) in paragraph at lines 272--273
 []|\T1/ppl/m/n/10.95 Combination of Ini-tial spread in-dex and
  []
 
 
-Overfull \hbox (36.23752pt too wide) in paragraph at lines 247--278
+Overfull \hbox (36.23752pt too wide) in paragraph at lines 250--281
  [][] 
  []
 
@@ -2592,34 +2592,34 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 282.
+(hyperref)                removing `\begingroup' on input line 285.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 282.
+(hyperref)                removing `\let' on input line 285.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 282.
+(hyperref)                removing `\<let>-command' on input line 285.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 282.
+(hyperref)                removing `\NAT@ctype' on input line 285.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 282.
+(hyperref)                removing `\z@' on input line 285.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 282.
+(hyperref)                removing `\let' on input line 285.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 282.
+(hyperref)                removing `\new@ifnextchar' on input line 285.
 
 
-Overfull \hbox (12.81065pt too wide) in paragraph at lines 289--354
+Overfull \hbox (12.81065pt too wide) in paragraph at lines 292--357
  [][] 
  []
 
@@ -2639,7 +2639,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./text/6-graphs.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2652,6 +2652,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [35]
+Underfull \vbox (badness 3386) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2662,6 +2665,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [36]
 
+LaTeX Warning: Reference `icnf2024' on page 37 undefined on input line 371.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2671,6 +2677,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [37]
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2679,96 +2692,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [38]
-Chapter 6.
-<graphs/2015MesmoSitio/2015CopernicusFWI12.png, id=1304, 722.7pt x 433.62pt>
-File: graphs/2015MesmoSitio/2015CopernicusFWI12.png Graphic file (type png)
-<use graphs/2015MesmoSitio/2015CopernicusFWI12.png>
-Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusFWI12.png  used on
- input line 11.
-(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015MesmoSitio/2015CalcFWI12.png, id=1305, 722.7pt x 433.62pt>
-File: graphs/2015MesmoSitio/2015CalcFWI12.png Graphic file (type png)
-<use graphs/2015MesmoSitio/2015CalcFWI12.png>
-Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcFWI12.png  used on input
- line 18.
-(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015MesmoSitio/2015CopernicusFFMC12.png, id=1306, 722.7pt x 433.62pt>
-File: graphs/2015MesmoSitio/2015CopernicusFFMC12.png Graphic file (type png)
-<use graphs/2015MesmoSitio/2015CopernicusFFMC12.png>
-Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusFFMC12.png  used o
-n input line 30.
-(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015MesmoSitio/2015CalcFFMC12.png, id=1307, 722.7pt x 433.62pt>
-File: graphs/2015MesmoSitio/2015CalcFFMC12.png Graphic file (type png)
-<use graphs/2015MesmoSitio/2015CalcFFMC12.png>
-Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcFFMC12.png  used on inpu
-t line 37.
-(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015MesmoSitio/2015CopernicusDMC12.png, id=1308, 722.7pt x 433.62pt>
-File: graphs/2015MesmoSitio/2015CopernicusDMC12.png Graphic file (type png)
-<use graphs/2015MesmoSitio/2015CopernicusDMC12.png>
-Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusDMC12.png  used on
- input line 49.
-(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015MesmoSitio/2015CalcDMC12.png, id=1309, 722.7pt x 433.62pt>
-File: graphs/2015MesmoSitio/2015CalcDMC12.png Graphic file (type png)
-<use graphs/2015MesmoSitio/2015CalcDMC12.png>
-Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcDMC12.png  used on input
- line 56.
-(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
+Overfull \hbox (23.22913pt too wide) in paragraph at lines 420--420
+|[]\T1/ppl/b/n/17.28 Python li-braries used in the con-cep-tion of the dataset|
+ 
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<graphs/2015MesmoSitio/2015CopernicusDC12.png, id=1310, 722.7pt x 433.62pt>
-File: graphs/2015MesmoSitio/2015CopernicusDC12.png Graphic file (type png)
-<use graphs/2015MesmoSitio/2015CopernicusDC12.png>
-Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusDC12.png  used on 
-input line 68.
-(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015MesmoSitio/2015CalcDC12.png, id=1311, 722.7pt x 433.62pt>
-File: graphs/2015MesmoSitio/2015CalcDC12.png Graphic file (type png)
-<use graphs/2015MesmoSitio/2015CalcDC12.png>
-Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcDC12.png  used on input 
-line 75.
-(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<graphs/2015MesmoSitio/2015CopernicusISI12.png, id=1312, 722.7pt x 433.62pt>
-File: graphs/2015MesmoSitio/2015CopernicusISI12.png Graphic file (type png)
-<use graphs/2015MesmoSitio/2015CopernicusISI12.png>
-Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusISI12.png  used on
- input line 87.
-(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015MesmoSitio/2015CalcISI12.png, id=1313, 722.7pt x 433.62pt>
-File: graphs/2015MesmoSitio/2015CalcISI12.png Graphic file (type png)
-<use graphs/2015MesmoSitio/2015CalcISI12.png>
-Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcISI12.png  used on input
- line 94.
-(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<graphs/2015MesmoSitio/2015CopernicusBUI12.png, id=1314, 722.7pt x 433.62pt>
-File: graphs/2015MesmoSitio/2015CopernicusBUI12.png Graphic file (type png)
-<use graphs/2015MesmoSitio/2015CopernicusBUI12.png>
-Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusBUI12.png  used on
- input line 106.
-(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015MesmoSitio/2015CalcBUI12.png, id=1315, 722.7pt x 433.62pt>
-File: graphs/2015MesmoSitio/2015CalcBUI12.png Graphic file (type png)
-<use graphs/2015MesmoSitio/2015CalcBUI12.png>
-Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcBUI12.png  used on input
- line 113.
-(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[39
-
- <./graphs/2015MesmoSitio/2015CopernicusFWI12.png> <./graphs/2015MesmoSitio/201
-5CalcFWI12.png> <./graphs/2015MesmoSitio/2015CopernicusFFMC12.png> <./graphs/20
-15MesmoSitio/2015CalcFFMC12.png>]
+) (./text/6-graphs.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2777,7 +2706,106 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40 <./graphs/2015MesmoSitio/2015CopernicusDMC12.png> <./graphs/2015MesmoSitio/
+[39] [40
+
+]
+Chapter 6.
+<graphs/2015MesmoSitio/2015CopernicusFWI12.png, id=1354, 722.7pt x 433.62pt>
+File: graphs/2015MesmoSitio/2015CopernicusFWI12.png Graphic file (type png)
+<use graphs/2015MesmoSitio/2015CopernicusFWI12.png>
+Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusFWI12.png  used on
+ input line 11.
+(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
+<graphs/2015MesmoSitio/2015CalcFWI12.png, id=1355, 722.7pt x 433.62pt>
+File: graphs/2015MesmoSitio/2015CalcFWI12.png Graphic file (type png)
+<use graphs/2015MesmoSitio/2015CalcFWI12.png>
+Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcFWI12.png  used on input
+ line 18.
+(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
+<graphs/2015MesmoSitio/2015CopernicusFFMC12.png, id=1356, 722.7pt x 433.62pt>
+File: graphs/2015MesmoSitio/2015CopernicusFFMC12.png Graphic file (type png)
+<use graphs/2015MesmoSitio/2015CopernicusFFMC12.png>
+Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusFFMC12.png  used o
+n input line 30.
+(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
+<graphs/2015MesmoSitio/2015CalcFFMC12.png, id=1357, 722.7pt x 433.62pt>
+File: graphs/2015MesmoSitio/2015CalcFFMC12.png Graphic file (type png)
+<use graphs/2015MesmoSitio/2015CalcFFMC12.png>
+Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcFFMC12.png  used on inpu
+t line 37.
+(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
+<graphs/2015MesmoSitio/2015CopernicusDMC12.png, id=1358, 722.7pt x 433.62pt>
+File: graphs/2015MesmoSitio/2015CopernicusDMC12.png Graphic file (type png)
+<use graphs/2015MesmoSitio/2015CopernicusDMC12.png>
+Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusDMC12.png  used on
+ input line 49.
+(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
+<graphs/2015MesmoSitio/2015CalcDMC12.png, id=1359, 722.7pt x 433.62pt>
+File: graphs/2015MesmoSitio/2015CalcDMC12.png Graphic file (type png)
+<use graphs/2015MesmoSitio/2015CalcDMC12.png>
+Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcDMC12.png  used on input
+ line 56.
+(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<graphs/2015MesmoSitio/2015CopernicusDC12.png, id=1360, 722.7pt x 433.62pt>
+File: graphs/2015MesmoSitio/2015CopernicusDC12.png Graphic file (type png)
+<use graphs/2015MesmoSitio/2015CopernicusDC12.png>
+Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusDC12.png  used on 
+input line 68.
+(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
+<graphs/2015MesmoSitio/2015CalcDC12.png, id=1361, 722.7pt x 433.62pt>
+File: graphs/2015MesmoSitio/2015CalcDC12.png Graphic file (type png)
+<use graphs/2015MesmoSitio/2015CalcDC12.png>
+Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcDC12.png  used on input 
+line 75.
+(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<graphs/2015MesmoSitio/2015CopernicusISI12.png, id=1362, 722.7pt x 433.62pt>
+File: graphs/2015MesmoSitio/2015CopernicusISI12.png Graphic file (type png)
+<use graphs/2015MesmoSitio/2015CopernicusISI12.png>
+Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusISI12.png  used on
+ input line 87.
+(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
+<graphs/2015MesmoSitio/2015CalcISI12.png, id=1363, 722.7pt x 433.62pt>
+File: graphs/2015MesmoSitio/2015CalcISI12.png Graphic file (type png)
+<use graphs/2015MesmoSitio/2015CalcISI12.png>
+Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcISI12.png  used on input
+ line 94.
+(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<graphs/2015MesmoSitio/2015CopernicusBUI12.png, id=1364, 722.7pt x 433.62pt>
+File: graphs/2015MesmoSitio/2015CopernicusBUI12.png Graphic file (type png)
+<use graphs/2015MesmoSitio/2015CopernicusBUI12.png>
+Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusBUI12.png  used on
+ input line 106.
+(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
+<graphs/2015MesmoSitio/2015CalcBUI12.png, id=1365, 722.7pt x 433.62pt>
+File: graphs/2015MesmoSitio/2015CalcBUI12.png Graphic file (type png)
+<use graphs/2015MesmoSitio/2015CalcBUI12.png>
+Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcBUI12.png  used on input
+ line 113.
+(pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[41 <./graphs/2015MesmoSitio/2015CopernicusFWI12.png> <./graphs/2015MesmoSitio/
+2015CalcFWI12.png> <./graphs/2015MesmoSitio/2015CopernicusFFMC12.png> <./graphs
+/2015MesmoSitio/2015CalcFFMC12.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42 <./graphs/2015MesmoSitio/2015CopernicusDMC12.png> <./graphs/2015MesmoSitio/
 2015CalcDMC12.png> <./graphs/2015MesmoSitio/2015CopernicusDC12.png> <./graphs/2
 015MesmoSitio/2015CalcDC12.png> <./graphs/2015MesmoSitio/2015CopernicusISI12.pn
 g> <./graphs/2015MesmoSitio/2015CalcISI12.png>]
@@ -2789,39 +2817,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41 <./graphs/2015MesmoSitio/2015CopernicusBUI12.png> <./graphs/2015MesmoSitio/
+[43 <./graphs/2015MesmoSitio/2015CopernicusBUI12.png> <./graphs/2015MesmoSitio/
 2015CalcBUI12.png>]
-<graphs/2015/2015CopernicusFWI12.png, id=1342, 722.7pt x 433.62pt>
+<graphs/2015/2015CopernicusFWI12.png, id=1391, 722.7pt x 433.62pt>
 File: graphs/2015/2015CopernicusFWI12.png Graphic file (type png)
 <use graphs/2015/2015CopernicusFWI12.png>
 Package pdftex.def Info: graphs/2015/2015CopernicusFWI12.png  used on input lin
 e 129.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CalcFWI12.png, id=1343, 722.7pt x 433.62pt>
+<graphs/2015/2015CalcFWI12.png, id=1392, 722.7pt x 433.62pt>
 File: graphs/2015/2015CalcFWI12.png Graphic file (type png)
 <use graphs/2015/2015CalcFWI12.png>
 Package pdftex.def Info: graphs/2015/2015CalcFWI12.png  used on input line 136.
 
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CopernicusFFMC12.png, id=1344, 722.7pt x 433.62pt>
+<graphs/2015/2015CopernicusFFMC12.png, id=1393, 722.7pt x 433.62pt>
 File: graphs/2015/2015CopernicusFFMC12.png Graphic file (type png)
 <use graphs/2015/2015CopernicusFFMC12.png>
 Package pdftex.def Info: graphs/2015/2015CopernicusFFMC12.png  used on input li
 ne 148.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CalcFFMC12.png, id=1345, 722.7pt x 433.62pt>
+<graphs/2015/2015CalcFFMC12.png, id=1394, 722.7pt x 433.62pt>
 File: graphs/2015/2015CalcFFMC12.png Graphic file (type png)
 <use graphs/2015/2015CalcFFMC12.png>
 Package pdftex.def Info: graphs/2015/2015CalcFFMC12.png  used on input line 155
 .
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CopernicusDMC12.png, id=1346, 722.7pt x 433.62pt>
+<graphs/2015/2015CopernicusDMC12.png, id=1395, 722.7pt x 433.62pt>
 File: graphs/2015/2015CopernicusDMC12.png Graphic file (type png)
 <use graphs/2015/2015CopernicusDMC12.png>
 Package pdftex.def Info: graphs/2015/2015CopernicusDMC12.png  used on input lin
 e 167.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CalcDMC12.png, id=1347, 722.7pt x 433.62pt>
+<graphs/2015/2015CalcDMC12.png, id=1396, 722.7pt x 433.62pt>
 File: graphs/2015/2015CalcDMC12.png Graphic file (type png)
 <use graphs/2015/2015CalcDMC12.png>
 Package pdftex.def Info: graphs/2015/2015CalcDMC12.png  used on input line 174.
@@ -2831,13 +2859,13 @@ Package pdftex.def Info: graphs/2015/2015CalcDMC12.png  used on input line 174.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/2015CopernicusDC12.png, id=1348, 722.7pt x 433.62pt>
+<graphs/2015/2015CopernicusDC12.png, id=1397, 722.7pt x 433.62pt>
 File: graphs/2015/2015CopernicusDC12.png Graphic file (type png)
 <use graphs/2015/2015CopernicusDC12.png>
 Package pdftex.def Info: graphs/2015/2015CopernicusDC12.png  used on input line
  186.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CalcDC12.png, id=1349, 722.7pt x 433.62pt>
+<graphs/2015/2015CalcDC12.png, id=1398, 722.7pt x 433.62pt>
 File: graphs/2015/2015CalcDC12.png Graphic file (type png)
 <use graphs/2015/2015CalcDC12.png>
 Package pdftex.def Info: graphs/2015/2015CalcDC12.png  used on input line 193.
@@ -2845,13 +2873,13 @@ Package pdftex.def Info: graphs/2015/2015CalcDC12.png  used on input line 193.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/2015CopernicusISI12.png, id=1350, 722.7pt x 433.62pt>
+<graphs/2015/2015CopernicusISI12.png, id=1399, 722.7pt x 433.62pt>
 File: graphs/2015/2015CopernicusISI12.png Graphic file (type png)
 <use graphs/2015/2015CopernicusISI12.png>
 Package pdftex.def Info: graphs/2015/2015CopernicusISI12.png  used on input lin
 e 205.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CalcISI12.png, id=1351, 722.7pt x 433.62pt>
+<graphs/2015/2015CalcISI12.png, id=1400, 722.7pt x 433.62pt>
 File: graphs/2015/2015CalcISI12.png Graphic file (type png)
 <use graphs/2015/2015CalcISI12.png>
 Package pdftex.def Info: graphs/2015/2015CalcISI12.png  used on input line 212.
@@ -2860,13 +2888,13 @@ Package pdftex.def Info: graphs/2015/2015CalcISI12.png  used on input line 212.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/2015CopernicusBUI12.png, id=1352, 722.7pt x 433.62pt>
+<graphs/2015/2015CopernicusBUI12.png, id=1401, 722.7pt x 433.62pt>
 File: graphs/2015/2015CopernicusBUI12.png Graphic file (type png)
 <use graphs/2015/2015CopernicusBUI12.png>
 Package pdftex.def Info: graphs/2015/2015CopernicusBUI12.png  used on input lin
 e 224.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CalcBUI12.png, id=1353, 722.7pt x 433.62pt>
+<graphs/2015/2015CalcBUI12.png, id=1402, 722.7pt x 433.62pt>
 File: graphs/2015/2015CalcBUI12.png Graphic file (type png)
 <use graphs/2015/2015CalcBUI12.png>
 Package pdftex.def Info: graphs/2015/2015CalcBUI12.png  used on input line 231.
@@ -2892,7 +2920,7 @@ l.243 ...\textwidth]{graphs/2022/2022CalcFWIX.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<graphs/2022/2022CopernicusFWI12.png, id=1354, 722.7pt x 433.62pt>
+<graphs/2022/2022CopernicusFWI12.png, id=1403, 722.7pt x 433.62pt>
 File: graphs/2022/2022CopernicusFWI12.png Graphic file (type png)
 <use graphs/2022/2022CopernicusFWI12.png>
 Package pdftex.def Info: graphs/2022/2022CopernicusFWI12.png  used on input lin
@@ -2909,7 +2937,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42
+[44
 
  <./graphs/2015/2015CopernicusFWI12.png> <./graphs/2015/2015CalcFWI12.png> <./g
 raphs/2015/2015CopernicusFFMC12.png> <./graphs/2015/2015CalcFFMC12.png>]
@@ -2921,7 +2949,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43 <./graphs/2015/2015CopernicusDMC12.png> <./graphs/2015/2015CalcDMC12.png> <
+[45 <./graphs/2015/2015CopernicusDMC12.png> <./graphs/2015/2015CalcDMC12.png> <
 ./graphs/2015/2015CopernicusDC12.png> <./graphs/2015/2015CalcDC12.png> <./graph
 s/2015/2015CopernicusISI12.png> <./graphs/2015/2015CalcISI12.png>]
 
@@ -2932,27 +2960,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44 <./graphs/2015/2015CopernicusBUI12.png> <./graphs/2015/2015CalcBUI12.png> <
+[46 <./graphs/2015/2015CopernicusBUI12.png> <./graphs/2015/2015CalcBUI12.png> <
 ./graphs/2022/2022CopernicusFWI12.png>]
-<graphs/2015/byHour/2015CalcFWI12.png, id=1380, 722.7pt x 433.62pt>
+<graphs/2015/byHour/2015CalcFWI12.png, id=1429, 722.7pt x 433.62pt>
 File: graphs/2015/byHour/2015CalcFWI12.png Graphic file (type png)
 <use graphs/2015/byHour/2015CalcFWI12.png>
 Package pdftex.def Info: graphs/2015/byHour/2015CalcFWI12.png  used on input li
 ne 265.
 (pdftex.def)             Requested size: 128.0387pt x 76.82417pt.
-<graphs/2019/byHour/2019CalcFWI12.png, id=1381, 722.7pt x 433.62pt>
+<graphs/2019/byHour/2019CalcFWI12.png, id=1430, 722.7pt x 433.62pt>
 File: graphs/2019/byHour/2019CalcFWI12.png Graphic file (type png)
 <use graphs/2019/byHour/2019CalcFWI12.png>
 Package pdftex.def Info: graphs/2019/byHour/2019CalcFWI12.png  used on input li
 ne 272.
 (pdftex.def)             Requested size: 128.0387pt x 76.82417pt.
-<graphs/2022/2022CalcFWI12.png, id=1382, 722.7pt x 433.62pt>
+<graphs/2022/2022CalcFWI12.png, id=1431, 722.7pt x 433.62pt>
 File: graphs/2022/2022CalcFWI12.png Graphic file (type png)
 <use graphs/2022/2022CalcFWI12.png>
 Package pdftex.def Info: graphs/2022/2022CalcFWI12.png  used on input line 279.
 
 (pdftex.def)             Requested size: 128.0387pt x 76.82417pt.
-<graphs/2015/byHour/2015CalcFFMC12.png, id=1383, 722.7pt x 433.62pt>
+<graphs/2015/byHour/2015CalcFFMC12.png, id=1432, 722.7pt x 433.62pt>
 File: graphs/2015/byHour/2015CalcFFMC12.png Graphic file (type png)
 <use graphs/2015/byHour/2015CalcFFMC12.png>
 Package pdftex.def Info: graphs/2015/byHour/2015CalcFFMC12.png  used on input l
@@ -2976,13 +3004,13 @@ l.299 ...h]{graphs/2019/byHour/2019CalcFFMC12.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<graphs/2022/2022CalcFFMC12.png, id=1384, 722.7pt x 433.62pt>
+<graphs/2022/2022CalcFFMC12.png, id=1433, 722.7pt x 433.62pt>
 File: graphs/2022/2022CalcFFMC12.png Graphic file (type png)
 <use graphs/2022/2022CalcFFMC12.png>
 Package pdftex.def Info: graphs/2022/2022CalcFFMC12.png  used on input line 306
 .
 (pdftex.def)             Requested size: 128.0387pt x 76.82417pt.
-<graphs/2015/byHour/2015CalcDMC12.png, id=1385, 722.7pt x 433.62pt>
+<graphs/2015/byHour/2015CalcDMC12.png, id=1434, 722.7pt x 433.62pt>
 File: graphs/2015/byHour/2015CalcDMC12.png Graphic file (type png)
 <use graphs/2015/byHour/2015CalcDMC12.png>
 Package pdftex.def Info: graphs/2015/byHour/2015CalcDMC12.png  used on input li
@@ -3005,13 +3033,13 @@ l.326 ...th]{graphs/2019/byHour/2019CalcDMC12.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<graphs/2022/2022CalcDMC12.png, id=1386, 722.7pt x 433.62pt>
+<graphs/2022/2022CalcDMC12.png, id=1435, 722.7pt x 433.62pt>
 File: graphs/2022/2022CalcDMC12.png Graphic file (type png)
 <use graphs/2022/2022CalcDMC12.png>
 Package pdftex.def Info: graphs/2022/2022CalcDMC12.png  used on input line 333.
 
 (pdftex.def)             Requested size: 128.0387pt x 76.82417pt.
-<graphs/2015/byHour/2015CalcDC12.png, id=1387, 722.7pt x 433.62pt>
+<graphs/2015/byHour/2015CalcDC12.png, id=1436, 722.7pt x 433.62pt>
 File: graphs/2015/byHour/2015CalcDC12.png Graphic file (type png)
 <use graphs/2015/byHour/2015CalcDC12.png>
 Package pdftex.def Info: graphs/2015/byHour/2015CalcDC12.png  used on input lin
@@ -3034,7 +3062,7 @@ l.353 ...dth]{graphs/2019/byHour/2019CalcDC12.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<graphs/2022/2022CalcDC12.png, id=1388, 722.7pt x 433.62pt>
+<graphs/2022/2022CalcDC12.png, id=1437, 722.7pt x 433.62pt>
 File: graphs/2022/2022CalcDC12.png Graphic file (type png)
 <use graphs/2022/2022CalcDC12.png>
 Package pdftex.def Info: graphs/2022/2022CalcDC12.png  used on input line 360.
@@ -3042,7 +3070,7 @@ Package pdftex.def Info: graphs/2022/2022CalcDC12.png  used on input line 360.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/2015CalcISI12.png, id=1389, 722.7pt x 433.62pt>
+<graphs/2015/byHour/2015CalcISI12.png, id=1438, 722.7pt x 433.62pt>
 File: graphs/2015/byHour/2015CalcISI12.png Graphic file (type png)
 <use graphs/2015/byHour/2015CalcISI12.png>
 Package pdftex.def Info: graphs/2015/byHour/2015CalcISI12.png  used on input li
@@ -3065,7 +3093,7 @@ l.380 ...th]{graphs/2019/byHour/2019CalcISI12.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<graphs/2022/2022CalcISI12.png, id=1390, 722.7pt x 433.62pt>
+<graphs/2022/2022CalcISI12.png, id=1439, 722.7pt x 433.62pt>
 File: graphs/2022/2022CalcISI12.png Graphic file (type png)
 <use graphs/2022/2022CalcISI12.png>
 Package pdftex.def Info: graphs/2022/2022CalcISI12.png  used on input line 387.
@@ -3074,7 +3102,7 @@ Package pdftex.def Info: graphs/2022/2022CalcISI12.png  used on input line 387.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/2015CalcBUI12.png, id=1391, 722.7pt x 433.62pt>
+<graphs/2015/byHour/2015CalcBUI12.png, id=1440, 722.7pt x 433.62pt>
 File: graphs/2015/byHour/2015CalcBUI12.png Graphic file (type png)
 <use graphs/2015/byHour/2015CalcBUI12.png>
 Package pdftex.def Info: graphs/2015/byHour/2015CalcBUI12.png  used on input li
@@ -3097,7 +3125,7 @@ l.407 ...th]{graphs/2019/byHour/2019CalcBUI12.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<graphs/2022/2022CalcBUI12.png, id=1392, 722.7pt x 433.62pt>
+<graphs/2022/2022CalcBUI12.png, id=1441, 722.7pt x 433.62pt>
 File: graphs/2022/2022CalcBUI12.png Graphic file (type png)
 <use graphs/2022/2022CalcBUI12.png>
 Package pdftex.def Info: graphs/2022/2022CalcBUI12.png  used on input line 414.
@@ -3114,7 +3142,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45
+[47
 
  <./graphs/2015/byHour/2015CalcFWI12.png> <./graphs/2019/byHour/2019CalcFWI12.p
 ng> <./graphs/2022/2022CalcFWI12.png> <./graphs/2015/byHour/2015CalcFFMC12.png>
@@ -3128,16 +3156,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46 <./graphs/2015/byHour/2015CalcDC12.png> <./graphs/2022/2022CalcDC12.png> <.
+[48 <./graphs/2015/byHour/2015CalcDC12.png> <./graphs/2022/2022CalcDC12.png> <.
 /graphs/2015/byHour/2015CalcISI12.png> <./graphs/2022/2022CalcISI12.png> <./gra
 phs/2015/byHour/2015CalcBUI12.png> <./graphs/2022/2022CalcBUI12.png>]
-<graphs/2015/byHour/FWI_maxMin.png, id=1414, 1167.8832pt x 796.1745pt>
+<graphs/2015/byHour/FWI_maxMin.png, id=1464, 1167.8832pt x 796.1745pt>
 File: graphs/2015/byHour/FWI_maxMin.png Graphic file (type png)
 <use graphs/2015/byHour/FWI_maxMin.png>
 Package pdftex.def Info: graphs/2015/byHour/FWI_maxMin.png  used on input line 
 430.
 (pdftex.def)             Requested size: 128.0387pt x 87.27574pt.
-<graphs/2019/byHour/FWI_maxMin.png, id=1415, 1167.8832pt x 796.1745pt>
+<graphs/2019/byHour/FWI_maxMin.png, id=1465, 1167.8832pt x 796.1745pt>
 File: graphs/2019/byHour/FWI_maxMin.png Graphic file (type png)
 <use graphs/2019/byHour/FWI_maxMin.png>
 Package pdftex.def Info: graphs/2019/byHour/FWI_maxMin.png  used on input line 
@@ -3160,21 +3188,21 @@ l.444 ...h=\textwidth]{graphs/2022/FWI_maxMin.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<graphs/2015/tendency/2015_tendency_graph_FWI.png, id=1416, 406.1574pt x 375.56
+<graphs/2015/tendency/2015_tendency_graph_FWI.png, id=1466, 406.1574pt x 375.56
 31pt>
 File: graphs/2015/tendency/2015_tendency_graph_FWI.png Graphic file (type png)
 <use graphs/2015/tendency/2015_tendency_graph_FWI.png>
 Package pdftex.def Info: graphs/2015/tendency/2015_tendency_graph_FWI.png  used
  on input line 465.
 (pdftex.def)             Requested size: 209.1301pt x 193.37418pt.
-<graphs/2019/tendency/2019_tendency_graph_FWI.png, id=1417, 406.1574pt x 375.56
+<graphs/2019/tendency/2019_tendency_graph_FWI.png, id=1467, 406.1574pt x 375.56
 31pt>
 File: graphs/2019/tendency/2019_tendency_graph_FWI.png Graphic file (type png)
 <use graphs/2019/tendency/2019_tendency_graph_FWI.png>
 Package pdftex.def Info: graphs/2019/tendency/2019_tendency_graph_FWI.png  used
  on input line 472.
 (pdftex.def)             Requested size: 209.1301pt x 193.37418pt.
-<graphs/2015/tendency/2015_tendency_graph_FFMC.png, id=1418, 406.1574pt x 375.5
+<graphs/2015/tendency/2015_tendency_graph_FFMC.png, id=1468, 406.1574pt x 375.5
 631pt>
 File: graphs/2015/tendency/2015_tendency_graph_FFMC.png Graphic file (type png)
 
@@ -3182,7 +3210,7 @@ File: graphs/2015/tendency/2015_tendency_graph_FFMC.png Graphic file (type png)
 Package pdftex.def Info: graphs/2015/tendency/2015_tendency_graph_FFMC.png  use
 d on input line 484.
 (pdftex.def)             Requested size: 209.1301pt x 193.37418pt.
-<graphs/2019/tendency/2019_tendency_graph_FFMC.png, id=1419, 406.1574pt x 375.5
+<graphs/2019/tendency/2019_tendency_graph_FFMC.png, id=1469, 406.1574pt x 375.5
 631pt>
 File: graphs/2019/tendency/2019_tendency_graph_FFMC.png Graphic file (type png)
 
@@ -3193,14 +3221,14 @@ d on input line 491.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/tendency/2015_tendency_graph_DMC.png, id=1420, 418.9251pt x 375.56
+<graphs/2015/tendency/2015_tendency_graph_DMC.png, id=1470, 418.9251pt x 375.56
 31pt>
 File: graphs/2015/tendency/2015_tendency_graph_DMC.png Graphic file (type png)
 <use graphs/2015/tendency/2015_tendency_graph_DMC.png>
 Package pdftex.def Info: graphs/2015/tendency/2015_tendency_graph_DMC.png  used
  on input line 503.
 (pdftex.def)             Requested size: 209.1301pt x 187.4831pt.
-<graphs/2019/tendency/2019_tendency_graph_DMC.png, id=1421, 412.6617pt x 375.56
+<graphs/2019/tendency/2019_tendency_graph_DMC.png, id=1471, 412.6617pt x 375.56
 31pt>
 File: graphs/2019/tendency/2019_tendency_graph_DMC.png Graphic file (type png)
 <use graphs/2019/tendency/2019_tendency_graph_DMC.png>
@@ -3210,14 +3238,14 @@ Package pdftex.def Info: graphs/2019/tendency/2019_tendency_graph_DMC.png  used
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/tendency/2015_tendency_graph_DC.png, id=1422, 418.9251pt x 375.563
+<graphs/2015/tendency/2015_tendency_graph_DC.png, id=1472, 418.9251pt x 375.563
 1pt>
 File: graphs/2015/tendency/2015_tendency_graph_DC.png Graphic file (type png)
 <use graphs/2015/tendency/2015_tendency_graph_DC.png>
 Package pdftex.def Info: graphs/2015/tendency/2015_tendency_graph_DC.png  used 
 on input line 522.
 (pdftex.def)             Requested size: 209.1301pt x 187.4831pt.
-<graphs/2019/tendency/2019_tendency_graph_DC.png, id=1423, 418.9251pt x 375.563
+<graphs/2019/tendency/2019_tendency_graph_DC.png, id=1473, 418.9251pt x 375.563
 1pt>
 File: graphs/2019/tendency/2019_tendency_graph_DC.png Graphic file (type png)
 <use graphs/2019/tendency/2019_tendency_graph_DC.png>
@@ -3227,14 +3255,14 @@ on input line 529.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/tendency/2015_tendency_graph_ISI.png, id=1424, 406.1574pt x 375.56
+<graphs/2015/tendency/2015_tendency_graph_ISI.png, id=1474, 406.1574pt x 375.56
 31pt>
 File: graphs/2015/tendency/2015_tendency_graph_ISI.png Graphic file (type png)
 <use graphs/2015/tendency/2015_tendency_graph_ISI.png>
 Package pdftex.def Info: graphs/2015/tendency/2015_tendency_graph_ISI.png  used
  on input line 541.
 (pdftex.def)             Requested size: 209.1301pt x 193.37418pt.
-<graphs/2019/tendency/2019_tendency_graph_ISI.png, id=1425, 399.894pt x 375.563
+<graphs/2019/tendency/2019_tendency_graph_ISI.png, id=1475, 399.894pt x 375.563
 1pt>
 File: graphs/2019/tendency/2019_tendency_graph_ISI.png Graphic file (type png)
 <use graphs/2019/tendency/2019_tendency_graph_ISI.png>
@@ -3244,14 +3272,14 @@ Package pdftex.def Info: graphs/2019/tendency/2019_tendency_graph_ISI.png  used
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/tendency/2015_tendency_graph_BUI.png, id=1426, 418.9251pt x 375.56
+<graphs/2015/tendency/2015_tendency_graph_BUI.png, id=1476, 418.9251pt x 375.56
 31pt>
 File: graphs/2015/tendency/2015_tendency_graph_BUI.png Graphic file (type png)
 <use graphs/2015/tendency/2015_tendency_graph_BUI.png>
 Package pdftex.def Info: graphs/2015/tendency/2015_tendency_graph_BUI.png  used
  on input line 560.
 (pdftex.def)             Requested size: 209.1301pt x 187.4831pt.
-<graphs/2019/tendency/2019_tendency_graph_BUI.png, id=1427, 412.6617pt x 375.56
+<graphs/2019/tendency/2019_tendency_graph_BUI.png, id=1477, 412.6617pt x 375.56
 31pt>
 File: graphs/2019/tendency/2019_tendency_graph_BUI.png Graphic file (type png)
 <use graphs/2019/tendency/2019_tendency_graph_BUI.png>
@@ -3269,7 +3297,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47
+[49
 
  <./graphs/2015/byHour/FWI_maxMin.png> <./graphs/2019/byHour/FWI_maxMin.png> <.
 /graphs/2015/tendency/2015_tendency_graph_FWI.png> <./graphs/2019/tendency/2019
@@ -3282,7 +3310,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[48 <./graphs/2015/tendency/2015_tendency_graph_FFMC.png> <./graphs/2019/tenden
+[50 <./graphs/2015/tendency/2015_tendency_graph_FFMC.png> <./graphs/2019/tenden
 cy/2019_tendency_graph_FFMC.png> <./graphs/2015/tendency/2015_tendency_graph_DM
 C.png> <./graphs/2019/tendency/2019_tendency_graph_DMC.png>]
 
@@ -3293,7 +3321,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49 <./graphs/2015/tendency/2015_tendency_graph_DC.png> <./graphs/2019/tendency
+[51 <./graphs/2015/tendency/2015_tendency_graph_DC.png> <./graphs/2019/tendency
 /2019_tendency_graph_DC.png> <./graphs/2015/tendency/2015_tendency_graph_ISI.pn
 g> <./graphs/2019/tendency/2019_tendency_graph_ISI.png>]
 
@@ -3304,9 +3332,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50 <./graphs/2015/tendency/2015_tendency_graph_BUI.png> <./graphs/2019/tendenc
+[52 <./graphs/2015/tendency/2015_tendency_graph_BUI.png> <./graphs/2019/tendenc
 y/2019_tendency_graph_BUI.png>]
-<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_FWI.png, id=1459, 406.
+<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_FWI.png, id=1508, 406.
 1574pt x 375.5631pt>
 File: graphs/2015/15daysprior/2015_15daysprior_tendency_graph_FWI.png Graphic f
 ile (type png)
@@ -3314,7 +3342,7 @@ ile (type png)
 Package pdftex.def Info: graphs/2015/15daysprior/2015_15daysprior_tendency_grap
 h_FWI.png  used on input line 586.
 (pdftex.def)             Requested size: 128.0387pt x 118.38896pt.
-<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_FWI.png, id=1460, 406.
+<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_FWI.png, id=1509, 406.
 1574pt x 375.5631pt>
 File: graphs/2019/15daysprior/2019_15daysprior_tendency_graph_FWI.png Graphic f
 ile (type png)
@@ -3322,14 +3350,14 @@ ile (type png)
 Package pdftex.def Info: graphs/2019/15daysprior/2019_15daysprior_tendency_grap
 h_FWI.png  used on input line 593.
 (pdftex.def)             Requested size: 128.0387pt x 118.38896pt.
-<graphs/2022/tendency/2022_tendency_graph_FWI.png, id=1461, 406.1574pt x 375.56
+<graphs/2022/tendency/2022_tendency_graph_FWI.png, id=1510, 406.1574pt x 375.56
 31pt>
 File: graphs/2022/tendency/2022_tendency_graph_FWI.png Graphic file (type png)
 <use graphs/2022/tendency/2022_tendency_graph_FWI.png>
 Package pdftex.def Info: graphs/2022/tendency/2022_tendency_graph_FWI.png  used
  on input line 600.
 (pdftex.def)             Requested size: 128.0387pt x 118.38896pt.
-<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_FFMC.png, id=1462, 406
+<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_FFMC.png, id=1511, 406
 .1574pt x 375.5631pt>
 File: graphs/2015/15daysprior/2015_15daysprior_tendency_graph_FFMC.png Graphic 
 file (type png)
@@ -3337,7 +3365,7 @@ file (type png)
 Package pdftex.def Info: graphs/2015/15daysprior/2015_15daysprior_tendency_grap
 h_FFMC.png  used on input line 613.
 (pdftex.def)             Requested size: 128.0387pt x 118.38896pt.
-<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_FFMC.png, id=1463, 415
+<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_FFMC.png, id=1512, 415
 .7934pt x 375.5631pt>
 File: graphs/2019/15daysprior/2019_15daysprior_tendency_graph_FFMC.png Graphic 
 file (type png)
@@ -3345,7 +3373,7 @@ file (type png)
 Package pdftex.def Info: graphs/2019/15daysprior/2019_15daysprior_tendency_grap
 h_FFMC.png  used on input line 620.
 (pdftex.def)             Requested size: 128.0387pt x 115.64972pt.
-<graphs/2022/tendency/2022_tendency_graph_FFMC.png, id=1464, 406.1574pt x 375.5
+<graphs/2022/tendency/2022_tendency_graph_FFMC.png, id=1513, 406.1574pt x 375.5
 631pt>
 File: graphs/2022/tendency/2022_tendency_graph_FFMC.png Graphic file (type png)
 
@@ -3353,7 +3381,7 @@ File: graphs/2022/tendency/2022_tendency_graph_FFMC.png Graphic file (type png)
 Package pdftex.def Info: graphs/2022/tendency/2022_tendency_graph_FFMC.png  use
 d on input line 627.
 (pdftex.def)             Requested size: 128.0387pt x 118.38896pt.
-<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_DMC.png, id=1465, 412.
+<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_DMC.png, id=1514, 412.
 6617pt x 375.5631pt>
 File: graphs/2015/15daysprior/2015_15daysprior_tendency_graph_DMC.png Graphic f
 ile (type png)
@@ -3361,7 +3389,7 @@ ile (type png)
 Package pdftex.def Info: graphs/2015/15daysprior/2015_15daysprior_tendency_grap
 h_DMC.png  used on input line 640.
 (pdftex.def)             Requested size: 128.0387pt x 116.5265pt.
-<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_DMC.png, id=1466, 412.
+<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_DMC.png, id=1515, 412.
 6617pt x 375.5631pt>
 File: graphs/2019/15daysprior/2019_15daysprior_tendency_graph_DMC.png Graphic f
 ile (type png)
@@ -3369,14 +3397,14 @@ ile (type png)
 Package pdftex.def Info: graphs/2019/15daysprior/2019_15daysprior_tendency_grap
 h_DMC.png  used on input line 647.
 (pdftex.def)             Requested size: 128.0387pt x 116.5265pt.
-<graphs/2022/tendency/2022_tendency_graph_DMC.png, id=1467, 412.6617pt x 375.56
+<graphs/2022/tendency/2022_tendency_graph_DMC.png, id=1516, 412.6617pt x 375.56
 31pt>
 File: graphs/2022/tendency/2022_tendency_graph_DMC.png Graphic file (type png)
 <use graphs/2022/tendency/2022_tendency_graph_DMC.png>
 Package pdftex.def Info: graphs/2022/tendency/2022_tendency_graph_DMC.png  used
  on input line 654.
 (pdftex.def)             Requested size: 128.0387pt x 116.5265pt.
-<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_DC.png, id=1468, 418.9
+<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_DC.png, id=1517, 418.9
 251pt x 375.5631pt>
 File: graphs/2015/15daysprior/2015_15daysprior_tendency_graph_DC.png Graphic fi
 le (type png)
@@ -3384,7 +3412,7 @@ le (type png)
 Package pdftex.def Info: graphs/2015/15daysprior/2015_15daysprior_tendency_grap
 h_DC.png  used on input line 667.
 (pdftex.def)             Requested size: 128.0387pt x 114.7844pt.
-<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_DC.png, id=1469, 418.9
+<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_DC.png, id=1518, 418.9
 251pt x 375.5631pt>
 File: graphs/2019/15daysprior/2019_15daysprior_tendency_graph_DC.png Graphic fi
 le (type png)
@@ -3392,7 +3420,7 @@ le (type png)
 Package pdftex.def Info: graphs/2019/15daysprior/2019_15daysprior_tendency_grap
 h_DC.png  used on input line 674.
 (pdftex.def)             Requested size: 128.0387pt x 114.7844pt.
-<graphs/2022/tendency/2022_tendency_graph_DC.png, id=1470, 418.9251pt x 375.563
+<graphs/2022/tendency/2022_tendency_graph_DC.png, id=1519, 418.9251pt x 375.563
 1pt>
 File: graphs/2022/tendency/2022_tendency_graph_DC.png Graphic file (type png)
 <use graphs/2022/tendency/2022_tendency_graph_DC.png>
@@ -3403,7 +3431,7 @@ on input line 681.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_ISI.png, id=1471, 399.
+<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_ISI.png, id=1520, 399.
 894pt x 375.5631pt>
 File: graphs/2015/15daysprior/2015_15daysprior_tendency_graph_ISI.png Graphic f
 ile (type png)
@@ -3411,7 +3439,7 @@ ile (type png)
 Package pdftex.def Info: graphs/2015/15daysprior/2015_15daysprior_tendency_grap
 h_ISI.png  used on input line 694.
 (pdftex.def)             Requested size: 128.0387pt x 120.24568pt.
-<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_ISI.png, id=1472, 399.
+<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_ISI.png, id=1521, 399.
 894pt x 375.5631pt>
 File: graphs/2019/15daysprior/2019_15daysprior_tendency_graph_ISI.png Graphic f
 ile (type png)
@@ -3419,7 +3447,7 @@ ile (type png)
 Package pdftex.def Info: graphs/2019/15daysprior/2019_15daysprior_tendency_grap
 h_ISI.png  used on input line 701.
 (pdftex.def)             Requested size: 128.0387pt x 120.24568pt.
-<graphs/2022/tendency/2022_tendency_graph_ISI.png, id=1473, 399.894pt x 375.563
+<graphs/2022/tendency/2022_tendency_graph_ISI.png, id=1522, 399.894pt x 375.563
 1pt>
 File: graphs/2022/tendency/2022_tendency_graph_ISI.png Graphic file (type png)
 <use graphs/2022/tendency/2022_tendency_graph_ISI.png>
@@ -3429,7 +3457,7 @@ Package pdftex.def Info: graphs/2022/tendency/2022_tendency_graph_ISI.png  used
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_BUI.png, id=1474, 412.
+<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_BUI.png, id=1523, 412.
 6617pt x 375.5631pt>
 File: graphs/2015/15daysprior/2015_15daysprior_tendency_graph_BUI.png Graphic f
 ile (type png)
@@ -3437,7 +3465,7 @@ ile (type png)
 Package pdftex.def Info: graphs/2015/15daysprior/2015_15daysprior_tendency_grap
 h_BUI.png  used on input line 721.
 (pdftex.def)             Requested size: 128.0387pt x 116.5265pt.
-<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_BUI.png, id=1475, 412.
+<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_BUI.png, id=1524, 412.
 6617pt x 375.5631pt>
 File: graphs/2019/15daysprior/2019_15daysprior_tendency_graph_BUI.png Graphic f
 ile (type png)
@@ -3445,7 +3473,7 @@ ile (type png)
 Package pdftex.def Info: graphs/2019/15daysprior/2019_15daysprior_tendency_grap
 h_BUI.png  used on input line 728.
 (pdftex.def)             Requested size: 128.0387pt x 116.5265pt.
-<graphs/2022/tendency/2022_tendency_graph_BUI.png, id=1476, 412.6617pt x 375.56
+<graphs/2022/tendency/2022_tendency_graph_BUI.png, id=1525, 412.6617pt x 375.56
 31pt>
 File: graphs/2022/tendency/2022_tendency_graph_BUI.png Graphic file (type png)
 <use graphs/2022/tendency/2022_tendency_graph_BUI.png>
@@ -3464,7 +3492,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[51
+[53
 
  <./graphs/2015/15daysprior/2015_15daysprior_tendency_graph_FWI.png> <./graphs/
 2019/15daysprior/2019_15daysprior_tendency_graph_FWI.png> <./graphs/2022/tenden
@@ -3482,7 +3510,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[52 <./graphs/2015/15daysprior/2015_15daysprior_tendency_graph_DC.png> <./graph
+[54 <./graphs/2015/15daysprior/2015_15daysprior_tendency_graph_DC.png> <./graph
 s/2019/15daysprior/2019_15daysprior_tendency_graph_DC.png> <./graphs/2022/tende
 ncy/2022_tendency_graph_DC.png> <./graphs/2015/15daysprior/2015_15daysprior_ten
 dency_graph_ISI.png> <./graphs/2019/15daysprior/2019_15daysprior_tendency_graph
@@ -3491,9 +3519,9 @@ _ISI.png> <./graphs/2022/tendency/2022_tendency_graph_ISI.png> <./graphs/2015/1
 2019_15daysprior_tendency_graph_BUI.png> <./graphs/2022/tendency/2022_tendency_
 graph_BUI.png>]
 Chapter 7.
-[53
+[55
 
-] [54
+] [56
 
 ]) (./0-main.bbl
 Underfull \hbox (badness 1412) in paragraph at lines 54--59
@@ -3507,7 +3535,7 @@ Underfull \hbox (badness 2635) in paragraph at lines 54--59
 ]augmentation$[]\T1/ppl/m/n/12 .  Ac-
  []
 
-[55
+[57
 
 ]
 Underfull \hbox (badness 4621) in paragraph at lines 89--95
@@ -3534,50 +3562,21 @@ ppl/m/n/12 .  On-line; Ac-cessed:
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 140--147
+Underfull \hbox (badness 3009) in paragraph at lines 144--151
 \T1/ppl/m/n/12 Coper-ni-cus Cli-mate Change Ser-vice, Cli-mate Data Store, (201
 9): Fire
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 140--147
+Underfull \hbox (badness 1337) in paragraph at lines 144--151
 \T1/ppl/m/n/12 dan-ger in-dices his-tor-i-cal data from the Coper-ni-cus Emer-g
 ency Man-age-
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 140--147
+Underfull \hbox (badness 3396) in paragraph at lines 144--151
 \T1/ppl/m/n/12 ment Ser-vice.  []$\T1/cmtt/m/n/12 https : / / cds . climate . c
 opernicus . eu / cdsapp # ! / dataset /
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[56]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[57]
-Underfull \hbox (badness 1845) in paragraph at lines 307--312
-[]\T1/ppl/m/n/12 mParticle (2021).  Data en-rich-ment or ma-chine learn-ing.  [
-]$\T1/cmtt/m/n/12 https : / / www .
- []
-
-
-Underfull \hbox (badness 1490) in paragraph at lines 307--312
-\T1/cmtt/m/n/12 mparticle . com / blog / data-[]enrichment-[]or-[]machine-[]lea
-rning/$[]\T1/ppl/m/n/12 .  Ac-cessed:
  []
 
 
@@ -3597,7 +3596,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[59])
+[59]
+Underfull \hbox (badness 1845) in paragraph at lines 316--321
+[]\T1/ppl/m/n/12 mParticle (2021).  Data en-rich-ment or ma-chine learn-ing.  [
+]$\T1/cmtt/m/n/12 https : / / www .
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 316--321
+\T1/cmtt/m/n/12 mparticle . com / blog / data-[]enrichment-[]or-[]machine-[]lea
+rning/$[]\T1/ppl/m/n/12 .  Ac-cessed:
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[60]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[61]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[62])
 
 Package natbib Warning: There were undefined citations.
 
@@ -3609,31 +3646,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[60] (./0-main.aux)
+[63] (./0-main.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `0-main.out' has not changed.
-(rerunfilecheck)             Checksum: 82BFEB0015730E1D8874E646E00CC845;15240.
+(rerunfilecheck)             Checksum: 4389913316E70E846DEEA1B44B51F4CE;16605.
  ) 
 Here is how much of TeX's memory you used:
- 35032 strings out of 480129
- 672332 string characters out of 5893409
- 971732 words of memory out of 5000000
- 51898 multiletter control sequences out of 15000+600000
+ 35057 strings out of 480129
+ 672698 string characters out of 5893409
+ 973028 words of memory out of 5000000
+ 51912 multiletter control sequences out of 15000+600000
  510203 words of font info for 100 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 99i,12n,131p,1136b,612s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,12n,131p,1136b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/ori/.texli
 ve2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk></usr/share/texlive
 /texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb>
-Output written on 0-main.pdf (80 pages, 13242224 bytes).
+Output written on 0-main.pdf (83 pages, 13248028 bytes).
 PDF statistics:
- 1721 PDF objects out of 1728 (max. 8388607)
- 1386 compressed objects within 14 object streams
- 324 named destinations out of 1000 (max. 500000)
- 1029 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1779 PDF objects out of 2073 (max. 8388607)
+ 1440 compressed objects within 15 object streams
+ 335 named destinations out of 1000 (max. 500000)
+ 1069 words of extra memory for PDF output out of 10000 (max. 10000000)
 
