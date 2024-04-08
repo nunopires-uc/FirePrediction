@@ -204,6 +204,7 @@ tipo\_causa & Description of fire cause. The available options are unknown, deli
 
 \subsection{Open-meteo hourly weather variables \cite{Zippenfenig_Open-Meteo}}
 Historical Weather \cite{Zippenfenig_Open-Meteo} from \cite{Hersbach_ERA5}, \cite{Munoz_ERA5_LAND} and \cite{Schimanke_CERRA}
+\label{open_meteo}
 \begin{table}[h!]
 \caption{Hourly weather variables from Open-meteo}
 \centering
@@ -425,6 +426,7 @@ falta: tabela com o número de entradas antes e depois
 
 
 \subsection{Geocoding places from 2001 to 2012 historical wildfire locations}
+\label{geocoding_historical}
 The dataset entries featured in \ref{historical_sites_no_coords} contain no direct field leading up to the real site location coordinates. To tackle this issue, an algorithm with the help of the geopy library \cite{geopy} was made to resolve the names of historial wildfire places to a set of coordinates.
 
 
@@ -467,18 +469,44 @@ A very minor sample of entries couldn't be geocoded using this method. Therefore
 
 
 \subsection{Retrieving historical meteorological data}
-In order to retrieve historical meteorological data a python script was made. It went through each historial fire location, and downloaded 
+In order to retrieve historical meteorological data, a Python script was made. It went through each historical fire location and downloaded weather data about the entire day regarding the wildfire. The weather data contained all the fields described in \ref{open_meteo}. 
 
 
-exemplo de query: 
+
+\subsection{Linking historical wildfires with historical weather data}
+Dizer número de instâncias
+Every unit from each field was specified in the retrieved data, so it had to be removed.
 
 
-\subsection{Com o algoritmo das arvores}
-haversine formula da distncia
+
+\subsection{Matching each historical wildfire with tree species}
+\label{tree_species_wildfires}
+
+
+O que mudei no dataset inicial das trees
+dfTreesDRP['stateProvince'] = dfTreesDRP['stateProvince'].replace('Bragança District', 'Bragança')
+dfTreesDRP['locality'] = dfTreesDRP['locality'].replace('Ovadas e Panchora', 'Ovadas e Panchorra')
+Continha um erro, Ovadas e Panchora não existe.
+
+
+variáveis das trees que foram usadas: scientificName,locality,stateProvince,occurrenceStatus,individualCount,decimalLatitude,decimalLongitude,coordinateUncertaintyInMeters,coordinatePrecision,elevation,elevationAccuracy,depth,depthAccuracy
+
+
+haversine formula da distncia \cite{esri2024}.
+
+
+Multiple tests were made for distance, 120metres, 500 metres.
+
+Especies que estavam na mesma freguesia ou concelho foram associadas sem fazer cálculo de distancia. Para combater espécies duplicadas, só se adicionava uma espécie se esta não estivesse contida na entrada do fogo.
+Distrito, usava-se uma distância de 1000 metros.
+
+As restantes entradas que não obtiveram correspondencia com os outros métodos anteriores, foi feita uma análise das espécies que estavam mais perto, neste passo foram detetados erro, alguns valores tabulados do icnf não correspondiam à realidade, e alguns valores em \ref{geocoding_historical} foram mal calculados.
+
+Devido ao tamanho do dataset das arvores o script de python utilizado dividiu os anos em chunks e com multiprocessamento foi calculado as especies de arvores perto do fogo.
 
 
 \subsection{Locations in the middle of the sea.}
-Between 2013 and 2023, some of the featured locations were in the middle of the ocean. Although having a real-life location set explicitly in the file when using services like Google Maps, its coordinates were undeniably wrong. These multiple geolocation errors were discovered when trying to pin multiple species of trees to a single location with a distance function calculator. The algorithm yielded values that were outside of the range spectrum of 1500km. Leading to the manual confirmation of these errors with the help of the Google Maps service.
+Between 2013 and 2023, some of the featured locations were in the middle of the ocean. Although having a real-life location set explicitly in the file when using services like Google Maps, its coordinates were undeniably wrong. These multiple geolocation errors were discovered when trying to pin multiple species of trees \ref{tree_species_wildfires} to a single location with a distance function calculator. The algorithm yielded values that were outside of the range spectrum of 1500km. Leading to the manual confirmation of these errors with the help of the Google Maps service.
 
 
 \section{Python libraries used in the conception of the dataset}

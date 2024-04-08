@@ -1,20 +1,20 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Number of rural fires and corresponding extent of burnt area in mainland Portugal, per year, between 1 January and 15 October 2023 January and 15 October 2023 \citep {icnf2023report}\relax }}{3}{table.caption.9}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Number of rural fires and corresponding extent of burnt area in mainland Portugal, per year, between 1 January and 15 October 2023 January and 15 October 2023 \citep {icnf2023report}\relax }}{3}{table.caption.7}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Classification models results on \citep {misc_forest_fires_162} dataset.\relax }}{14}{table.caption.10}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Results comparison between ANN and other models\relax }}{15}{table.caption.12}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Forest district classifier accuracy comparison\relax }}{21}{table.caption.17}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces DFP-MnBpAnn performance metrics against other prediction models \citep {TIENBUI2018104}\relax }}{22}{table.caption.19}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Classification models results on \citep {misc_forest_fires_162} dataset.\relax }}{14}{table.caption.8}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Results comparison between ANN and other models\relax }}{15}{table.caption.10}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Forest district classifier accuracy comparison\relax }}{20}{table.caption.15}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces DFP-MnBpAnn performance metrics against other prediction models \citep {TIENBUI2018104}\relax }}{22}{table.caption.17}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Risk - Data unavailability\relax }}{32}{table.caption.27}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Risk - Data unavailability\relax }}{32}{table.caption.25}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Field description of Historical fires from 1980 to 2015\relax }}{34}{table.caption.28}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Field description of Historical fires from 2013 to 2024\relax }}{35}{table.caption.29}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Hourly weather variables from Open-meteo\relax }}{36}{table.caption.30}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Fire danger indices from historical data\relax }}{37}{table.caption.31}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces Forest Inventory 2015\relax }}{38}{table.caption.32}%
-\contentsline {table}{\numberline {5.6}{\ignorespaces Combinations for local geocoding\relax }}{39}{table.caption.33}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Field description of Historical fires from 1980 to 2015\relax }}{34}{table.caption.26}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Field description of Historical fires from 2013 to 2024\relax }}{38}{table.caption.27}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Hourly weather variables from Open-meteo\relax }}{39}{table.caption.28}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Fire danger indices from historical data\relax }}{40}{table.caption.29}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Forest Inventory 2015\relax }}{41}{table.caption.30}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Combinations for local geocoding\relax }}{41}{table.caption.31}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
