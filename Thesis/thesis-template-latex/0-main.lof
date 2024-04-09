@@ -1,0 +1,66 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Forest fire risk map\relax }}{18}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Prediction of forest fire risk using a fuzzy reasoning algorithm \citep {LIN2018101}.\relax }}{20}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Meteorological data, datetime, and people density to predict the likelihood of a forest fire \citep {LIN2018101}.\relax }}{20}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Methodology used with DFP-MnBpAnn\citep {LIN2018101}.\relax }}{22}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Methodologies for Data fusion \citep {articleDataFusion}.\relax }}{24}{figure.caption.20}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Tiles depicting geographical areas and forest fire risk\relax }}{28}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Gantt chart for first semester\relax }}{31}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Proposed gantt chart for the second semester\relax }}{31}{figure.caption.26}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Comparison of FWI calculated values and Copernicus\relax }}{43}{figure.caption.34}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison of FFMC calculated values and Copernicus\relax }}{44}{figure.caption.35}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparison of DMC calculated values and Copernicus\relax }}{44}{figure.caption.36}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Comparison of DC calculated values and Copernicus\relax }}{44}{figure.caption.37}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Comparison of ISI calculated values and Copernicus\relax }}{45}{figure.caption.38}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Comparison of BUI calculated values and Copernicus\relax }}{45}{figure.caption.39}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Comparison of FWI calculated values and Copernicus at midday\relax }}{46}{figure.caption.40}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Comparison of FFMC calculated values and Copernicus at midday\relax }}{46}{figure.caption.41}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Comparison of DMC calculated values and Copernicus at midday\relax }}{47}{figure.caption.42}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Comparison of DC calculated values and Copernicus at midday\relax }}{47}{figure.caption.43}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Comparison of ISI calculated values and Copernicus at midday\relax }}{47}{figure.caption.44}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Comparison of BUI calculated values and Copernicus at midday\relax }}{48}{figure.caption.45}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Comparison of FWI calculated values and Copernicus at midday - 2019\relax }}{49}{figure.caption.46}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Comparison of FWI calculated values and Copernicus at midday - 2022\relax }}{49}{figure.caption.47}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Calculated hourly FWI value for 2015, 2019, and 2022\relax }}{50}{figure.caption.48}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Calculated hourly FFMC value for 2015, 2019, and 2022\relax }}{50}{figure.caption.49}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Calculated hourly DMC value for 2015, 2019, and 2022\relax }}{51}{figure.caption.50}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Calculated hourly DC value for 2015, 2019, and 2022\relax }}{51}{figure.caption.51}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Calculated hourly ISI value for 2015, 2019, and 2022\relax }}{52}{figure.caption.52}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Calculated hourly BUI value for 2015, 2019, and 2022\relax }}{52}{figure.caption.53}%
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Daily max and min FWI values\relax }}{53}{figure.caption.54}%
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Daily max and min FFMC values\relax }}{54}{figure.caption.55}%
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Daily max and min DMC values\relax }}{54}{figure.caption.56}%
+\contentsline {figure}{\numberline {6.24}{\ignorespaces Daily max and min DC values\relax }}{55}{figure.caption.57}%
+\contentsline {figure}{\numberline {6.25}{\ignorespaces Daily max and min ISI values\relax }}{55}{figure.caption.58}%
+\contentsline {figure}{\numberline {6.26}{\ignorespaces Daily max and min BUI values\relax }}{56}{figure.caption.59}%
+\contentsline {figure}{\numberline {6.27}{\ignorespaces Before, after and daily FWI maximum value\relax }}{57}{figure.caption.60}%
+\contentsline {figure}{\numberline {6.28}{\ignorespaces Before, after and daily FFMC maximum value\relax }}{58}{figure.caption.61}%
+\contentsline {figure}{\numberline {6.29}{\ignorespaces Before, after and daily DMC maximum value\relax }}{58}{figure.caption.62}%
+\contentsline {figure}{\numberline {6.30}{\ignorespaces Before, after and daily DC maximum value\relax }}{59}{figure.caption.63}%
+\contentsline {figure}{\numberline {6.31}{\ignorespaces Before, after and daily ISI maximum value\relax }}{59}{figure.caption.64}%
+\contentsline {figure}{\numberline {6.32}{\ignorespaces Before, after and daily BUI maximum value\relax }}{60}{figure.caption.65}%
+\contentsline {figure}{\numberline {6.33}{\ignorespaces Daily difference of max and min FWI values\relax }}{61}{figure.caption.66}%
+\contentsline {figure}{\numberline {6.34}{\ignorespaces Daily difference of max and min FFMC values\relax }}{62}{figure.caption.67}%
+\contentsline {figure}{\numberline {6.35}{\ignorespaces Daily difference of max and min DMC values\relax }}{62}{figure.caption.68}%
+\contentsline {figure}{\numberline {6.36}{\ignorespaces Daily difference of max and min DC values\relax }}{63}{figure.caption.69}%
+\contentsline {figure}{\numberline {6.37}{\ignorespaces Daily difference of max and min ISI values\relax }}{63}{figure.caption.70}%
+\contentsline {figure}{\numberline {6.38}{\ignorespaces Daily difference of max and min BUI values\relax }}{64}{figure.caption.71}%
+\contentsline {figure}{\numberline {6.39}{\ignorespaces FWI mean tendency graph\relax }}{65}{figure.caption.72}%
+\contentsline {figure}{\numberline {6.40}{\ignorespaces FFMC mean tendency graph\relax }}{65}{figure.caption.73}%
+\contentsline {figure}{\numberline {6.41}{\ignorespaces DMC mean tendency graph\relax }}{66}{figure.caption.74}%
+\contentsline {figure}{\numberline {6.42}{\ignorespaces DC mean tendency graph\relax }}{66}{figure.caption.75}%
+\contentsline {figure}{\numberline {6.43}{\ignorespaces ISI mean tendency graph\relax }}{67}{figure.caption.76}%
+\contentsline {figure}{\numberline {6.44}{\ignorespaces BUI mean tendency graph\relax }}{67}{figure.caption.77}%
+\contentsline {figure}{\numberline {6.45}{\ignorespaces FWI values 15 days prior to wildfire\relax }}{68}{figure.caption.78}%
+\contentsline {figure}{\numberline {6.46}{\ignorespaces FFMC values 15 days prior to wildfire\relax }}{68}{figure.caption.79}%
+\contentsline {figure}{\numberline {6.47}{\ignorespaces DMC values 15 days prior to wildfire\relax }}{68}{figure.caption.80}%
+\contentsline {figure}{\numberline {6.48}{\ignorespaces DC values 15 days prior to wildfire\relax }}{69}{figure.caption.81}%
+\contentsline {figure}{\numberline {6.49}{\ignorespaces ISI values 15 days prior to wildfire\relax }}{69}{figure.caption.82}%
+\contentsline {figure}{\numberline {6.50}{\ignorespaces BUI values 15 days prior to wildfire\relax }}{69}{figure.caption.83}%
+\addvspace {10\p@ }
