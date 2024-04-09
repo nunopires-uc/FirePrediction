@@ -94,5 +94,6 @@
 \contentsline {section}{\numberline {6.7}Difference between the daily maximum and minimum values of the FWI variables}{61}{section.6.7}%
 \contentsline {section}{\numberline {6.8}3-day time frame mean tendency graphs of FWI variables}{65}{section.6.8}%
 \contentsline {section}{\numberline {6.9}Comparison of mean FWI variables 15 days prior to the wildfire}{68}{section.6.9}%
-\contentsline {chapter}{\numberline {7}Conclusion}{71}{chapter.7}%
-\contentsline {chapter}{References}{73}{chapter*.84}%
+\contentsline {section}{\numberline {6.10}Comparison of mean FWI variables 3 days prior to the wildfire}{70}{section.6.10}%
+\contentsline {chapter}{\numberline {7}Conclusion}{73}{chapter.7}%
+\contentsline {chapter}{References}{75}{chapter*.90}%

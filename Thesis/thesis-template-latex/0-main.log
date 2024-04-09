@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.5)  9 APR 2024 13:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.5)  9 APR 2024 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1011,210 +1011,6 @@ LaTeX Warning: Label `forest_inventory' multiply defined.
 
 LaTeX Warning: Label `forest_inventory' multiply defined.
 
-
-LaTeX Warning: Label `fig:fwi_copernicus_2019_midday' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:fwi_copernicus_2019_midday' multiply defined.
-
-
-LaTeX Warning: Label `fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `fig:both_images' multiply defined.
-
-
-LaTeX Warning: Label `fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `fig:both_images' multiply defined.
-
-
-LaTeX Warning: Label `fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `fig:both_images' multiply defined.
-
-
-LaTeX Warning: Label `fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `fig:both_images' multiply defined.
-
-
-LaTeX Warning: Label `fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `fig:both_images' multiply defined.
-
-
-LaTeX Warning: Label `fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `fig:img3' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img3' multiply defined.
-
-
-LaTeX Warning: Label `fig:all_images' multiply defined.
-
-
-LaTeX Warning: Label `fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `fig:img3' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img3' multiply defined.
-
-
-LaTeX Warning: Label `fig:all_images' multiply defined.
-
-
-LaTeX Warning: Label `fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `fig:img3' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img3' multiply defined.
-
-
-LaTeX Warning: Label `fig:all_images' multiply defined.
-
-
-LaTeX Warning: Label `fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `fig:img3' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img3' multiply defined.
-
-
-LaTeX Warning: Label `fig:all_images' multiply defined.
-
-
-LaTeX Warning: Label `fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img1' multiply defined.
-
-
-LaTeX Warning: Label `fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img2' multiply defined.
-
-
-LaTeX Warning: Label `fig:img3' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:img3' multiply defined.
-
-
-LaTeX Warning: Label `fig:all_images' multiply defined.
-
 )
 \openout1 = `0-main.aux'.
 
@@ -1359,7 +1155,7 @@ LaTeX Info: Redefining \nameref on input line 138.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<frontmatter/logo-uc-gold.pdf, id=376, 285.065pt x 241.90375pt>
+<frontmatter/logo-uc-gold.pdf, id=380, 285.065pt x 241.90375pt>
 File: frontmatter/logo-uc-gold.pdf Graphic file (type pdf)
 <use frontmatter/logo-uc-gold.pdf>
 Package pdftex.def Info: frontmatter/logo-uc-gold.pdf  used on input line 15.
@@ -1406,7 +1202,7 @@ Package pdftex.def Info: frontmatter/logo-uc-gold.pdf  used on input line 15.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<frontmatter/logo-dei.pdf, id=391, 459.7175pt x 334.24875pt>
+<frontmatter/logo-dei.pdf, id=395, 459.7175pt x 334.24875pt>
 File: frontmatter/logo-dei.pdf Graphic file (type pdf)
 <use frontmatter/logo-dei.pdf>
 Package pdftex.def Info: frontmatter/logo-dei.pdf  used on input line 15.
@@ -1750,7 +1546,7 @@ Overfull \hbox (7.98778pt too wide) in paragraph at lines 206--207
 s con-nected by weighted
  []
 
-<frontmatter/imgs/Screenshot from 2023-11-28 11-07-47.png, id=1105, 1184.425pt 
+<frontmatter/imgs/Screenshot from 2023-11-28 11-07-47.png, id=1122, 1184.425pt 
 x 1682.285pt>
 File: frontmatter/imgs/Screenshot from 2023-11-28 11-07-47.png Graphic file (ty
 pe png)
@@ -1772,7 +1568,7 @@ Overfull \hbox (4.59215pt too wide) in paragraph at lines 243--244
 -er-al-is-abil-ity across
  []
 
-<frontmatter/imgs/fuzzy_prediction_model.PNG, id=1119, 359.84438pt x 190.46156p
+<frontmatter/imgs/fuzzy_prediction_model.PNG, id=1136, 359.84438pt x 190.46156p
 t>
 File: frontmatter/imgs/fuzzy_prediction_model.PNG Graphic file (type png)
 <use frontmatter/imgs/fuzzy_prediction_model.PNG>
@@ -1782,7 +1578,7 @@ nput line 254.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<frontmatter/imgs/p_ocurrencia_incendio.PNG, id=1126, 523.9575pt x 185.94469pt>
+<frontmatter/imgs/p_ocurrencia_incendio.PNG, id=1143, 523.9575pt x 185.94469pt>
 
 File: frontmatter/imgs/p_ocurrencia_incendio.PNG Graphic file (type png)
 <use frontmatter/imgs/p_ocurrencia_incendio.PNG>
@@ -1827,7 +1623,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [20 <./frontmatter/imgs/fuzzy_prediction_model.PNG> <./frontmatter/imgs/p_ocurr
 encia_incendio.PNG>]
-<frontmatter/imgs/hybrid_methodology.PNG, id=1154, 475.7775pt x 264.99pt>
+<frontmatter/imgs/hybrid_methodology.PNG, id=1171, 475.7775pt x 264.99pt>
 File: frontmatter/imgs/hybrid_methodology.PNG Graphic file (type png)
 <use frontmatter/imgs/hybrid_methodology.PNG>
 Package pdftex.def Info: frontmatter/imgs/hybrid_methodology.PNG  used on input
@@ -1867,7 +1663,7 @@ Overfull \hbox (3.11644pt too wide) in paragraph at lines 377--378
 ined from many sources
  []
 
-<frontmatter/imgs/ffdf2.png, id=1194, 810.02625pt x 867.24pt>
+<frontmatter/imgs/ffdf2.png, id=1211, 810.02625pt x 867.24pt>
 File: frontmatter/imgs/ffdf2.png Graphic file (type png)
 <use frontmatter/imgs/ffdf2.png>
 Package pdftex.def Info: frontmatter/imgs/ffdf2.png  used on input line 387.
@@ -1930,7 +1726,7 @@ Chapter 4.
 
 
 ]
-<frontmatter/imgs/Group 1.png, id=1306, 3300.33pt x 1230.5975pt>
+<frontmatter/imgs/Group 1.png, id=1323, 3300.33pt x 1230.5975pt>
 File: frontmatter/imgs/Group 1.png Graphic file (type png)
 <use frontmatter/imgs/Group 1.png>
 Package pdftex.def Info: frontmatter/imgs/Group 1.png  used on input line 36.
@@ -1971,12 +1767,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [30]
-<frontmatter/imgs/g1.png, id=1346, 1186.4325pt x 575.14874pt>
+<frontmatter/imgs/g1.png, id=1363, 1186.4325pt x 575.14874pt>
 File: frontmatter/imgs/g1.png Graphic file (type png)
 <use frontmatter/imgs/g1.png>
 Package pdftex.def Info: frontmatter/imgs/g1.png  used on input line 107.
 (pdftex.def)             Requested size: 426.79135pt x 206.89542pt.
-<frontmatter/imgs/g2.png, id=1347, 1188.44pt x 397.485pt>
+<frontmatter/imgs/g2.png, id=1364, 1188.44pt x 397.485pt>
 File: frontmatter/imgs/g2.png Graphic file (type png)
 <use frontmatter/imgs/g2.png>
 Package pdftex.def Info: frontmatter/imgs/g2.png  used on input line 114.
@@ -2408,25 +2204,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [42]
 Chapter 6.
-<graphs/2015MesmoSitio/2015CopernicusFWI12.png, id=1457, 722.7pt x 433.62pt>
+<graphs/2015MesmoSitio/2015CopernicusFWI12.png, id=1474, 722.7pt x 433.62pt>
 File: graphs/2015MesmoSitio/2015CopernicusFWI12.png Graphic file (type png)
 <use graphs/2015MesmoSitio/2015CopernicusFWI12.png>
 Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusFWI12.png  used on
  input line 18.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015MesmoSitio/2015CalcFWI12.png, id=1458, 722.7pt x 433.62pt>
+<graphs/2015MesmoSitio/2015CalcFWI12.png, id=1475, 722.7pt x 433.62pt>
 File: graphs/2015MesmoSitio/2015CalcFWI12.png Graphic file (type png)
 <use graphs/2015MesmoSitio/2015CalcFWI12.png>
 Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcFWI12.png  used on input
  line 25.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015MesmoSitio/2015CopernicusFFMC12.png, id=1459, 722.7pt x 433.62pt>
+<graphs/2015MesmoSitio/2015CopernicusFFMC12.png, id=1476, 722.7pt x 433.62pt>
 File: graphs/2015MesmoSitio/2015CopernicusFFMC12.png Graphic file (type png)
 <use graphs/2015MesmoSitio/2015CopernicusFFMC12.png>
 Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusFFMC12.png  used o
 n input line 37.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015MesmoSitio/2015CalcFFMC12.png, id=1460, 722.7pt x 433.62pt>
+<graphs/2015MesmoSitio/2015CalcFFMC12.png, id=1477, 722.7pt x 433.62pt>
 File: graphs/2015MesmoSitio/2015CalcFFMC12.png Graphic file (type png)
 <use graphs/2015MesmoSitio/2015CalcFFMC12.png>
 Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcFFMC12.png  used on inpu
@@ -2435,13 +2231,13 @@ t line 44.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015MesmoSitio/2015CopernicusDMC12.png, id=1461, 722.7pt x 433.62pt>
+<graphs/2015MesmoSitio/2015CopernicusDMC12.png, id=1478, 722.7pt x 433.62pt>
 File: graphs/2015MesmoSitio/2015CopernicusDMC12.png Graphic file (type png)
 <use graphs/2015MesmoSitio/2015CopernicusDMC12.png>
 Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusDMC12.png  used on
  input line 56.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015MesmoSitio/2015CalcDMC12.png, id=1462, 722.7pt x 433.62pt>
+<graphs/2015MesmoSitio/2015CalcDMC12.png, id=1479, 722.7pt x 433.62pt>
 File: graphs/2015MesmoSitio/2015CalcDMC12.png Graphic file (type png)
 <use graphs/2015MesmoSitio/2015CalcDMC12.png>
 Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcDMC12.png  used on input
@@ -2450,13 +2246,13 @@ Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcDMC12.png  used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015MesmoSitio/2015CopernicusDC12.png, id=1463, 722.7pt x 433.62pt>
+<graphs/2015MesmoSitio/2015CopernicusDC12.png, id=1480, 722.7pt x 433.62pt>
 File: graphs/2015MesmoSitio/2015CopernicusDC12.png Graphic file (type png)
 <use graphs/2015MesmoSitio/2015CopernicusDC12.png>
 Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusDC12.png  used on 
 input line 75.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015MesmoSitio/2015CalcDC12.png, id=1464, 722.7pt x 433.62pt>
+<graphs/2015MesmoSitio/2015CalcDC12.png, id=1481, 722.7pt x 433.62pt>
 File: graphs/2015MesmoSitio/2015CalcDC12.png Graphic file (type png)
 <use graphs/2015MesmoSitio/2015CalcDC12.png>
 Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcDC12.png  used on input 
@@ -2465,13 +2261,13 @@ line 82.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015MesmoSitio/2015CopernicusISI12.png, id=1465, 722.7pt x 433.62pt>
+<graphs/2015MesmoSitio/2015CopernicusISI12.png, id=1482, 722.7pt x 433.62pt>
 File: graphs/2015MesmoSitio/2015CopernicusISI12.png Graphic file (type png)
 <use graphs/2015MesmoSitio/2015CopernicusISI12.png>
 Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusISI12.png  used on
  input line 94.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015MesmoSitio/2015CalcISI12.png, id=1466, 722.7pt x 433.62pt>
+<graphs/2015MesmoSitio/2015CalcISI12.png, id=1483, 722.7pt x 433.62pt>
 File: graphs/2015MesmoSitio/2015CalcISI12.png Graphic file (type png)
 <use graphs/2015MesmoSitio/2015CalcISI12.png>
 Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcISI12.png  used on input
@@ -2480,13 +2276,13 @@ Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcISI12.png  used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015MesmoSitio/2015CopernicusBUI12.png, id=1467, 722.7pt x 433.62pt>
+<graphs/2015MesmoSitio/2015CopernicusBUI12.png, id=1484, 722.7pt x 433.62pt>
 File: graphs/2015MesmoSitio/2015CopernicusBUI12.png Graphic file (type png)
 <use graphs/2015MesmoSitio/2015CopernicusBUI12.png>
 Package pdftex.def Info: graphs/2015MesmoSitio/2015CopernicusBUI12.png  used on
  input line 113.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015MesmoSitio/2015CalcBUI12.png, id=1468, 722.7pt x 433.62pt>
+<graphs/2015MesmoSitio/2015CalcBUI12.png, id=1485, 722.7pt x 433.62pt>
 File: graphs/2015MesmoSitio/2015CalcBUI12.png Graphic file (type png)
 <use graphs/2015MesmoSitio/2015CalcBUI12.png>
 Package pdftex.def Info: graphs/2015MesmoSitio/2015CalcBUI12.png  used on input
@@ -2522,37 +2318,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [45 <./graphs/2015MesmoSitio/2015CopernicusISI12.png> <./graphs/2015MesmoSitio/
 2015CalcISI12.png> <./graphs/2015MesmoSitio/2015CopernicusBUI12.png> <./graphs/
 2015MesmoSitio/2015CalcBUI12.png>]
-<graphs/2015/2015CopernicusFWI12.png, id=1494, 722.7pt x 433.62pt>
+<graphs/2015/2015CopernicusFWI12.png, id=1511, 722.7pt x 433.62pt>
 File: graphs/2015/2015CopernicusFWI12.png Graphic file (type png)
 <use graphs/2015/2015CopernicusFWI12.png>
 Package pdftex.def Info: graphs/2015/2015CopernicusFWI12.png  used on input lin
 e 137.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CalcFWI12.png, id=1495, 722.7pt x 433.62pt>
+<graphs/2015/2015CalcFWI12.png, id=1512, 722.7pt x 433.62pt>
 File: graphs/2015/2015CalcFWI12.png Graphic file (type png)
 <use graphs/2015/2015CalcFWI12.png>
 Package pdftex.def Info: graphs/2015/2015CalcFWI12.png  used on input line 144.
 
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CopernicusFFMC12.png, id=1496, 722.7pt x 433.62pt>
+<graphs/2015/2015CopernicusFFMC12.png, id=1513, 722.7pt x 433.62pt>
 File: graphs/2015/2015CopernicusFFMC12.png Graphic file (type png)
 <use graphs/2015/2015CopernicusFFMC12.png>
 Package pdftex.def Info: graphs/2015/2015CopernicusFFMC12.png  used on input li
 ne 156.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CalcFFMC12.png, id=1497, 722.7pt x 433.62pt>
+<graphs/2015/2015CalcFFMC12.png, id=1514, 722.7pt x 433.62pt>
 File: graphs/2015/2015CalcFFMC12.png Graphic file (type png)
 <use graphs/2015/2015CalcFFMC12.png>
 Package pdftex.def Info: graphs/2015/2015CalcFFMC12.png  used on input line 163
 .
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CopernicusDMC12.png, id=1498, 722.7pt x 433.62pt>
+<graphs/2015/2015CopernicusDMC12.png, id=1515, 722.7pt x 433.62pt>
 File: graphs/2015/2015CopernicusDMC12.png Graphic file (type png)
 <use graphs/2015/2015CopernicusDMC12.png>
 Package pdftex.def Info: graphs/2015/2015CopernicusDMC12.png  used on input lin
 e 175.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CalcDMC12.png, id=1499, 722.7pt x 433.62pt>
+<graphs/2015/2015CalcDMC12.png, id=1516, 722.7pt x 433.62pt>
 File: graphs/2015/2015CalcDMC12.png Graphic file (type png)
 <use graphs/2015/2015CalcDMC12.png>
 Package pdftex.def Info: graphs/2015/2015CalcDMC12.png  used on input line 182.
@@ -2562,13 +2358,13 @@ Package pdftex.def Info: graphs/2015/2015CalcDMC12.png  used on input line 182.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/2015CopernicusDC12.png, id=1500, 722.7pt x 433.62pt>
+<graphs/2015/2015CopernicusDC12.png, id=1517, 722.7pt x 433.62pt>
 File: graphs/2015/2015CopernicusDC12.png Graphic file (type png)
 <use graphs/2015/2015CopernicusDC12.png>
 Package pdftex.def Info: graphs/2015/2015CopernicusDC12.png  used on input line
  194.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CalcDC12.png, id=1501, 722.7pt x 433.62pt>
+<graphs/2015/2015CalcDC12.png, id=1518, 722.7pt x 433.62pt>
 File: graphs/2015/2015CalcDC12.png Graphic file (type png)
 <use graphs/2015/2015CalcDC12.png>
 Package pdftex.def Info: graphs/2015/2015CalcDC12.png  used on input line 201.
@@ -2576,13 +2372,13 @@ Package pdftex.def Info: graphs/2015/2015CalcDC12.png  used on input line 201.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/2015CopernicusISI12.png, id=1502, 722.7pt x 433.62pt>
+<graphs/2015/2015CopernicusISI12.png, id=1519, 722.7pt x 433.62pt>
 File: graphs/2015/2015CopernicusISI12.png Graphic file (type png)
 <use graphs/2015/2015CopernicusISI12.png>
 Package pdftex.def Info: graphs/2015/2015CopernicusISI12.png  used on input lin
 e 213.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CalcISI12.png, id=1503, 722.7pt x 433.62pt>
+<graphs/2015/2015CalcISI12.png, id=1520, 722.7pt x 433.62pt>
 File: graphs/2015/2015CalcISI12.png Graphic file (type png)
 <use graphs/2015/2015CalcISI12.png>
 Package pdftex.def Info: graphs/2015/2015CalcISI12.png  used on input line 220.
@@ -2591,13 +2387,13 @@ Package pdftex.def Info: graphs/2015/2015CalcISI12.png  used on input line 220.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/2015CopernicusBUI12.png, id=1504, 722.7pt x 433.62pt>
+<graphs/2015/2015CopernicusBUI12.png, id=1521, 722.7pt x 433.62pt>
 File: graphs/2015/2015CopernicusBUI12.png Graphic file (type png)
 <use graphs/2015/2015CopernicusBUI12.png>
 Package pdftex.def Info: graphs/2015/2015CopernicusBUI12.png  used on input lin
 e 232.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/2015CalcBUI12.png, id=1505, 722.7pt x 433.62pt>
+<graphs/2015/2015CalcBUI12.png, id=1522, 722.7pt x 433.62pt>
 File: graphs/2015/2015CalcBUI12.png Graphic file (type png)
 <use graphs/2015/2015CalcBUI12.png>
 Package pdftex.def Info: graphs/2015/2015CalcBUI12.png  used on input line 239.
@@ -2638,37 +2434,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [48 <./graphs/2015/2015CopernicusBUI12.png> <./graphs/2015/2015CalcBUI12.png>]
-<graphs/2019/2019CopernicusFWI12.png, id=1531, 722.7pt x 433.62pt>
+<graphs/2019/2019CopernicusFWI12.png, id=1548, 722.7pt x 433.62pt>
 File: graphs/2019/2019CopernicusFWI12.png Graphic file (type png)
 <use graphs/2019/2019CopernicusFWI12.png>
 Package pdftex.def Info: graphs/2019/2019CopernicusFWI12.png  used on input lin
 e 256.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2019/2019CalcFWI12.png, id=1532, 722.7pt x 433.62pt>
+<graphs/2019/2019CalcFWI12.png, id=1549, 722.7pt x 433.62pt>
 File: graphs/2019/2019CalcFWI12.png Graphic file (type png)
 <use graphs/2019/2019CalcFWI12.png>
 Package pdftex.def Info: graphs/2019/2019CalcFWI12.png  used on input line 263.
 
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2022/2022CopernicusFWI12.png, id=1533, 722.7pt x 433.62pt>
+<graphs/2022/2022CopernicusFWI12.png, id=1550, 722.7pt x 433.62pt>
 File: graphs/2022/2022CopernicusFWI12.png Graphic file (type png)
 <use graphs/2022/2022CopernicusFWI12.png>
 Package pdftex.def Info: graphs/2022/2022CopernicusFWI12.png  used on input lin
 e 280.
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2022/2022CalcFWI12.png, id=1534, 722.7pt x 433.62pt>
+<graphs/2022/2022CalcFWI12.png, id=1551, 722.7pt x 433.62pt>
 File: graphs/2022/2022CalcFWI12.png Graphic file (type png)
 <use graphs/2022/2022CalcFWI12.png>
 Package pdftex.def Info: graphs/2022/2022CalcFWI12.png  used on input line 287.
 
 (pdftex.def)             Requested size: 209.1301pt x 125.4753pt.
-<graphs/2015/byHour/2015CalcFWI12.png, id=1535, 722.7pt x 433.62pt>
+<graphs/2015/byHour/2015CalcFWI12.png, id=1552, 722.7pt x 433.62pt>
 File: graphs/2015/byHour/2015CalcFWI12.png Graphic file (type png)
 <use graphs/2015/byHour/2015CalcFWI12.png>
 Package pdftex.def Info: graphs/2015/byHour/2015CalcFWI12.png  used on input li
 ne 302.
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
-<graphs/2019/byHour/2019CalcFWI12.png, id=1536, 722.7pt x 433.62pt>
+<graphs/2019/byHour/2019CalcFWI12.png, id=1553, 722.7pt x 433.62pt>
 File: graphs/2019/byHour/2019CalcFWI12.png Graphic file (type png)
 <use graphs/2019/byHour/2019CalcFWI12.png>
 Package pdftex.def Info: graphs/2019/byHour/2019CalcFWI12.png  used on input li
@@ -2683,19 +2479,19 @@ Package pdftex.def Info: graphs/2022/2022CalcFWI12.png  used on input line 312.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/2015CalcFFMC12.png, id=1537, 722.7pt x 433.62pt>
+<graphs/2015/byHour/2015CalcFFMC12.png, id=1554, 722.7pt x 433.62pt>
 File: graphs/2015/byHour/2015CalcFFMC12.png Graphic file (type png)
 <use graphs/2015/byHour/2015CalcFFMC12.png>
 Package pdftex.def Info: graphs/2015/byHour/2015CalcFFMC12.png  used on input l
 ine 323.
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
-<graphs/2019/2019CalcFFMC12.png, id=1538, 722.7pt x 433.62pt>
+<graphs/2019/2019CalcFFMC12.png, id=1555, 722.7pt x 433.62pt>
 File: graphs/2019/2019CalcFFMC12.png Graphic file (type png)
 <use graphs/2019/2019CalcFFMC12.png>
 Package pdftex.def Info: graphs/2019/2019CalcFFMC12.png  used on input line 328
 .
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
-<graphs/2022/2022CalcFFMC12.png, id=1539, 722.7pt x 433.62pt>
+<graphs/2022/2022CalcFFMC12.png, id=1556, 722.7pt x 433.62pt>
 File: graphs/2022/2022CalcFFMC12.png Graphic file (type png)
 <use graphs/2022/2022CalcFFMC12.png>
 Package pdftex.def Info: graphs/2022/2022CalcFFMC12.png  used on input line 333
@@ -2704,19 +2500,19 @@ Package pdftex.def Info: graphs/2022/2022CalcFFMC12.png  used on input line 333
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/2015CalcDMC12.png, id=1540, 722.7pt x 433.62pt>
+<graphs/2015/byHour/2015CalcDMC12.png, id=1557, 722.7pt x 433.62pt>
 File: graphs/2015/byHour/2015CalcDMC12.png Graphic file (type png)
 <use graphs/2015/byHour/2015CalcDMC12.png>
 Package pdftex.def Info: graphs/2015/byHour/2015CalcDMC12.png  used on input li
 ne 343.
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
-<graphs/2019/2019CalcDMC12.png, id=1541, 722.7pt x 433.62pt>
+<graphs/2019/2019CalcDMC12.png, id=1558, 722.7pt x 433.62pt>
 File: graphs/2019/2019CalcDMC12.png Graphic file (type png)
 <use graphs/2019/2019CalcDMC12.png>
 Package pdftex.def Info: graphs/2019/2019CalcDMC12.png  used on input line 348.
 
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
-<graphs/2022/2022CalcDMC12.png, id=1542, 722.7pt x 433.62pt>
+<graphs/2022/2022CalcDMC12.png, id=1559, 722.7pt x 433.62pt>
 File: graphs/2022/2022CalcDMC12.png Graphic file (type png)
 <use graphs/2022/2022CalcDMC12.png>
 Package pdftex.def Info: graphs/2022/2022CalcDMC12.png  used on input line 353.
@@ -2725,18 +2521,18 @@ Package pdftex.def Info: graphs/2022/2022CalcDMC12.png  used on input line 353.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/2015CalcDC12.png, id=1543, 722.7pt x 433.62pt>
+<graphs/2015/byHour/2015CalcDC12.png, id=1560, 722.7pt x 433.62pt>
 File: graphs/2015/byHour/2015CalcDC12.png Graphic file (type png)
 <use graphs/2015/byHour/2015CalcDC12.png>
 Package pdftex.def Info: graphs/2015/byHour/2015CalcDC12.png  used on input lin
 e 364.
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
-<graphs/2019/2019CalcDC12.png, id=1544, 722.7pt x 433.62pt>
+<graphs/2019/2019CalcDC12.png, id=1561, 722.7pt x 433.62pt>
 File: graphs/2019/2019CalcDC12.png Graphic file (type png)
 <use graphs/2019/2019CalcDC12.png>
 Package pdftex.def Info: graphs/2019/2019CalcDC12.png  used on input line 369.
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
-<graphs/2022/2022CalcDC12.png, id=1545, 722.7pt x 433.62pt>
+<graphs/2022/2022CalcDC12.png, id=1562, 722.7pt x 433.62pt>
 File: graphs/2022/2022CalcDC12.png Graphic file (type png)
 <use graphs/2022/2022CalcDC12.png>
 Package pdftex.def Info: graphs/2022/2022CalcDC12.png  used on input line 374.
@@ -2744,19 +2540,19 @@ Package pdftex.def Info: graphs/2022/2022CalcDC12.png  used on input line 374.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/2015CalcISI12.png, id=1546, 722.7pt x 433.62pt>
+<graphs/2015/byHour/2015CalcISI12.png, id=1563, 722.7pt x 433.62pt>
 File: graphs/2015/byHour/2015CalcISI12.png Graphic file (type png)
 <use graphs/2015/byHour/2015CalcISI12.png>
 Package pdftex.def Info: graphs/2015/byHour/2015CalcISI12.png  used on input li
 ne 384.
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
-<graphs/2019/2019CalcISI12.png, id=1547, 722.7pt x 433.62pt>
+<graphs/2019/2019CalcISI12.png, id=1564, 722.7pt x 433.62pt>
 File: graphs/2019/2019CalcISI12.png Graphic file (type png)
 <use graphs/2019/2019CalcISI12.png>
 Package pdftex.def Info: graphs/2019/2019CalcISI12.png  used on input line 389.
 
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
-<graphs/2022/2022CalcISI12.png, id=1548, 722.7pt x 433.62pt>
+<graphs/2022/2022CalcISI12.png, id=1565, 722.7pt x 433.62pt>
 File: graphs/2022/2022CalcISI12.png Graphic file (type png)
 <use graphs/2022/2022CalcISI12.png>
 Package pdftex.def Info: graphs/2022/2022CalcISI12.png  used on input line 394.
@@ -2765,19 +2561,19 @@ Package pdftex.def Info: graphs/2022/2022CalcISI12.png  used on input line 394.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/2015CalcBUI12.png, id=1549, 722.7pt x 433.62pt>
+<graphs/2015/byHour/2015CalcBUI12.png, id=1566, 722.7pt x 433.62pt>
 File: graphs/2015/byHour/2015CalcBUI12.png Graphic file (type png)
 <use graphs/2015/byHour/2015CalcBUI12.png>
 Package pdftex.def Info: graphs/2015/byHour/2015CalcBUI12.png  used on input li
 ne 404.
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
-<graphs/2019/2019CalcBUI12.png, id=1550, 722.7pt x 433.62pt>
+<graphs/2019/2019CalcBUI12.png, id=1567, 722.7pt x 433.62pt>
 File: graphs/2019/2019CalcBUI12.png Graphic file (type png)
 <use graphs/2019/2019CalcBUI12.png>
 Package pdftex.def Info: graphs/2019/2019CalcBUI12.png  used on input line 409.
 
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
-<graphs/2022/2022CalcBUI12.png, id=1551, 722.7pt x 433.62pt>
+<graphs/2022/2022CalcBUI12.png, id=1568, 722.7pt x 433.62pt>
 File: graphs/2022/2022CalcBUI12.png Graphic file (type png)
 <use graphs/2022/2022CalcBUI12.png>
 Package pdftex.def Info: graphs/2022/2022CalcBUI12.png  used on input line 416.
@@ -2831,36 +2627,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [52 <./graphs/2015/byHour/2015CalcISI12.png> <./graphs/2019/2019CalcISI12.png> 
 <./graphs/2022/2022CalcISI12.png> <./graphs/2015/byHour/2015CalcBUI12.png> <./g
 raphs/2019/2019CalcBUI12.png> <./graphs/2022/2022CalcBUI12.png>]
-<graphs/2015/byHour/FWI_maxMin.png, id=1589, 1167.8832pt x 796.1745pt>
+<graphs/2015/byHour/FWI_maxMin.png, id=1606, 1167.8832pt x 796.1745pt>
 File: graphs/2015/byHour/FWI_maxMin.png Graphic file (type png)
 <use graphs/2015/byHour/FWI_maxMin.png>
 Package pdftex.def Info: graphs/2015/byHour/FWI_maxMin.png  used on input line 
 430.
 (pdftex.def)             Requested size: 192.0548pt x 130.92577pt.
-<graphs/2019/byHour/FWI_maxMin.png, id=1590, 1167.8832pt x 796.1745pt>
+<graphs/2019/byHour/FWI_maxMin.png, id=1607, 1167.8832pt x 796.1745pt>
 File: graphs/2019/byHour/FWI_maxMin.png Graphic file (type png)
 <use graphs/2019/byHour/FWI_maxMin.png>
 Package pdftex.def Info: graphs/2019/byHour/FWI_maxMin.png  used on input line 
 436.
 (pdftex.def)             Requested size: 192.0548pt x 130.92577pt.
-<graphs/2022/FWIX_maxMin.png, id=1591, 1167.8832pt x 796.1745pt>
+<graphs/2022/FWIX_maxMin.png, id=1608, 1167.8832pt x 796.1745pt>
 File: graphs/2022/FWIX_maxMin.png Graphic file (type png)
 <use graphs/2022/FWIX_maxMin.png>
 Package pdftex.def Info: graphs/2022/FWIX_maxMin.png  used on input line 442.
 (pdftex.def)             Requested size: 192.0548pt x 130.92577pt.
-<graphs/2015/byHour/FFMC_maxMin.png, id=1592, 1174.3875pt x 796.1745pt>
+<graphs/2015/byHour/FFMC_maxMin.png, id=1609, 1174.3875pt x 796.1745pt>
 File: graphs/2015/byHour/FFMC_maxMin.png Graphic file (type png)
 <use graphs/2015/byHour/FFMC_maxMin.png>
 Package pdftex.def Info: graphs/2015/byHour/FFMC_maxMin.png  used on input line
  454.
 (pdftex.def)             Requested size: 192.0548pt x 130.19685pt.
-<graphs/2019/byHour/FFMC_maxMin.png, id=1593, 1174.3875pt x 797.1381pt>
+<graphs/2019/byHour/FFMC_maxMin.png, id=1610, 1174.3875pt x 797.1381pt>
 File: graphs/2019/byHour/FFMC_maxMin.png Graphic file (type png)
 <use graphs/2019/byHour/FFMC_maxMin.png>
 Package pdftex.def Info: graphs/2019/byHour/FFMC_maxMin.png  used on input line
  460.
 (pdftex.def)             Requested size: 192.0548pt x 130.35443pt.
-<graphs/2022/FFMC_maxMin.png, id=1594, 1167.8832pt x 796.1745pt>
+<graphs/2022/FFMC_maxMin.png, id=1611, 1167.8832pt x 796.1745pt>
 File: graphs/2022/FFMC_maxMin.png Graphic file (type png)
 <use graphs/2022/FFMC_maxMin.png>
 Package pdftex.def Info: graphs/2022/FFMC_maxMin.png  used on input line 466.
@@ -2869,19 +2665,19 @@ Package pdftex.def Info: graphs/2022/FFMC_maxMin.png  used on input line 466.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/DMC_maxMin.png, id=1595, 1180.6509pt x 796.1745pt>
+<graphs/2015/byHour/DMC_maxMin.png, id=1612, 1180.6509pt x 796.1745pt>
 File: graphs/2015/byHour/DMC_maxMin.png Graphic file (type png)
 <use graphs/2015/byHour/DMC_maxMin.png>
 Package pdftex.def Info: graphs/2015/byHour/DMC_maxMin.png  used on input line 
 479.
 (pdftex.def)             Requested size: 192.0548pt x 129.50438pt.
-<graphs/2019/byHour/DMC_maxMin.png, id=1596, 1174.3875pt x 796.1745pt>
+<graphs/2019/byHour/DMC_maxMin.png, id=1613, 1174.3875pt x 796.1745pt>
 File: graphs/2019/byHour/DMC_maxMin.png Graphic file (type png)
 <use graphs/2019/byHour/DMC_maxMin.png>
 Package pdftex.def Info: graphs/2019/byHour/DMC_maxMin.png  used on input line 
 485.
 (pdftex.def)             Requested size: 192.0548pt x 130.19685pt.
-<graphs/2022/DMC_maxMin.png, id=1597, 1174.3875pt x 796.8972pt>
+<graphs/2022/DMC_maxMin.png, id=1614, 1174.3875pt x 796.8972pt>
 File: graphs/2022/DMC_maxMin.png Graphic file (type png)
 <use graphs/2022/DMC_maxMin.png>
 Package pdftex.def Info: graphs/2022/DMC_maxMin.png  used on input line 491.
@@ -2889,19 +2685,19 @@ Package pdftex.def Info: graphs/2022/DMC_maxMin.png  used on input line 491.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/DC_maxMin.png, id=1598, 1180.6509pt x 796.1745pt>
+<graphs/2015/byHour/DC_maxMin.png, id=1615, 1180.6509pt x 796.1745pt>
 File: graphs/2015/byHour/DC_maxMin.png Graphic file (type png)
 <use graphs/2015/byHour/DC_maxMin.png>
 Package pdftex.def Info: graphs/2015/byHour/DC_maxMin.png  used on input line 5
 03.
 (pdftex.def)             Requested size: 192.0548pt x 129.50438pt.
-<graphs/2019/byHour/DC_maxMin.png, id=1599, 1180.6509pt x 796.1745pt>
+<graphs/2019/byHour/DC_maxMin.png, id=1616, 1180.6509pt x 796.1745pt>
 File: graphs/2019/byHour/DC_maxMin.png Graphic file (type png)
 <use graphs/2019/byHour/DC_maxMin.png>
 Package pdftex.def Info: graphs/2019/byHour/DC_maxMin.png  used on input line 5
 09.
 (pdftex.def)             Requested size: 192.0548pt x 129.50438pt.
-<graphs/2022/DC_maxMin.png, id=1600, 1180.6509pt x 796.1745pt>
+<graphs/2022/DC_maxMin.png, id=1617, 1180.6509pt x 796.1745pt>
 File: graphs/2022/DC_maxMin.png Graphic file (type png)
 <use graphs/2022/DC_maxMin.png>
 Package pdftex.def Info: graphs/2022/DC_maxMin.png  used on input line 515.
@@ -2909,19 +2705,19 @@ Package pdftex.def Info: graphs/2022/DC_maxMin.png  used on input line 515.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/ISI_maxMin.png, id=1601, 1167.8832pt x 796.1745pt>
+<graphs/2015/byHour/ISI_maxMin.png, id=1618, 1167.8832pt x 796.1745pt>
 File: graphs/2015/byHour/ISI_maxMin.png Graphic file (type png)
 <use graphs/2015/byHour/ISI_maxMin.png>
 Package pdftex.def Info: graphs/2015/byHour/ISI_maxMin.png  used on input line 
 527.
 (pdftex.def)             Requested size: 192.0548pt x 130.92577pt.
-<graphs/2019/byHour/ISI_maxMin.png, id=1602, 1177.5192pt x 796.1745pt>
+<graphs/2019/byHour/ISI_maxMin.png, id=1619, 1177.5192pt x 796.1745pt>
 File: graphs/2019/byHour/ISI_maxMin.png Graphic file (type png)
 <use graphs/2019/byHour/ISI_maxMin.png>
 Package pdftex.def Info: graphs/2019/byHour/ISI_maxMin.png  used on input line 
 533.
 (pdftex.def)             Requested size: 192.0548pt x 129.85669pt.
-<graphs/2022/ISI_maxMin.png, id=1603, 1167.8832pt x 796.1745pt>
+<graphs/2022/ISI_maxMin.png, id=1620, 1167.8832pt x 796.1745pt>
 File: graphs/2022/ISI_maxMin.png Graphic file (type png)
 <use graphs/2022/ISI_maxMin.png>
 Package pdftex.def Info: graphs/2022/ISI_maxMin.png  used on input line 539.
@@ -2929,19 +2725,19 @@ Package pdftex.def Info: graphs/2022/ISI_maxMin.png  used on input line 539.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/BUI_maxMin.png, id=1604, 1180.6509pt x 796.1745pt>
+<graphs/2015/byHour/BUI_maxMin.png, id=1621, 1180.6509pt x 796.1745pt>
 File: graphs/2015/byHour/BUI_maxMin.png Graphic file (type png)
 <use graphs/2015/byHour/BUI_maxMin.png>
 Package pdftex.def Info: graphs/2015/byHour/BUI_maxMin.png  used on input line 
 550.
 (pdftex.def)             Requested size: 192.0548pt x 129.50438pt.
-<graphs/2019/byHour/BUI_maxMin.png, id=1605, 1180.6509pt x 796.1745pt>
+<graphs/2019/byHour/BUI_maxMin.png, id=1622, 1180.6509pt x 796.1745pt>
 File: graphs/2019/byHour/BUI_maxMin.png Graphic file (type png)
 <use graphs/2019/byHour/BUI_maxMin.png>
 Package pdftex.def Info: graphs/2019/byHour/BUI_maxMin.png  used on input line 
 556.
 (pdftex.def)             Requested size: 192.0548pt x 129.50438pt.
-<graphs/2022/BUI_maxMin.png, id=1606, 1174.3875pt x 796.1745pt>
+<graphs/2022/BUI_maxMin.png, id=1623, 1174.3875pt x 796.1745pt>
 File: graphs/2022/BUI_maxMin.png Graphic file (type png)
 <use graphs/2022/BUI_maxMin.png>
 Package pdftex.def Info: graphs/2022/BUI_maxMin.png  used on input line 562.
@@ -2993,41 +2789,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [56 <./graphs/2015/byHour/BUI_maxMin.png> <./graphs/2019/byHour/BUI_maxMin.png>
  <./graphs/2022/BUI_maxMin.png>]
-<graphs/2015/byHour/fwi_max_before_after.png, id=1642, 2274.5778pt x 1227.6264p
+<graphs/2015/byHour/fwi_max_before_after.png, id=1659, 2274.5778pt x 1227.6264p
 t>
 File: graphs/2015/byHour/fwi_max_before_after.png Graphic file (type png)
 <use graphs/2015/byHour/fwi_max_before_after.png>
 Package pdftex.def Info: graphs/2015/byHour/fwi_max_before_after.png  used on i
 nput line 577.
 (pdftex.def)             Requested size: 192.0548pt x 103.64441pt.
-<graphs/2019/byHour/FWI_max_before_after.png, id=1643, 2274.5778pt x 1227.6264p
+<graphs/2019/byHour/FWI_max_before_after.png, id=1660, 2274.5778pt x 1227.6264p
 t>
 File: graphs/2019/byHour/FWI_max_before_after.png Graphic file (type png)
 <use graphs/2019/byHour/FWI_max_before_after.png>
 Package pdftex.def Info: graphs/2019/byHour/FWI_max_before_after.png  used on i
 nput line 583.
 (pdftex.def)             Requested size: 192.0548pt x 103.64441pt.
-<graphs/2022/FWI_max_before_after.png, id=1644, 2274.5778pt x 1227.6264pt>
+<graphs/2022/FWI_max_before_after.png, id=1661, 2274.5778pt x 1227.6264pt>
 File: graphs/2022/FWI_max_before_after.png Graphic file (type png)
 <use graphs/2022/FWI_max_before_after.png>
 Package pdftex.def Info: graphs/2022/FWI_max_before_after.png  used on input li
 ne 589.
 (pdftex.def)             Requested size: 192.0548pt x 103.64441pt.
-<graphs/2015/byHour/FFMC_max_before_after.png, id=1645, 2280.8412pt x 1227.6264
+<graphs/2015/byHour/FFMC_max_before_after.png, id=1662, 2280.8412pt x 1227.6264
 pt>
 File: graphs/2015/byHour/FFMC_max_before_after.png Graphic file (type png)
 <use graphs/2015/byHour/FFMC_max_before_after.png>
 Package pdftex.def Info: graphs/2015/byHour/FFMC_max_before_after.png  used on 
 input line 600.
 (pdftex.def)             Requested size: 192.0548pt x 103.36342pt.
-<graphs/2019/byHour/FFMC_max_before_after.png, id=1646, 2280.8412pt x 1227.6264
+<graphs/2019/byHour/FFMC_max_before_after.png, id=1663, 2280.8412pt x 1227.6264
 pt>
 File: graphs/2019/byHour/FFMC_max_before_after.png Graphic file (type png)
 <use graphs/2019/byHour/FFMC_max_before_after.png>
 Package pdftex.def Info: graphs/2019/byHour/FFMC_max_before_after.png  used on 
 input line 606.
 (pdftex.def)             Requested size: 192.0548pt x 103.36342pt.
-<graphs/2022/FFMC_max_before_after.png, id=1647, 2280.8412pt x 1227.6264pt>
+<graphs/2022/FFMC_max_before_after.png, id=1664, 2280.8412pt x 1227.6264pt>
 File: graphs/2022/FFMC_max_before_after.png Graphic file (type png)
 <use graphs/2022/FFMC_max_before_after.png>
 Package pdftex.def Info: graphs/2022/FFMC_max_before_after.png  used on input l
@@ -3037,21 +2833,21 @@ ine 612.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/DMC_max_before_after.png, id=1648, 2287.3455pt x 1227.6264p
+<graphs/2015/byHour/DMC_max_before_after.png, id=1665, 2287.3455pt x 1227.6264p
 t>
 File: graphs/2015/byHour/DMC_max_before_after.png Graphic file (type png)
 <use graphs/2015/byHour/DMC_max_before_after.png>
 Package pdftex.def Info: graphs/2015/byHour/DMC_max_before_after.png  used on i
 nput line 623.
 (pdftex.def)             Requested size: 192.0548pt x 103.06372pt.
-<graphs/2019/byHour/DMC_max_before_after.png, id=1649, 2280.8412pt x 1227.6264p
+<graphs/2019/byHour/DMC_max_before_after.png, id=1666, 2280.8412pt x 1227.6264p
 t>
 File: graphs/2019/byHour/DMC_max_before_after.png Graphic file (type png)
 <use graphs/2019/byHour/DMC_max_before_after.png>
 Package pdftex.def Info: graphs/2019/byHour/DMC_max_before_after.png  used on i
 nput line 629.
 (pdftex.def)             Requested size: 192.0548pt x 103.36342pt.
-<graphs/2022/DMC_max_before_after.png, id=1650, 2280.8412pt x 1227.6264pt>
+<graphs/2022/DMC_max_before_after.png, id=1667, 2280.8412pt x 1227.6264pt>
 File: graphs/2022/DMC_max_before_after.png Graphic file (type png)
 <use graphs/2022/DMC_max_before_after.png>
 Package pdftex.def Info: graphs/2022/DMC_max_before_after.png  used on input li
@@ -3060,21 +2856,21 @@ ne 635.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/DC_max_before_after.png, id=1651, 2287.3455pt x 1227.6264pt
+<graphs/2015/byHour/DC_max_before_after.png, id=1668, 2287.3455pt x 1227.6264pt
 >
 File: graphs/2015/byHour/DC_max_before_after.png Graphic file (type png)
 <use graphs/2015/byHour/DC_max_before_after.png>
 Package pdftex.def Info: graphs/2015/byHour/DC_max_before_after.png  used on in
 put line 646.
 (pdftex.def)             Requested size: 192.0548pt x 103.06372pt.
-<graphs/2019/byHour/DC_max_before_after.png, id=1652, 2287.3455pt x 1227.6264pt
+<graphs/2019/byHour/DC_max_before_after.png, id=1669, 2287.3455pt x 1227.6264pt
 >
 File: graphs/2019/byHour/DC_max_before_after.png Graphic file (type png)
 <use graphs/2019/byHour/DC_max_before_after.png>
 Package pdftex.def Info: graphs/2019/byHour/DC_max_before_after.png  used on in
 put line 652.
 (pdftex.def)             Requested size: 192.0548pt x 103.06372pt.
-<graphs/2022/DC_max_before_after.png, id=1653, 2287.3455pt x 1227.6264pt>
+<graphs/2022/DC_max_before_after.png, id=1670, 2287.3455pt x 1227.6264pt>
 File: graphs/2022/DC_max_before_after.png Graphic file (type png)
 <use graphs/2022/DC_max_before_after.png>
 Package pdftex.def Info: graphs/2022/DC_max_before_after.png  used on input lin
@@ -3083,21 +2879,21 @@ e 658.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/ISI_max_before_after.png, id=1654, 2274.5778pt x 1227.6264p
+<graphs/2015/byHour/ISI_max_before_after.png, id=1671, 2274.5778pt x 1227.6264p
 t>
 File: graphs/2015/byHour/ISI_max_before_after.png Graphic file (type png)
 <use graphs/2015/byHour/ISI_max_before_after.png>
 Package pdftex.def Info: graphs/2015/byHour/ISI_max_before_after.png  used on i
 nput line 669.
 (pdftex.def)             Requested size: 192.0548pt x 103.64441pt.
-<graphs/2019/byHour/ISI_max_before_after.png, id=1655, 2283.9729pt x 1227.6264p
+<graphs/2019/byHour/ISI_max_before_after.png, id=1672, 2283.9729pt x 1227.6264p
 t>
 File: graphs/2019/byHour/ISI_max_before_after.png Graphic file (type png)
 <use graphs/2019/byHour/ISI_max_before_after.png>
 Package pdftex.def Info: graphs/2019/byHour/ISI_max_before_after.png  used on i
 nput line 675.
 (pdftex.def)             Requested size: 192.0548pt x 103.21358pt.
-<graphs/2022/ISI_max_before_after.png, id=1656, 2274.5778pt x 1227.6264pt>
+<graphs/2022/ISI_max_before_after.png, id=1673, 2274.5778pt x 1227.6264pt>
 File: graphs/2022/ISI_max_before_after.png Graphic file (type png)
 <use graphs/2022/ISI_max_before_after.png>
 Package pdftex.def Info: graphs/2022/ISI_max_before_after.png  used on input li
@@ -3106,21 +2902,21 @@ ne 681.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/BUI_max_before_after.png, id=1657, 2287.3455pt x 1227.6264p
+<graphs/2015/byHour/BUI_max_before_after.png, id=1674, 2287.3455pt x 1227.6264p
 t>
 File: graphs/2015/byHour/BUI_max_before_after.png Graphic file (type png)
 <use graphs/2015/byHour/BUI_max_before_after.png>
 Package pdftex.def Info: graphs/2015/byHour/BUI_max_before_after.png  used on i
 nput line 692.
 (pdftex.def)             Requested size: 192.0548pt x 103.06372pt.
-<graphs/2019/byHour/BUI_max_before_after.png, id=1658, 2287.3455pt x 1227.6264p
+<graphs/2019/byHour/BUI_max_before_after.png, id=1675, 2287.3455pt x 1227.6264p
 t>
 File: graphs/2019/byHour/BUI_max_before_after.png Graphic file (type png)
 <use graphs/2019/byHour/BUI_max_before_after.png>
 Package pdftex.def Info: graphs/2019/byHour/BUI_max_before_after.png  used on i
 nput line 698.
 (pdftex.def)             Requested size: 192.0548pt x 103.06372pt.
-<graphs/2022/BUI_max_before_after.png, id=1659, 2280.8412pt x 1227.6264pt>
+<graphs/2022/BUI_max_before_after.png, id=1676, 2280.8412pt x 1227.6264pt>
 File: graphs/2022/BUI_max_before_after.png Graphic file (type png)
 <use graphs/2022/BUI_max_before_after.png>
 Package pdftex.def Info: graphs/2022/BUI_max_before_after.png  used on input li
@@ -3175,37 +2971,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [60 <./graphs/2015/byHour/BUI_max_before_after.png> <./graphs/2019/byHour/BUI_m
 ax_before_after.png> <./graphs/2022/BUI_max_before_after.png>]
-<graphs/2015/byHour/FWI_DIFFmaxMin.png, id=1695, 1167.8832pt x 796.1745pt>
+<graphs/2015/byHour/FWI_DIFFmaxMin.png, id=1712, 1167.8832pt x 796.1745pt>
 File: graphs/2015/byHour/FWI_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2015/byHour/FWI_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2015/byHour/FWI_DIFFmaxMin.png  used on input l
 ine 721.
 (pdftex.def)             Requested size: 192.0548pt x 130.92577pt.
-<graphs/2019/byHour/FWI_DIFFmaxMin.png, id=1696, 1167.8832pt x 796.1745pt>
+<graphs/2019/byHour/FWI_DIFFmaxMin.png, id=1713, 1167.8832pt x 796.1745pt>
 File: graphs/2019/byHour/FWI_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2019/byHour/FWI_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2019/byHour/FWI_DIFFmaxMin.png  used on input l
 ine 727.
 (pdftex.def)             Requested size: 192.0548pt x 130.92577pt.
-<graphs/2022/FWIX_DIFFmaxMin.png, id=1697, 1167.8832pt x 796.1745pt>
+<graphs/2022/FWIX_DIFFmaxMin.png, id=1714, 1167.8832pt x 796.1745pt>
 File: graphs/2022/FWIX_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2022/FWIX_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2022/FWIX_DIFFmaxMin.png  used on input line 73
 3.
 (pdftex.def)             Requested size: 192.0548pt x 130.92577pt.
-<graphs/2015/byHour/FFMC_DIFFmaxMin.png, id=1698, 1167.8832pt x 796.1745pt>
+<graphs/2015/byHour/FFMC_DIFFmaxMin.png, id=1715, 1167.8832pt x 796.1745pt>
 File: graphs/2015/byHour/FFMC_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2015/byHour/FFMC_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2015/byHour/FFMC_DIFFmaxMin.png  used on input 
 line 744.
 (pdftex.def)             Requested size: 192.0548pt x 130.92577pt.
-<graphs/2019/byHour/FFMC_DIFFmaxMin.png, id=1699, 1167.8832pt x 796.1745pt>
+<graphs/2019/byHour/FFMC_DIFFmaxMin.png, id=1716, 1167.8832pt x 796.1745pt>
 File: graphs/2019/byHour/FFMC_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2019/byHour/FFMC_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2019/byHour/FFMC_DIFFmaxMin.png  used on input 
 line 750.
 (pdftex.def)             Requested size: 192.0548pt x 130.92577pt.
-<graphs/2022/FFMC_DIFFmaxMin.png, id=1700, 1167.8832pt x 796.1745pt>
+<graphs/2022/FFMC_DIFFmaxMin.png, id=1717, 1167.8832pt x 796.1745pt>
 File: graphs/2022/FFMC_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2022/FFMC_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2022/FFMC_DIFFmaxMin.png  used on input line 75
@@ -3215,19 +3011,19 @@ Package pdftex.def Info: graphs/2022/FFMC_DIFFmaxMin.png  used on input line 75
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/DMC_DIFFmaxMin.png, id=1701, 1180.6509pt x 796.1745pt>
+<graphs/2015/byHour/DMC_DIFFmaxMin.png, id=1718, 1180.6509pt x 796.1745pt>
 File: graphs/2015/byHour/DMC_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2015/byHour/DMC_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2015/byHour/DMC_DIFFmaxMin.png  used on input l
 ine 767.
 (pdftex.def)             Requested size: 192.0548pt x 129.50438pt.
-<graphs/2019/byHour/DMC_DIFFmaxMin.png, id=1702, 1174.3875pt x 796.1745pt>
+<graphs/2019/byHour/DMC_DIFFmaxMin.png, id=1719, 1174.3875pt x 796.1745pt>
 File: graphs/2019/byHour/DMC_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2019/byHour/DMC_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2019/byHour/DMC_DIFFmaxMin.png  used on input l
 ine 773.
 (pdftex.def)             Requested size: 192.0548pt x 130.19685pt.
-<graphs/2022/DMC_DIFFmaxMin.png, id=1703, 1167.8832pt x 796.1745pt>
+<graphs/2022/DMC_DIFFmaxMin.png, id=1720, 1167.8832pt x 796.1745pt>
 File: graphs/2022/DMC_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2022/DMC_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2022/DMC_DIFFmaxMin.png  used on input line 779
@@ -3236,19 +3032,19 @@ Package pdftex.def Info: graphs/2022/DMC_DIFFmaxMin.png  used on input line 779
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/DC_DIFFmaxMin.png, id=1704, 1180.6509pt x 796.1745pt>
+<graphs/2015/byHour/DC_DIFFmaxMin.png, id=1721, 1180.6509pt x 796.1745pt>
 File: graphs/2015/byHour/DC_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2015/byHour/DC_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2015/byHour/DC_DIFFmaxMin.png  used on input li
 ne 790.
 (pdftex.def)             Requested size: 192.0548pt x 129.50438pt.
-<graphs/2019/byHour/DC_DIFFmaxMin.png, id=1705, 1180.6509pt x 796.1745pt>
+<graphs/2019/byHour/DC_DIFFmaxMin.png, id=1722, 1180.6509pt x 796.1745pt>
 File: graphs/2019/byHour/DC_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2019/byHour/DC_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2019/byHour/DC_DIFFmaxMin.png  used on input li
 ne 796.
 (pdftex.def)             Requested size: 192.0548pt x 129.50438pt.
-<graphs/2022/DC_DIFFmaxMin.png, id=1706, 1174.3875pt x 796.1745pt>
+<graphs/2022/DC_DIFFmaxMin.png, id=1723, 1174.3875pt x 796.1745pt>
 File: graphs/2022/DC_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2022/DC_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2022/DC_DIFFmaxMin.png  used on input line 802.
@@ -3257,19 +3053,19 @@ Package pdftex.def Info: graphs/2022/DC_DIFFmaxMin.png  used on input line 802.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/ISI_DIFFmaxMin.png, id=1707, 1177.5192pt x 796.1745pt>
+<graphs/2015/byHour/ISI_DIFFmaxMin.png, id=1724, 1177.5192pt x 796.1745pt>
 File: graphs/2015/byHour/ISI_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2015/byHour/ISI_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2015/byHour/ISI_DIFFmaxMin.png  used on input l
 ine 813.
 (pdftex.def)             Requested size: 192.0548pt x 129.85669pt.
-<graphs/2019/byHour/ISI_DIFFmaxMin.png, id=1708, 1177.5192pt x 796.1745pt>
+<graphs/2019/byHour/ISI_DIFFmaxMin.png, id=1725, 1177.5192pt x 796.1745pt>
 File: graphs/2019/byHour/ISI_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2019/byHour/ISI_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2019/byHour/ISI_DIFFmaxMin.png  used on input l
 ine 819.
 (pdftex.def)             Requested size: 192.0548pt x 129.85669pt.
-<graphs/2022/ISI_DIFFmaxMin.png, id=1709, 1177.5192pt x 796.1745pt>
+<graphs/2022/ISI_DIFFmaxMin.png, id=1726, 1177.5192pt x 796.1745pt>
 File: graphs/2022/ISI_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2022/ISI_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2022/ISI_DIFFmaxMin.png  used on input line 825
@@ -3278,19 +3074,19 @@ Package pdftex.def Info: graphs/2022/ISI_DIFFmaxMin.png  used on input line 825
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/byHour/BUI_DIFFmaxMin.png, id=1710, 1180.6509pt x 796.1745pt>
+<graphs/2015/byHour/BUI_DIFFmaxMin.png, id=1727, 1180.6509pt x 796.1745pt>
 File: graphs/2015/byHour/BUI_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2015/byHour/BUI_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2015/byHour/BUI_DIFFmaxMin.png  used on input l
 ine 836.
 (pdftex.def)             Requested size: 192.0548pt x 129.50438pt.
-<graphs/2019/byHour/BUI_DIFFmaxMin.png, id=1711, 1180.6509pt x 796.1745pt>
+<graphs/2019/byHour/BUI_DIFFmaxMin.png, id=1728, 1180.6509pt x 796.1745pt>
 File: graphs/2019/byHour/BUI_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2019/byHour/BUI_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2019/byHour/BUI_DIFFmaxMin.png  used on input l
 ine 842.
 (pdftex.def)             Requested size: 192.0548pt x 129.50438pt.
-<graphs/2022/BUI_DIFFmaxMin.png, id=1712, 1174.3875pt x 796.1745pt>
+<graphs/2022/BUI_DIFFmaxMin.png, id=1729, 1174.3875pt x 796.1745pt>
 File: graphs/2022/BUI_DIFFmaxMin.png Graphic file (type png)
 <use graphs/2022/BUI_DIFFmaxMin.png>
 Package pdftex.def Info: graphs/2022/BUI_DIFFmaxMin.png  used on input line 848
@@ -3345,101 +3141,96 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [64 <./graphs/2015/byHour/BUI_DIFFmaxMin.png> <./graphs/2019/byHour/BUI_DIFFmax
 Min.png> <./graphs/2022/BUI_DIFFmaxMin.png>]
-<graphs/2015/tendency/2015_tendency_graph_FWI.png, id=1748, 406.1574pt x 375.56
-31pt>
-File: graphs/2015/tendency/2015_tendency_graph_FWI.png Graphic file (type png)
-<use graphs/2015/tendency/2015_tendency_graph_FWI.png>
-Package pdftex.def Info: graphs/2015/tendency/2015_tendency_graph_FWI.png  used
- on input line 863.
-(pdftex.def)             Requested size: 209.1301pt x 193.37418pt.
-<graphs/2019/tendency/2019_tendency_graph_FWI.png, id=1749, 406.1574pt x 375.56
-31pt>
-File: graphs/2019/tendency/2019_tendency_graph_FWI.png Graphic file (type png)
-<use graphs/2019/tendency/2019_tendency_graph_FWI.png>
-Package pdftex.def Info: graphs/2019/tendency/2019_tendency_graph_FWI.png  used
- on input line 870.
-(pdftex.def)             Requested size: 209.1301pt x 193.37418pt.
-<graphs/2015/tendency/2015_tendency_graph_FFMC.png, id=1750, 406.1574pt x 375.5
-631pt>
-File: graphs/2015/tendency/2015_tendency_graph_FFMC.png Graphic file (type png)
+<graphs/all_time/2015_tendency_graph_FWI.png, id=1765, 406.1574pt x 375.5631pt>
 
-<use graphs/2015/tendency/2015_tendency_graph_FFMC.png>
-Package pdftex.def Info: graphs/2015/tendency/2015_tendency_graph_FFMC.png  use
-d on input line 882.
+File: graphs/all_time/2015_tendency_graph_FWI.png Graphic file (type png)
+<use graphs/all_time/2015_tendency_graph_FWI.png>
+Package pdftex.def Info: graphs/all_time/2015_tendency_graph_FWI.png  used on i
+nput line 863.
 (pdftex.def)             Requested size: 209.1301pt x 193.37418pt.
-<graphs/2019/tendency/2019_tendency_graph_FFMC.png, id=1751, 406.1574pt x 375.5
-631pt>
-File: graphs/2019/tendency/2019_tendency_graph_FFMC.png Graphic file (type png)
+<graphs/all_time/2019_tendency_graph_FWI.png, id=1766, 406.1574pt x 375.5631pt>
 
-<use graphs/2019/tendency/2019_tendency_graph_FFMC.png>
-Package pdftex.def Info: graphs/2019/tendency/2019_tendency_graph_FFMC.png  use
-d on input line 889.
+File: graphs/all_time/2019_tendency_graph_FWI.png Graphic file (type png)
+<use graphs/all_time/2019_tendency_graph_FWI.png>
+Package pdftex.def Info: graphs/all_time/2019_tendency_graph_FWI.png  used on i
+nput line 870.
 (pdftex.def)             Requested size: 209.1301pt x 193.37418pt.
-<graphs/2015/tendency/2015_tendency_graph_DMC.png, id=1752, 418.9251pt x 375.56
-31pt>
-File: graphs/2015/tendency/2015_tendency_graph_DMC.png Graphic file (type png)
-<use graphs/2015/tendency/2015_tendency_graph_DMC.png>
-Package pdftex.def Info: graphs/2015/tendency/2015_tendency_graph_DMC.png  used
- on input line 901.
+<graphs/all_time/2015_tendency_graph_FFMC.png, id=1767, 406.1574pt x 375.5631pt
+>
+File: graphs/all_time/2015_tendency_graph_FFMC.png Graphic file (type png)
+<use graphs/all_time/2015_tendency_graph_FFMC.png>
+Package pdftex.def Info: graphs/all_time/2015_tendency_graph_FFMC.png  used on 
+input line 882.
+(pdftex.def)             Requested size: 209.1301pt x 193.37418pt.
+<graphs/all_time/2019_tendency_graph_FFMC.png, id=1768, 406.1574pt x 375.5631pt
+>
+File: graphs/all_time/2019_tendency_graph_FFMC.png Graphic file (type png)
+<use graphs/all_time/2019_tendency_graph_FFMC.png>
+Package pdftex.def Info: graphs/all_time/2019_tendency_graph_FFMC.png  used on 
+input line 889.
+(pdftex.def)             Requested size: 209.1301pt x 193.37418pt.
+<graphs/all_time/2015_tendency_graph_DMC.png, id=1769, 418.9251pt x 375.5631pt>
+
+File: graphs/all_time/2015_tendency_graph_DMC.png Graphic file (type png)
+<use graphs/all_time/2015_tendency_graph_DMC.png>
+Package pdftex.def Info: graphs/all_time/2015_tendency_graph_DMC.png  used on i
+nput line 901.
 (pdftex.def)             Requested size: 209.1301pt x 187.4831pt.
-<graphs/2019/tendency/2019_tendency_graph_DMC.png, id=1753, 412.6617pt x 375.56
-31pt>
-File: graphs/2019/tendency/2019_tendency_graph_DMC.png Graphic file (type png)
-<use graphs/2019/tendency/2019_tendency_graph_DMC.png>
-Package pdftex.def Info: graphs/2019/tendency/2019_tendency_graph_DMC.png  used
- on input line 908.
+<graphs/all_time/2019_tendency_graph_DMC.png, id=1770, 412.6617pt x 375.5631pt>
+
+File: graphs/all_time/2019_tendency_graph_DMC.png Graphic file (type png)
+<use graphs/all_time/2019_tendency_graph_DMC.png>
+Package pdftex.def Info: graphs/all_time/2019_tendency_graph_DMC.png  used on i
+nput line 908.
 (pdftex.def)             Requested size: 209.1301pt x 190.32549pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/tendency/2015_tendency_graph_DC.png, id=1754, 418.9251pt x 375.563
-1pt>
-File: graphs/2015/tendency/2015_tendency_graph_DC.png Graphic file (type png)
-<use graphs/2015/tendency/2015_tendency_graph_DC.png>
-Package pdftex.def Info: graphs/2015/tendency/2015_tendency_graph_DC.png  used 
-on input line 920.
+<graphs/all_time/2015_tendency_graph_DC.png, id=1771, 418.9251pt x 375.5631pt>
+File: graphs/all_time/2015_tendency_graph_DC.png Graphic file (type png)
+<use graphs/all_time/2015_tendency_graph_DC.png>
+Package pdftex.def Info: graphs/all_time/2015_tendency_graph_DC.png  used on in
+put line 920.
 (pdftex.def)             Requested size: 209.1301pt x 187.4831pt.
-<graphs/2019/tendency/2019_tendency_graph_DC.png, id=1755, 418.9251pt x 375.563
-1pt>
-File: graphs/2019/tendency/2019_tendency_graph_DC.png Graphic file (type png)
-<use graphs/2019/tendency/2019_tendency_graph_DC.png>
-Package pdftex.def Info: graphs/2019/tendency/2019_tendency_graph_DC.png  used 
-on input line 927.
+<graphs/all_time/2019_tendency_graph_DC.png, id=1772, 418.9251pt x 375.5631pt>
+File: graphs/all_time/2019_tendency_graph_DC.png Graphic file (type png)
+<use graphs/all_time/2019_tendency_graph_DC.png>
+Package pdftex.def Info: graphs/all_time/2019_tendency_graph_DC.png  used on in
+put line 927.
 (pdftex.def)             Requested size: 209.1301pt x 187.4831pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/tendency/2015_tendency_graph_ISI.png, id=1756, 406.1574pt x 375.56
-31pt>
-File: graphs/2015/tendency/2015_tendency_graph_ISI.png Graphic file (type png)
-<use graphs/2015/tendency/2015_tendency_graph_ISI.png>
-Package pdftex.def Info: graphs/2015/tendency/2015_tendency_graph_ISI.png  used
- on input line 939.
+<graphs/all_time/2015_tendency_graph_ISI.png, id=1773, 406.1574pt x 375.5631pt>
+
+File: graphs/all_time/2015_tendency_graph_ISI.png Graphic file (type png)
+<use graphs/all_time/2015_tendency_graph_ISI.png>
+Package pdftex.def Info: graphs/all_time/2015_tendency_graph_ISI.png  used on i
+nput line 939.
 (pdftex.def)             Requested size: 209.1301pt x 193.37418pt.
-<graphs/2019/tendency/2019_tendency_graph_ISI.png, id=1757, 399.894pt x 375.563
-1pt>
-File: graphs/2019/tendency/2019_tendency_graph_ISI.png Graphic file (type png)
-<use graphs/2019/tendency/2019_tendency_graph_ISI.png>
-Package pdftex.def Info: graphs/2019/tendency/2019_tendency_graph_ISI.png  used
- on input line 946.
+<graphs/all_time/2019_tendency_graph_ISI.png, id=1774, 399.894pt x 375.5631pt>
+File: graphs/all_time/2019_tendency_graph_ISI.png Graphic file (type png)
+<use graphs/all_time/2019_tendency_graph_ISI.png>
+Package pdftex.def Info: graphs/all_time/2019_tendency_graph_ISI.png  used on i
+nput line 946.
 (pdftex.def)             Requested size: 209.1301pt x 196.40567pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/tendency/2015_tendency_graph_BUI.png, id=1758, 418.9251pt x 375.56
-31pt>
-File: graphs/2015/tendency/2015_tendency_graph_BUI.png Graphic file (type png)
-<use graphs/2015/tendency/2015_tendency_graph_BUI.png>
-Package pdftex.def Info: graphs/2015/tendency/2015_tendency_graph_BUI.png  used
- on input line 958.
+<graphs/all_time/2015_tendency_graph_BUI.png, id=1775, 418.9251pt x 375.5631pt>
+
+File: graphs/all_time/2015_tendency_graph_BUI.png Graphic file (type png)
+<use graphs/all_time/2015_tendency_graph_BUI.png>
+Package pdftex.def Info: graphs/all_time/2015_tendency_graph_BUI.png  used on i
+nput line 958.
 (pdftex.def)             Requested size: 209.1301pt x 187.4831pt.
-<graphs/2019/tendency/2019_tendency_graph_BUI.png, id=1759, 412.6617pt x 375.56
-31pt>
-File: graphs/2019/tendency/2019_tendency_graph_BUI.png Graphic file (type png)
-<use graphs/2019/tendency/2019_tendency_graph_BUI.png>
-Package pdftex.def Info: graphs/2019/tendency/2019_tendency_graph_BUI.png  used
- on input line 965.
+<graphs/all_time/2019_tendency_graph_BUI.png, id=1776, 412.6617pt x 375.5631pt>
+
+File: graphs/all_time/2019_tendency_graph_BUI.png Graphic file (type png)
+<use graphs/all_time/2019_tendency_graph_BUI.png>
+Package pdftex.def Info: graphs/all_time/2019_tendency_graph_BUI.png  used on i
+nput line 965.
 (pdftex.def)             Requested size: 209.1301pt x 190.32549pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -3454,9 +3245,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [65
 
- <./graphs/2015/tendency/2015_tendency_graph_FWI.png> <./graphs/2019/tendency/2
-019_tendency_graph_FWI.png> <./graphs/2015/tendency/2015_tendency_graph_FFMC.pn
-g> <./graphs/2019/tendency/2019_tendency_graph_FFMC.png>]
+ <./graphs/all_time/2015_tendency_graph_FWI.png> <./graphs/all_time/2019_tenden
+cy_graph_FWI.png> <./graphs/all_time/2015_tendency_graph_FFMC.png> <./graphs/al
+l_time/2019_tendency_graph_FFMC.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3465,9 +3256,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[66 <./graphs/2015/tendency/2015_tendency_graph_DMC.png> <./graphs/2019/tendenc
-y/2019_tendency_graph_DMC.png> <./graphs/2015/tendency/2015_tendency_graph_DC.p
-ng> <./graphs/2019/tendency/2019_tendency_graph_DC.png>]
+[66 <./graphs/all_time/2015_tendency_graph_DMC.png> <./graphs/all_time/2019_ten
+dency_graph_DMC.png> <./graphs/all_time/2015_tendency_graph_DC.png> <./graphs/a
+ll_time/2019_tendency_graph_DC.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3476,155 +3267,346 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[67 <./graphs/2015/tendency/2015_tendency_graph_ISI.png> <./graphs/2019/tendenc
-y/2019_tendency_graph_ISI.png> <./graphs/2015/tendency/2015_tendency_graph_BUI.
-png> <./graphs/2019/tendency/2019_tendency_graph_BUI.png>]
-<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_FWI.png, id=1785, 406.
-1574pt x 375.5631pt>
-File: graphs/2015/15daysprior/2015_15daysprior_tendency_graph_FWI.png Graphic f
-ile (type png)
-<use graphs/2015/15daysprior/2015_15daysprior_tendency_graph_FWI.png>
-Package pdftex.def Info: graphs/2015/15daysprior/2015_15daysprior_tendency_grap
-h_FWI.png  used on input line 984.
+[67 <./graphs/all_time/2015_tendency_graph_ISI.png> <./graphs/all_time/2019_ten
+dency_graph_ISI.png> <./graphs/all_time/2015_tendency_graph_BUI.png> <./graphs/
+all_time/2019_tendency_graph_BUI.png>]
+<graphs/15days/2015_15daysprior_tendency_graph_FWI.png, id=1802, 406.1574pt x 3
+75.5631pt>
+File: graphs/15days/2015_15daysprior_tendency_graph_FWI.png Graphic file (type 
+png)
+<use graphs/15days/2015_15daysprior_tendency_graph_FWI.png>
+Package pdftex.def Info: graphs/15days/2015_15daysprior_tendency_graph_FWI.png 
+ used on input line 984.
 (pdftex.def)             Requested size: 128.0387pt x 118.38896pt.
-<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_FWI.png, id=1786, 406.
-1574pt x 375.5631pt>
-File: graphs/2019/15daysprior/2019_15daysprior_tendency_graph_FWI.png Graphic f
-ile (type png)
-<use graphs/2019/15daysprior/2019_15daysprior_tendency_graph_FWI.png>
-Package pdftex.def Info: graphs/2019/15daysprior/2019_15daysprior_tendency_grap
-h_FWI.png  used on input line 991.
+<graphs/15days/2019_15daysprior_tendency_graph_FWI.png, id=1803, 406.1574pt x 3
+75.5631pt>
+File: graphs/15days/2019_15daysprior_tendency_graph_FWI.png Graphic file (type 
+png)
+<use graphs/15days/2019_15daysprior_tendency_graph_FWI.png>
+Package pdftex.def Info: graphs/15days/2019_15daysprior_tendency_graph_FWI.png 
+ used on input line 991.
 (pdftex.def)             Requested size: 128.0387pt x 118.38896pt.
-<graphs/2022/tendency/2022_tendency_graph_FWI.png, id=1787, 406.1574pt x 375.56
-31pt>
-File: graphs/2022/tendency/2022_tendency_graph_FWI.png Graphic file (type png)
-<use graphs/2022/tendency/2022_tendency_graph_FWI.png>
-Package pdftex.def Info: graphs/2022/tendency/2022_tendency_graph_FWI.png  used
- on input line 998.
+<graphs/15days/2022_15daysprior_tendency_graph_FWI.png, id=1804, 406.1574pt x 3
+75.5631pt>
+File: graphs/15days/2022_15daysprior_tendency_graph_FWI.png Graphic file (type 
+png)
+<use graphs/15days/2022_15daysprior_tendency_graph_FWI.png>
+Package pdftex.def Info: graphs/15days/2022_15daysprior_tendency_graph_FWI.png 
+ used on input line 998.
 (pdftex.def)             Requested size: 128.0387pt x 118.38896pt.
-<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_FFMC.png, id=1788, 406
-.1574pt x 375.5631pt>
-File: graphs/2015/15daysprior/2015_15daysprior_tendency_graph_FFMC.png Graphic 
-file (type png)
-<use graphs/2015/15daysprior/2015_15daysprior_tendency_graph_FFMC.png>
-Package pdftex.def Info: graphs/2015/15daysprior/2015_15daysprior_tendency_grap
-h_FFMC.png  used on input line 1011.
+<graphs/15days/2015_15daysprior_tendency_graph_FFMC.png, id=1805, 406.1574pt x 
+375.5631pt>
+File: graphs/15days/2015_15daysprior_tendency_graph_FFMC.png Graphic file (type
+ png)
+<use graphs/15days/2015_15daysprior_tendency_graph_FFMC.png>
+Package pdftex.def Info: graphs/15days/2015_15daysprior_tendency_graph_FFMC.png
+  used on input line 1011.
 (pdftex.def)             Requested size: 128.0387pt x 118.38896pt.
-<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_FFMC.png, id=1789, 415
-.7934pt x 375.5631pt>
-File: graphs/2019/15daysprior/2019_15daysprior_tendency_graph_FFMC.png Graphic 
-file (type png)
-<use graphs/2019/15daysprior/2019_15daysprior_tendency_graph_FFMC.png>
-Package pdftex.def Info: graphs/2019/15daysprior/2019_15daysprior_tendency_grap
-h_FFMC.png  used on input line 1018.
-(pdftex.def)             Requested size: 128.0387pt x 115.64972pt.
-<graphs/2022/tendency/2022_tendency_graph_FFMC.png, id=1790, 406.1574pt x 375.5
-631pt>
-File: graphs/2022/tendency/2022_tendency_graph_FFMC.png Graphic file (type png)
-
-<use graphs/2022/tendency/2022_tendency_graph_FFMC.png>
-Package pdftex.def Info: graphs/2022/tendency/2022_tendency_graph_FFMC.png  use
-d on input line 1025.
+<graphs/15days/2019_15daysprior_tendency_graph_FFMC.png, id=1806, 406.1574pt x 
+375.5631pt>
+File: graphs/15days/2019_15daysprior_tendency_graph_FFMC.png Graphic file (type
+ png)
+<use graphs/15days/2019_15daysprior_tendency_graph_FFMC.png>
+Package pdftex.def Info: graphs/15days/2019_15daysprior_tendency_graph_FFMC.png
+  used on input line 1018.
 (pdftex.def)             Requested size: 128.0387pt x 118.38896pt.
-<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_DMC.png, id=1791, 412.
-6617pt x 375.5631pt>
-File: graphs/2015/15daysprior/2015_15daysprior_tendency_graph_DMC.png Graphic f
-ile (type png)
-<use graphs/2015/15daysprior/2015_15daysprior_tendency_graph_DMC.png>
-Package pdftex.def Info: graphs/2015/15daysprior/2015_15daysprior_tendency_grap
-h_DMC.png  used on input line 1038.
+<graphs/15days/2022_15daysprior_tendency_graph_FFMC.png, id=1807, 406.1574pt x 
+375.5631pt>
+File: graphs/15days/2022_15daysprior_tendency_graph_FFMC.png Graphic file (type
+ png)
+<use graphs/15days/2022_15daysprior_tendency_graph_FFMC.png>
+Package pdftex.def Info: graphs/15days/2022_15daysprior_tendency_graph_FFMC.png
+  used on input line 1025.
+(pdftex.def)             Requested size: 128.0387pt x 118.38896pt.
+<graphs/15days/2015_15daysprior_tendency_graph_DMC.png, id=1808, 412.6617pt x 3
+75.5631pt>
+File: graphs/15days/2015_15daysprior_tendency_graph_DMC.png Graphic file (type 
+png)
+<use graphs/15days/2015_15daysprior_tendency_graph_DMC.png>
+Package pdftex.def Info: graphs/15days/2015_15daysprior_tendency_graph_DMC.png 
+ used on input line 1038.
 (pdftex.def)             Requested size: 128.0387pt x 116.5265pt.
-<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_DMC.png, id=1792, 412.
-6617pt x 375.5631pt>
-File: graphs/2019/15daysprior/2019_15daysprior_tendency_graph_DMC.png Graphic f
-ile (type png)
-<use graphs/2019/15daysprior/2019_15daysprior_tendency_graph_DMC.png>
-Package pdftex.def Info: graphs/2019/15daysprior/2019_15daysprior_tendency_grap
-h_DMC.png  used on input line 1045.
+<graphs/15days/2019_15daysprior_tendency_graph_DMC.png, id=1809, 412.6617pt x 3
+75.5631pt>
+File: graphs/15days/2019_15daysprior_tendency_graph_DMC.png Graphic file (type 
+png)
+<use graphs/15days/2019_15daysprior_tendency_graph_DMC.png>
+Package pdftex.def Info: graphs/15days/2019_15daysprior_tendency_graph_DMC.png 
+ used on input line 1045.
 (pdftex.def)             Requested size: 128.0387pt x 116.5265pt.
-<graphs/2022/tendency/2022_tendency_graph_DMC.png, id=1793, 412.6617pt x 375.56
-31pt>
-File: graphs/2022/tendency/2022_tendency_graph_DMC.png Graphic file (type png)
-<use graphs/2022/tendency/2022_tendency_graph_DMC.png>
-Package pdftex.def Info: graphs/2022/tendency/2022_tendency_graph_DMC.png  used
- on input line 1052.
+<graphs/15days/2022_15daysprior_tendency_graph_DMC.png, id=1810, 412.6617pt x 3
+75.5631pt>
+File: graphs/15days/2022_15daysprior_tendency_graph_DMC.png Graphic file (type 
+png)
+<use graphs/15days/2022_15daysprior_tendency_graph_DMC.png>
+Package pdftex.def Info: graphs/15days/2022_15daysprior_tendency_graph_DMC.png 
+ used on input line 1052.
 (pdftex.def)             Requested size: 128.0387pt x 116.5265pt.
-<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_DC.png, id=1794, 418.9
-251pt x 375.5631pt>
-File: graphs/2015/15daysprior/2015_15daysprior_tendency_graph_DC.png Graphic fi
-le (type png)
-<use graphs/2015/15daysprior/2015_15daysprior_tendency_graph_DC.png>
-Package pdftex.def Info: graphs/2015/15daysprior/2015_15daysprior_tendency_grap
-h_DC.png  used on input line 1065.
+<graphs/15days/2015_15daysprior_tendency_graph_DC.png, id=1811, 418.9251pt x 37
+5.5631pt>
+File: graphs/15days/2015_15daysprior_tendency_graph_DC.png Graphic file (type p
+ng)
+<use graphs/15days/2015_15daysprior_tendency_graph_DC.png>
+Package pdftex.def Info: graphs/15days/2015_15daysprior_tendency_graph_DC.png  
+used on input line 1065.
 (pdftex.def)             Requested size: 128.0387pt x 114.7844pt.
-<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_DC.png, id=1795, 418.9
-251pt x 375.5631pt>
-File: graphs/2019/15daysprior/2019_15daysprior_tendency_graph_DC.png Graphic fi
-le (type png)
-<use graphs/2019/15daysprior/2019_15daysprior_tendency_graph_DC.png>
-Package pdftex.def Info: graphs/2019/15daysprior/2019_15daysprior_tendency_grap
-h_DC.png  used on input line 1072.
+<graphs/15days/2019_15daysprior_tendency_graph_DC.png, id=1812, 418.9251pt x 37
+5.5631pt>
+File: graphs/15days/2019_15daysprior_tendency_graph_DC.png Graphic file (type p
+ng)
+<use graphs/15days/2019_15daysprior_tendency_graph_DC.png>
+Package pdftex.def Info: graphs/15days/2019_15daysprior_tendency_graph_DC.png  
+used on input line 1072.
 (pdftex.def)             Requested size: 128.0387pt x 114.7844pt.
-<graphs/2022/tendency/2022_tendency_graph_DC.png, id=1796, 418.9251pt x 375.563
-1pt>
-File: graphs/2022/tendency/2022_tendency_graph_DC.png Graphic file (type png)
-<use graphs/2022/tendency/2022_tendency_graph_DC.png>
-Package pdftex.def Info: graphs/2022/tendency/2022_tendency_graph_DC.png  used 
-on input line 1079.
+<graphs/15days/2022_15daysprior_tendency_graph_DC.png, id=1813, 418.9251pt x 37
+5.5631pt>
+File: graphs/15days/2022_15daysprior_tendency_graph_DC.png Graphic file (type p
+ng)
+<use graphs/15days/2022_15daysprior_tendency_graph_DC.png>
+Package pdftex.def Info: graphs/15days/2022_15daysprior_tendency_graph_DC.png  
+used on input line 1079.
 (pdftex.def)             Requested size: 128.0387pt x 114.7844pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_ISI.png, id=1797, 399.
-894pt x 375.5631pt>
-File: graphs/2015/15daysprior/2015_15daysprior_tendency_graph_ISI.png Graphic f
-ile (type png)
-<use graphs/2015/15daysprior/2015_15daysprior_tendency_graph_ISI.png>
-Package pdftex.def Info: graphs/2015/15daysprior/2015_15daysprior_tendency_grap
-h_ISI.png  used on input line 1092.
+<graphs/15days/2015_15daysprior_tendency_graph_ISI.png, id=1814, 399.894pt x 37
+5.5631pt>
+File: graphs/15days/2015_15daysprior_tendency_graph_ISI.png Graphic file (type 
+png)
+<use graphs/15days/2015_15daysprior_tendency_graph_ISI.png>
+Package pdftex.def Info: graphs/15days/2015_15daysprior_tendency_graph_ISI.png 
+ used on input line 1092.
 (pdftex.def)             Requested size: 128.0387pt x 120.24568pt.
-<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_ISI.png, id=1798, 399.
-894pt x 375.5631pt>
-File: graphs/2019/15daysprior/2019_15daysprior_tendency_graph_ISI.png Graphic f
-ile (type png)
-<use graphs/2019/15daysprior/2019_15daysprior_tendency_graph_ISI.png>
-Package pdftex.def Info: graphs/2019/15daysprior/2019_15daysprior_tendency_grap
-h_ISI.png  used on input line 1099.
+<graphs/15days/2019_15daysprior_tendency_graph_ISI.png, id=1815, 399.894pt x 37
+5.5631pt>
+File: graphs/15days/2019_15daysprior_tendency_graph_ISI.png Graphic file (type 
+png)
+<use graphs/15days/2019_15daysprior_tendency_graph_ISI.png>
+Package pdftex.def Info: graphs/15days/2019_15daysprior_tendency_graph_ISI.png 
+ used on input line 1099.
 (pdftex.def)             Requested size: 128.0387pt x 120.24568pt.
-<graphs/2022/tendency/2022_tendency_graph_ISI.png, id=1799, 399.894pt x 375.563
-1pt>
-File: graphs/2022/tendency/2022_tendency_graph_ISI.png Graphic file (type png)
-<use graphs/2022/tendency/2022_tendency_graph_ISI.png>
-Package pdftex.def Info: graphs/2022/tendency/2022_tendency_graph_ISI.png  used
- on input line 1106.
+<graphs/15days/2022_15daysprior_tendency_graph_ISI.png, id=1816, 399.894pt x 37
+5.5631pt>
+File: graphs/15days/2022_15daysprior_tendency_graph_ISI.png Graphic file (type 
+png)
+<use graphs/15days/2022_15daysprior_tendency_graph_ISI.png>
+Package pdftex.def Info: graphs/15days/2022_15daysprior_tendency_graph_ISI.png 
+ used on input line 1106.
 (pdftex.def)             Requested size: 128.0387pt x 120.24568pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/2015/15daysprior/2015_15daysprior_tendency_graph_BUI.png, id=1800, 412.
-6617pt x 375.5631pt>
-File: graphs/2015/15daysprior/2015_15daysprior_tendency_graph_BUI.png Graphic f
-ile (type png)
-<use graphs/2015/15daysprior/2015_15daysprior_tendency_graph_BUI.png>
-Package pdftex.def Info: graphs/2015/15daysprior/2015_15daysprior_tendency_grap
-h_BUI.png  used on input line 1119.
+<graphs/15days/2015_15daysprior_tendency_graph_BUI.png, id=1817, 412.6617pt x 3
+75.5631pt>
+File: graphs/15days/2015_15daysprior_tendency_graph_BUI.png Graphic file (type 
+png)
+<use graphs/15days/2015_15daysprior_tendency_graph_BUI.png>
+Package pdftex.def Info: graphs/15days/2015_15daysprior_tendency_graph_BUI.png 
+ used on input line 1119.
 (pdftex.def)             Requested size: 128.0387pt x 116.5265pt.
-<graphs/2019/15daysprior/2019_15daysprior_tendency_graph_BUI.png, id=1801, 412.
-6617pt x 375.5631pt>
-File: graphs/2019/15daysprior/2019_15daysprior_tendency_graph_BUI.png Graphic f
-ile (type png)
-<use graphs/2019/15daysprior/2019_15daysprior_tendency_graph_BUI.png>
-Package pdftex.def Info: graphs/2019/15daysprior/2019_15daysprior_tendency_grap
-h_BUI.png  used on input line 1126.
+<graphs/15days/2019_15daysprior_tendency_graph_BUI.png, id=1818, 412.6617pt x 3
+75.5631pt>
+File: graphs/15days/2019_15daysprior_tendency_graph_BUI.png Graphic file (type 
+png)
+<use graphs/15days/2019_15daysprior_tendency_graph_BUI.png>
+Package pdftex.def Info: graphs/15days/2019_15daysprior_tendency_graph_BUI.png 
+ used on input line 1126.
 (pdftex.def)             Requested size: 128.0387pt x 116.5265pt.
-<graphs/2022/tendency/2022_tendency_graph_BUI.png, id=1802, 412.6617pt x 375.56
-31pt>
-File: graphs/2022/tendency/2022_tendency_graph_BUI.png Graphic file (type png)
-<use graphs/2022/tendency/2022_tendency_graph_BUI.png>
-Package pdftex.def Info: graphs/2022/tendency/2022_tendency_graph_BUI.png  used
- on input line 1133.
+<graphs/15days/2022_15daysprior_tendency_graph_BUI.png, id=1819, 412.6617pt x 3
+75.5631pt>
+File: graphs/15days/2022_15daysprior_tendency_graph_BUI.png Graphic file (type 
+png)
+<use graphs/15days/2022_15daysprior_tendency_graph_BUI.png>
+Package pdftex.def Info: graphs/15days/2022_15daysprior_tendency_graph_BUI.png 
+ used on input line 1133.
 (pdftex.def)             Requested size: 128.0387pt x 116.5265pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[68
+
+ <./graphs/15days/2015_15daysprior_tendency_graph_FWI.png> <./graphs/15days/201
+9_15daysprior_tendency_graph_FWI.png> <./graphs/15days/2022_15daysprior_tendenc
+y_graph_FWI.png> <./graphs/15days/2015_15daysprior_tendency_graph_FFMC.png> <./
+graphs/15days/2019_15daysprior_tendency_graph_FFMC.png> <./graphs/15days/2022_1
+5daysprior_tendency_graph_FFMC.png> <./graphs/15days/2015_15daysprior_tendency_
+graph_DMC.png> <./graphs/15days/2019_15daysprior_tendency_graph_DMC.png> <./gra
+phs/15days/2022_15daysprior_tendency_graph_DMC.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[69 <./graphs/15days/2015_15daysprior_tendency_graph_DC.png> <./graphs/15days/2
+019_15daysprior_tendency_graph_DC.png> <./graphs/15days/2022_15daysprior_tenden
+cy_graph_DC.png> <./graphs/15days/2015_15daysprior_tendency_graph_ISI.png> <./g
+raphs/15days/2019_15daysprior_tendency_graph_ISI.png> <./graphs/15days/2022_15d
+aysprior_tendency_graph_ISI.png> <./graphs/15days/2015_15daysprior_tendency_gra
+ph_BUI.png> <./graphs/15days/2019_15daysprior_tendency_graph_BUI.png> <./graphs
+/15days/2022_15daysprior_tendency_graph_BUI.png>]
+<graphs/3days/2015_3daysprior_tendency_graph_FWI.png, id=1846, 415.7934pt x 362
+.3136pt>
+File: graphs/3days/2015_3daysprior_tendency_graph_FWI.png Graphic file (type pn
+g)
+<use graphs/3days/2015_3daysprior_tendency_graph_FWI.png>
+Package pdftex.def Info: graphs/3days/2015_3daysprior_tendency_graph_FWI.png  u
+sed on input line 1150.
+(pdftex.def)             Requested size: 128.0387pt x 111.5697pt.
+<graphs/3days/2019_3daysprior_tendency_graph_FWI.png, id=1847, 406.1574pt x 362
+.3136pt>
+File: graphs/3days/2019_3daysprior_tendency_graph_FWI.png Graphic file (type pn
+g)
+<use graphs/3days/2019_3daysprior_tendency_graph_FWI.png>
+Package pdftex.def Info: graphs/3days/2019_3daysprior_tendency_graph_FWI.png  u
+sed on input line 1157.
+(pdftex.def)             Requested size: 128.0387pt x 114.21231pt.
+<graphs/3days/2022_3daysprior_tendency_graph_FWI.png, id=1848, 406.1574pt x 362
+.3136pt>
+File: graphs/3days/2022_3daysprior_tendency_graph_FWI.png Graphic file (type pn
+g)
+<use graphs/3days/2022_3daysprior_tendency_graph_FWI.png>
+Package pdftex.def Info: graphs/3days/2022_3daysprior_tendency_graph_FWI.png  u
+sed on input line 1164.
+(pdftex.def)             Requested size: 128.0387pt x 114.21231pt.
+<graphs/3days/2015_3daysprior_tendency_graph_FFMC.png, id=1849, 406.1574pt x 36
+2.3136pt>
+File: graphs/3days/2015_3daysprior_tendency_graph_FFMC.png Graphic file (type p
+ng)
+<use graphs/3days/2015_3daysprior_tendency_graph_FFMC.png>
+Package pdftex.def Info: graphs/3days/2015_3daysprior_tendency_graph_FFMC.png  
+used on input line 1177.
+(pdftex.def)             Requested size: 128.0387pt x 114.21231pt.
+<graphs/3days/2019_3daysprior_tendency_graph_FFMC.png, id=1850, 406.1574pt x 36
+2.3136pt>
+File: graphs/3days/2019_3daysprior_tendency_graph_FFMC.png Graphic file (type p
+ng)
+<use graphs/3days/2019_3daysprior_tendency_graph_FFMC.png>
+Package pdftex.def Info: graphs/3days/2019_3daysprior_tendency_graph_FFMC.png  
+used on input line 1184.
+(pdftex.def)             Requested size: 128.0387pt x 114.21231pt.
+<graphs/3days/2022_3daysprior_tendency_graph_FFMC.png, id=1851, 406.1574pt x 36
+2.3136pt>
+File: graphs/3days/2022_3daysprior_tendency_graph_FFMC.png Graphic file (type p
+ng)
+<use graphs/3days/2022_3daysprior_tendency_graph_FFMC.png>
+Package pdftex.def Info: graphs/3days/2022_3daysprior_tendency_graph_FFMC.png  
+used on input line 1191.
+(pdftex.def)             Requested size: 128.0387pt x 114.21231pt.
+<graphs/3days/2015_3daysprior_tendency_graph_DMC.png, id=1852, 412.6617pt x 362
+.3136pt>
+File: graphs/3days/2015_3daysprior_tendency_graph_DMC.png Graphic file (type pn
+g)
+<use graphs/3days/2015_3daysprior_tendency_graph_DMC.png>
+Package pdftex.def Info: graphs/3days/2015_3daysprior_tendency_graph_DMC.png  u
+sed on input line 1204.
+(pdftex.def)             Requested size: 128.0387pt x 112.41556pt.
+<graphs/3days/2019_3daysprior_tendency_graph_DMC.png, id=1853, 412.6617pt x 362
+.3136pt>
+File: graphs/3days/2019_3daysprior_tendency_graph_DMC.png Graphic file (type pn
+g)
+<use graphs/3days/2019_3daysprior_tendency_graph_DMC.png>
+Package pdftex.def Info: graphs/3days/2019_3daysprior_tendency_graph_DMC.png  u
+sed on input line 1211.
+(pdftex.def)             Requested size: 128.0387pt x 112.41556pt.
+<graphs/3days/2022_3daysprior_tendency_graph_DMC.png, id=1854, 412.6617pt x 362
+.3136pt>
+File: graphs/3days/2022_3daysprior_tendency_graph_DMC.png Graphic file (type pn
+g)
+<use graphs/3days/2022_3daysprior_tendency_graph_DMC.png>
+Package pdftex.def Info: graphs/3days/2022_3daysprior_tendency_graph_DMC.png  u
+sed on input line 1218.
+(pdftex.def)             Requested size: 128.0387pt x 112.41556pt.
+<graphs/3days/2015_3daysprior_tendency_graph_DC.png, id=1855, 418.9251pt x 362.
+3136pt>
+File: graphs/3days/2015_3daysprior_tendency_graph_DC.png Graphic file (type png
+)
+<use graphs/3days/2015_3daysprior_tendency_graph_DC.png>
+Package pdftex.def Info: graphs/3days/2015_3daysprior_tendency_graph_DC.png  us
+ed on input line 1231.
+(pdftex.def)             Requested size: 128.0387pt x 110.73491pt.
+<graphs/3days/2019_3daysprior_tendency_graph_DC.png, id=1856, 418.9251pt x 362.
+3136pt>
+File: graphs/3days/2019_3daysprior_tendency_graph_DC.png Graphic file (type png
+)
+<use graphs/3days/2019_3daysprior_tendency_graph_DC.png>
+Package pdftex.def Info: graphs/3days/2019_3daysprior_tendency_graph_DC.png  us
+ed on input line 1238.
+(pdftex.def)             Requested size: 128.0387pt x 110.73491pt.
+<graphs/3days/2022_3daysprior_tendency_graph_DC.png, id=1857, 418.9251pt x 362.
+3136pt>
+File: graphs/3days/2022_3daysprior_tendency_graph_DC.png Graphic file (type png
+)
+<use graphs/3days/2022_3daysprior_tendency_graph_DC.png>
+Package pdftex.def Info: graphs/3days/2022_3daysprior_tendency_graph_DC.png  us
+ed on input line 1245.
+(pdftex.def)             Requested size: 128.0387pt x 110.73491pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<graphs/3days/2015_3daysprior_tendency_graph_ISI.png, id=1858, 409.53pt x 362.3
+136pt>
+File: graphs/3days/2015_3daysprior_tendency_graph_ISI.png Graphic file (type pn
+g)
+<use graphs/3days/2015_3daysprior_tendency_graph_ISI.png>
+Package pdftex.def Info: graphs/3days/2015_3daysprior_tendency_graph_ISI.png  u
+sed on input line 1258.
+(pdftex.def)             Requested size: 128.0387pt x 113.278pt.
+<graphs/3days/2019_3daysprior_tendency_graph_ISI.png, id=1859, 399.894pt x 362.
+3136pt>
+File: graphs/3days/2019_3daysprior_tendency_graph_ISI.png Graphic file (type pn
+g)
+<use graphs/3days/2019_3daysprior_tendency_graph_ISI.png>
+Package pdftex.def Info: graphs/3days/2019_3daysprior_tendency_graph_ISI.png  u
+sed on input line 1265.
+(pdftex.def)             Requested size: 128.0387pt x 116.00352pt.
+<graphs/3days/2022_3daysprior_tendency_graph_ISI.png, id=1860, 409.53pt x 362.3
+136pt>
+File: graphs/3days/2022_3daysprior_tendency_graph_ISI.png Graphic file (type pn
+g)
+<use graphs/3days/2022_3daysprior_tendency_graph_ISI.png>
+Package pdftex.def Info: graphs/3days/2022_3daysprior_tendency_graph_ISI.png  u
+sed on input line 1272.
+(pdftex.def)             Requested size: 128.0387pt x 113.278pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<graphs/3days/2015_3daysprior_tendency_graph_BUI.png, id=1861, 412.6617pt x 362
+.3136pt>
+File: graphs/3days/2015_3daysprior_tendency_graph_BUI.png Graphic file (type pn
+g)
+<use graphs/3days/2015_3daysprior_tendency_graph_BUI.png>
+Package pdftex.def Info: graphs/3days/2015_3daysprior_tendency_graph_BUI.png  u
+sed on input line 1285.
+(pdftex.def)             Requested size: 128.0387pt x 112.41556pt.
+<graphs/3days/2019_3daysprior_tendency_graph_BUI.png, id=1862, 418.9251pt x 362
+.3136pt>
+File: graphs/3days/2019_3daysprior_tendency_graph_BUI.png Graphic file (type pn
+g)
+<use graphs/3days/2019_3daysprior_tendency_graph_BUI.png>
+Package pdftex.def Info: graphs/3days/2019_3daysprior_tendency_graph_BUI.png  u
+sed on input line 1292.
+(pdftex.def)             Requested size: 128.0387pt x 110.73491pt.
+<graphs/3days/2022_3daysprior_tendency_graph_BUI.png, id=1863, 412.6617pt x 362
+.3136pt>
+File: graphs/3days/2022_3daysprior_tendency_graph_BUI.png Graphic file (type pn
+g)
+<use graphs/3days/2022_3daysprior_tendency_graph_BUI.png>
+Package pdftex.def Info: graphs/3days/2022_3daysprior_tendency_graph_BUI.png  u
+sed on input line 1299.
+(pdftex.def)             Requested size: 128.0387pt x 112.41556pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -3637,16 +3619,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[68
+[70
 
- <./graphs/2015/15daysprior/2015_15daysprior_tendency_graph_FWI.png> <./graphs/
-2019/15daysprior/2019_15daysprior_tendency_graph_FWI.png> <./graphs/2022/tenden
-cy/2022_tendency_graph_FWI.png> <./graphs/2015/15daysprior/2015_15daysprior_ten
-dency_graph_FFMC.png> <./graphs/2019/15daysprior/2019_15daysprior_tendency_grap
-h_FFMC.png> <./graphs/2022/tendency/2022_tendency_graph_FFMC.png> <./graphs/201
-5/15daysprior/2015_15daysprior_tendency_graph_DMC.png> <./graphs/2019/15dayspri
-or/2019_15daysprior_tendency_graph_DMC.png> <./graphs/2022/tendency/2022_tenden
-cy_graph_DMC.png>]
+ <./graphs/3days/2015_3daysprior_tendency_graph_FWI.png> <./graphs/3days/2019_3
+daysprior_tendency_graph_FWI.png> <./graphs/3days/2022_3daysprior_tendency_grap
+h_FWI.png> <./graphs/3days/2015_3daysprior_tendency_graph_FFMC.png> <./graphs/3
+days/2019_3daysprior_tendency_graph_FFMC.png> <./graphs/3days/2022_3daysprior_t
+endency_graph_FFMC.png> <./graphs/3days/2015_3daysprior_tendency_graph_DMC.png>
+ <./graphs/3days/2019_3daysprior_tendency_graph_DMC.png> <./graphs/3days/2022_3
+daysprior_tendency_graph_DMC.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3655,18 +3636,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[69 <./graphs/2015/15daysprior/2015_15daysprior_tendency_graph_DC.png> <./graph
-s/2019/15daysprior/2019_15daysprior_tendency_graph_DC.png> <./graphs/2022/tende
-ncy/2022_tendency_graph_DC.png> <./graphs/2015/15daysprior/2015_15daysprior_ten
-dency_graph_ISI.png> <./graphs/2019/15daysprior/2019_15daysprior_tendency_graph
-_ISI.png> <./graphs/2022/tendency/2022_tendency_graph_ISI.png> <./graphs/2015/1
-5daysprior/2015_15daysprior_tendency_graph_BUI.png> <./graphs/2019/15daysprior/
-2019_15daysprior_tendency_graph_BUI.png> <./graphs/2022/tendency/2022_tendency_
-graph_BUI.png>] [70
+[71 <./graphs/3days/2015_3daysprior_tendency_graph_DC.png> <./graphs/3days/2019
+_3daysprior_tendency_graph_DC.png> <./graphs/3days/2022_3daysprior_tendency_gra
+ph_DC.png> <./graphs/3days/2015_3daysprior_tendency_graph_ISI.png> <./graphs/3d
+ays/2019_3daysprior_tendency_graph_ISI.png> <./graphs/3days/2022_3daysprior_ten
+dency_graph_ISI.png> <./graphs/3days/2015_3daysprior_tendency_graph_BUI.png> <.
+/graphs/3days/2019_3daysprior_tendency_graph_BUI.png> <./graphs/3days/2022_3day
+sprior_tendency_graph_BUI.png>] [72
 
 ]
 Chapter 7.
-[71] [72
+[73] [74
 
 ]) (./0-main.bbl
 Underfull \hbox (badness 1412) in paragraph at lines 54--59
@@ -3680,7 +3660,7 @@ Underfull \hbox (badness 2635) in paragraph at lines 54--59
 ]augmentation$[]\T1/ppl/m/n/12 .  Ac-
  []
 
-[73
+[75
 
 ]
 Underfull \hbox (badness 4621) in paragraph at lines 89--95
@@ -3732,7 +3712,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[74]
+[76]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3741,7 +3721,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[75]
+[77]
 Underfull \hbox (badness 1845) in paragraph at lines 316--321
 []\T1/ppl/m/n/12 mParticle (2021).  Data en-rich-ment or ma-chine learn-ing.  [
 ]$\T1/cmtt/m/n/12 https : / / www .
@@ -3761,7 +3741,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[76]
+[78]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3770,7 +3750,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[77]
+[79]
 Underfull \hbox (badness 6094) in paragraph at lines 424--429
 []\T1/ppl/m/n/12 SimonKettle (2017).  Dis-tance on a sphere: The haver-sine for
 -mula.
@@ -3796,7 +3776,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[78])
+[80])
 
 Package natbib Warning: There were undefined citations.
 
@@ -3808,18 +3788,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[79] (./0-main.aux)
+[81] (./0-main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `0-main.out' has not changed.
-(rerunfilecheck)             Checksum: 2CC0694C7214AD7BD86F31BF90F5016A;18668.
+(rerunfilecheck)             Checksum: 503993A90028254D81398170F0A3268C;19059.
  ) 
 Here is how much of TeX's memory you used:
- 35431 strings out of 480129
- 684248 string characters out of 5893409
- 978487 words of memory out of 5000000
- 52238 multiletter control sequences out of 15000+600000
+ 35601 strings out of 480129
+ 691351 string characters out of 5893409
+ 983238 words of memory out of 5000000
+ 52383 multiletter control sequences out of 15000+600000
  510203 words of font info for 100 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  99i,12n,131p,1136b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3829,10 +3809,10 @@ ve2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk></usr/share/texlive
 fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb>
-Output written on 0-main.pdf (99 pages, 37459440 bytes).
+Output written on 0-main.pdf (101 pages, 38790242 bytes).
 PDF statistics:
- 2063 PDF objects out of 2073 (max. 8388607)
- 1596 compressed objects within 16 object streams
- 380 named destinations out of 1000 (max. 500000)
- 1444 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2126 PDF objects out of 2487 (max. 8388607)
+ 1620 compressed objects within 17 object streams
+ 389 named destinations out of 1000 (max. 500000)
+ 1542 words of extra memory for PDF output out of 10000 (max. 10000000)
 
