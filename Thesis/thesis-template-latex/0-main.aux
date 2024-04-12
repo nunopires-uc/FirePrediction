@@ -319,24 +319,24 @@
 \newlabel{dataset_icnf2013_2023}{{5.1.2}{33}{Historical record of fires from 2013 to 2023 in mainland Portugal \cite {icnf2024}}{subsection.5.1.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}Open-meteo hourly weather variables \citep  {Zippenfenig_Open-Meteo}}{33}{subsection.5.1.3}\protected@file@percent }
 \newlabel{open_meteo}{{5.1.3}{33}{Open-meteo hourly weather variables \cite {Zippenfenig_Open-Meteo}}{subsection.5.1.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.4}Fire danger indices historical data from the Copernicus Emergency Management Service \citep  {CopernicusCDS2019}}{33}{subsection.5.1.4}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Field description of Historical fires from 1980 to 2015\relax }}{34}{table.caption.28}\protected@file@percent }
 \newlabel{forest_inventory}{{5.1}{34}{Field description of Historical fires from 1980 to 2015\relax }{table.caption.28}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.4}Fire danger indices historical data from the Copernicus Emergency Management Service \citep  {CopernicusCDS2019}}{34}{subsection.5.1.4}\protected@file@percent }
 \citation{uva2021forestry,https://doi.org/10.15468/dl.zwfmbt}
 \citation{geopy}
 \citation{googlexmaps}
-\citation{geopy}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.1.5}Forest Inventory 2015 \citep  {uva2021forestry,https://doi.org/10.15468/dl.zwfmbt}}{35}{subsection.5.1.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {5.2}Additional sources of Data}{35}{section.5.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {5.3}Creating the dataset}{35}{section.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Entry selection}{35}{subsection.5.3.1}\protected@file@percent }
-\citation{esri2024}
+\citation{geopy}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Entry selection}{36}{subsection.5.3.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}Geocoding places from 2001 to 2012 historical wildfire locations}{36}{subsection.5.3.2}\protected@file@percent }
 \newlabel{geocoding_historical}{{5.3.2}{36}{Geocoding places from 2001 to 2012 historical wildfire locations}{subsection.5.3.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}Retrieving historical meteorological data}{36}{subsection.5.3.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3.4}Linking historical wildfires with historical weather data}{36}{subsection.5.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.5}Matching each historical wildfire with tree species}{36}{subsection.5.3.5}\protected@file@percent }
-\newlabel{tree_species_wildfires}{{5.3.5}{36}{Matching each historical wildfire with tree species}{subsection.5.3.5}{}}
+\citation{esri2024}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.5}Matching each historical wildfire with tree species}{37}{subsection.5.3.5}\protected@file@percent }
+\newlabel{tree_species_wildfires}{{5.3.5}{37}{Matching each historical wildfire with tree species}{subsection.5.3.5}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3.6}Locations in the middle of the sea.}{37}{subsection.5.3.6}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3.7}Dataset description}{37}{subsection.5.3.7}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {5.4}Python libraries used in the conception of the dataset}{38}{section.5.4}\protected@file@percent }
@@ -498,7 +498,7 @@
 \newlabel{fig:daily_isi_dif_maxmin}{{6.37}{63}{Daily difference of max and min ISI values\relax }{figure.caption.70}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.38}{\ignorespaces Daily difference of max and min BUI values\relax }}{64}{figure.caption.71}\protected@file@percent }
 \newlabel{fig:daily_bui_dif_maxmin}{{6.38}{64}{Daily difference of max and min BUI values\relax }{figure.caption.71}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.8}3-day time frame mean tendency graphs of FWI variables}{65}{section.6.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.8}3-day time frame mean block tendency graphs of FWI variables}{65}{section.6.8}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {6.39}{\ignorespaces FWI mean tendency graph\relax }}{65}{figure.caption.72}\protected@file@percent }
 \newlabel{fig:mean_tendency_fwi_2015}{{6.39a}{65}{2015\relax }{figure.caption.72}{}}
 \newlabel{sub@fig:mean_tendency_fwi_2015}{{a}{65}{2015\relax }{figure.caption.72}{}}
@@ -633,10 +633,133 @@
 \newlabel{fig:bui_prior_3_days_2022}{{6.56c}{71}{2022\relax }{figure.caption.89}{}}
 \newlabel{sub@fig:bui_prior_3_days_2022}{{c}{71}{2022\relax }{figure.caption.89}{}}
 \newlabel{fig:bui_values_3days_prior}{{6.56}{71}{BUI values 3 days prior to wildfire\relax }{figure.caption.89}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion}{73}{chapter.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.11}Polyfit FWI trend Analysis}{72}{section.6.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.11.1}All-time FWI trend with 3-days polyfit block}{72}{subsection.6.11.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.57}{\ignorespaces All-time FWI polyfit trend\relax }}{72}{figure.caption.90}\protected@file@percent }
+\newlabel{fig:2015_polyfit_fwi_alltime}{{6.57a}{72}{2015\relax }{figure.caption.90}{}}
+\newlabel{sub@fig:2015_polyfit_fwi_alltime}{{a}{72}{2015\relax }{figure.caption.90}{}}
+\newlabel{fig:2019_polyfit_fwi_alltime}{{6.57b}{72}{2019\relax }{figure.caption.90}{}}
+\newlabel{sub@fig:2019_polyfit_fwi_alltime}{{b}{72}{2019\relax }{figure.caption.90}{}}
+\newlabel{fig:2022_polyfit_fwi_alltime}{{6.57c}{72}{2022\relax }{figure.caption.90}{}}
+\newlabel{sub@fig:2022_polyfit_fwi_alltime}{{c}{72}{2022\relax }{figure.caption.90}{}}
+\newlabel{fig:fwi_polyfit_alltime}{{6.57}{72}{All-time FWI polyfit trend\relax }{figure.caption.90}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.58}{\ignorespaces All-time FFMC polyfit trend\relax }}{72}{figure.caption.91}\protected@file@percent }
+\newlabel{fig:2015_polyfit_ffmc_alltime}{{6.58a}{72}{2015\relax }{figure.caption.91}{}}
+\newlabel{sub@fig:2015_polyfit_ffmc_alltime}{{a}{72}{2015\relax }{figure.caption.91}{}}
+\newlabel{fig:2019_polyfit_ffmc_alltime}{{6.58b}{72}{2019\relax }{figure.caption.91}{}}
+\newlabel{sub@fig:2019_polyfit_ffmc_alltime}{{b}{72}{2019\relax }{figure.caption.91}{}}
+\newlabel{fig:2022_polyfit_ffmc_alltime}{{6.58c}{72}{2022\relax }{figure.caption.91}{}}
+\newlabel{sub@fig:2022_polyfit_ffmc_alltime}{{c}{72}{2022\relax }{figure.caption.91}{}}
+\newlabel{fig:ffmc_polyfit_alltime}{{6.58}{72}{All-time FFMC polyfit trend\relax }{figure.caption.91}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.59}{\ignorespaces All-time DMC polyfit trend\relax }}{72}{figure.caption.92}\protected@file@percent }
+\newlabel{fig:2015_polyfit_DMC_alltime}{{6.59a}{72}{2015\relax }{figure.caption.92}{}}
+\newlabel{sub@fig:2015_polyfit_DMC_alltime}{{a}{72}{2015\relax }{figure.caption.92}{}}
+\newlabel{fig:2019_polyfit_DMC_alltime}{{6.59b}{72}{2019\relax }{figure.caption.92}{}}
+\newlabel{sub@fig:2019_polyfit_DMC_alltime}{{b}{72}{2019\relax }{figure.caption.92}{}}
+\newlabel{fig:2022_polyfit_DMC_alltime}{{6.59c}{72}{2022\relax }{figure.caption.92}{}}
+\newlabel{sub@fig:2022_polyfit_DMC_alltime}{{c}{72}{2022\relax }{figure.caption.92}{}}
+\newlabel{fig:DMC_polyfit_alltime}{{6.59}{72}{All-time DMC polyfit trend\relax }{figure.caption.92}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.60}{\ignorespaces All-time DC polyfit trend\relax }}{73}{figure.caption.93}\protected@file@percent }
+\newlabel{fig:2015_polyfit_DC_alltime}{{6.60a}{73}{2015\relax }{figure.caption.93}{}}
+\newlabel{sub@fig:2015_polyfit_DC_alltime}{{a}{73}{2015\relax }{figure.caption.93}{}}
+\newlabel{fig:2019_polyfit_DC_alltime}{{6.60b}{73}{2019\relax }{figure.caption.93}{}}
+\newlabel{sub@fig:2019_polyfit_DC_alltime}{{b}{73}{2019\relax }{figure.caption.93}{}}
+\newlabel{fig:2022_polyfit_DC_alltime}{{6.60c}{73}{2022\relax }{figure.caption.93}{}}
+\newlabel{sub@fig:2022_polyfit_DC_alltime}{{c}{73}{2022\relax }{figure.caption.93}{}}
+\newlabel{fig:DC_polyfit_alltime}{{6.60}{73}{All-time DC polyfit trend\relax }{figure.caption.93}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.61}{\ignorespaces All-time ISI polyfit trend\relax }}{73}{figure.caption.94}\protected@file@percent }
+\newlabel{fig:2015_polyfit_ISI_alltime}{{6.61a}{73}{2015\relax }{figure.caption.94}{}}
+\newlabel{sub@fig:2015_polyfit_ISI_alltime}{{a}{73}{2015\relax }{figure.caption.94}{}}
+\newlabel{fig:2019_polyfit_ISI_alltime}{{6.61b}{73}{2019\relax }{figure.caption.94}{}}
+\newlabel{sub@fig:2019_polyfit_ISI_alltime}{{b}{73}{2019\relax }{figure.caption.94}{}}
+\newlabel{fig:2022_polyfit_ISI_alltime}{{6.61c}{73}{2022\relax }{figure.caption.94}{}}
+\newlabel{sub@fig:2022_polyfit_ISI_alltime}{{c}{73}{2022\relax }{figure.caption.94}{}}
+\newlabel{fig:ISI_polyfit_alltime}{{6.61}{73}{All-time ISI polyfit trend\relax }{figure.caption.94}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.11.2}15-days polyfit trend}{73}{subsection.6.11.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.62}{\ignorespaces 15-days FWI polyfit trend\relax }}{73}{figure.caption.95}\protected@file@percent }
+\newlabel{fig:2015_polyfit_fwi}{{6.62a}{73}{2015\relax }{figure.caption.95}{}}
+\newlabel{sub@fig:2015_polyfit_fwi}{{a}{73}{2015\relax }{figure.caption.95}{}}
+\newlabel{fig:2019_polyfit_fwi}{{6.62b}{73}{2019\relax }{figure.caption.95}{}}
+\newlabel{sub@fig:2019_polyfit_fwi}{{b}{73}{2019\relax }{figure.caption.95}{}}
+\newlabel{fig:2022_polyfit_fwi}{{6.62c}{73}{2022\relax }{figure.caption.95}{}}
+\newlabel{sub@fig:2022_polyfit_fwi}{{c}{73}{2022\relax }{figure.caption.95}{}}
+\newlabel{fig:fwi_polyfit_15}{{6.62}{73}{15-days FWI polyfit trend\relax }{figure.caption.95}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.12}15-days Weather Variables}{73}{section.6.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.13}3-days Weather variables}{73}{section.6.13}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.63}{\ignorespaces 15-days FFMC polyfit trend\relax }}{74}{figure.caption.96}\protected@file@percent }
+\newlabel{fig:2015_polyfit_ffmc}{{6.63a}{74}{2015\relax }{figure.caption.96}{}}
+\newlabel{sub@fig:2015_polyfit_ffmc}{{a}{74}{2015\relax }{figure.caption.96}{}}
+\newlabel{fig:2019_polyfit_ffmc}{{6.63b}{74}{2019\relax }{figure.caption.96}{}}
+\newlabel{sub@fig:2019_polyfit_ffmc}{{b}{74}{2019\relax }{figure.caption.96}{}}
+\newlabel{fig:2022_polyfit_ffmc}{{6.63c}{74}{2022\relax }{figure.caption.96}{}}
+\newlabel{sub@fig:2022_polyfit_ffmc}{{c}{74}{2022\relax }{figure.caption.96}{}}
+\newlabel{fig:ffmc_polyfit_15}{{6.63}{74}{15-days FFMC polyfit trend\relax }{figure.caption.96}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.64}{\ignorespaces 15-days DMC polyfit trend\relax }}{74}{figure.caption.97}\protected@file@percent }
+\newlabel{fig:2015_polyfit_DMC}{{6.64a}{74}{2015\relax }{figure.caption.97}{}}
+\newlabel{sub@fig:2015_polyfit_DMC}{{a}{74}{2015\relax }{figure.caption.97}{}}
+\newlabel{fig:2019_polyfit_DMC}{{6.64b}{74}{2019\relax }{figure.caption.97}{}}
+\newlabel{sub@fig:2019_polyfit_DMC}{{b}{74}{2019\relax }{figure.caption.97}{}}
+\newlabel{fig:2022_polyfit_DMC}{{6.64c}{74}{2022\relax }{figure.caption.97}{}}
+\newlabel{sub@fig:2022_polyfit_DMC}{{c}{74}{2022\relax }{figure.caption.97}{}}
+\newlabel{fig:DMC_polyfit_15}{{6.64}{74}{15-days DMC polyfit trend\relax }{figure.caption.97}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.65}{\ignorespaces 15-days DC polyfit trend\relax }}{74}{figure.caption.98}\protected@file@percent }
+\newlabel{fig:2015_polyfit_DC}{{6.65a}{74}{2015\relax }{figure.caption.98}{}}
+\newlabel{sub@fig:2015_polyfit_DC}{{a}{74}{2015\relax }{figure.caption.98}{}}
+\newlabel{fig:2019_polyfit_DC}{{6.65b}{74}{2019\relax }{figure.caption.98}{}}
+\newlabel{sub@fig:2019_polyfit_DC}{{b}{74}{2019\relax }{figure.caption.98}{}}
+\newlabel{fig:2022_polyfit_DC}{{6.65c}{74}{2022\relax }{figure.caption.98}{}}
+\newlabel{sub@fig:2022_polyfit_DC}{{c}{74}{2022\relax }{figure.caption.98}{}}
+\newlabel{fig:DC_polyfit_15}{{6.65}{74}{15-days DC polyfit trend\relax }{figure.caption.98}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.66}{\ignorespaces 15-days ISI polyfit trend\relax }}{74}{figure.caption.99}\protected@file@percent }
+\newlabel{fig:2015_polyfit_ISI}{{6.66a}{74}{2015\relax }{figure.caption.99}{}}
+\newlabel{sub@fig:2015_polyfit_ISI}{{a}{74}{2015\relax }{figure.caption.99}{}}
+\newlabel{fig:2019_polyfit_ISI}{{6.66b}{74}{2019\relax }{figure.caption.99}{}}
+\newlabel{sub@fig:2019_polyfit_ISI}{{b}{74}{2019\relax }{figure.caption.99}{}}
+\newlabel{fig:2022_polyfit_ISI}{{6.66c}{74}{2022\relax }{figure.caption.99}{}}
+\newlabel{sub@fig:2022_polyfit_ISI}{{c}{74}{2022\relax }{figure.caption.99}{}}
+\newlabel{fig:ISI_polyfit_15}{{6.66}{74}{15-days ISI polyfit trend\relax }{figure.caption.99}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.67}{\ignorespaces 15-days BUI polyfit trend\relax }}{74}{figure.caption.100}\protected@file@percent }
+\newlabel{fig:2015_polyfit_bui}{{6.67a}{74}{2015\relax }{figure.caption.100}{}}
+\newlabel{sub@fig:2015_polyfit_bui}{{a}{74}{2015\relax }{figure.caption.100}{}}
+\newlabel{fig:2019_polyfit_bui}{{6.67b}{74}{2019\relax }{figure.caption.100}{}}
+\newlabel{sub@fig:2019_polyfit_bui}{{b}{74}{2019\relax }{figure.caption.100}{}}
+\newlabel{fig:2022_polyfit_bui}{{6.67c}{74}{2022\relax }{figure.caption.100}{}}
+\newlabel{sub@fig:2022_polyfit_bui}{{c}{74}{2022\relax }{figure.caption.100}{}}
+\newlabel{fig:bui_polyfit_15}{{6.67}{74}{15-days BUI polyfit trend\relax }{figure.caption.100}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.68}{\ignorespaces 15-days temperature, humidity, and dew\relax }}{75}{figure.caption.101}\protected@file@percent }
+\newlabel{fig:temp_hum_dew}{{6.68}{75}{15-days temperature, humidity, and dew\relax }{figure.caption.101}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.69}{\ignorespaces 15-days soil temperature at different depths \relax }}{75}{figure.caption.102}\protected@file@percent }
+\newlabel{fig:soil_temp}{{6.69}{75}{15-days soil temperature at different depths \relax }{figure.caption.102}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.70}{\ignorespaces 15-days soil moisture at different depths \relax }}{76}{figure.caption.103}\protected@file@percent }
+\newlabel{fig:soil_moist}{{6.70}{76}{15-days soil moisture at different depths \relax }{figure.caption.103}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.71}{\ignorespaces 15-days precipitation and pressure \relax }}{76}{figure.caption.104}\protected@file@percent }
+\newlabel{fig:precipitation_pressure}{{6.71}{76}{15-days precipitation and pressure \relax }{figure.caption.104}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.72}{\ignorespaces 15-days wind gusts, evapotranspiration, and vapour pressure deficit \relax }}{77}{figure.caption.105}\protected@file@percent }
+\newlabel{fig:evapotranspiration}{{6.72}{77}{15-days wind gusts, evapotranspiration, and vapour pressure deficit \relax }{figure.caption.105}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.73}{\ignorespaces 3-days temperature, humidity, and dew\relax }}{77}{figure.caption.106}\protected@file@percent }
+\newlabel{fig:temp_hum_dew_3day}{{6.73}{77}{3-days temperature, humidity, and dew\relax }{figure.caption.106}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.74}{\ignorespaces 3-days soil temperature at different depths \relax }}{78}{figure.caption.107}\protected@file@percent }
+\newlabel{fig:soil_temp_3day}{{6.74}{78}{3-days soil temperature at different depths \relax }{figure.caption.107}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.75}{\ignorespaces 3-days soil moisture at different depths \relax }}{78}{figure.caption.108}\protected@file@percent }
+\newlabel{fig:soil_moist_3day}{{6.75}{78}{3-days soil moisture at different depths \relax }{figure.caption.108}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.76}{\ignorespaces 3-days precipitation and pressure \relax }}{79}{figure.caption.109}\protected@file@percent }
+\newlabel{fig:precipitation_pressure_3days}{{6.76}{79}{3-days precipitation and pressure \relax }{figure.caption.109}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.77}{\ignorespaces 3-days wind gusts, evapotranspiration, and vapour pressure deficit \relax }}{79}{figure.caption.110}\protected@file@percent }
+\newlabel{fig:evapotranspiration_3days}{{6.77}{79}{3-days wind gusts, evapotranspiration, and vapour pressure deficit \relax }{figure.caption.110}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.78}{\ignorespaces 3-days shortwave, direct, and diffuse radiation \relax }}{80}{figure.caption.111}\protected@file@percent }
+\newlabel{fig:direct_diffuse_rad_3days}{{6.78}{80}{3-days shortwave, direct, and diffuse radiation \relax }{figure.caption.111}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.79}{\ignorespaces 3-days direct, global, and instant irrandice \relax }}{80}{figure.caption.112}\protected@file@percent }
+\newlabel{fig:irradiance_3days}{{6.79}{80}{3-days direct, global, and instant irrandice \relax }{figure.caption.112}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.80}{\ignorespaces 3-days cloud covers at different heights \relax }}{81}{figure.caption.113}\protected@file@percent }
+\newlabel{fig:cloud_covers_3days}{{6.80}{81}{3-days cloud covers at different heights \relax }{figure.caption.113}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.81}{\ignorespaces 3-days terrestrial, direct, and instant radiation\relax }}{81}{figure.caption.114}\protected@file@percent }
+\newlabel{fig:radi_3days}{{6.81}{81}{3-days terrestrial, direct, and instant radiation\relax }{figure.caption.114}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.82}{\ignorespaces 3-days wind speed at different heights\relax }}{82}{figure.caption.115}\protected@file@percent }
+\newlabel{fig:wind_speed}{{6.82}{82}{3-days wind speed at different heights\relax }{figure.caption.115}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion}{83}{chapter.7}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{sec:conclusion}{{7}{73}{Conclusion}{chapter.7}{}}
+\newlabel{sec:conclusion}{{7}{83}{Conclusion}{chapter.7}{}}
 \bibstyle{apalike}
 \bibdata{references}
 \bibcite{Abdel-Basset2019}{{1}{2019}{{Abdel-Basset and Shawky}}{{}}}
@@ -652,7 +775,7 @@
 \bibcite{geoplot}{{11}{2016}{{Bilogur and Contributors}}{{}}}
 \bibcite{bountzouklis2023predicting}{{12}{2023}{{Bountzouklis et~al.}}{{}}}
 \bibcite{Cai2019}{{13}{2019}{{Cai et~al.}}{{}}}
-\@writefile{toc}{\contentsline {chapter}{References}{75}{chapter*.90}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{References}{85}{chapter*.116}\protected@file@percent }
 \bibcite{Canada2023}{{14}{2021}{{Canada}}{{}}}
 \bibcite{DEI2023}{{15}{2023}{{Cardoso and Estima}}{{}}}
 \bibcite{centraldedados_incendios}{{16}{2017}{{Central de Dados Github Repository}}{{}}}
@@ -727,4 +850,4 @@
 \bibcite{zhang2019forest}{{85}{2019}{{Zhang et~al.}}{{}}}
 \bibcite{ZHENG2020106772}{{86}{2020}{{Zheng et~al.}}{{}}}
 \bibcite{Zippenfenig_Open-Meteo}{{87}{2023}{{Zippenfenig}}{{}}}
-\gdef \@abspage@last{101}
+\gdef \@abspage@last{111}
