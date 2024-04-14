@@ -1,98 +1,85 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Forest fire risk map\relax }}{18}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Prediction of forest fire risk using a fuzzy reasoning algorithm \citep {LIN2018101}.\relax }}{20}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Meteorological data, datetime, and people density to predict the likelihood of a forest fire \citep {LIN2018101}.\relax }}{20}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Methodology used with DFP-MnBpAnn\citep {LIN2018101}.\relax }}{22}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Methodologies for Data fusion \citep {articleDataFusion}.\relax }}{24}{figure.caption.20}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Tiles depicting geographical areas and forest fire risk\relax }}{28}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Gantt chart for first semester\relax }}{31}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Proposed gantt chart for the second semester\relax }}{31}{figure.caption.26}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Comparison of FWI calculated values and Copernicus\relax }}{43}{figure.caption.34}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison of FFMC calculated values and Copernicus\relax }}{44}{figure.caption.35}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparison of DMC calculated values and Copernicus\relax }}{44}{figure.caption.36}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Comparison of DC calculated values and Copernicus\relax }}{44}{figure.caption.37}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Comparison of ISI calculated values and Copernicus\relax }}{45}{figure.caption.38}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Comparison of BUI calculated values and Copernicus\relax }}{45}{figure.caption.39}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Comparison of FWI calculated values and Copernicus at midday\relax }}{46}{figure.caption.40}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Comparison of FFMC calculated values and Copernicus at midday\relax }}{46}{figure.caption.41}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Comparison of DMC calculated values and Copernicus at midday\relax }}{47}{figure.caption.42}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Comparison of DC calculated values and Copernicus at midday\relax }}{47}{figure.caption.43}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Comparison of ISI calculated values and Copernicus at midday\relax }}{47}{figure.caption.44}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Comparison of BUI calculated values and Copernicus at midday\relax }}{48}{figure.caption.45}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Comparison of FWI calculated values and Copernicus at midday - 2019\relax }}{49}{figure.caption.46}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Comparison of FWI calculated values and Copernicus at midday - 2022\relax }}{49}{figure.caption.47}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Calculated hourly FWI value for 2015, 2019, and 2022\relax }}{50}{figure.caption.48}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Calculated hourly FFMC value for 2015, 2019, and 2022\relax }}{50}{figure.caption.49}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Calculated hourly DMC value for 2015, 2019, and 2022\relax }}{51}{figure.caption.50}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Calculated hourly DC value for 2015, 2019, and 2022\relax }}{51}{figure.caption.51}%
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Calculated hourly ISI value for 2015, 2019, and 2022\relax }}{52}{figure.caption.52}%
-\contentsline {figure}{\numberline {6.20}{\ignorespaces Calculated hourly BUI value for 2015, 2019, and 2022\relax }}{52}{figure.caption.53}%
-\contentsline {figure}{\numberline {6.21}{\ignorespaces Daily max and min FWI values\relax }}{53}{figure.caption.54}%
-\contentsline {figure}{\numberline {6.22}{\ignorespaces Daily max and min FFMC values\relax }}{54}{figure.caption.55}%
-\contentsline {figure}{\numberline {6.23}{\ignorespaces Daily max and min DMC values\relax }}{54}{figure.caption.56}%
-\contentsline {figure}{\numberline {6.24}{\ignorespaces Daily max and min DC values\relax }}{55}{figure.caption.57}%
-\contentsline {figure}{\numberline {6.25}{\ignorespaces Daily max and min ISI values\relax }}{55}{figure.caption.58}%
-\contentsline {figure}{\numberline {6.26}{\ignorespaces Daily max and min BUI values\relax }}{56}{figure.caption.59}%
-\contentsline {figure}{\numberline {6.27}{\ignorespaces Before, after and daily FWI maximum value\relax }}{57}{figure.caption.60}%
-\contentsline {figure}{\numberline {6.28}{\ignorespaces Before, after and daily FFMC maximum value\relax }}{58}{figure.caption.61}%
-\contentsline {figure}{\numberline {6.29}{\ignorespaces Before, after and daily DMC maximum value\relax }}{58}{figure.caption.62}%
-\contentsline {figure}{\numberline {6.30}{\ignorespaces Before, after and daily DC maximum value\relax }}{59}{figure.caption.63}%
-\contentsline {figure}{\numberline {6.31}{\ignorespaces Before, after and daily ISI maximum value\relax }}{59}{figure.caption.64}%
-\contentsline {figure}{\numberline {6.32}{\ignorespaces Before, after and daily BUI maximum value\relax }}{60}{figure.caption.65}%
-\contentsline {figure}{\numberline {6.33}{\ignorespaces Daily difference of max and min FWI values\relax }}{61}{figure.caption.66}%
-\contentsline {figure}{\numberline {6.34}{\ignorespaces Daily difference of max and min FFMC values\relax }}{62}{figure.caption.67}%
-\contentsline {figure}{\numberline {6.35}{\ignorespaces Daily difference of max and min DMC values\relax }}{62}{figure.caption.68}%
-\contentsline {figure}{\numberline {6.36}{\ignorespaces Daily difference of max and min DC values\relax }}{63}{figure.caption.69}%
-\contentsline {figure}{\numberline {6.37}{\ignorespaces Daily difference of max and min ISI values\relax }}{63}{figure.caption.70}%
-\contentsline {figure}{\numberline {6.38}{\ignorespaces Daily difference of max and min BUI values\relax }}{64}{figure.caption.71}%
-\contentsline {figure}{\numberline {6.39}{\ignorespaces FWI mean tendency graph\relax }}{65}{figure.caption.72}%
-\contentsline {figure}{\numberline {6.40}{\ignorespaces FFMC mean tendency graph\relax }}{65}{figure.caption.73}%
-\contentsline {figure}{\numberline {6.41}{\ignorespaces DMC mean tendency graph\relax }}{66}{figure.caption.74}%
-\contentsline {figure}{\numberline {6.42}{\ignorespaces DC mean tendency graph\relax }}{66}{figure.caption.75}%
-\contentsline {figure}{\numberline {6.43}{\ignorespaces ISI mean tendency graph\relax }}{67}{figure.caption.76}%
-\contentsline {figure}{\numberline {6.44}{\ignorespaces BUI mean tendency graph\relax }}{67}{figure.caption.77}%
-\contentsline {figure}{\numberline {6.45}{\ignorespaces FWI values 15 days prior to wildfire\relax }}{68}{figure.caption.78}%
-\contentsline {figure}{\numberline {6.46}{\ignorespaces FFMC values 15 days prior to wildfire\relax }}{68}{figure.caption.79}%
-\contentsline {figure}{\numberline {6.47}{\ignorespaces DMC values 15 days prior to wildfire\relax }}{68}{figure.caption.80}%
-\contentsline {figure}{\numberline {6.48}{\ignorespaces DC values 15 days prior to wildfire\relax }}{69}{figure.caption.81}%
-\contentsline {figure}{\numberline {6.49}{\ignorespaces IS15daysI values 15 days prior to wildfire\relax }}{69}{figure.caption.82}%
-\contentsline {figure}{\numberline {6.50}{\ignorespaces BUI values 15 days prior to wildfire\relax }}{69}{figure.caption.83}%
-\contentsline {figure}{\numberline {6.51}{\ignorespaces FWI values 3 days prior to wildfire\relax }}{70}{figure.caption.84}%
-\contentsline {figure}{\numberline {6.52}{\ignorespaces FFMC values 3 days prior to wildfire\relax }}{70}{figure.caption.85}%
-\contentsline {figure}{\numberline {6.53}{\ignorespaces DMC values 3 days prior to wildfire\relax }}{70}{figure.caption.86}%
-\contentsline {figure}{\numberline {6.54}{\ignorespaces DC values 3 days prior to wildfire\relax }}{71}{figure.caption.87}%
-\contentsline {figure}{\numberline {6.55}{\ignorespaces ISI values 3 days prior to wildfire\relax }}{71}{figure.caption.88}%
-\contentsline {figure}{\numberline {6.56}{\ignorespaces BUI values 3 days prior to wildfire\relax }}{71}{figure.caption.89}%
-\contentsline {figure}{\numberline {6.57}{\ignorespaces All-time FWI polyfit trend\relax }}{72}{figure.caption.90}%
-\contentsline {figure}{\numberline {6.58}{\ignorespaces All-time FFMC polyfit trend\relax }}{72}{figure.caption.91}%
-\contentsline {figure}{\numberline {6.59}{\ignorespaces All-time DMC polyfit trend\relax }}{72}{figure.caption.92}%
-\contentsline {figure}{\numberline {6.60}{\ignorespaces All-time DC polyfit trend\relax }}{73}{figure.caption.93}%
-\contentsline {figure}{\numberline {6.61}{\ignorespaces All-time ISI polyfit trend\relax }}{73}{figure.caption.94}%
-\contentsline {figure}{\numberline {6.62}{\ignorespaces 15-days FWI polyfit trend\relax }}{73}{figure.caption.95}%
-\contentsline {figure}{\numberline {6.63}{\ignorespaces 15-days FFMC polyfit trend\relax }}{74}{figure.caption.96}%
-\contentsline {figure}{\numberline {6.64}{\ignorespaces 15-days DMC polyfit trend\relax }}{74}{figure.caption.97}%
-\contentsline {figure}{\numberline {6.65}{\ignorespaces 15-days DC polyfit trend\relax }}{74}{figure.caption.98}%
-\contentsline {figure}{\numberline {6.66}{\ignorespaces 15-days ISI polyfit trend\relax }}{74}{figure.caption.99}%
-\contentsline {figure}{\numberline {6.67}{\ignorespaces 15-days BUI polyfit trend\relax }}{74}{figure.caption.100}%
-\contentsline {figure}{\numberline {6.68}{\ignorespaces 15-days temperature, humidity, and dew\relax }}{75}{figure.caption.101}%
-\contentsline {figure}{\numberline {6.69}{\ignorespaces 15-days soil temperature at different depths \relax }}{75}{figure.caption.102}%
-\contentsline {figure}{\numberline {6.70}{\ignorespaces 15-days soil moisture at different depths \relax }}{76}{figure.caption.103}%
-\contentsline {figure}{\numberline {6.71}{\ignorespaces 15-days precipitation and pressure \relax }}{76}{figure.caption.104}%
-\contentsline {figure}{\numberline {6.72}{\ignorespaces 15-days wind gusts, evapotranspiration, and vapour pressure deficit \relax }}{77}{figure.caption.105}%
-\contentsline {figure}{\numberline {6.73}{\ignorespaces 3-days temperature, humidity, and dew\relax }}{77}{figure.caption.106}%
-\contentsline {figure}{\numberline {6.74}{\ignorespaces 3-days soil temperature at different depths \relax }}{78}{figure.caption.107}%
-\contentsline {figure}{\numberline {6.75}{\ignorespaces 3-days soil moisture at different depths \relax }}{78}{figure.caption.108}%
-\contentsline {figure}{\numberline {6.76}{\ignorespaces 3-days precipitation and pressure \relax }}{79}{figure.caption.109}%
-\contentsline {figure}{\numberline {6.77}{\ignorespaces 3-days wind gusts, evapotranspiration, and vapour pressure deficit \relax }}{79}{figure.caption.110}%
-\contentsline {figure}{\numberline {6.78}{\ignorespaces 3-days shortwave, direct, and diffuse radiation \relax }}{80}{figure.caption.111}%
-\contentsline {figure}{\numberline {6.79}{\ignorespaces 3-days direct, global, and instant irrandice \relax }}{80}{figure.caption.112}%
-\contentsline {figure}{\numberline {6.80}{\ignorespaces 3-days cloud covers at different heights \relax }}{81}{figure.caption.113}%
-\contentsline {figure}{\numberline {6.81}{\ignorespaces 3-days terrestrial, direct, and instant radiation\relax }}{81}{figure.caption.114}%
-\contentsline {figure}{\numberline {6.82}{\ignorespaces 3-days wind speed at different heights\relax }}{82}{figure.caption.115}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Comparison of FWI calculated values and Copernicus\relax }}{11}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Comparison of FFMC calculated values and Copernicus\relax }}{12}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Comparison of DMC calculated values and Copernicus\relax }}{12}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Comparison of DC calculated values and Copernicus\relax }}{12}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Comparison of ISI calculated values and Copernicus\relax }}{13}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Comparison of BUI calculated values and Copernicus\relax }}{13}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Comparison of FWI calculated values and Copernicus at midday\relax }}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Comparison of FFMC calculated values and Copernicus at midday\relax }}{14}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Comparison of DMC calculated values and Copernicus at midday\relax }}{15}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Comparison of DC calculated values and Copernicus at midday\relax }}{15}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Comparison of ISI calculated values and Copernicus at midday\relax }}{15}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Comparison of BUI calculated values and Copernicus at midday\relax }}{16}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Comparison of FWI calculated values and Copernicus at midday - 2019\relax }}{17}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Comparison of FWI calculated values and Copernicus at midday - 2022\relax }}{17}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Calculated hourly FWI value for 2015, 2019, and 2022\relax }}{18}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Calculated hourly FFMC value for 2015, 2019, and 2022\relax }}{18}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Calculated hourly DMC value for 2015, 2019, and 2022\relax }}{19}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Calculated hourly DC value for 2015, 2019, and 2022\relax }}{19}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Calculated hourly ISI value for 2015, 2019, and 2022\relax }}{20}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Calculated hourly BUI value for 2015, 2019, and 2022\relax }}{20}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Daily max and min FWI values\relax }}{21}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Daily max and min FFMC values\relax }}{22}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Daily max and min DMC values\relax }}{22}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Daily max and min DC values\relax }}{23}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Daily max and min ISI values\relax }}{23}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Daily max and min BUI values\relax }}{24}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Before, after and daily FWI maximum value\relax }}{25}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.28}{\ignorespaces Before, after and daily FFMC maximum value\relax }}{26}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.29}{\ignorespaces Before, after and daily DMC maximum value\relax }}{26}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.30}{\ignorespaces Before, after and daily DC maximum value\relax }}{27}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.31}{\ignorespaces Before, after and daily ISI maximum value\relax }}{27}{figure.caption.43}%
+\contentsline {figure}{\numberline {2.32}{\ignorespaces Before, after and daily BUI maximum value\relax }}{28}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.33}{\ignorespaces Daily difference of max and min FWI values\relax }}{29}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.34}{\ignorespaces Daily difference of max and min FFMC values\relax }}{30}{figure.caption.46}%
+\contentsline {figure}{\numberline {2.35}{\ignorespaces Daily difference of max and min DMC values\relax }}{30}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.36}{\ignorespaces Daily difference of max and min DC values\relax }}{31}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.37}{\ignorespaces Daily difference of max and min ISI values\relax }}{31}{figure.caption.49}%
+\contentsline {figure}{\numberline {2.38}{\ignorespaces Daily difference of max and min BUI values\relax }}{32}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.39}{\ignorespaces FWI mean tendency graph\relax }}{33}{figure.caption.51}%
+\contentsline {figure}{\numberline {2.40}{\ignorespaces FFMC mean tendency graph\relax }}{33}{figure.caption.52}%
+\contentsline {figure}{\numberline {2.41}{\ignorespaces DMC mean tendency graph\relax }}{34}{figure.caption.53}%
+\contentsline {figure}{\numberline {2.42}{\ignorespaces DC mean tendency graph\relax }}{34}{figure.caption.54}%
+\contentsline {figure}{\numberline {2.43}{\ignorespaces ISI mean tendency graph\relax }}{35}{figure.caption.55}%
+\contentsline {figure}{\numberline {2.44}{\ignorespaces BUI mean tendency graph\relax }}{35}{figure.caption.56}%
+\contentsline {figure}{\numberline {2.45}{\ignorespaces FWI values 15 days prior to wildfire\relax }}{36}{figure.caption.57}%
+\contentsline {figure}{\numberline {2.46}{\ignorespaces FFMC values 15 days prior to wildfire\relax }}{36}{figure.caption.58}%
+\contentsline {figure}{\numberline {2.47}{\ignorespaces DMC values 15 days prior to wildfire\relax }}{36}{figure.caption.59}%
+\contentsline {figure}{\numberline {2.48}{\ignorespaces DC values 15 days prior to wildfire\relax }}{37}{figure.caption.60}%
+\contentsline {figure}{\numberline {2.49}{\ignorespaces ISI values 15 days prior to wildfire\relax }}{37}{figure.caption.61}%
+\contentsline {figure}{\numberline {2.50}{\ignorespaces BUI values 15 days prior to wildfire\relax }}{37}{figure.caption.62}%
+\contentsline {figure}{\numberline {2.51}{\ignorespaces FWI values 3 days prior to wildfire\relax }}{38}{figure.caption.63}%
+\contentsline {figure}{\numberline {2.52}{\ignorespaces FFMC values 3 days prior to wildfire\relax }}{38}{figure.caption.64}%
+\contentsline {figure}{\numberline {2.53}{\ignorespaces DMC values 3 days prior to wildfire\relax }}{38}{figure.caption.65}%
+\contentsline {figure}{\numberline {2.54}{\ignorespaces DC values 3 days prior to wildfire\relax }}{39}{figure.caption.66}%
+\contentsline {figure}{\numberline {2.55}{\ignorespaces ISI values 3 days prior to wildfire\relax }}{39}{figure.caption.67}%
+\contentsline {figure}{\numberline {2.56}{\ignorespaces BUI values 3 days prior to wildfire\relax }}{39}{figure.caption.68}%
+\contentsline {figure}{\numberline {2.57}{\ignorespaces All-time FWI polyfit trend\relax }}{40}{figure.caption.69}%
+\contentsline {figure}{\numberline {2.58}{\ignorespaces All-time FFMC polyfit trend\relax }}{40}{figure.caption.70}%
+\contentsline {figure}{\numberline {2.59}{\ignorespaces All-time DMC polyfit trend\relax }}{40}{figure.caption.71}%
+\contentsline {figure}{\numberline {2.60}{\ignorespaces All-time DC polyfit trend\relax }}{41}{figure.caption.72}%
+\contentsline {figure}{\numberline {2.61}{\ignorespaces All-time ISI polyfit trend\relax }}{41}{figure.caption.73}%
+\contentsline {figure}{\numberline {2.62}{\ignorespaces 15-days FWI polyfit trend\relax }}{41}{figure.caption.74}%
+\contentsline {figure}{\numberline {2.63}{\ignorespaces 15-days FFMC polyfit trend\relax }}{41}{figure.caption.75}%
+\contentsline {figure}{\numberline {2.64}{\ignorespaces 15-days DMC polyfit trend\relax }}{41}{figure.caption.76}%
+\contentsline {figure}{\numberline {2.65}{\ignorespaces 15-days DC polyfit trend\relax }}{41}{figure.caption.77}%
+\contentsline {figure}{\numberline {2.66}{\ignorespaces 15-days ISI polyfit trend\relax }}{42}{figure.caption.78}%
+\contentsline {figure}{\numberline {2.67}{\ignorespaces 15-days BUI polyfit trend\relax }}{42}{figure.caption.79}%
+\contentsline {figure}{\numberline {2.68}{\ignorespaces 15-days temperature, humidity, and dew\relax }}{42}{figure.caption.80}%
+\contentsline {figure}{\numberline {2.69}{\ignorespaces 15-days soil temperature at different depths \relax }}{43}{figure.caption.81}%
+\contentsline {figure}{\numberline {2.70}{\ignorespaces 15-days soil moisture at different depths \relax }}{43}{figure.caption.82}%
+\contentsline {figure}{\numberline {2.71}{\ignorespaces 15-days precipitation and pressure \relax }}{44}{figure.caption.83}%
+\contentsline {figure}{\numberline {2.72}{\ignorespaces 15-days wind gusts, evapotranspiration, and vapour pressure deficit \relax }}{44}{figure.caption.84}%
+\contentsline {figure}{\numberline {2.73}{\ignorespaces 3-days temperature, humidity, and dew\relax }}{45}{figure.caption.85}%
+\contentsline {figure}{\numberline {2.74}{\ignorespaces 3-days soil temperature at different depths \relax }}{45}{figure.caption.86}%
+\contentsline {figure}{\numberline {2.75}{\ignorespaces 3-days soil moisture at different depths \relax }}{46}{figure.caption.87}%
+\contentsline {figure}{\numberline {2.76}{\ignorespaces 3-days precipitation and pressure \relax }}{46}{figure.caption.88}%
+\contentsline {figure}{\numberline {2.77}{\ignorespaces 3-days wind gusts, evapotranspiration, and vapour pressure deficit \relax }}{47}{figure.caption.89}%
+\contentsline {figure}{\numberline {2.78}{\ignorespaces 3-days shortwave, direct, and diffuse radiation \relax }}{47}{figure.caption.90}%
+\contentsline {figure}{\numberline {2.79}{\ignorespaces 3-days direct, global, and instant irrandice \relax }}{48}{figure.caption.91}%
+\contentsline {figure}{\numberline {2.80}{\ignorespaces 3-days cloud covers at different heights \relax }}{48}{figure.caption.92}%
+\contentsline {figure}{\numberline {2.81}{\ignorespaces 3-days terrestrial, direct, and instant radiation\relax }}{49}{figure.caption.93}%
+\contentsline {figure}{\numberline {2.82}{\ignorespaces 3-days wind speed at different heights\relax }}{49}{figure.caption.94}%
