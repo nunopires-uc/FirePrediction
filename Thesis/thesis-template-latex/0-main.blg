@@ -3,46 +3,49 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 0-main.aux
 The style file: apalike.bst
 Database file #1: references.bib
-Warning--empty year in AICC
-You've used 1 entry,
+Warning--entry type for "Zippenfenig_Open-Meteo" isn't style-file defined
+--line 870 of file references.bib
+Warning--I didn't find a database entry for ""
+Warning--can't use both author and editor fields in Mora2020
+You've used 18 entries,
             1935 wiz_defined-function locations,
-            476 strings with 3806 characters,
-and the built_in function-call counts, 251 in all, are:
-= -- 24
-> -- 7
-< -- 1
-+ -- 2
-- -- 2
-* -- 13
-:= -- 53
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 6
-chr.to.int$ -- 1
-cite$ -- 2
-duplicate$ -- 10
-empty$ -- 16
-format.name$ -- 3
-if$ -- 44
+            573 strings with 7496 characters,
+and the built_in function-call counts, 6857 in all, are:
+= -- 643
+> -- 463
+< -- 16
++ -- 170
+- -- 168
+* -- 583
+:= -- 1320
+add.period$ -- 54
+call.type$ -- 18
+change.case$ -- 173
+chr.to.int$ -- 18
+cite$ -- 19
+duplicate$ -- 198
+empty$ -- 310
+format.name$ -- 192
+if$ -- 1236
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 7
-num.names$ -- 3
-pop$ -- 6
+missing$ -- 3
+newline$ -- 93
+num.names$ -- 54
+pop$ -- 129
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 174
 quote$ -- 0
-skip$ -- 8
+skip$ -- 170
 stack$ -- 0
-substring$ -- 12
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 267
+swap$ -- 11
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 106
 warning$ -- 1
-while$ -- 2
+while$ -- 41
 width$ -- 0
-write$ -- 11
-(There was 1 warning)
+write$ -- 223
+(There were 3 warnings)

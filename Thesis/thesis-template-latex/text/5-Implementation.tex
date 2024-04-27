@@ -1,219 +1,280 @@
-\chapter{Implementation}
+\chapter{To-be named Chapter}
 \label{sec:implementation}
 
-\section{Data Sources}
+\section{Study Area}
+The study area encompasses the geographic mainland region of Portugal, extending 89,000 km\textsuperscript{2} located between latitude 42.3°N to 36.7°N and longitude 9.8°W to 6.0°W. Portugal experiences a Mediterranean climate influenced by the Atlantic Ocean and characterized by a mostly wet and cool season followed by a dry summer \cite{Mora2020, portugalClimate01, Marques2011}.
 
-\subsection{Historical record of fires from 1980 to 2015 in mainland Portugal \cite{centraldedados_incendios_website}\cite{centraldedados_incendios} \cite{icnf2024}}
+Altitudes range from sea level to  2000 metres, and higher elevations are more prevelent central and northern regions \cite{Marques2011}.
 
-//describe dataset here, how many entries?
-\label{historical_sites_no_coords}
+The northern region is characterised by lower temperatures and higher values of precipitation than the southern region \cite{Marques2011}. The average annual temperature ranges from 7 to 18°C, while the annual rainfall ranges from 400 to 2,800 mm.
 
-\begin{table}[h!]
-\caption{Field description of Historical fires from 1980 to 2015}
-\label{forest_inventory}
-\centering
-\small
-\begin{tabular}{|c|p{7.5cm}|} % Adjust width as necessary
-\hline
-\textbf{Variable} & \textbf{Description}\\
-\hline
-ano  & Year of fire occurrence \\
-\hline
-codigo\_sgif & Unique identifier for the fire occurrence \\
-\hline
-tipo  & Kind of wildfire. The available options are: forest, slash-and-burn, false alarm, and agricultural.\\
-\hline
-distrito  & District of fire occurrence. \\
-\hline
-concelho  & Municipality of fire occurrence. \\
-\hline
-freguesia  & Parish of fire occurrence.\\
-\hline
-local  & Location of fire occurrence. \\
-\hline
-ine  & Not described or explained anywhere. \\
-\hline
-x | y  & Wildfire location. \\
-\hline
-data\_alerta  & Wildfire warning date. \\
-\hline
-hora\_alerta  & Wildfire warning hour. \\
-\hline
-data\_extincao & Wildfire complete extinguishment date. \\
-\hline
-hora\_extincao & Hour of wildfire complete extinguishment. \\
-\hline
-data\_primeira\_intervencao & Date of first fire intervention \\
-\hline
-hora\_primeira\_intervencao & Hour of first fire intervention \\
-\hline
-fonte\_alerta & Authority or group of people who reported the fire first. \\
-\hline
-nut & A Unique identifier for a given nomenclature of territorial units for statistics. \\
-\hline
-area\_povoamento & Burnt settlement area. \\
-\hline
-area\_mato & Burnt bush area.  \\
-\hline
-area\_agricola & Burnt agricultural area. \\
-\hline
-area\_pov\_mato & Sum of burned area from the burnt settlement area and burnt agricultural area.\\
-\hline
-area\_total & Total burnt area. \\
-\hline
-reacendimento & Describes if a given fire is a re-ignition from a previous wildfire. \\
-\hline
-queimada & Identifies if a fire is a slash-and-burn. \\
-\hline
-falso\_alarme & Identifies if it is a false alarm. \\
-\hline
-fogacho & Identifies if it is a specific type of fire named a blaze. \\
-\hline
-incendio & Identifies if it is a fire. \\
-\hline
-causa & Numerical identifier for the fire cause. \\
-\hline
-tipo\_causa & Description of fire cause. The available options are unknown, deliberate, natural, negligent fire, and undefined. \\
-\hline
-\end{tabular}
+Portugal's vegetation is a blend of Atlantic, European, Mediterranean, and African species \cite{britannica_portugal_climate}, and four tree species account for 80\% of all the forest area:\textit{Pinus pinaster}, \textit{Eucalyptus globulus}, \textit{Quercus suber}, and \textit{Quercus rotundifolia} \cite{Marques2011}.
+
+
+
+
+
+\section{Dataset Sources}
+
+\subsection{Wildfire Occurrences}
+Historical records of fire occurrences were taken from \cite{centraldedados_incendios_website, centraldedados_incendios} and \cite{icnf2024}. The records featured in \cite{centraldedados_incendios_website, centraldedados_incendios} span across 35 years, from 1980 to 2015, and hold 791453 instances of wildfires. Its most relevant features are encapsulated in table \ref{historical_occurrences_1980_2015}, and table \ref{number_occurrences_1980_2013} holds the fire records for each year.
+
+
+The records from \cite{icnf2024} span across 10 years, from 2013 to 2023, and were retrieved with an API \href{https://fogos.icnf.pt/localizador/webserviceocorrencias.asp?ano=YEAR}{endpoint}. It features 140514 entries, and its most important fields are described in table \ref{number_occurrences_1980_2013}, while table \ref{number_occurrences_2013_2023} holds the number of occurrences individually by year.
+
+\begin{table}[H]
+	\caption{Field description of Historical fires from 1980 to 2015 \cite{centraldedados_incendios_website, centraldedados_incendios}}
+	\label{historical_occurrences_1980_2015}
+	\centering
+	\small
+	\begin{tabular}{cp{7.5cm}} % Adjust width as necessary
+		\hline
+		\textbf{Variable} & \textbf{Description}\\
+		\hline
+		ano  & Year of fire occurrence \\
+		codigo\_sgif & Unique identifier for the fire occurrence \\
+		tipo  & Kind of wildfire. The available options are: forest, slash-and-burn, false alarm, and agricultural.\\
+		distrito  & District of fire occurrence. \\
+		concelho  & Municipality of fire occurrence. \\
+		freguesia  & Parish of fire occurrence.\\
+		local  & Location of fire occurrence. \\
+		ine  & Not described or explained anywhere. \\
+		x | y  & Wildfire location. \\
+		data\_alerta  & Wildfire warning date. \\
+		hora\_alerta  & Wildfire warning hour. \\
+		data\_extincao & Wildfire complete extinguishment date. \\
+		hora\_extincao & Hour of wildfire complete extinguishment. \\
+		data\_primeira\_intervencao & Date of first fire intervention \\
+		hora\_primeira\_intervencao & Hour of first fire intervention \\
+		fonte\_alerta & Authority or group of people who reported the fire first. \\
+		nut & A Unique identifier for a given nomenclature of territorial units for statistics. \\
+		area\_povoamento & Burnt settlement area. \\
+		area\_mato & Burnt bush area.  \\
+		area\_agricola & Burnt agricultural area. \\
+		area\_pov\_mato & Sum of burned area from the burnt settlement area and burnt agricultural area.\\
+		area\_total & Total burnt area. \\
+		reacendimento & Describes if a given fire is a re-ignition from a previous wildfire. \\
+		queimada & Identifies if a fire is a slash-and-burn. \\
+		falso\_alarme & Identifies if it is a false alarm. \\
+		fogacho & Identifies if it is a specific type of fire named a blaze. \\
+		incendio & Identifies if it is a fire. \\
+		causa & Numerical identifier for the fire cause. \\
+		tipo\_causa & Description of fire cause. The available options are unknown, deliberate, natural, negligent fire, and undefined. \\
+		\hline
+	\end{tabular}
 \end{table}
 
 
-\subsection{Historical record of fires from 2013 to 2023 in mainland Portugal \cite{icnf2024}}
-\label{dataset_icnf2013_2023}
-
-Data retrieved from the API \href{https://fogos.icnf.pt/localizador/webserviceocorrencias.asp?ano=YEAR}{endpoint}.
-//describe dataset here, how many entries?
-
-
-\begin{table}[h!]
-\caption{Field description of Historical fires from 2013 to 2024}
-\label{forest_inventory}
-\centering
-\small
-\begin{tabular}{|c|p{7.5cm}|} % Adjust width as necessary
-\hline
-\textbf{Variable} & \textbf{Description}\\
-\hline
-CODIGO id  & Unique identifier for the fire occurrence \\
-\hline
-DISTRITO  & District of fire occurrence. \\
-\hline
-TIPO  & Kind of wildfire. The available options are: forest and agricultural fire.\\
-\hline
-ANO  & Year of fire occurrence \\
-\hline
-AREAPOV & Burnt settlement area. \\
-\hline
-AREAMATO & Burnt bush area.  \\
-\hline
-AREAAGRIC & Burnt agricultural area. \\
-\hline
-AREATOTAL & Total burnt area. \\
-\hline
-REACENDIMENTOS & Boolean value for reignition. \\
-\hline
-FOGACHO & Boolean value for small fire. \\
-\hline
-NCCO & Non specified identifier. \\
-\hline
-NOMECCO & Not described or explained anywhere. \\
-\hline
-DATAALERTA & Wildfire warning date. \\
-\hline
-HORAALERTA & Wildfire warning hour. \\
-\hline
-LOCAL & Location of fire occurrence \\
-\hline
-CONCELHO & Municipality of fire occurrence. \\
-\hline
-FREGUESIA & Parish of fire occurrence\\
-\hline
-FONTEALERTA & Authority or group of people who reported the fire first. \\
-\hline
-INE & Not described or explained anywhere. \\
-\hline
-X | Y & Wildfire location. \\
-\hline
-DIA & Day of the fire occurrence. \\
-\hline
-MES & Month of fire occurrence. \\
-\hline
-HORA & Fire hour of occurrence. \\
-\hline
-OPERADOR & Not described or explained anywhere. \\
-\hline
-PERIMETRO & Not described or explained anywhere. \\
-\hline
-APS & Not described or explained anywhere. \\
-\hline
-CAUSA & Numerical identifier for the fire cause. \\
-\hline
-TIPOCAUSA & Description of fire cause. The available options differ from year to year. \\
-
-distrito  & District of fire occurrence. \\
-\hline
+\begin{table}[H]
+	\caption{Number of Fire occurrences between 1980 and 2015}
+	\label{number_occurrences_1980_2013}
+	\centering
+	\begin{tabular}{lc}
+		\hline
+		Year & \multicolumn{1}{l}{Number of Occurrences} \\ \hline
+		1980 & 2346                                      \\
+		1981 & 6727                                      \\
+		1982 & 3625                                      \\
+		1983 & 4536                                      \\
+		1984 & 7355                                      \\
+		1985 & 8439                                      \\
+		1986 & 5036                                      \\
+		1987 & 7703                                      \\
+		1988 & 6130                                      \\
+		1989 & 21895                                     \\
+		1990 & 10743                                     \\
+		1991 & 14327                                     \\
+		1992 & 14951                                     \\
+		1993 & 14799                                     \\
+		1994 & 19983                                     \\
+		1995 & 31116                                     \\
+		1996 & 28626                                     \\
+		1997 & 23494                                     \\
+		1998 & 34675                                     \\
+		1999 & 25473                                     \\
+		2000 & 34107                                     \\
+		2001 & 31582                                     \\
+		2002 & 33697                                     \\
+		2003 & 30345                                     \\
+		2004 & 34722                                     \\
+		2005 & 50364                                     \\
+		2006 & 31445                                     \\
+		2007 & 31122                                     \\
+		2008 & 23139                                     \\
+		2009 & 34979                                     \\
+		2010 & 32357                                     \\
+		2011 & 35941                                     \\
+		2012 & 30740                                     \\
+		2013 & 27372                                     \\
+		2014 & 11387                                     \\
+		2015 & 23175                                     \\ \hline
+		Total & 791453                                   \\
+		\hline
+	\end{tabular}
+\end{table}
 
 
-local  & Local of fire occurrence \\
-\hline
+\begin{table}[H]
+	\caption{Field description of Historical fires from 2013 to 2023 \cite{icnf2024}}
+	\label{historical_occurrences_2013_2023}
+	\centering
+	\small
+	\begin{tabular}{cp{8.5cm}}
+		\hline
+		\textbf{Variable} & \textbf{Description}\\
+		\hline
+		CODIGO id  & Unique identifier for the fire occurrence \\
+		DISTRITO  & District of fire occurrence. \\
+		TIPO  & Kind of wildfire. The available options are: forest and agricultural fire.\\
+		ANO  & Year of fire occurrence \\
+		AREAPOV & Burnt settlement area. \\
+		AREAMATO & Burnt bush area.  \\
+		AREAAGRIC & Burnt agricultural area. \\
+		AREATOTAL & Total burnt area. \\
+		REACENDIMENTOS & Boolean value for reignition. \\
+		FOGACHO & Boolean value for small fire. \\
+		Incendio & Boolean value for fire. \\
+		Agricola & Boolean value for agricultural fire. \\
+		DATAALERTA & Wildfire warning date. \\
+		HORAALERTA & Wildfire warning hour. \\
+		LOCAL & Location of fire occurrence \\
+		CONCELHO & Municipality of fire occurrence. \\
+		FREGUESIA & Parish of fire occurrence\\
+		FONTEALERTA & Authority or group of people who reported the fire first. \\
+		DIA & Day of the fire occurrence. \\
+		MES & Month of fire occurrence. \\
+		HORA & Fire hour of occurrence. \\
+		CAUSA & Numerical identifier for the fire cause. \\
+		TIPOCAUSA & Description of fire cause. The available options differ from year to year. \\
+		DHINICIO & Firefighting starting date and time \\
+		DHFIM & Ending of firefighting efforts\\
+		DURACAO & Number of minutes it took to extinguish the fire \\
+		HAHORA & Not described \\
+		DATAEXTINCAO & Fire extinguish date \\
+		HORAEXTINCAO & Fire extinguish hour \\
+		QUEIMA & Boolean value for intentional small fire\\
+		LAT & Latitude coordinate of fire occurrence\\
+		LON & Longitude coordinate of fire occurrence\\
+		TEMPERATURA & Value for temperature at the time of fire occurrence\\
+		HUMIDADERELATIVA & Relative Humidity value\\
+		VENTOINTENSIDADE & Wind velocity\\
+		VENTODIRECAO\_VETOR & Direction of wind\\
+		PRECIPITACAO & Value for rainfall\\
+		FFMC & Fine fuel moisture code\\
+		DMC & Duff moisture code\\
+		DC & Drought code\\
+		ISI & Initial Spread index\\
+		BUI & Build Up Index\\
+		FWI & Fire Weather Index\\
+		DSR & Daily Severity Rating\\
+		ALTITUDEMEDIA & Mean altitude\\
+		DECLIVEMEDIO & Mean Slope\\
+		\hline
+	\end{tabular}
+\end{table}
 
-
-data\_alerta  & Wildfire warning date. \\
-\hline
-hora\_alerta  & Wildfire warning hour. \\
-\hline
-data\_extincao & Wildfire complete extinguishment date. \\
-\hline
-hora\_extincao & Hour of wildfire complete extinguishment. \\
-\hline
-data\_primeira\_intervencao & Date of first fire intervention \\
-\hline
-hora\_primeira\_intervencao & Hour of first fire intervention \\
-\hline
-fonte\_alerta & Authority or group of people who reported the fire first. \\
-\hline
-nut & A Unique identifier for a given nomenclature of territorial units for statistics. \\
-\hline
-
-
-
-area\_pov\_mato & Sum of burned area from the burnt settlement area and burnt agricultural area.\\
-\hline
-
-reacendimento & Describes if a given fire is a re-ignition from a previous wildfire. \\
-\hline
-queimada & Identifies if a fire is a slash-and-burn. \\
-\hline
-falso\_alarme & Identifies if a false alarm. \\
-\hline
-fogacho & Identifies if it is a specific type of fire named a blaze. \\
-\hline
-incendio & Identifies if it is a fire. \\
-\hline
-causa & Numerical identifier for a fire cause. \\
-\hline
-tipo\_causa & Description of fire cause. The available options are unknown, deliberate, natural, negligent fire, and undefined. \\
-\hline
-\end{tabular}
+\begin{table}[H]
+	\centering
+	\caption{Number of Fire occurrences between 2013 and 2023}
+	\label{number_occurrences_2013_2023}
+	\begin{tabular}{lc}
+		Year  & \multicolumn{1}{l}{Number of Occurrences} \\ \hline
+		2013  & 24479                                     \\
+		2014  & 10286                                     \\
+		2015  & 19669                                     \\
+		2016  & 16131                                     \\
+		2017  & 21074                                     \\
+		2018  & 12296                                     \\
+		2019  & 10909                                     \\
+		2020  & 9713                                      \\
+		2021  & 6996                                      \\
+		2022  & 1335                                      \\
+		2023  & 7626                                      \\ \hline
+		Total & 140514                                    \\ \hline
+	\end{tabular}
 \end{table}
 
 
 
-\subsection{Study area}
-MUDAR
-The study area is located in western Sichuan, southwest China, between 26 05 00 N to 34 20 00 N and 97 22 00 E to 104 07 00 E, with a
-total area of about 300,423 km2
-(Fig. 2a). Belonging to the southeastern edge of the Qinghai-Tibet
-Plateau, the area is characterized by complex topography, with a low
-evaluation in the south region (around 1500 m a.s.l.) to a high evalua-
-tion in the north region (around 4500 m a.s.l.). Wildfires only seldom
-occur above 4000 m a.s.l., so we limited our study area to the region
-below 4000 m a.s.l.
-The climate in the study area varies with altitude and ranges from
-alpine in the northern area to the subtropical semi-humid climate in the
-southern mountainous area. The alpine climate in the northwestern
-region faces water scarcity (annual total precipitation of 500–900 mm
+\subsection{Weather Variables}
+Historical Weather Variables were taken from the api \cite{Zippenfenig_Open-Meteo}. This encompasses both daily and hourly weather data retrieval from all around the world. The API matches the sent location with multiple reanalysis datasets and yields the best optimal result based on location. It has a complete record of historical weather conditions by combining observations from weather stations, aeroplanes, buoys, radar, and satellites, and gaps in data are filled using mathematical models to estimate the values of different weather variables \cite{Zippenfenig_Open-Meteo}.
+
+\cite{Zippenfenig_Open-Meteo} datasets are featured in table X.
+
+
+
+
+
+The sources of weather variables and brief description of them
+\cite{Zippenfenig_Open-Meteo} from \cite{Hersbach_ERA5}, \cite{Munoz_ERA5_LAND} and \cite{Schimanke_CERRA}
+
+table X encompasses both weather, fuel and topography variables.
+
+
+
+
+\subsection{Fuel Variables}
+The sources of fuel variables and brief description of them
+
+\subsection{Topography Variables}
+The sources of topography variables and brief description of them
+
+\begin{table}[H]
+	\begin{tabular}{cccc}
+		\hline
+		\textbf{Variable Type} &
+		\textbf{Variable Name} &
+		\textbf{Resolution} \\ \hline
+		Topography &
+		\begin{tabular}[c]{@{}c@{}}Elevation (m)\\ Slope (0-90)\\ Topographic roughness Index\end{tabular} &
+		\_,7.5 arc-seconds, \_ \\ \hline
+		Weather &
+		\begin{tabular}[c]{@{}c@{}}Temperature (°C)\\ Relative Humidity (\%)\\ Dew (°C)\\ Apparent Temperature (°C)\\ Pressure (hPa)\\ Surface Pressure (hPa)\\ Precipitation (mm)\\ Rain (mm)\\ Snowfall (cm)\\ Cloud Cover Low/Mid/High (\%)\\ Shortwave Radiation ($W/m^2$)\\ Direct Radiation ($W/m^2$)\\ Direct Normal Irradiance ($W/m^2$)\\ Diffuse Radiation ($W/m^2$)\\ Global Tilted Irradiance ($W/m^2$)\\ Sunshine Duration (Seconds)\\ Wind Speed 10m/100m (km/h)\\ Wind Direction 10m/100m (°)\\ Wind Gusts 10m (km/h)\\ Et0 Evapotranspiration (mm)\\ Weather Code (WMO code)\\ Snow Depth (metres)\\ Vapour Pressure Deficit (kPa)\\ Soil Temperature 0 to 255cm (°C)\\ Soil Moisture 0 to 255cm ($m^3/m^3$)\end{tabular}
+		&
+		0.25/0.1/9km/5km, \_ , Hourly \\ \hline
+		Fuel &
+		\begin{tabular}[c]{@{}c@{}}Fine fuel moisture code\\ Duff moisture code\\ Drought code\\ Initial Spread index \\ Build Up Index \\ Fire weather index\\ Tree Species\end{tabular} &
+		\begin{tabular}[c]{@{}c@{}}0.25 , \_ , Daily\\ \\ \\ \\ \\ -\end{tabular} \\ \hline
+	\end{tabular}
+\end{table}
+
+
+\section{Data Preparation}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Variables Explanation}
+Slope has a significant influence on fire behaviour since it speeds its spread \cite{Marques2011}.
+
+
+
+
+
+
+
 
 
 \subsection{Open-meteo hourly weather variables \cite{Zippenfenig_Open-Meteo}}
@@ -331,7 +392,7 @@ Ignition component & \% &  Probability of a firebrand that will require suppress
 \hline
 Keetch-Byram drought index & Dimensionless &  The total impact of evapotranspiration and precipitation in causing cumulative moisture shortage in deep duff and higher soil layers. \\
 \hline
-Spread component & Dimensionless &  Measure of the spead at which a headfire would spread. \\
+Spread component & Dimensionless &  Measure of the speed at which a headfire will spread. \\
 \hline
 \end{tabular}
 \end{table}
@@ -636,60 +697,11 @@ NA Fires
 
 \subsection{Study Area}
 
-Description of the study area
-
-coordinates: https://sco.wikipedia.org/wiki/Template:Location_map_Portugal
-
-
-\begin{table}[h!]
-	\centering
-	\begin{tabular}{|c|c|c|c|c|}
-		\hline
-		\textbf{Variable Type} & \multicolumn{2}{c|}{\textbf{Variable Name (m)}} & \textbf{Variable Code} & \textbf{Source} & \textbf{Resolution} \\
-		\hline
-		\textbf{Topography} & Elevation & Slope & ELE & GMTED2010 [55] & 1m² \\
-		& Slope(roughness index) & & SLO & & \\
-		\hline
-		\textbf{Weather} & Daily average temperature (°C) & Daily maximum relative humidity (\%) & Tem\_max & WERA-25 Land [23] & 0.1° 1 day¹ \\
-		& Daily precipitation (mm) & & Precip & & \\
-		\hline
-		\textbf{Fuel} & Fine fuel moisture code & Duff moisture code & FMC & Fire Danger Indices & 500 m 8 days¹ \\
-		& & Drought code & DMC & historical data [7 24] & \\
-		& & & DC & the First Forestry & \\
-		& & & & MODIS Survey of China & \\
-		& & & & MOD15A2H & \\
-		\hline
-	\end{tabular}
-	\caption{Example table caption}
-	\label{table:example}
-\end{table}
+%\begin{comment}
+%\end{comment}
 
 
 
-
-
-\begin{table}[h!]
-	\centering
-	\begin{tabular}{|c|c|c|c|c|}
-		\hline
-		\textbf{Variable Type} & \multicolumn{2}{c|}{\textbf{Variable Name (m)}} & \textbf{Variable Code} & \textbf{Source} & \textbf{Resolution} \\
-		\hline
-		\textbf{Topography} & Elevation & Slope & ELE & GMTED2010 [55] & 1m² \\
-		& Slope(roughness index) & & SLO & & \\
-		\hline
-		\textbf{Weather} & Daily average temperature (°C) & Daily maximum relative humidity (\%) & Tem\_max & WERA-25 Land [23] & 0.1° 1 day¹ \\
-		& Daily precipitation (mm) & & Precip & & \\
-		\hline
-		\textbf{Fuel} & Fine fuel moisture code & Duff moisture code & FMC & Fire Danger Indices & 500 m 8 days¹ \\
-		& & Drought code & DMC & historical data [7 24] & \\
-		& & & DC & the First Forestry & \\
-		& & & & MODIS Survey of China & \\
-		& & & & MOD15A2H & \\
-		\hline
-	\end{tabular}
-	\caption{Example table caption}
-	\label{table:example}
-\end{table}
 
 
 
