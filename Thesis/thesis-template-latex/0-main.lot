@@ -1,10 +1,10 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Field description of Historical fires from 1980 to 2015 \citep {centraldedados_incendios_website, centraldedados_incendios}\relax }}{2}{table.caption.7}%
-\contentsline {table}{\numberline {1.2}{\ignorespaces Number of Fire occurrences between 1980 and 2015\relax }}{3}{table.caption.8}%
-\contentsline {table}{\numberline {1.3}{\ignorespaces Field description of Historical fires from 2013 to 2023 \citep {icnf2024}\relax }}{4}{table.caption.9}%
-\contentsline {table}{\numberline {1.4}{\ignorespaces Number of Fire occurrences between 2013 and 2023\relax }}{5}{table.caption.10}%
-\contentsline {table}{\numberline {1.5}{\ignorespaces Hourly weather variables from Open-meteo\relax }}{7}{table.caption.12}%
-\contentsline {table}{\numberline {1.6}{\ignorespaces Fire danger indices from historical data\relax }}{9}{table.caption.13}%
-\contentsline {table}{\numberline {1.7}{\ignorespaces Forest Inventory 2015\relax }}{10}{table.caption.14}%
-\contentsline {table}{\numberline {1.8}{\ignorespaces Combinations for local geocoding\relax }}{11}{table.caption.15}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Variable importance for 2015 and 2019\relax }}{1}{table.caption.7}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Variable importance for 2022\relax }}{2}{table.caption.8}%
+\contentsline {table}{\numberline {1.3}{\ignorespaces Variable importance for hourly values\relax }}{2}{table.caption.9}%
+\contentsline {table}{\numberline {1.4}{\ignorespaces Variable importance with daily mean method\relax }}{2}{table.caption.10}%
+\contentsline {table}{\numberline {1.5}{\ignorespaces Variable importance with \textit {FWI} time frame method\relax }}{3}{table.caption.12}%
+\contentsline {table}{\numberline {1.6}{\ignorespaces Variable importance with 3-hours time frame method\relax }}{3}{table.caption.13}%
+\contentsline {table}{\numberline {1.7}{\ignorespaces Variable importance 14-days prior time frame method\relax }}{4}{table.caption.14}%
+\contentsline {table}{\numberline {1.8}{\ignorespaces Variable importance 14-days prior hourly time frame method\relax }}{4}{table.caption.15}%
