@@ -1,0 +1,53 @@
+All time:
+index                                    0.100804
+Unnamed: 0                               0.100804
+hourly.temperature_2m                   -0.128497
+hourly.relative_humidity_2m             -0.456979
+hourly.dew_point_2m                      0.361534
+hourly.apparent_temperature             -0.079965
+hourly.precipitation                    -0.012058
+hourly.rain                             -0.012058
+hourly.pressure_msl                     -0.036130
+hourly.surface_pressure                  0.035684
+hourly.cloud_cover                      -0.066714
+hourly.cloud_cover_low                   0.069486
+hourly.cloud_cover_mid                  -0.005245
+hourly.cloud_cover_high                  0.091098
+hourly.et0_fao_evapotranspiration        0.067582
+hourly.vapour_pressure_deficit           0.117466
+hourly.wind_speed_10m                   -0.037020
+hourly.wind_speed_100m                   0.035968
+hourly.wind_direction_10m               -0.059992
+hourly.wind_direction_100m               0.022511
+hourly.wind_gusts_10m                    0.035899
+hourly.soil_temperature_0_to_7cm         0.432278
+hourly.soil_temperature_7_to_28cm       -0.380578
+hourly.soil_temperature_28_to_100cm      0.127886
+hourly.soil_temperature_100_to_255cm    -0.322010
+hourly.soil_moisture_0_to_7cm           -0.041468
+hourly.soil_moisture_7_to_28cm          -0.033295
+hourly.soil_moisture_28_to_100cm        -0.046076
+hourly.soil_moisture_100_to_255cm        0.107977
+hourly.sunshine_duration                -0.054779
+hourly.shortwave_radiation              -0.004671
+hourly.direct_radiation                 -0.093480
+hourly.diffuse_radiation                 0.108650
+hourly.direct_normal_irradiance          0.006920
+hourly.global_tilted_irradiance         -0.073734
+hourly.terrestrial_radiation            -0.082094
+hourly.shortwave_radiation_instant      -0.009002
+hourly.direct_radiation_instant          0.008379
+hourly.diffuse_radiation_instant         0.007813
+hourly.direct_normal_irradiance_instant -0.007944
+hourly.global_tilted_irradiance_instant  0.060597
+hourly.terrestrial_radiation_instant     0.061149
+fwix                                          NaN
+ffmc                                    -0.095535
+dmc                                      0.238905
+dc                                      -0.094200
+isi                                      0.918767
+bui                                     -0.040403
+location                                -0.111355
+
+
+
