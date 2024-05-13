@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.5)  29 APR 2024 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.5)  3 MAY 2024 13:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1008,7 +1008,50 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count360
 \l__pdf_internal_box=\box81
 )
-(./0-main.aux)
+(./0-main.aux
+
+LaTeX Warning: Label `wildfire_correlation' multiply defined.
+
+
+LaTeX Warning: Label `feature_importances' multiply defined.
+
+
+LaTeX Warning: Label `wildfire_correlation' multiply defined.
+
+
+LaTeX Warning: Label `feature_importances' multiply defined.
+
+
+LaTeX Warning: Label `wildfire_correlation' multiply defined.
+
+
+LaTeX Warning: Label `feature_importances' multiply defined.
+
+
+LaTeX Warning: Label `wildfire_correlation' multiply defined.
+
+
+LaTeX Warning: Label `feature_importances' multiply defined.
+
+
+LaTeX Warning: Label `wildfire_correlation' multiply defined.
+
+
+LaTeX Warning: Label `feature_importances' multiply defined.
+
+
+LaTeX Warning: Label `feature_importances' multiply defined.
+
+
+LaTeX Warning: Label `correlations' multiply defined.
+
+
+LaTeX Warning: Label `feature_importances' multiply defined.
+
+
+LaTeX Warning: Label `feature_importances' multiply defined.
+
+)
 \openout1 = `0-main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
@@ -1152,7 +1195,7 @@ LaTeX Info: Redefining \nameref on input line 139.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<frontmatter/logo-uc-gold.pdf, id=27, 285.065pt x 241.90375pt>
+<frontmatter/logo-uc-gold.pdf, id=35, 285.065pt x 241.90375pt>
 File: frontmatter/logo-uc-gold.pdf Graphic file (type pdf)
 <use frontmatter/logo-uc-gold.pdf>
 Package pdftex.def Info: frontmatter/logo-uc-gold.pdf  used on input line 15.
@@ -1199,7 +1242,7 @@ Package pdftex.def Info: frontmatter/logo-uc-gold.pdf  used on input line 15.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<frontmatter/logo-dei.pdf, id=42, 459.7175pt x 334.24875pt>
+<frontmatter/logo-dei.pdf, id=50, 459.7175pt x 334.24875pt>
 File: frontmatter/logo-dei.pdf Graphic file (type pdf)
 <use frontmatter/logo-dei.pdf>
 Package pdftex.def Info: frontmatter/logo-dei.pdf  used on input line 15.
@@ -1293,7 +1336,13 @@ LaTeX Font Info:    Trying to load font information for OT1+zplm on input line
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-))
+)
+Overfull \hbox (6.70537pt too wide) in paragraph at lines 5--5
+ [][] [][]\T1/ppl/m/n/12 Feature im-por-tance and cor-re-la-tion with Ran-dom-F
+orest-Clas- 
+ []
+
+)
 \tf@toc=\write6
 \openout6 = `0-main.toc'.
 
@@ -1327,12 +1376,18 @@ n input line 219.
 ] (./text/7-experiences.tex
 Chapter 1.
 
-Overfull \hbox (65.98454pt too wide) in paragraph at lines 20--29
+Overfull \hbox (9.23747pt too wide) in paragraph at lines 12--12
+|[]\T1/ppl/b/n/14.4 Feature im-por-tance and cor-re-la-tion with Ran-dom-Forest
+-Clas-
+ []
+
+
+Overfull \hbox (65.98454pt too wide) in paragraph at lines 22--31
  [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1496) has occurred while \output is active []
 
  [1
 
@@ -1347,34 +1402,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-<graphs/variables/fwix_24_2015.png, id=157, 722.7pt x 433.62pt>
+<graphs/variables/fwix_24_2015.png, id=219, 722.7pt x 433.62pt>
 File: graphs/variables/fwix_24_2015.png Graphic file (type png)
 <use graphs/variables/fwix_24_2015.png>
 Package pdftex.def Info: graphs/variables/fwix_24_2015.png  used on input line 
-94.
+139.
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
 File: graphs/variables/fwix_24_2015.png Graphic file (type png)
 <use graphs/variables/fwix_24_2015.png>
 Package pdftex.def Info: graphs/variables/fwix_24_2015.png  used on input line 
-100.
+145.
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
-<graphs/variables/fwix_24_2019.png, id=159, 722.7pt x 433.62pt>
+<graphs/variables/fwix_24_2019.png, id=221, 722.7pt x 433.62pt>
 File: graphs/variables/fwix_24_2019.png Graphic file (type png)
 <use graphs/variables/fwix_24_2019.png>
 Package pdftex.def Info: graphs/variables/fwix_24_2019.png  used on input line 
-106.
+151.
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[3 <./graphs/variables/fwix_24_2015.png> <./graphs/variables/fwix_24_2019.png>]
-) (./0-main.bbl
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1383,17 +1431,305 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4]) [5
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4 <./graphs/variables/fwix_24_2015.png> <./graphs/variables/fwix_24_2019.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+Overfull \vbox (18.11617pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+Overfull \vbox (18.51616pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+Overfull \vbox (18.51616pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+Overfull \vbox (18.51616pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+Overfull \vbox (18.51616pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+Underfull \vbox (badness 7777) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+Overfull \vbox (18.51616pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22]
+Overfull \vbox (18.51616pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25]
+Overfull \vbox (18.51616pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27]) (./0-main.bbl
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28]) [29
 
 ] (./0-main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `0-main.out' has not changed.
-(rerunfilecheck)             Checksum: 2F8B60C0AA0E3E90E2B7B2492EE5646B;792.
+(rerunfilecheck)             Checksum: 95AB1D2C62412726655D839FD709C55F;1343.
  ) 
 Here is how much of TeX's memory you used:
- 33560 strings out of 480129
- 626871 string characters out of 5893409
- 933127 words of memory out of 5000000
- 50828 multiletter control sequences out of 15000+600000
+ 33622 strings out of 480129
+ 627762 string characters out of 5893409
+ 939885 words of memory out of 5000000
+ 50840 multiletter control sequences out of 15000+600000
  499403 words of font info for 73 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  99i,11n,131p,1136b,604s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1402,10 +1738,10 @@ e/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatin
 o/uplri8a.pfb>
-Output written on 0-main.pdf (21 pages, 480618 bytes).
+Output written on 0-main.pdf (45 pages, 506778 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 394 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 

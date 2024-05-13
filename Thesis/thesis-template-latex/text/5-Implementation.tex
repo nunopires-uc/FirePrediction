@@ -197,29 +197,142 @@ The records from \cite{icnf2024} span across 10 years, from 2013 to 2023, and we
 
 
 \subsection{Weather Variables}
-Historical weather variables were taken from the API \cite{Zippenfenig_Open-Meteo}. This encompasses both daily and hourly weather data retrieval from all around the world. The API matches the sent location with multiple reanalysis datasets and yields the best optimal result based on location. It has a complete record of historical weather conditions by combining observations from weather stations, aeroplanes, buoys, radar, and satellites, and gaps in data are filled using mathematical models to estimate the values of different weather variables \cite{Zippenfenig_Open-Meteo}.
+Historical weather variables were obtained via the API \cite{Zippenfenig_Open-Meteo}. This includes daily and hourly weather data extraction from all across the world. The API compares the provided location to several reanalysis datasets and returns the most optimal result based on location. It includes a full database of historical weather conditions dating back to 1940 from multiple sources (table \ref{Datasets_api}). 
 
-\cite{Zippenfenig_Open-Meteo} datasets are featured in table X.
-
-
+It incorporates observations from weather stations, aeroplanes, buoys, radar, and satellites and fills gaps in data using mathematical models to estimate the values of different weather variables \cite{Zippenfenig_Open-Meteo}.
 
 
+The variables extracted from \textit{Open-Meteo} are on table \ref{other_variables} as well as the unit for each weather variable.
 
-The sources of weather variables and brief description of them
-\cite{Zippenfenig_Open-Meteo} from \cite{Hersbach_ERA5}, \cite{Munoz_ERA5_LAND} and \cite{Schimanke_CERRA}
 
-table X encompasses both weather, fuel and topography variables.
+\begin{table}[H]
+	\caption{API Weather Sources \cite{Zippenfenig_Open-Meteo, Hersbach_ERA5, Munoz_ERA5_LAND, Schimanke_CERRA}}
+	\centering
+	\label{Datasets_api}
+	\begin{tabular}{llll}
+		\hline
+		\multicolumn{1}{c}{Dataset} & \multicolumn{1}{c}{Region} & \multicolumn{1}{c}{Resolution} & \multicolumn{1}{c}{Availability} \\ \hline
+		ECMFWF IFS & Global & 9km, Hourly  & 2017 to present   \\
+		ERA5       & Global & 25km, Hourly & 1940 to present   \\
+		ERA5-Land  & Global & 11km, Hourly & 1950 to present   \\
+		CERRA      & Europe & 5km, Hourly  & 1985 to June 2021
+	\end{tabular}
+\end{table}
 
 
 
 
 \subsection{Fuel Variables}
-The sources of fuel variables and brief description of them
+Fuel variables encompass two sources: Copernicus Climate Change Service \cite{CopernicusCDS2019} and Forestry Inventory 2015 \cite{uva2021forestry,https://doi.org/10.15468/dl.zwfmbt}
+
+The Copernicus Climate Change Service contains historical reconstructions of fire danger indices, i.e., variables that emphasise conditions suitable for the origin, spread, and sustainability of naturally occurring fires. The fire danger indices are obtained from historical simulations and weather forecasts, and the available data starts in January 1940 and extends all the way through 2023. Variables contained in the dataset are expressed in the table \ref{copernicus_danger_indices}.
+
+The Forestry Inventory 2015 contains 579422 occurrences of forest species on mainland Portugal. The data was gathered using aerial images and ground surveys. The most important features are described in table \ref{forest_inventory}.
+
+
+\begin{table}[H]
+	\caption{Fire danger indices from historical data \cite{CopernicusCDS2019}}
+	\label{copernicus_danger_indices}
+	\centering
+	\small
+	\begin{tabular}{ccp{7.5cm}} % Adjust width as necessary
+		\hline
+		\textbf{Variable} & \textbf{Unit} & \textbf{Description}\\
+		\hline
+		Build-up index & Dimensionless & Weighted combination of the Duff moisture code and Drought code. \\
+		\hline
+		Burning index & Dimensionless & Measure that explains how difficult it is to control a fire. \\
+		\hline
+		Danger rating & Dimensionless & Equivalent to the FWI but with class level definitions of very low, low, medium, high, very high and extreme. \\
+		\hline
+		Drought code & Dimensionless & Component representing fuel availability, and the influence of recent temperatures and rainfall events on fuel availability. \\
+		\hline
+		Duff moisture code & Dimensionless & Moisture content in loosely-compacted organic layers of moderate depth. Duff moisture code fuels are affected by rain, temperature and relative humidity. \\
+		\hline
+		Energy release component & $J/m^2$ & Available energy within the burning front at the head of a fire. \\
+		\hline
+		Fine fuel moisture code & Dimensionless &  Moisture content in litter. Representative of the top litter layer less than 1-2 cm deep. \\
+		\hline
+		Fire daily severity index & Dimensionless &  A numerical assessment of the difficulty of controlling flames. \\
+		\hline
+		Fire danger index & Dimensionless &  Metric that hold the chances of a fire starting. \\
+		\hline
+		Fire weather index & Dimensionless &  Combination of Initial spread index and Build-up index. Numerical rating of the potential fire intensity. \\
+		\hline
+		Ignition component & \% &  Probability of a firebrand that will require suppression action. \\
+		\hline
+		Keetch-Byram drought index & Dimensionless &  The total impact of evapotranspiration and precipitation in causing cumulative moisture shortage in deep duff and higher soil layers. \\
+		\hline
+		Spread component & Dimensionless &  Measure of the speed at which a headfire will spread. \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+	\caption{Forest Inventory 2015}
+	\label{forest_inventory}
+	\centering
+	\small
+	\begin{tabular}{cp{7.5cm}} % Adjust width as necessary
+		\hline
+		\textbf{Variable} & \textbf{Description}\\
+		\hline
+		gbifID | datasetKey | ocurrenceID  & Identifiers for the occurrence of trees and the dataset. \\
+		kingdom & Kingdom classification of a given Tree. \\
+		phylum & Phylum classification of a given Tree. \\
+		class & Taxonomic class. \\
+		order & Taxonomic Order of a Tree. \\
+		genus & Tree genus. \\
+		species & Data containing the species of a given tree. \\
+		taxonRank & Data containing the highest taxonomic rank available for a given tree group. \\
+		scientificName | verbatimScientificName & Scientific name for the available taxonomic classification. \\
+		
+		verbatimScientificNameAuthorship & Scientific name authorship for the available taxonomic classification. \\
+		
+		countryCode & Contry code of Portugal. \\
+		
+		locality & Name of a locality containing a given tree. \\
+		
+		stateProvince &  Name of a district containing a given tree. \\
+		
+		occurrenceStatus & Describes if a tree is still present.   \\
+		
+		decimalLatitude & Latitude for the tree occurrence. \\
+		
+		decimalLongitude & Longitude for the tree occurrence \\
+		
+		coordinateUncertaintyInMeters & Uncertainty for a given tree location in metres. \\
+		
+		eventDate | year & Year of event record. \\
+		
+		taxonKey & Taxonomic key for the highest available classification for a tree \\
+		
+		speciesKey & Individual key for a given tree species if available. \\
+		
+		speciesKey & Individual key for a given tree species if available. \\
+		
+		institutionCode & Unique identifier for ICNF. \\
+		
+		collectionCode & Unique collection identifier for the institutionCode. \\
+	\end{tabular}
+\end{table}
+
 
 \subsection{Topography Variables}
 The sources of topography variables and brief description of them
 
+\cite{rasterio}
+
+\cite{Danielson2011} Terrain Elevation Data from around the globe
+
+
+
 \begin{table}[H]
+	
+	\centering
+	\caption{Topography, Weather and Fuel variables}
+	\label{other_variables}
 	\begin{tabular}{cccc}
 		\hline
 		\textbf{Variable Type} &
@@ -350,131 +463,6 @@ Soil moisture & $m^3/m^3$ & Average soil moisture ranging from 0 to 7cm, 7 to 28
 \end{tabular}
 \end{table}
 
-\subsection{Fire danger indices historical data from the Copernicus Emergency Management Service \cite{CopernicusCDS2019}}
-The dataset "Fire danger indices historical data from the Copernicus Emergency Management Service" \cite{CopernicusCDS2019} provided by ECMWF, contains full historical reconstruction of weather conditions suitable for the origin, spread, and sustainability of natural occurring fires. 
-
-It embodies fire danger indices from three distinct models created in Canada, United States and Australia. The fire danger indices are obtained from historical simulations and weather forecast provided by the dataset ECMWF ERA5 reanalysis. 
-
-The available data starts from January 1940 and it extends all the way through 2023, but the data records are regularly extended with time as ERA5 forcing data becomes available. The variables contained in the dataset are expressed in the table \ref{copernicus_danger_indices}.
-
-
-\begin{table}[h!]
-
-\caption{Fire danger indices from historical data}
-\label{copernicus_danger_indices}
-\centering
-\small
-\begin{tabular}{|c|c|p{7.5cm}|} % Adjust width as necessary
-\hline
-\textbf{Variable} & \textbf{Unit} & \textbf{Description}\\
-\hline
-Build-up index & Dimensionless & Weighted combination of the Duff moisture code and Drought code. \\
-\hline
-Burning index & Dimensionless & Measure that explains how difficult it is to control a fire. \\
-\hline
-Danger rating & Dimensionless & Equivalent to the FWI but with class level definitions of very low, low, medium, high, very high and extreme. \\
-\hline
-Drought code & Dimensionless & Component representing fuel availability, and the influence of recent temperatures and rainfall events on fuel availability. \\
-\hline
-Duff moisture code & Dimensionless & Moisture content in loosely-compacted organic layers of moderate depth. Duff moisture code fuels are affected by rain, temperature and relative humidity. \\
-\hline
-Energy release component & $J/m^2$ & Available energy within the burning front at the head of a fire. \\
-\hline
-Fine fuel moisture code & Dimensionless &  Moisture content in litter. Representative of the top litter layer less than 1-2 cm deep. \\
-\hline
-Fire daily severity index & Dimensionless &  A numerical assessment of the difficulty of controlling flames. \\
-\hline
-Fire danger index & Dimensionless &  Metric that hold the chances of a fire starting. \\
-\hline
-Fire weather index & Dimensionless &  Combination of Initial spread index and Build-up index. Numerical rating of the potential fire intensity. \\
-\hline
-Ignition component & \% &  Probability of a firebrand that will require suppression action. \\
-\hline
-Keetch-Byram drought index & Dimensionless &  The total impact of evapotranspiration and precipitation in causing cumulative moisture shortage in deep duff and higher soil layers. \\
-\hline
-Spread component & Dimensionless &  Measure of the speed at which a headfire will spread. \\
-\hline
-\end{tabular}
-\end{table}
-
-
-
-\subsection{Forest Inventory 2015 \cite{uva2021forestry,https://doi.org/10.15468/dl.zwfmbt}}
-Forest Inventory 2015 contains 579422 occurrences of forest inventory for mainland Portugal. The data was gathered using aerial images and ground surveys that covered mainland Portugal. 
-//describe dataset here
-
-
-\begin{table}[h!]
-\caption{Forest Inventory 2015}
-\label{forest_inventory}
-\centering
-\small
-\begin{tabular}{|c|p{7.5cm}|} % Adjust width as necessary
-\hline
-\textbf{Variable} & \textbf{Description}\\
-\hline
-gbifID | datasetKey | ocurrenceID  & Identifiers for the occurrence of trees and the dataset. \\
-\hline
-kingdom & Kingdom classification of a given Tree. \\
-\hline
-phylum & Phylum classification of a given Tree. \\
-\hline
-class & Taxonomic class. \\
-\hline
-order & Taxonomic Order of a Tree. \\
-\hline
-genus & Tree genus. \\
-\hline
-species & Data containing the species of a given tree. \\
-\hline
-taxonRank & Data containing the highest taxonomic rank available for a given tree group. \\
-\hline
-scientificName | verbatimScientificName & Scientific name for the available taxonomic classification. \\
-\hline
-
-verbatimScientificNameAuthorship & Scientific name authorship for the available taxonomic classification. \\
-\hline
-
-countryCode & Contry code of Portugal. \\
-\hline
-
-locality & Name of a locality containing a given tree. \\
-\hline
-
-stateProvince &  Name of a district containing a given tree. \\
-\hline
-
-occurrenceStatus & Describes if a tree is still present.   \\
-\hline
-
-decimalLatitude & Latitude for the tree occurrence. \\
-\hline
-
-decimalLongitude & Longitude for the tree occurrence \\
-\hline
-
-coordinateUncertaintyInMeters & Uncertainty for a given tree location in metres. \\
-\hline
-
-eventDate | year & Year of event record. \\
-\hline
-
-taxonKey & Taxonomic key for the highest available classification for a tree \\
-\hline
-
-speciesKey & Individual key for a given tree species if available. \\
-\hline
-
-speciesKey & Individual key for a given tree species if available. \\
-\hline
-
-institutionCode & Unique identifier for ICNF. \\
-\hline
-
-collectionCode & Unique collection identifier for the institutionCode. \\
-\hline
-\end{tabular}
-\end{table}
 
 
 \section{Additional sources of Data}
@@ -585,6 +573,11 @@ Devido ao tamanho do dataset das arvores o script de python utilizado dividiu os
 \subsection{Locations in the middle of the sea.}
 Between 2013 and 2023, some of the featured locations were in the middle of the ocean. Although having a real-life location set explicitly in the file when using services like Google Maps, its coordinates were undeniably wrong. These multiple geolocation errors were discovered when trying to pin multiple species of trees \ref{tree_species_wildfires} to a single location with a distance function calculator. The algorithm yielded values that were outside of the range spectrum of 1500km. Leading to the manual confirmation of these errors with the help of the Google Maps service.
 
+
+
+\subsection{Creating Areas without wildfires}
+
+Random Coordinates that were not equal to the ones in Natural Fires. A minimum distance of 25 km for each generated coordinated and the ones in Natural fires. With openstreet map given the range for latitude (36.7, 42.3) and longitude (-9.8, -6) check if the generated coordinate is in Portugal and check if it belongs to a county to ensure it isn't in the middle of the sea.
 
 \subsection{Dataset description}
 2001: 25982

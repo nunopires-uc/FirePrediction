@@ -2,5 +2,7 @@
 \contentsline {chapter}{\numberline {1}Experiences}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Samples}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Uncovering important variables}{1}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Feature importance with RandomForestClassifier}{1}{subsection.1.2.1}%
-\contentsline {chapter}{References}{5}{chapter*.16}%
+\contentsline {subsection}{\numberline {1.2.1}Feature importance and correlation with RandomForestClassifier}{1}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Sample variables discussion}{6}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Natural Fires features and correlation}{7}{subsection.1.2.3}%
+\contentsline {chapter}{References}{29}{chapter*.40}%
