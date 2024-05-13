@@ -191,3 +191,7 @@ FireData/Topography/ne_10m_admin_0_countries_prt/ne_10m_admin_0_countries_prt.sh
 FireData/Topography/ne_10m_admin_0_countries_prt/ne_10m_admin_0_countries_prt.shx
 FireData/Topography/ne_10m_admin_0_countries_prt/ne_10m_admin_0_countries_prt.VERSION.txt
 FireData/Topography/output_COP30.tif
+FireData/Topography/viz.tar.gz
+FireData/Topography/viz/viz.COP30_aspect.tif
+FireData/Topography/viz/viz.COP30_roughness.tif
+FireData/Topography/viz/viz.COP30_slope.tif
