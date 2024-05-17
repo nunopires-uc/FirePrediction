@@ -1,0 +1,105 @@
+Feature Importance for FWIX:
+
+Feature Importances:
+                                     feature  importance
+46                                      isi       0.842
+44                                      dmc       0.105
+47                                      bui       0.050
+43                                     ffmc       0.001
+1               hourly.relative_humidity_2m       0.001
+34          hourly.direct_normal_irradiance       0.000
+26           hourly.soil_moisture_7_to_28cm       0.000
+27         hourly.soil_moisture_28_to_100cm       0.000
+28        hourly.soil_moisture_100_to_255cm       0.000
+29                            hourly.is_day       0.000
+30                 hourly.sunshine_duration       0.000
+31               hourly.shortwave_radiation       0.000
+32                  hourly.direct_radiation       0.000
+33                 hourly.diffuse_radiation       0.000
+36             hourly.terrestrial_radiation       0.000
+35          hourly.global_tilted_irradiance       0.000
+37       hourly.shortwave_radiation_instant       0.000
+38          hourly.direct_radiation_instant       0.000
+39         hourly.diffuse_radiation_instant       0.000
+40  hourly.direct_normal_irradiance_instant       0.000
+41  hourly.global_tilted_irradiance_instant       0.000
+42     hourly.terrestrial_radiation_instant       0.000
+45                                       dc       0.000
+25            hourly.soil_moisture_0_to_7cm       0.000
+0                     hourly.temperature_2m       0.000
+23      hourly.soil_temperature_28_to_100cm       0.000
+11                   hourly.cloud_cover_low       0.000
+2                       hourly.dew_point_2m       0.000
+3               hourly.apparent_temperature       0.000
+4                      hourly.precipitation       0.000
+5                               hourly.rain       0.000
+6                           hourly.snowfall       0.000
+7                       hourly.weather_code       0.000
+8                       hourly.pressure_msl       0.000
+9                   hourly.surface_pressure       0.000
+10                       hourly.cloud_cover       0.000
+12                   hourly.cloud_cover_mid       0.000
+22        hourly.soil_temperature_7_to_28cm       0.000
+13                  hourly.cloud_cover_high       0.000
+14        hourly.et0_fao_evapotranspiration       0.000
+15           hourly.vapour_pressure_deficit       0.000
+16                    hourly.wind_speed_10m       0.000
+17                   hourly.wind_speed_100m       0.000
+18                hourly.wind_direction_10m       0.000
+19               hourly.wind_direction_100m       0.000
+20                    hourly.wind_gusts_10m       0.000
+21         hourly.soil_temperature_0_to_7cm       0.000
+24     hourly.soil_temperature_100_to_255cm       0.000
+
+
+Correlations with fwix:
+ fwix                                       1.000000
+isi                                        0.963967
+hourly.vapour_pressure_deficit             0.893920
+hourly.et0_fao_evapotranspiration          0.851380
+bui                                        0.845453
+dmc                                        0.835349
+hourly.soil_temperature_0_to_7cm           0.795921
+hourly.temperature_2m                      0.779372
+hourly.soil_temperature_7_to_28cm          0.771010
+dc                                         0.739141
+hourly.soil_temperature_28_to_100cm        0.701575
+ffmc                                       0.698295
+hourly.apparent_temperature                0.689255
+hourly.direct_radiation_instant            0.615775
+hourly.direct_radiation                    0.613146
+hourly.soil_temperature_100_to_255cm       0.611810
+hourly.direct_normal_irradiance_instant    0.608105
+hourly.direct_normal_irradiance            0.606973
+hourly.shortwave_radiation_instant         0.592378
+hourly.global_tilted_irradiance_instant    0.592298
+hourly.global_tilted_irradiance            0.589947
+hourly.shortwave_radiation                 0.589947
+hourly.sunshine_duration                   0.463655
+hourly.terrestrial_radiation_instant       0.236372
+hourly.terrestrial_radiation               0.235925
+hourly.is_day                              0.179821
+hourly.wind_speed_100m                     0.115134
+hourly.wind_speed_10m                      0.113056
+hourly.surface_pressure                    0.101637
+hourly.dew_point_2m                        0.073610
+hourly.pressure_msl                        0.023920
+hourly.wind_gusts_10m                      0.004421
+hourly.snowfall                           -0.031706
+hourly.wind_direction_10m                 -0.062413
+hourly.wind_direction_100m                -0.094259
+hourly.cloud_cover_high                   -0.293875
+hourly.soil_moisture_100_to_255cm         -0.348461
+hourly.rain                               -0.368430
+hourly.precipitation                      -0.368620
+hourly.diffuse_radiation_instant          -0.378404
+hourly.diffuse_radiation                  -0.378540
+hourly.cloud_cover_mid                    -0.500138
+hourly.weather_code                       -0.524968
+hourly.soil_moisture_28_to_100cm          -0.560423
+hourly.cloud_cover_low                    -0.588500
+hourly.cloud_cover                        -0.653577
+hourly.soil_moisture_7_to_28cm            -0.665573
+hourly.soil_moisture_0_to_7cm             -0.752222
+hourly.relative_humidity_2m               -0.868797
+Name: fwix, dtype: float64
