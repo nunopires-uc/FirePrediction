@@ -5,8 +5,21 @@ Recall: 0.8177083333333334
 F1 Score: 0.8351063829787234
 
 
-Weather + Topography(Except High):
+Weather + Topography(Except elevation):
 Accuracy: 0.9844632768361582
 Precision: 1.0
 Recall: 0.9713541666666666
 F1 Score: 0.9854689564068693
+
+Weather + Topography:
+Accuracy: 0.9887005649717514
+Precision: 0.9973544973544973
+Recall: 0.9817708333333334
+F1 Score: 0.989501312335958
+
+
+Weather + Topography + FWI:
+Accuracy: 0.9830508474576272
+Precision: 0.9946808510638298
+Recall: 0.9739583333333334
+F1 Score: 0.9842105263157894
