@@ -392,16 +392,17 @@ Topography includes data from three distinct sources. The mean elevation was tak
 \subsubsection{Global Multi-Resolution Terrain Elevation Data 2010 \cite{Danielson2011}}
 GMTED2010 is a source that provides raster elevation data. For every wildfire location, the mean elevation was extracted with a resolution of 7.5 arcseconds. 
 
-
-
 \subsubsection{Corine Land Cover \cite{71c95a07-e296-44fc-b22b-415f42acfdf0}}
 Corine Land Cover is a dataset that provides European land classification from 44 thematic classes. From this source, the land class corresponding to the location of a wildfire event was extracted.
-
 
 \subsubsection{Copernicus GLO-30 Digital Elevation Model \cite{ESA_Sinergise_2021}}
 The GLO-30 Digital Elevation Model is a digital surface model. It encompasses the earth's surface with its buildings, infrastructure, and vegetation.
 
 From this source, slope, aspect, and roughness were extracted with a resolution of 30 meters for every wildfire occurrence.
+
+
+\subsection{Dataset variables}
+All the variables used in the dataset are listed in Table \ref{other_variables}. 
 
 
 \begin{table}[H]
@@ -468,41 +469,33 @@ The python library geopy \cite{geopy} was used to geolocate multiple locations, 
 The Google Maps service \cite{googlexmaps} was used to manually check if samples extracted from Open-Meteo corresponded to the intended location. It was also used to analyse some errors that were found in the location of some entries.
 
 
-\section{Data Preparation}
+\section{Data Preparation of historical wildfire sites}
+
+\subsection{Selecting the time frame of wildfire occurrences}
+
+The dataset described in \ref{historical_occurrences_1980_2015} is composed of multiple files describing historical occurrences since 1980 until 2015. Prior to 2001, the fields from each file became unstandardized, and there's no explicit parameter mentioning a natural wildfire cause. Therefore, the time frame considered was from 2001 to 2012. The latter years were rejected due to the fact that entries from \ref{historical_occurrences_1980_2015} do not contain any explicit latitude and longitude. They rely on territorial entities such as districts, municipalities, parishes, and NUTS to describe locations.
+
+The second historical wildfire dataset \ref{icnf2024} is also composed of multiple files. Its time frame is from 2013 until 2023. Unlike dataset \ref{historical_sites_no_coords}, entries do contain an explicit latitude and longitude values. It also features descriptive territorial entities. 
+
+\subsection{Ignition cause selection}
+Historical wildfire sites whose cause was set as deliberate or negligent fire were excluded. The remaining causes left in the dataset, by order of importance are: natural, reignition, unknown, and undefined. For the creating of the first dataset all these causes were encompassed. The 
 
 
 
-
-
-
-
-
-
-
-\section{Variables Explanation}
-Slope has a significant influence on fire behaviour since it speeds its spread \cite{Marques2011}.
-
-
-
-
-
-
-
-
-
-\section{Creating the dataset}
-The dataset described in \ref{historical_sites_no_coords} is composed of multiple files describing historical occurrences since 1980 until 2015. Prior to 2001, the fields from each file became unstandardized, and there's no explicit parameter mentioning a natural wildfire cause. Therefore, the time frame considered was from 2001 to 2012. The latter years were rejected due to the fact that entries from \ref{historical_sites_no_coords} do not contain any explicit latitude and longitude. They rely on territorial entities such as districts, municipalities, parishes, and NUTS to describe locations.
-
-The second historical wildfire dataset \ref{dataset_icnf2013_2023} is also composed of multiple files. Its time frame is from 2013 until 2023. Unlike dataset \ref{historical_sites_no_coords}, entries do contain an explicit latitude and longitude values. It also features descriptive territorial entities. 
-
-
-\subsection{Entry selection}
-Entries whose cause was deliberate or negligent fire were excluded. The fire causes contained, by order of importance, in the dataset are: natural, reignition, unknown, and undefined.
+Entries whose cause was . The fire causes contained, , in the dataset are: .
 Entries that were undefined as causes differed from those with unknown causes because their cause field was blank, and entries that had unknown causes were explicitly described as unknown.
 
 falta: tabela com o número de entradas antes e depois
 
 
+
+
+\section{Historical Meteorological Data Extraction}
+
+\subsection{Retrieving historical meteorological data}
+Extracting historical meteorological data for dataset described in \ref{icnf2024} was done with ease with a Python. It went through each historical fire location and downloaded weather data about the entire day regarding the wildfire. As for the daset in \ref{historical_occurrences_1980_2015} it was necessary to geocode the position of 
+
+In order to retrieve historical meteorological data,. The weather data contained all the fields described in \ref{open_meteo}. 
 
 \subsection{Geocoding places from 2001 to 2012 historical wildfire locations}
 \label{geocoding_historical}
@@ -518,7 +511,7 @@ Using multiple combinations, attempts were made to geocode the location, featuri
 	\label{geocoding_entries_2001_2012}
 	\centering
 	\small
-	\begin{tabular}{cp{7.5cm}|} % Adjust width as necessary
+	\begin{tabular}{cp{7.5cm}|}
 		\hline
 		\textbf{Combination}\\
 		\hline
@@ -547,8 +540,31 @@ A very minor sample of entries couldn't be geocoded using this method. Therefore
 
 
 
-\subsection{Retrieving historical meteorological data}
-In order to retrieve historical meteorological data, a Python script was made. It went through each historical fire location and downloaded weather data about the entire day regarding the wildfire. The weather data contained all the fields described in \ref{open_meteo}. 
+
+
+
+
+Naming: 2002-01-01\_38.574292\_-8.7102944.csv
+
+
+\section{Crafting the First dataset}
+This dataset does not contain any topographical data and fuel data, except for the surrouding tree species, corresponding to the location of the fires. It only features weather variables at the hour the fire ignited. Although the object of study is fires of natural origin, this dataset was created in order to have a historical reference for fires that occurred between 2001 and 2023 and whose cause could not be ascertained. So that in the future it would be possible to determine the origin of fires of uncertain origin and characterise them. From this dataset, all wildfires whose origin was only natural were extracted.
+
+
+
+\section{Variables Explanation}
+Slope has a significant influence on fire behaviour since it speeds its spread \cite{Marques2011}.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
