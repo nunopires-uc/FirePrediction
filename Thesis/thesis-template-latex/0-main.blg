@@ -3,44 +3,50 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 0-main.aux
 The style file: apalike.bst
 Database file #1: references.bib
-You've used 2 entries,
+Warning--entry type for "Zippenfenig_Open-Meteo" isn't style-file defined
+--line 870 of file references.bib
+Warning--entry type for "71c95a07-e296-44fc-b22b-415f42acfdf0" isn't style-file defined
+--line 1082 of file references.bib
+Warning--can't use both author and editor fields in Mora2020
+You've used 21 entries,
             1935 wiz_defined-function locations,
-            487 strings with 4267 characters,
-and the built_in function-call counts, 1273 in all, are:
-= -- 108
-> -- 106
-< -- 0
-+ -- 40
-- -- 40
-* -- 132
-:= -- 236
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 30
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 28
-empty$ -- 58
-format.name$ -- 42
-if$ -- 228
+            587 strings with 7916 characters,
+and the built_in function-call counts, 7660 in all, are:
+= -- 727
+> -- 496
+< -- 19
++ -- 180
+- -- 178
+* -- 638
+:= -- 1477
+add.period$ -- 62
+call.type$ -- 21
+change.case$ -- 192
+chr.to.int$ -- 21
+cite$ -- 22
+duplicate$ -- 228
+empty$ -- 355
+format.name$ -- 208
+if$ -- 1385
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 2
-newline$ -- 13
-num.names$ -- 6
-pop$ -- 26
+missing$ -- 3
+newline$ -- 107
+num.names$ -- 63
+pop$ -- 140
 preamble$ -- 1
-purify$ -- 30
+purify$ -- 193
 quote$ -- 0
-skip$ -- 21
+skip$ -- 198
 stack$ -- 0
-substring$ -- 64
-swap$ -- 2
-text.length$ -- 0
+substring$ -- 303
+swap$ -- 11
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
-warning$ -- 0
-while$ -- 7
+type$ -- 124
+warning$ -- 1
+while$ -- 47
 width$ -- 0
-write$ -- 28
+write$ -- 257
+(There were 3 warnings)

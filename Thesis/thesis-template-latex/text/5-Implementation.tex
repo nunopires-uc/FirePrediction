@@ -8,7 +8,7 @@ Altitudes range from sea level to  2000 metres, and higher elevations are more p
 
 The northern region is characterised by lower temperatures and higher values of precipitation than the southern region \cite{Marques2011}. The average annual temperature ranges from 7 to 18°C, while the annual rainfall ranges from 400 to 2,800 mm.
 
-Portugal's vegetation is a blend of Atlantic, European, Mediterranean, and African species \cite{britannica_portugal_climate}, and four tree species account for 80\% of all the forest area:\textit{Pinus pinaster}, \textit{Eucalyptus globulus}, \textit{Quercus suber}, and \textit{Quercus rotundifolia} \cite{Marques2011}.
+Portugal's vegetation is a blend of Atlantic, European, Mediterranean, and African species \cite{britannica_portugal_climate}, and four tree species account for 80\% of all the forest area: \textit{Pinus pinaster}, \textit{Eucalyptus globulus}, \textit{Quercus suber}, and \textit{Quercus rotundifolia} \cite{Marques2011}.
 
 
 
@@ -197,12 +197,12 @@ The records from \cite{icnf2024} span across 10 years, from 2013 to 2023, and we
 
 
 \subsection{Weather Variables}
-Historical weather variables were obtained via the API \cite{Zippenfenig_Open-Meteo}. This includes daily and hourly weather data extraction from all across the world. The API compares the provided location to several reanalysis datasets and returns the most optimal result based on location. It includes a full database of historical weather conditions dating back to 1940 from multiple sources (table \ref{Datasets_api}). 
+Historical weather variables were obtained via the \textit{Open-Meteo API} \cite{Zippenfenig_Open-Meteo}. Which includes daily and hourly weather data extraction from all across the world. The API compares the provided location to several reanalysis datasets and returns the most optimal result based on location. It includes a full database of historical hourly weather conditions dating back to 1940 from multiple sources (table \ref{Datasets_api}). 
 
-It incorporates observations from weather stations, aeroplanes, buoys, radar, and satellites and fills gaps in data using mathematical models to estimate the values of different weather variables \cite{Zippenfenig_Open-Meteo}.
+The API incorporates observations from weather stations, aeroplanes, buoys, radar, and satellites and it fills gaps in data using mathematical models to estimate the values of different weather variables \cite{Zippenfenig_Open-Meteo}.
 
 
-The variables extracted from \textit{Open-Meteo} are on table \ref{other_variables} as well as the unit for each weather variable.
+The variables extracted from \textit{Open-Meteo} are on table \ref{open_meteo_variables} as well as the unit for each weather variable.
 
 
 \begin{table}[H]
@@ -222,13 +222,90 @@ The variables extracted from \textit{Open-Meteo} are on table \ref{other_variabl
 
 
 
+\begin{table}[H]
+	\caption{Hourly weather variables from \textit{Open-meteo}}
+	\centering
+	\small
+	\label{open_meteo_variables}
+	\begin{tabular}{ccp{10cm}} % Adjust width as necessary
+		\hline
+		\textbf{Variable} & \textbf{Unit} & \textbf{Description}\\
+		\hline
+		Temperature & °C & Air temperature 2 metres above ground. \\
+		\hline
+		Relative Humidity & \% & Relative humidity 2 metres above ground. \\
+		\hline
+		Dew & °C & Dew point 2 metres above ground. \\
+		\hline
+		Apparent Temperature & °C & Apparent temperature is the 
+		result of a wind chill factor, relative humidity, and solar radiation. \\
+		\hline
+		Pressure & hPa & Atmospheric air pressure reduced to mean sea level. \\
+		\hline
+		Surface Pressure & hPa & Surface pressure reduced to mean sea level. \\
+		\hline
+		Precipitation & mm & Sum of preceding hour precipitation including rain, showers, and snow. \\
+		\hline
+		Rain & mm & Preceding hour of liquid precipitation. \\
+		\hline
+		Snowfall & cm & Preceding hour of snowfall amount. \\
+		\hline
+		Cloud cover low & \% & Fog and low level clouds up to an altitude of 2 kilometres. \\
+		\hline
+		Cloud cover mid & \% & Clouds floating at a medium level with altitudes ranging from 2 kilometres to six kilometres. \\
+		\hline
+		Cloud cover high & \% & Clouds floating at an altitude of 6 kilometres. \\
+		\hline
+		Shortwave radiation & $W/m^2$ & Shortwave solar radiation.  \\
+		\hline
+		Direct radiation & $W/m^2$ & Direct solar radiation. \\
+		\hline
+		Direct normal irradiance & $W/m^2$ & Direct solar irradiance.  \\
+		\hline
+		Diffuse radiation & $W/m^2$ & Diffuse solar radiation.  \\
+		\hline
+		Global tilted irradiance & $W/m^2$ & Total radiation received on a tilted pane.  \\
+		\hline
+		Sunshine duration & Seconds & Duration of sunshine in seconds.  \\
+		\hline
+		Wind speed at 10m & km/h & Speed of the wind, 10 metres above ground.  \\
+		\hline
+		Wind speed at 100m & km/h & Speed of the wind, 100 metres above ground.  \\
+		\hline
+		Wind direction at 10m & ° & Wind direction at 10 metres above ground.  \\
+		\hline
+		Wind direction at 100m & ° & Wind direction at 100 metres above ground.  \\
+		\hline
+		Wind gusts & km/h & Wind gusts at 10 metres above ground.  \\
+		\hline
+		Evapotranspiration & mm & Evapotranspiration value for the required irrigation for plants calculated from temperature, wind speed, humidity, and solar radiation. \\
+		\hline
+		Weather code & WMO code & Numeric codes for weather conditions.  \\
+		\hline
+		Snow depth & meters & The depth of snow on the ground.  \\
+		\hline
+		Vapour pressure deficit & kPa & Vapour pressure deficit in kilopascal.\\
+		\hline
+		Soil temperature & °C & Average soil temperature ranging from 0 to 7cm, 7 to 28cm, 28 to 100cm, and 100 to 255cm below ground.\\
+		\hline
+		Soil moisture & $m^3/m^3$ & Average soil moisture ranging from 0 to 7cm, 7 to 28cm, 28 to 100cm, and 100 to 255cm depths.\\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+
+
+
+
+
 \subsection{Fuel Variables}
 Fuel variables encompass two sources: Copernicus Climate Change Service \cite{CopernicusCDS2019} and Forestry Inventory 2015 \cite{uva2021forestry,https://doi.org/10.15468/dl.zwfmbt}
 
-The Copernicus Climate Change Service contains historical reconstructions of fire danger indices, i.e., variables that emphasise conditions suitable for the origin, spread, and sustainability of naturally occurring fires. The fire danger indices are obtained from historical simulations and weather forecasts, and the available data starts in January 1940 and extends all the way through 2023. Variables contained in the dataset are expressed in the table \ref{copernicus_danger_indices}.
+\subsubsection{Copernicus Climate Change Service \cite{CopernicusCDS2019}}
 
-The Forestry Inventory 2015 contains 579422 occurrences of forest species on mainland Portugal. The data was gathered using aerial images and ground surveys. The most important features are described in table \ref{forest_inventory}.
-
+The Copernicus Climate Change Service contains historical reconstructions of fire danger indices, i.e., variables that emphasize conditions suitable for the origin, spread, and sustainability of naturally occurring fires. The fire danger indices are obtained from historical simulations and weather forecasts, and the available data starts in January 1940 and extends all the way through 2023. Variables contained in the dataset are expressed in the table \ref{copernicus_danger_indices}.
+From this source, all variables that belong to the fire weather index system were extracted except the fire daily severity index, which is not necessary for the calculation of fwi.
 
 \begin{table}[H]
 	\caption{Fire danger indices from historical data \cite{CopernicusCDS2019}}
@@ -241,33 +318,23 @@ The Forestry Inventory 2015 contains 579422 occurrences of forest species on mai
 		\hline
 		Build-up index & Dimensionless & Weighted combination of the Duff moisture code and Drought code. \\
 		\hline
-		Burning index & Dimensionless & Measure that explains how difficult it is to control a fire. \\
-		\hline
-		Danger rating & Dimensionless & Equivalent to the FWI but with class level definitions of very low, low, medium, high, very high and extreme. \\
-		\hline
 		Drought code & Dimensionless & Component representing fuel availability, and the influence of recent temperatures and rainfall events on fuel availability. \\
 		\hline
 		Duff moisture code & Dimensionless & Moisture content in loosely-compacted organic layers of moderate depth. Duff moisture code fuels are affected by rain, temperature and relative humidity. \\
-		\hline
-		Energy release component & $J/m^2$ & Available energy within the burning front at the head of a fire. \\
 		\hline
 		Fine fuel moisture code & Dimensionless &  Moisture content in litter. Representative of the top litter layer less than 1-2 cm deep. \\
 		\hline
 		Fire daily severity index & Dimensionless &  A numerical assessment of the difficulty of controlling flames. \\
 		\hline
-		Fire danger index & Dimensionless &  Metric that hold the chances of a fire starting. \\
-		\hline
 		Fire weather index & Dimensionless &  Combination of Initial spread index and Build-up index. Numerical rating of the potential fire intensity. \\
 		\hline
-		Ignition component & \% &  Probability of a firebrand that will require suppression action. \\
-		\hline
-		Keetch-Byram drought index & Dimensionless &  The total impact of evapotranspiration and precipitation in causing cumulative moisture shortage in deep duff and higher soil layers. \\
-		\hline
-		Spread component & Dimensionless &  Measure of the speed at which a headfire will spread. \\
-		\hline
+		Initial spread index & Dimensionless & Combines fine fuel moisture code with weed speed to measure the expected rate of fire spread.
 	\end{tabular}
 \end{table}
 
+\subsubsection{Forestry Inventory 2015 \cite{uva2021forestry,https://doi.org/10.15468/dl.zwfmbt}}
+
+The Forestry Inventory 2015 contains 579422 occurrences of forest tree species on mainland Portugal. The data was gathered using aerial images and ground surveys. The most important features of the dataset are described in Table \ref{forest_inventory}. From this source, the only variable taken was the name of the tree species closest to the wildfire area.
 
 \begin{table}[H]
 	\caption{Forest Inventory 2015}
@@ -320,55 +387,88 @@ The Forestry Inventory 2015 contains 579422 occurrences of forest species on mai
 
 
 \subsection{Topography Variables}
-The sources of topography variables and brief description of them
+Topography includes data from three distinct sources. The mean elevation was taken from GMTED2010 \cite{Danielson2011}. The land class type was extracted from Corine Land Cover \cite{71c95a07-e296-44fc-b22b-415f42acfdf0}, and the slope, aspect, and roughness were extracted from GLO-30 \cite{ESA_Sinergise_2021}.
 
-\cite{rasterio}
+\subsubsection{Global Multi-Resolution Terrain Elevation Data 2010 \cite{Danielson2011}}
+GMTED2010 is a source that provides raster elevation data. For every wildfire location, the mean elevation was extracted with a resolution of 7.5 arcseconds. 
 
-\cite{Danielson2011} Terrain Elevation Data from around the globe
 
+
+\subsubsection{Corine Land Cover \cite{71c95a07-e296-44fc-b22b-415f42acfdf0}}
+Corine Land Cover is a dataset that provides European land classification from 44 thematic classes. From this source, the land class corresponding to the location of a wildfire event was extracted.
+
+
+\subsubsection{Copernicus GLO-30 Digital Elevation Model \cite{ESA_Sinergise_2021}}
+The GLO-30 Digital Elevation Model is a digital surface model. It encompasses the earth's surface with its buildings, infrastructure, and vegetation.
+
+From this source, slope, aspect, and roughness were extracted with a resolution of 30 meters for every wildfire occurrence.
 
 
 \begin{table}[H]
-	
 	\centering
 	\caption{Topography, Weather and Fuel variables}
 	\label{other_variables}
-	\begin{tabular}{cccc}
+	\begin{tabular}{ccc}
 		\hline
-		\textbf{Variable Type} &
-		\textbf{Variable Name} &
-		\textbf{Resolution} \\ \hline
-		Topography &
-		\begin{tabular}[c]{@{}c@{}}Elevation (m)\\ Slope (0-90)\\ Topographic roughness Index\end{tabular} &
-		\_,7.5 arc-seconds, \_ \\ \hline
-		Weather &
-		\begin{tabular}[c]{@{}c@{}}Temperature (°C)\\ Relative Humidity (\%)\\ Dew (°C)\\ Apparent Temperature (°C)\\ Pressure (hPa)\\ Surface Pressure (hPa)\\ Precipitation (mm)\\ Rain (mm)\\ Snowfall (cm)\\ Cloud Cover Low/Mid/High (\%)\\ Shortwave Radiation ($W/m^2$)\\ Direct Radiation ($W/m^2$)\\ Direct Normal Irradiance ($W/m^2$)\\ Diffuse Radiation ($W/m^2$)\\ Global Tilted Irradiance ($W/m^2$)\\ Sunshine Duration (Seconds)\\ Wind Speed 10m/100m (km/h)\\ Wind Direction 10m/100m (°)\\ Wind Gusts 10m (km/h)\\ Et0 Evapotranspiration (mm)\\ Weather Code (WMO code)\\ Snow Depth (metres)\\ Vapour Pressure Deficit (kPa)\\ Soil Temperature 0 to 255cm (°C)\\ Soil Moisture 0 to 255cm ($m^3/m^3$)\end{tabular}
-		&
+		\textbf{Variable Type} & \textbf{Variable Name} & \textbf{Resolution} \\ \hline
+		\multirow{4}{*}{Topography} & Mean Elevation (m) & \_,7.5 arc-seconds, \_ \\
+		& Slope (0-90°) & 30m, \_, \_ \\
+		& Roughness & 30m, \_, \_ \\
+		& Aspect (0-360°) & 30m, \_, \_ \\ \hline
+		Weather & 
+		\begin{tabular}[c]{@{}c@{}}
+			Temperature (°C)\\ 
+			Relative Humidity (\%)\\ 
+			Dew (°C)\\ 
+			Apparent Temperature (°C)\\ 
+			Pressure (hPa)\\ 
+			Surface Pressure (hPa)\\ 
+			Precipitation (mm)\\ 
+			Rain (mm)\\ 
+			Snowfall (cm)\\ 
+			Cloud Cover Low/Mid/High (\%)\\ 
+			Shortwave Radiation ($W/m^2$)\\ 
+			Direct Radiation ($W/m^2$)\\ 
+			Direct Normal Irradiance ($W/m^2$)\\ 
+			Diffuse Radiation ($W/m^2$)\\ 
+			Global Tilted Irradiance ($W/m^2$)\\ 
+			Sunshine Duration (Seconds)\\ 
+			Wind Speed 10m/100m (km/h)\\ 
+			Wind Direction 10m/100m (°)\\ 
+			Wind Gusts 10m (km/h)\\ 
+			Et0 Evapotranspiration (mm)\\ 
+			Weather Code (WMO code)\\ 
+			Snow Depth (metres)\\ 
+			Vapour Pressure Deficit (kPa)\\ 
+			Soil Temperature 0 to 255cm (°C)\\ 
+			Soil Moisture 0 to 255cm ($m^3/m^3$)
+		\end{tabular} & 
 		0.25/0.1/9km/5km, \_ , Hourly \\ \hline
-		Fuel &
-		\begin{tabular}[c]{@{}c@{}}Fine fuel moisture code\\ Duff moisture code\\ Drought code\\ Initial Spread index \\ Build Up Index \\ Fire weather index\\ Tree Species\end{tabular} &
-		\begin{tabular}[c]{@{}c@{}}0.25 , \_ , Daily\\ \\ \\ \\ \\ -\end{tabular} \\ \hline
+		Fuel & 
+		\begin{tabular}[c]{@{}c@{}}
+			Fine fuel moisture code\\ 
+			Duff moisture code\\ 
+			Drought code\\ 
+			Initial Spread index \\ 
+			Build Up Index \\ 
+			Fire weather index\\ 
+			Tree Species
+		\end{tabular} & 
+		\begin{tabular}[c]{@{}c@{}}
+			0.25 , \_ , Daily\\ \\ \\ \\ \\ -
+		\end{tabular} \\ \hline
 	\end{tabular}
 \end{table}
 
 
+\subsection{Additional sources of Data}
+The python library geopy \cite{geopy} was used to geolocate multiple locations, resolving district, parish, municipalities, and localities to sets of coordinates. Geopy utilises multiple geocoding web services like OpenStreetMap Nominatim and Google Geocoding API to resolve locations. 
+
+
+The Google Maps service \cite{googlexmaps} was used to manually check if samples extracted from Open-Meteo corresponded to the intended location. It was also used to analyse some errors that were found in the location of some entries.
+
+
 \section{Data Preparation}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -386,90 +486,6 @@ Slope has a significant influence on fire behaviour since it speeds its spread \
 
 
 
-
-
-
-
-\subsection{Open-meteo hourly weather variables \cite{Zippenfenig_Open-Meteo}}
-Historical Weather \cite{Zippenfenig_Open-Meteo} from \cite{Hersbach_ERA5}, \cite{Munoz_ERA5_LAND} and \cite{Schimanke_CERRA}
-\label{open_meteo}
-\begin{table}[h!]
-\caption{Hourly weather variables from Open-meteo}
-\centering
-\small
-\begin{tabular}{|c|c|p{10cm}|} % Adjust width as necessary
-\hline
-\textbf{Variable} & \textbf{Unit} & \textbf{Description}\\
-\hline
-Temperature & °C & Air temperature 2 metres above ground. \\
-\hline
-Relative Humidity & \% & Relative humidity 2 metres above ground. \\
-\hline
-Dew & °C & Dew point 2 metres above ground. \\
-\hline
-Apparent Temperature & °C & Apparent temperature is the 
-result of a wind chill factor, relative humidity, and solar radiation. \\
-\hline
-Pressure & hPa & Atmospheric air pressure reduced to mean sea level. \\
-\hline
-Surface Pressure & hPa & Surface pressure reduced to mean sea level. \\
-\hline
-Precipitation & mm & Sum of preceding hour precipitation including rain, showers, and snow. \\
-\hline
-Rain & mm & Preceding hour of liquid precipitation. \\
-\hline
-Snowfall & cm & Preceding hour of snowfall amount. \\
-\hline
-Cloud cover low & \% & Fog and low level clouds up to an altitude of 2 kilometres. \\
-\hline
-Cloud cover mid & \% & Clouds floating at a medium level with altitudes ranging from 2 kilometres to six kilometres. \\
-\hline
-Cloud cover high & \% & Clouds floating at an altitude of 6 kilometres. \\
-\hline
-Shortwave radiation & $W/m^2$ & Shortwave solar radiation.  \\
-\hline
-Direct radiation & $W/m^2$ & Direct solar radiation. \\
-\hline
-Direct normal irradiance & $W/m^2$ & Direct solar irradiance.  \\
-\hline
-Diffuse radiation & $W/m^2$ & Diffuse solar radiation.  \\
-\hline
-Global tilted irradiance & $W/m^2$ & Total radiation received on a tilted pane.  \\
-\hline
-Sunshine duration & Seconds & Duration of sunshine in seconds.  \\
-\hline
-Wind speed at 10m & km/h & Speed of the wind, 10 metres above ground.  \\
-\hline
-Wind speed at 100m & km/h & Speed of the wind, 100 metres above ground.  \\
-\hline
-Wind direction at 10m & ° & Wind direction at 10 metres above ground.  \\
-\hline
-Wind direction at 100m & ° & Wind direction at 100 metres above ground.  \\
-\hline
-Wind gusts & km/h & Wind gusts at 10 metres above ground.  \\
-\hline
-Evapotranspiration & mm & Evapotranspiration value for the required irrigation for plants calculated from temperature, wind speed, humidity, and solar radiation. \\
-\hline
-Weather code & WMO code & Numeric codes for weather conditions.  \\
-\hline
-Snow depth & meters & The depth of snow on the ground.  \\
-\hline
-Vapour pressure deficit & kPa & Vapour pressure deficit in kilopascal.\\
-\hline
-Soil temperature & °C & Average soil temperature ranging from 0 to 7cm, 7 to 28cm, 28 to 100cm, and 100 to 255cm below ground.\\
-\hline
-Soil moisture & $m^3/m^3$ & Average soil moisture ranging from 0 to 7cm, 7 to 28cm, 28 to 100cm, and 100 to 255cm depths.\\
-\hline
-\end{tabular}
-\end{table}
-
-
-
-\section{Additional sources of Data}
-The python library geopy \cite{geopy} was used to geolocate multiple locations, resolving district, parish, municipalities, and localities to sets of coordinates. Geopy utilises multiple geocoding web services like OpenStreetMap Nominatim and Google Geocoding API to resolve locations. 
-
-
-The Google Maps service \cite{googlexmaps} was used to manually check if the extracted data from Open-Meteo corresponded to the intended location. It was also used to analyse some errors that were found in the location of some entries.
 
 
 
@@ -502,7 +518,7 @@ Using multiple combinations, attempts were made to geocode the location, featuri
 	\label{geocoding_entries_2001_2012}
 	\centering
 	\small
-	\begin{tabular}{|c|p{7.5cm}|} % Adjust width as necessary
+	\begin{tabular}{cp{7.5cm}|} % Adjust width as necessary
 		\hline
 		\textbf{Combination}\\
 		\hline
@@ -709,3 +725,67 @@ sklearn
 
 \section{Entry Selection}
 Specifity how many entries raw files have.
+
+
+
+
+
+
+
+\section{Models}
+
+\subsection{Model Variables}
+
+porque de escolher soil moisture 7 to 28cm e nao os outros gráfico de correspondencia.
+
+temperature : 8
+relative humidity: 8
+precipitation': 16
+wind speed: 16
+soil temperature 28 to 100cm: 8
+soil moisture 7 to 28cm: 8
+direct normal irradiance: 8
+
+'fwix': 8,
+'ffmc': 8,
+'dmc': 16,
+'dc': 16,
+'isi': 8,
+
+roughness', 'aspect', 'slope', 'CLC CODE','scientificNames', 'mean elev'
+
+tree species foram one hot encoded with MultiLabelBinarizer()
+
+variables with multiple days were flattened
+
+\subsection{Random Forest Classifier}
+
+
+
+\subsubsection{Model with only Weather Variables}
+
+Accuracy: 0.8248587570621468
+Precision: 0.8532608695652174
+Recall: 0.8177083333333334
+F1 Score: 0.8351063829787234
+
+
+\subsection{Model with weather and topography}
+
+Accuracy: 0.9887005649717514
+Precision: 0.9973544973544973
+Recall: 0.9817708333333334
+F1 Score: 0.989501312335958
+
+\subsection{Model with weather, topography and fire weather}
+
+Accuracy: 0.9830508474576272
+Precision: 0.9946808510638298
+Recall: 0.9739583333333334
+F1 Score: 0.9842105263157894
+
+
+
+
+
+

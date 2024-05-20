@@ -1,34 +1,12 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Variable importance for 2015 and 2019\relax }}{1}{table.caption.7}%
-\contentsline {table}{\numberline {1.2}{\ignorespaces Variable importance for 2022\relax }}{2}{table.caption.8}%
-\contentsline {table}{\numberline {1.3}{\ignorespaces Variable importance for hourly values\relax }}{2}{table.caption.9}%
-\contentsline {table}{\numberline {1.4}{\ignorespaces Variable correlation to wildfire\relax }}{2}{table.caption.10}%
-\contentsline {table}{\numberline {1.5}{\ignorespaces Variable importance with daily mean method\relax }}{3}{table.caption.11}%
-\contentsline {table}{\numberline {1.6}{\ignorespaces Variable correlation to wildfire daily mean\relax }}{3}{table.caption.12}%
-\contentsline {table}{\numberline {1.7}{\ignorespaces Variable importance with \textit {FWI} time frame method\relax }}{3}{table.caption.14}%
-\contentsline {table}{\numberline {1.8}{\ignorespaces Variable correlation to wildfire time frame method\relax }}{4}{table.caption.15}%
-\contentsline {table}{\numberline {1.9}{\ignorespaces Variable importance with 3-hours time frame method\relax }}{4}{table.caption.16}%
-\contentsline {table}{\numberline {1.10}{\ignorespaces Variable correlation to wildfire 3-hours time frame\relax }}{5}{table.caption.17}%
-\contentsline {table}{\numberline {1.11}{\ignorespaces Variable importance 14-days prior time frame method\relax }}{5}{table.caption.18}%
-\contentsline {table}{\numberline {1.12}{\ignorespaces Variable correlation to wildfire 3-hours time frame\relax }}{5}{table.caption.19}%
-\contentsline {table}{\numberline {1.13}{\ignorespaces Variable importance 14-days prior hourly time frame method\relax }}{6}{table.caption.20}%
-\contentsline {table}{\numberline {1.14}{\ignorespaces Variable correlation 14-days prior hourly time frame method\relax }}{6}{table.caption.21}%
-\contentsline {table}{\numberline {1.15}{\ignorespaces Entry for previous methods\relax }}{6}{table.caption.22}%
-\contentsline {table}{\numberline {1.16}{\ignorespaces Correlation of Features with Wildfire\relax }}{8}{table.caption.23}%
-\contentsline {table}{\numberline {1.17}{\ignorespaces Feature Importances\relax }}{9}{table.caption.24}%
-\contentsline {table}{\numberline {1.18}{\ignorespaces Correlation of Features with Wildfire\relax }}{10}{table.caption.25}%
-\contentsline {table}{\numberline {1.19}{\ignorespaces Feature Importances\relax }}{11}{table.caption.26}%
-\contentsline {table}{\numberline {1.20}{\ignorespaces Correlation of Features with Wildfire\relax }}{13}{table.caption.27}%
-\contentsline {table}{\numberline {1.21}{\ignorespaces Feature Importances\relax }}{14}{table.caption.28}%
-\contentsline {table}{\numberline {1.22}{\ignorespaces Correlation of Features with Wildfire\relax }}{16}{table.caption.29}%
-\contentsline {table}{\numberline {1.23}{\ignorespaces Feature Importances\relax }}{17}{table.caption.30}%
-\contentsline {table}{\numberline {1.24}{\ignorespaces Correlation of Features with Wildfire\relax }}{18}{table.caption.31}%
-\contentsline {table}{\numberline {1.25}{\ignorespaces Feature Importances\relax }}{19}{table.caption.32}%
-\contentsline {table}{\numberline {1.26}{\ignorespaces Correlation of Features with Wildfire\relax }}{20}{table.caption.33}%
-\contentsline {table}{\numberline {1.27}{\ignorespaces Feature Importances\relax }}{21}{table.caption.34}%
-\contentsline {table}{\numberline {1.28}{\ignorespaces Correlations\relax }}{23}{table.caption.35}%
-\contentsline {table}{\numberline {1.29}{\ignorespaces Feature Importances\relax }}{24}{table.caption.36}%
-\contentsline {table}{\numberline {1.30}{\ignorespaces Correlations\relax }}{26}{table.caption.37}%
-\contentsline {table}{\numberline {1.31}{\ignorespaces Feature Importances\relax }}{27}{table.caption.38}%
-\contentsline {table}{\numberline {1.32}{\ignorespaces Variable Ranking\relax }}{28}{table.caption.39}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Field description of Historical fires from 1980 to 2015 \citep {centraldedados_incendios_website, centraldedados_incendios}\relax }}{2}{table.caption.7}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Number of Fire occurrences between 1980 and 2015\relax }}{3}{table.caption.8}%
+\contentsline {table}{\numberline {1.3}{\ignorespaces Field description of Historical fires from 2013 to 2023 \citep {icnf2024}\relax }}{4}{table.caption.9}%
+\contentsline {table}{\numberline {1.4}{\ignorespaces Number of Fire occurrences between 2013 and 2023\relax }}{5}{table.caption.10}%
+\contentsline {table}{\numberline {1.5}{\ignorespaces API Weather Sources \citep {Zippenfenig_Open-Meteo, Hersbach_ERA5, Munoz_ERA5_LAND, Schimanke_CERRA}\relax }}{5}{table.caption.11}%
+\contentsline {table}{\numberline {1.6}{\ignorespaces Hourly weather variables from \textit {Open-meteo}\relax }}{6}{table.caption.12}%
+\contentsline {table}{\numberline {1.7}{\ignorespaces Fire danger indices from historical data \citep {CopernicusCDS2019}\relax }}{7}{table.caption.14}%
+\contentsline {table}{\numberline {1.8}{\ignorespaces Forest Inventory 2015\relax }}{8}{table.caption.16}%
+\contentsline {table}{\numberline {1.9}{\ignorespaces Topography, Weather and Fuel variables\relax }}{10}{table.caption.20}%
+\contentsline {table}{\numberline {1.10}{\ignorespaces Combinations for local geocoding\relax }}{12}{table.caption.21}%
