@@ -525,7 +525,7 @@ Historical wildfire sites whose cause was set as deliberate or negligent fire we
 \section{Historical Meteorological Data Extraction}
 
 \subsection{Retrieving historical meteorological data}
-Extracting historical meteorological data for the dataset described in \ref{icnf2024} was done with ease with a Python script. It went through each historical fire location and downloaded hourly weather data about the entire day regarding the wildfire occurrence. For each wildfire site, a file was created with the date of the occurrence and fire coordinates. All files followed this convention. A latter approach dismissed this method of individually creating files for each site as it proved to be less efficient than having multiple sites in one batch of occurrences (further explanation on this topic will be featured in section \ref{Natural_Fires_dataset}, which covers the creation of the natural fires dataset). 
+Extracting historical meteorological data for the dataset described in \ref{historical_occurrences_2013_2023} was done with ease with a Python script. It went through each historical fire location and downloaded hourly weather data about the entire day regarding the wildfire occurrence. For each wildfire site, a file was created with the date of the occurrence and fire coordinates. All files followed this convention. A latter approach dismissed this method of individually creating files for each site as it proved to be less efficient than having multiple sites in one batch of occurrences (further explanation on this topic will be featured in section \ref{Natural_Fires_dataset}, which covers the creation of the natural fires dataset). 
 
 
 As for the dataset in \ref{historical_occurrences_1980_2015}, it was necessary to geocode the position of each occurrence individually. For both datasets, all the variables described in table \ref{open_meteo_variables} were extracted.
@@ -581,27 +581,21 @@ These methods were conducted repeatedly each year. At this stage, each year had 
 After extracting the weather data for the day of each wildfire occurrence, it was time to match each site with the surrounding tree species. 
 
 
-\subsection{Matching each historical wildfire with tree species}
+\subsection{Matching historical wildfire with tree species}
 \label{tree_species_wildfires}
-The data source \ref{} came with and 
+
+In order to match each fire event with the surrounding tree species, it was necessary to separate the events by district. Within each district, the parish or municipality of each occurrence was matched with the parish or municipality of the tree species. For instances without a match within the district, were matched with a distance function named \textit{Haversine}, which is a method for calculating the distance between two locations on a sphere's surface based on their latitude and longitude \cite{esri2024}. This function calculated the distance between the coordinates of the wildfire event and the coordinates of each tree species location. The distance calculation featured multiple tests. Experiments were done with 120, 500, 1000 and 1500 metres. The first distances threshold resulted in a lot of entries without a match. The distance threshold was slightly from 1000 metres to 1500 metres, due to the fact, that the latter distance was able to perform a match with the majority of wildfire events. Species that were in the same parish or municipality as the fire incident were associated without calculating distance.
 
 
+The forest inventory data source also contained some errors that had to assessed. For instance, it wrongly stated a locality with a different name from its real-life counterpart. The locality \textit{Ovadas e Panchora} doesn't exist, it was misspelled and its name is \textit{Ovadas e Panchorra}.
 
-O que mudei no dataset inicial das trees
-dfTreesDRP['stateProvince'] = dfTreesDRP['stateProvince'].replace('Bragança District', 'Bragança')
-dfTreesDRP['locality'] = dfTreesDRP['locality'].replace('Ovadas e Panchora', 'Ovadas e Panchorra')
-Continha um erro, Ovadas e Panchora não existe.
+
+Other minor adjustements were also made, for example, each district had the word \textit{District} associated with its district name like in \textit{Bragança District}, the string \textit{District} was dropped to ensure standardisation between fire incidents and tree species.
 
 
 variáveis das trees que foram usadas: scientificName,locality,stateProvince,occurrenceStatus,individualCount,decimalLatitude,decimalLongitude,coordinateUncertaintyInMeters,coordinatePrecision,elevation,elevationAccuracy,depth,depthAccuracy
 
-
-haversine formula da distncia \cite{esri2024}.
-
-
-Multiple tests were made for distance, 120metres, 500 metres.
-
-Especies que estavam na mesma freguesia ou concelho foram associadas sem fazer cálculo de distancia. Para combater espécies duplicadas, só se adicionava uma espécie se esta não estivesse contida na entrada do fogo.
+Para combater espécies duplicadas, só se adicionava uma espécie se esta não estivesse contida na entrada do fogo.
 Distrito, usava-se uma distância de 1000 metros.
 
 As restantes entradas que não obtiveram correspondencia com os outros métodos anteriores, foi feita uma análise das espécies que estavam mais perto, neste passo foram detetados erro, alguns valores tabulados do icnf não correspondiam à realidade, e alguns valores em \ref{geocoding_historical} foram mal calculados.
@@ -610,19 +604,22 @@ Devido ao tamanho do dataset das arvores o script de python utilizado dividiu os
 
 
 
-This dataset does not contain any topographical data and fuel data, except for the surrouding tree species, corresponding to the location of the fires. It only features weather variables at the hour the fire ignited. Although the object of study is fires of natural origin, this dataset was created in order to have a historical reference for fires that occurred between 2001 and 2023 and whose cause could not be ascertained. So that in the future it would be possible to determine the origin of fires of uncertain origin and characterise them. From this dataset, all wildfires whose origin was only natural were extracted.
+
 
 
 
 
 \subsection{Locations in the middle of the sea.}
-Between 2013 and 2023, some of the featured locations were in the middle of the ocean. Although having a real-life location set explicitly in the file when using services like Google Maps, its coordinates were undeniably wrong. These errors errupted not only in geocoded places but also in the source of data provided by \textit{ICNF}. These multiple geolocation errors were discovered when trying to pin multiple species of trees \ref{tree_species_wildfires} to a single location with a distance function calculator. The algorithm yielded values that were outside of the range spectrum of 1500km. Leading to the manual confirmation of these errors with the help of the Google Maps service.
+Between 2013 and 2023, some of the featured locations provided by the \textit{ICNF} were in the middle of the ocean. Although using their district, municipality, parish, or local field when using services like \textit{Google Maps} yielded in a real-life location. Their coordinates were undeniably wrong, since they were kilometres away from the nearest coast line. For these entries, weather extraction and tree species matching were redone. 
+
+
+These multiple geolocation errors were discovered when trying to pin multiple species of trees (\ref{tree_species_wildfires}) to a single location with the distance function calculator. The algorithm returned values that were outside of the range spectrum previously set at 1500km. Leading up to the manual confirmation of these errors with the help of the \textit{Google Maps service}.
 
 
 
 
 
-
+This dataset does not contain any topographical data and fuel data, except for the surrouding tree species, corresponding to the location of the fires. It only features weather variables at the hour the fire ignited. Although the object of study is fires of natural origin, this dataset was created in order to have a historical reference for fires that occurred between 2001 and 2023 and whose cause could not be ascertained. So that in the future it would be possible to determine the origin of fires of uncertain origin and characterise them. From this dataset, all wildfires whose origin was only natural were extracted.
 
 
 

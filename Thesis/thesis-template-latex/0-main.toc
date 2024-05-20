@@ -20,22 +20,21 @@
 \contentsline {subsection}{\numberline {1.4.1}Retrieving historical meteorological data}{12}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}Geocoding places from 2001 to 2012 historical wildfire locations}{13}{subsection.1.4.2}%
 \contentsline {section}{\numberline {1.5}Crafting the First dataset}{13}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Matching each historical wildfire with tree species}{14}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Linking historical wildfires with historical weather data}{15}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Locations in the middle of the sea.}{15}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}Creating Areas without wildfires}{15}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.1}Matching historical wildfire with tree species}{14}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Locations in the middle of the sea.}{15}{subsection.1.5.2}%
 \contentsline {section}{\numberline {1.6}Natural Fires dataset}{15}{section.1.6}%
 \contentsline {subsection}{\numberline {1.6.1}FWI Calculation}{15}{subsection.1.6.1}%
 \contentsline {section}{\numberline {1.7}Variables Explanation}{15}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}Linking historical wildfires with historical weather data}{15}{subsection.1.7.1}%
-\contentsline {subsection}{\numberline {1.7.2}Creating Areas without wildfires}{15}{subsection.1.7.2}%
-\contentsline {subsection}{\numberline {1.7.3}Dataset description}{16}{subsection.1.7.3}%
+\contentsline {subsection}{\numberline {1.7.1}Creating Areas without wildfires}{15}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Linking historical wildfires with historical weather data}{15}{subsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.7.3}Creating Areas without wildfires}{15}{subsection.1.7.3}%
+\contentsline {subsection}{\numberline {1.7.4}Dataset description}{16}{subsection.1.7.4}%
 \contentsline {section}{\numberline {1.8}Python libraries used in the conception of the dataset}{16}{section.1.8}%
 \contentsline {section}{\numberline {1.9}Entry Selection}{16}{section.1.9}%
 \contentsline {section}{\numberline {1.10}Models}{16}{section.1.10}%
-\contentsline {subsection}{\numberline {1.10.1}Model Variables}{16}{subsection.1.10.1}%
+\contentsline {subsection}{\numberline {1.10.1}Model Variables and their importance}{16}{subsection.1.10.1}%
 \contentsline {subsection}{\numberline {1.10.2}Random Forest Classifier}{16}{subsection.1.10.2}%
 \contentsline {subsubsection}{Model with only Weather Variables}{16}{subsubsection*.23}%
-\contentsline {subsection}{\numberline {1.10.3}Model with weather and topography}{17}{subsection.1.10.3}%
+\contentsline {subsection}{\numberline {1.10.3}Model with weather and topography}{16}{subsection.1.10.3}%
 \contentsline {subsection}{\numberline {1.10.4}Model with weather, topography and fire weather}{17}{subsection.1.10.4}%
 \contentsline {chapter}{References}{19}{chapter*.24}%
