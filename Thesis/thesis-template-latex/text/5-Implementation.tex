@@ -470,43 +470,72 @@ The Google Maps service \cite{googlexmaps} was used to manually check if samples
 
 
 \section{Data Preparation of historical wildfire sites}
+This section covers the time frame selected for study and the selection of wildfire ignition causes.
+
 
 \subsection{Selecting the time frame of wildfire occurrences}
 
 The dataset described in \ref{historical_occurrences_1980_2015} is composed of multiple files describing historical occurrences since 1980 until 2015. Prior to 2001, the fields from each file became unstandardized, and there's no explicit parameter mentioning a natural wildfire cause. Therefore, the time frame considered was from 2001 to 2012. The latter years were rejected due to the fact that entries from \ref{historical_occurrences_1980_2015} do not contain any explicit latitude and longitude. They rely on territorial entities such as districts, municipalities, parishes, and NUTS to describe locations.
 
-The second historical wildfire dataset \ref{icnf2024} is also composed of multiple files. Its time frame is from 2013 until 2023. Unlike dataset \ref{historical_sites_no_coords}, entries do contain an explicit latitude and longitude values. It also features descriptive territorial entities. 
+The second historical wildfire dataset \ref{historical_occurrences_2013_2023} is also composed of multiple files. Its time frame is from 2013 until 2023. Unlike dataset \ref{historical_occurrences_1980_2015}, entries do contain an explicit latitude and longitude values. It also features descriptive territorial entities. 
 
 \subsection{Ignition cause selection}
-Historical wildfire sites whose cause was set as deliberate or negligent fire were excluded. The remaining causes left in the dataset, by order of importance are: natural, reignition, unknown, and undefined. For the creating of the first dataset all these causes were encompassed. The 
+Historical wildfire sites whose cause was set as deliberate or negligent fire were excluded. The remaining causes left in the dataset, in order of importance, are: natural, reignition, unknown, and undefined. For the creation of the first dataset, all these causes were encompassed. The undefined cause differed from the unknown cause due to the fact that their cause field was left blank, and entries that had unknown causes were explicitly described as unknown. Since the remaining causes aren't an object of study and their importance relies solely on inventory, their analysis won't be assessed in this thesis. Table \ref{tab:incidents_fires} contrasts reignition, unknown, and undefined causes with only natural causes. It is possible to observe that fires whose cause is set as natural have a tiny proportion compared to the outside scope of unknown, undefined, and reigniting causes of ignition. The undefined causes were labeled as \textit{NC} (as for non-characterised) in the dataset.
 
 
 
-Entries whose cause was . The fire causes contained, , in the dataset are: .
-Entries that were undefined as causes differed from those with unknown causes because their cause field was blank, and entries that had unknown causes were explicitly described as unknown.
-
-falta: tabela com o número de entradas antes e depois
-
-
-
+\begin{table}[H]
+	\centering
+	\caption{Proportion of natural fires compared to other causes from 2001 to 2023}
+	\label{tab:incidents_fires}
+	\begin{tabular}{lrr}
+		\toprule
+		Year & Reignition | Unknown | Undefined & Natural Fires \\
+		\midrule
+		2001 & 25938 & 44 \\
+		2002 & 25637 & 13 \\
+		2003 & 25042 & 96 \\
+		2004 & 21173 & 16 \\
+		2005 & 34575 & 3 \\
+		2006 & 19108 & 67 \\
+		2007 & 15565 & 50 \\
+		2008 & 9877  & 28 \\
+		2009 & 17293 & 106 \\
+		2010 & 14293 & 138 \\
+		2011 & 14811 & 102 \\
+		2012 & 11785 & 56 \\
+		2013 & 11822 & 77 \\
+		2014 & 3795  & 38 \\
+		2015 & 8293  & 138 \\
+		2016 & 7715  & 67 \\
+		2017 & 10308 & 104 \\
+		2018 & 5445  & 114 \\
+		2019 & 3912  & 128 \\
+		2020 & 3858  & 95 \\
+		2021 & 2507  & 103 \\
+		2022 & 3925  & 115 \\
+		2023 & 2427  & 72 \\
+		\midrule
+		TOTAL & 299104 & 1770 \\
+		\bottomrule
+	\end{tabular}
+	
+\end{table}
 
 \section{Historical Meteorological Data Extraction}
 
 \subsection{Retrieving historical meteorological data}
-Extracting historical meteorological data for dataset described in \ref{icnf2024} was done with ease with a Python. It went through each historical fire location and downloaded weather data about the entire day regarding the wildfire. As for the daset in \ref{historical_occurrences_1980_2015} it was necessary to geocode the position of 
+Extracting historical meteorological data for the dataset described in \ref{icnf2024} was done with ease with a Python script. It went through each historical fire location and downloaded hourly weather data about the entire day regarding the wildfire occurrence. For each wildfire site, a file was created with the date of the occurrence and fire coordinates. All files followed this convention. A latter approach dismissed this method of individually creating files for each site as it proved to be less efficient than having multiple sites in one batch of occurrences (further explanation on this topic will be featured in section \ref{Natural_Fires_dataset}, which covers the creation of the natural fires dataset). 
 
-In order to retrieve historical meteorological data,. The weather data contained all the fields described in \ref{open_meteo}. 
+
+As for the dataset in \ref{historical_occurrences_1980_2015}, it was necessary to geocode the position of each occurrence individually. For both datasets, all the variables described in table \ref{open_meteo_variables} were extracted.
 
 \subsection{Geocoding places from 2001 to 2012 historical wildfire locations}
 \label{geocoding_historical}
-The dataset entries featured in \ref{historical_sites_no_coords} contain no direct field leading up to the real site location coordinates. To tackle this issue, an algorithm with the help of the geopy library \cite{geopy} was made to resolve the names of historial wildfire places to a set of coordinates.
+The dataset entries featured in \ref{historical_occurrences_1980_2015} contain no direct field leading up to the real site location coordinates. To tackle this issue, an algorithm with the help of the geopy library \cite{geopy} was made to resolve the names of historial wildfire places to a set of coordinates. It was necessary to try multiple combinations to obtain the best results (see table \ref{geocoding_entries_2001_2012} for the list of combinations), since the services provided by the geopy library aren't as robust as \textit{Google Maps}. The district, municipality, parish, and local (if available) of each entry were utilized for the purpose of geocoding. Sometimes, the name of the exact wildfire locality was enclosed in brackets, requiring processing using strings to extract it.
 
 
-Using multiple combinations, attempts were made to geocode the location, featuring the combinations in the table \ref{geocoding_entries_2001_2012}. The district, municipality, parish, and local (if available) of each entry were utilized for this purpose. Sometimes, the name of the exact wildfire locality was enclosed in brackets, requiring processing using strings to extract it.
-
-
-
-\begin{table}[h!]
+\begin{table}[H]
 	\caption{Combinations for local geocoding}
 	\label{geocoding_entries_2001_2012}
 	\centering
@@ -533,51 +562,29 @@ Using multiple combinations, attempts were made to geocode the location, featuri
 
 These combinations caused errors in the location of some entries because the geocoders returned coordinates in other countries, such as Spain and Brazil, due to similar names in some locations. The entries that produced errors underwent recalculation, with the addition of "Portugal" at the end. An example of this usage is  {\it Parish, District, Portugal}.
 
-After each entry was resolved, their latitude and longitude were added as values in the columns LAT and LON of each corresponding file.
+After each entry was resolved, their latitude and longitude were added as values in the columns \textit{LAT} and \textit{LON} of each corresponding wildfire site in the file containing the historical wildfire data.
 
 
-A very minor sample of entries couldn't be geocoded using this method. Therefore they were manually geocoded from the Google Maps service. 
+A very minor sample of entries couldn't be geocoded using this method. Therefore they were manually geocoded from the \textit{Google Maps} service. 
 
-
-
-
-
-
-
-Naming: 2002-01-01\_38.574292\_-8.7102944.csv
 
 
 \section{Crafting the First dataset}
-This dataset does not contain any topographical data and fuel data, except for the surrouding tree species, corresponding to the location of the fires. It only features weather variables at the hour the fire ignited. Although the object of study is fires of natural origin, this dataset was created in order to have a historical reference for fires that occurred between 2001 and 2023 and whose cause could not be ascertained. So that in the future it would be possible to determine the origin of fires of uncertain origin and characterise them. From this dataset, all wildfires whose origin was only natural were extracted.
+
+At this point, wildfire sites from the source \ref{historical_occurrences_1980_2015} were geocoded, and the weather data corresponding to the day of occurrence for each wildfire was extracted. It was now necessary to go through each downloaded file and extract the most relevant attributes. Each file contained attributes that were not necessary to explain the problem of fires. 
 
 
+For example, the variables had a separate column with their respective units. Columns that featured units were dropped. The rest of the columns that were not considered were: \textit{latitude and longitude} (these coordinates refer to the weather station location and not to the wildfire site), \textit{generationtime\_ms, utc\_offset\_seconds, timezone,} and \textit{timezone\_abbreviation}. 
 
-\section{Variables Explanation}
-Slope has a significant influence on fire behaviour since it speeds its spread \cite{Marques2011}.
+These methods were conducted repeatedly each year. At this stage, each year had a separate file with its historical wildfire sites, and the dataset had the following variables: \textit{year, date, district, municipality, parish, local, latitude, longitude, cause, elevation} (this variable comes with the weather data, but since it is not optionally chosen, it hasn't been mentioned before) plus all the weather variables from \textit{Open-Meteo} (table \ref{open_meteo_variables}) 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-\subsection{Linking historical wildfires with historical weather data}
-Dizer número de instâncias
-Every unit from each field was specified in the retrieved data, so it had to be removed.
-Dizer que NA ficou com NC no dataset.
-
-
+After extracting the weather data for the day of each wildfire occurrence, it was time to match each site with the surrounding tree species. 
 
 
 \subsection{Matching each historical wildfire with tree species}
 \label{tree_species_wildfires}
+The data source \ref{} came with and 
+
 
 
 O que mudei no dataset inicial das trees
@@ -602,8 +609,60 @@ As restantes entradas que não obtiveram correspondencia com os outros métodos 
 Devido ao tamanho do dataset das arvores o script de python utilizado dividiu os anos em chunks e com multiprocessamento foi calculado as especies de arvores perto do fogo.
 
 
+
+This dataset does not contain any topographical data and fuel data, except for the surrouding tree species, corresponding to the location of the fires. It only features weather variables at the hour the fire ignited. Although the object of study is fires of natural origin, this dataset was created in order to have a historical reference for fires that occurred between 2001 and 2023 and whose cause could not be ascertained. So that in the future it would be possible to determine the origin of fires of uncertain origin and characterise them. From this dataset, all wildfires whose origin was only natural were extracted.
+
+
+
+
 \subsection{Locations in the middle of the sea.}
-Between 2013 and 2023, some of the featured locations were in the middle of the ocean. Although having a real-life location set explicitly in the file when using services like Google Maps, its coordinates were undeniably wrong. These multiple geolocation errors were discovered when trying to pin multiple species of trees \ref{tree_species_wildfires} to a single location with a distance function calculator. The algorithm yielded values that were outside of the range spectrum of 1500km. Leading to the manual confirmation of these errors with the help of the Google Maps service.
+Between 2013 and 2023, some of the featured locations were in the middle of the ocean. Although having a real-life location set explicitly in the file when using services like Google Maps, its coordinates were undeniably wrong. These errors errupted not only in geocoded places but also in the source of data provided by \textit{ICNF}. These multiple geolocation errors were discovered when trying to pin multiple species of trees \ref{tree_species_wildfires} to a single location with a distance function calculator. The algorithm yielded values that were outside of the range spectrum of 1500km. Leading to the manual confirmation of these errors with the help of the Google Maps service.
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Natural Fires dataset}
+\label{Natural_Fires_dataset}
+
+\subsection{FWI Calculation}
+
+
+
+\section{Variables Explanation}
+
+
+
+
+
+
+
+
+
+
+\subsection{Creating Areas without wildfires}
+
+Random Coordinates that were not equal to the ones in Natural Fires. A minimum distance of 25 km for each generated coordinated and the ones in Natural fires. With openstreet map given the range for latitude (36.7, 42.3) and longitude (-9.8, -6) check if the generated coordinate is in Portugal and check if it belongs to a county to ensure it isn't in the middle of the sea.
+
+
+
+
+\subsection{Linking historical wildfires with historical weather data}
+Dizer número de instâncias
+Every unit from each field was specified in the retrieved data, so it had to be removed.
+Dizer que NA ficou com NC no dataset.
+
+
+
+
+
 
 
 
@@ -612,115 +671,6 @@ Between 2013 and 2023, some of the featured locations were in the middle of the 
 Random Coordinates that were not equal to the ones in Natural Fires. A minimum distance of 25 km for each generated coordinated and the ones in Natural fires. With openstreet map given the range for latitude (36.7, 42.3) and longitude (-9.8, -6) check if the generated coordinate is in Portugal and check if it belongs to a county to ensure it isn't in the middle of the sea.
 
 \subsection{Dataset description}
-2001: 25982
-2002: 25650
-2003: 25138
-2004: 21189
-2005: 34578
-2006: 19175
-2007: 15615
-2008: 9905
-2009: 17399
-2010: 14431
-2011: 14913
-2012: 11841
-2013: 11899
-2014: 3833
-2015: 8431
-2016: 7782
-2017: 10412
-2018: 5559
-2019: 4040
-2020: 3953
-2021: 2610
-2022: 4040
-2023: 2499
-TOTAL : 300874
-
-Natural Fires
-2001: 44
-2002: 13
-2003: 96
-2004: 16
-2005: 3
-2006: 67
-2007: 50
-2008: 28
-2009: 106
-2010: 138
-2011: 102
-2012: 56
-2013: 77
-2014: 38
-2015: 138
-2016: 67
-2017: 104
-2018: 114
-2019: 128
-2020: 95
-2021: 103
-2022: 115
-2023: 72
-TOTAL: 1770
-
-Reignition Fires - Averiguar os zeros
-2001: 0
-2002: 0
-2003: 0
-2004: 0
-2005: 0
-2006: 0
-2007: 0
-2008: 0
-2009: 0
-2010: 0
-2011: 0
-2012: 2256
-2013: 2430
-2014: 305
-2015: 1505
-2016: 1347
-2017: 1714
-2018: 712
-2019: 580
-2020: 524
-2021: 201
-2022: 480
-2023: 247
-TOTAL: 12301
-
-Unknown Fires
-2001: 215
-2002: 221
-2003: 234
-2004: 268
-2005: 377
-2006: 1557
-2007: 3577
-2008: 3253
-2009: 4422
-2010: 6071
-2011: 5915
-2012: 4041
-2013: 4133
-2014: 2273
-2015: 3834
-2016: 3497
-2017: 5266
-2018: 2949
-2019: 2506
-2020: 2480
-2021: 2101
-2022: 3154
-2023: 1863
-TOTAL: 64207
-
-NA Fires
-
-
-\section{Materials and Methods}
-
-\subsection{Study Area}
 
 %\begin{comment}
 %\end{comment}
@@ -750,7 +700,8 @@ Specifity how many entries raw files have.
 
 \section{Models}
 
-\subsection{Model Variables}
+
+\subsection{Model Variables and their importance}
 
 porque de escolher soil moisture 7 to 28cm e nao os outros gráfico de correspondencia.
 
@@ -773,6 +724,9 @@ roughness', 'aspect', 'slope', 'CLC CODE','scientificNames', 'mean elev'
 tree species foram one hot encoded with MultiLabelBinarizer()
 
 variables with multiple days were flattened
+
+Slope has a significant influence on fire behaviour since it speeds its spread \cite{Marques2011}.
+
 
 \subsection{Random Forest Classifier}
 

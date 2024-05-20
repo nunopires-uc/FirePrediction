@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.5)  20 MAY 2024 11:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.5)  20 MAY 2024 15:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1152,7 +1152,7 @@ LaTeX Info: Redefining \nameref on input line 139.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<frontmatter/logo-uc-gold.pdf, id=135, 285.065pt x 241.90375pt>
+<frontmatter/logo-uc-gold.pdf, id=143, 285.065pt x 241.90375pt>
 File: frontmatter/logo-uc-gold.pdf Graphic file (type pdf)
 <use frontmatter/logo-uc-gold.pdf>
 Package pdftex.def Info: frontmatter/logo-uc-gold.pdf  used on input line 15.
@@ -1199,7 +1199,7 @@ Package pdftex.def Info: frontmatter/logo-uc-gold.pdf  used on input line 15.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<frontmatter/logo-dei.pdf, id=150, 459.7175pt x 334.24875pt>
+<frontmatter/logo-dei.pdf, id=158, 459.7175pt x 334.24875pt>
 File: frontmatter/logo-dei.pdf Graphic file (type pdf)
 <use frontmatter/logo-dei.pdf>
 Package pdftex.def Info: frontmatter/logo-dei.pdf  used on input line 15.
@@ -1502,18 +1502,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `icnf2024' on page 11 undefined on input line 478.
-
-
-LaTeX Warning: Reference `historical_sites_no_coords' on page 11 undefined on i
-nput line 478.
-
-
-LaTeX Warning: Reference `icnf2024' on page 11 undefined on input line 496.
-
-
-LaTeX Warning: Reference `open_meteo' on page 11 undefined on input line 498.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1525,8 +1515,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11]
 
-LaTeX Warning: Reference `historical_sites_no_coords' on page 12 undefined on i
-nput line 502.
+LaTeX Warning: Reference `icnf2024' on page 12 undefined on input line 528.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1537,25 +1526,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
-Overfull \hbox (10.33928pt too wide) in paragraph at lines 583--587
-\T1/ppl/m/n/12 DRP['stateProvince'].replace('Bragança Dis-trict', 'Bra-gança') 
-dfTrees-DRP['locality']
- []
-
-
-Overfull \hbox (2.04851pt too wide) in paragraph at lines 583--587
-\T1/ppl/m/n/12 = dfTrees-DRP['locality'].replace('Ovadas e Pan-chora', 'Ovadas 
-e Pan-chorra') Con-
- []
-
-
-Overfull \hbox (888.12862pt too wide) in paragraph at lines 589--590
-[]\T1/ppl/m/n/12 variáveis das trees que foram us-adas: sci-en-tific-Name,local
-ity,stateProvince,occurrenceStatus,individualCount,decimalLatitude,decimalLongi
-tude,coordinateUncertaintyInMeters,coordinatePrecision,elevation,elevationAccur
-acy,depth,depthAccuracy 
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1565,10 +1535,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
-Overfull \hbox (23.22913pt too wide) in paragraph at lines 733--733
-|[]\T1/ppl/b/n/17.28 Python li-braries used in the con-cep-tion of the dataset|
- 
+Overfull \hbox (10.33928pt too wide) in paragraph at lines 588--592
+\T1/ppl/m/n/12 DRP['stateProvince'].replace('Bragança Dis-trict', 'Bra-gança') 
+dfTrees-DRP['locality']
  []
+
+
+Overfull \hbox (2.04851pt too wide) in paragraph at lines 588--592
+\T1/ppl/m/n/12 = dfTrees-DRP['locality'].replace('Ovadas e Pan-chora', 'Ovadas 
+e Pan-chorra') Con-
+ []
+
+
+Overfull \hbox (888.12862pt too wide) in paragraph at lines 594--595
+[]\T1/ppl/m/n/12 variáveis das trees que foram us-adas: sci-en-tific-Name,local
+ity,stateProvince,occurrenceStatus,individualCount,decimalLatitude,decimalLongi
+tude,coordinateUncertaintyInMeters,coordinatePrecision,elevation,elevationAccur
+acy,depth,depthAccuracy 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1579,19 +1567,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
-Overfull \hbox (42.34691pt too wide) in paragraph at lines 783--787
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+Overfull \hbox (23.22913pt too wide) in paragraph at lines 693--693
+|[]\T1/ppl/b/n/17.28 Python li-braries used in the con-cep-tion of the dataset|
+ 
+ []
+
+
+Overfull \hbox (42.34691pt too wide) in paragraph at lines 743--747
 \T1/ppl/m/n/12 Accuracy: 0.8248587570621468 Pre-ci-sion: 0.8532608695652174 Re-
 call: 0.8177083333333334
  []
 
 
-Overfull \hbox (42.34691pt too wide) in paragraph at lines 791--795
+Overfull \hbox (42.34691pt too wide) in paragraph at lines 751--755
 \T1/ppl/m/n/12 Accuracy: 0.9887005649717514 Pre-ci-sion: 0.9973544973544973 Re-
 call: 0.9817708333333334
  []
 
 
-Overfull \hbox (42.34691pt too wide) in paragraph at lines 798--802
+Underfull \vbox (badness 1917) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
+Overfull \hbox (42.34691pt too wide) in paragraph at lines 758--762
 \T1/ppl/m/n/12 Accuracy: 0.9830508474576272 Pre-ci-sion: 0.9946808510638298 Re-
 call: 0.9739583333333334
  []
@@ -1605,7 +1620,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15] [16
+[17] [18
 
 ]
 ! Missing $ inserted.
@@ -1685,7 +1700,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--82
 / countries / portugal /
  []
 
-[17]
+[19]
 Underfull \hbox (badness 1019) in paragraph at lines 100--106
 []\T1/ppl/m/n/12 Schimanke, S., Ri-dal, M., Le Moigne, P., Berggren, L., Undén,
  P., Ran-dria-
@@ -1718,18 +1733,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18] (./0-main.aux)
+[20] (./0-main.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `0-main.out' has not changed.
-(rerunfilecheck)             Checksum: E97395ED74E15CABEA875E18B62C3CCD;6635.
+(rerunfilecheck)             Checksum: 524C4104C4DC4C0E56DFC1AF5D6C1487;7256.
  ) 
 Here is how much of TeX's memory you used:
- 33769 strings out of 480129
- 630616 string characters out of 5893409
- 942243 words of memory out of 5000000
- 50955 multiletter control sequences out of 15000+600000
+ 33776 strings out of 480129
+ 630718 string characters out of 5893409
+ 943397 words of memory out of 5000000
+ 50957 multiletter control sequences out of 15000+600000
  512738 words of font info for 105 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  99i,15n,131p,1136b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1739,10 +1754,10 @@ Here is how much of TeX's memory you used:
 fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb>
-Output written on 0-main.pdf (34 pages, 479231 bytes).
+Output written on 0-main.pdf (36 pages, 483688 bytes).
 PDF statistics:
- 631 PDF objects out of 1000 (max. 8388607)
- 518 compressed objects within 6 object streams
- 110 named destinations out of 1000 (max. 500000)
- 279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 661 PDF objects out of 1000 (max. 8388607)
+ 546 compressed objects within 6 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 
