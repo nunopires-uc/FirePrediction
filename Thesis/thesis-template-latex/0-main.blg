@@ -6,47 +6,52 @@ Database file #1: references.bib
 Warning--entry type for "Zippenfenig_Open-Meteo" isn't style-file defined
 --line 870 of file references.bib
 Warning--entry type for "71c95a07-e296-44fc-b22b-415f42acfdf0" isn't style-file defined
---line 1082 of file references.bib
-Warning--can't use both author and editor fields in Mora2020
-You've used 21 entries,
+--line 1079 of file references.bib
+I was expecting a `,' or a `}'---line 1104 of file references.bib
+ :  
+ :  note = {Accessed: 2024-05-21}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty publisher in van1985equations
+You've used 23 entries,
             1935 wiz_defined-function locations,
-            587 strings with 7916 characters,
-and the built_in function-call counts, 7660 in all, are:
-= -- 727
-> -- 496
-< -- 19
-+ -- 180
-- -- 178
-* -- 638
-:= -- 1477
-add.period$ -- 62
-call.type$ -- 21
-change.case$ -- 192
-chr.to.int$ -- 21
-cite$ -- 22
-duplicate$ -- 228
-empty$ -- 355
-format.name$ -- 208
-if$ -- 1385
+            597 strings with 8136 characters,
+and the built_in function-call counts, 8227 in all, are:
+= -- 782
+> -- 515
+< -- 21
++ -- 186
+- -- 184
+* -- 678
+:= -- 1586
+add.period$ -- 69
+call.type$ -- 23
+change.case$ -- 204
+chr.to.int$ -- 23
+cite$ -- 24
+duplicate$ -- 252
+empty$ -- 393
+format.name$ -- 215
+if$ -- 1491
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 3
-newline$ -- 107
-num.names$ -- 63
-pop$ -- 140
+missing$ -- 5
+newline$ -- 118
+num.names$ -- 69
+pop$ -- 152
 preamble$ -- 1
-purify$ -- 193
+purify$ -- 206
 quote$ -- 0
-skip$ -- 198
+skip$ -- 217
 stack$ -- 0
-substring$ -- 303
-swap$ -- 11
-text.length$ -- 2
+substring$ -- 327
+swap$ -- 12
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 124
+type$ -- 134
 warning$ -- 1
-while$ -- 47
+while$ -- 51
 width$ -- 0
-write$ -- 257
-(There were 3 warnings)
+write$ -- 284
+(There was 1 error message)

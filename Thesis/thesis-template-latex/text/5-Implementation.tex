@@ -570,7 +570,7 @@ A very minor sample of entries couldn't be geocoded using this method. Therefore
 
 
 \section{Crafting the First dataset}
-
+\label{the_first_dataset}
 At this point, wildfire sites from the source \ref{historical_occurrences_1980_2015} were geocoded, and the weather data corresponding to the day of occurrence for each wildfire was extracted. It was now necessary to go through each downloaded file and extract the most relevant attributes. Each file contained attributes that were not necessary to explain the problem of fires. 
 
 
@@ -610,8 +610,15 @@ Between 2013 and 2023, some of the featured locations provided by the \textit{IC
 These multiple geolocation errors were discovered when trying to pin multiple species of trees (\ref{tree_species_wildfires}) to a single location with the distance function calculator. The algorithm returned values that were outside of the range spectrum previously set at 1000 metres. Leading up to the manual confirmation of these errors with the help of the \textit{Google Maps service}.
 
 
-\subsection{Dataset description}
-number of entries of each type
+\subsection{Dataset description - Falta acabar}
+The dataset features 300874 entries. 
+
+number of entries of each type 300874
+1770 natural
+64207 Desconhecida Unknown
+222596 NC undefined
+12301 Reigniton
+
 
 
 This dataset does not contain any topographical data and fuel data, except for the surrouding tree species, corresponding to the location of the fires. It only features weather variables at the hour the fire ignited. Although the object of study is fires of natural origin, this dataset was created in order to have a historical reference for fires that occurred between 2001 and 2023 and whose cause could not be ascertained. So that in the future it would be possible to determine the origin of fires of uncertain origin and characterise them. From this dataset, all wildfires whose origin was only natural were extracted.
@@ -622,8 +629,22 @@ This dataset does not contain any topographical data and fuel data, except for t
 
 \section{Natural Fires dataset}
 \label{Natural_Fires_dataset}
+The primary focus of the research is on naturally occurring fires. What has been done in relation to natural-origin fires is covered in this section. Fires whose cause was natural were taken out of the prior dataset with its weather records at the time of ignition and previously matched tree species. Making it 1770 natural-occurring fires. Another meteorological data extraction was done, this time encompassing a larger time frame. Then, a FWI calculation for the entries was performed, and each fire was then matched with the topographical data relating to its location.
+
+\subsection{Weather history extraction for natural fires}
+Instead of only gathering hourly weather history relative to the day of wildfire igniton. For natural fires, a total of 3 months of weather data prior to and during the ignition were extracted. It also featured hourly data, and the variables were the same as previously described in Table (\ref{open_meteo_variables}).
+This time, instead of extracting each fire individually, batches were created to host 100 different fires per batch. Each batch held 3-month weather records for each fire. This proved to be faster for extracting and analysing. Still, each fire was split into an individual file containing only its weather records. This was done in order to save time, and it worked as a saving system for FWI calculation as it proved to be computationally expensive.
+The same variables referenced in \ref{the_first_dataset}  were dropped aswell.
 
 \subsection{FWI Calculation}
+
+\cite{IPMA2024}
+
+\cite{van1985equations}
+
+
+\cite{buckinha2024}
+
 
 
 

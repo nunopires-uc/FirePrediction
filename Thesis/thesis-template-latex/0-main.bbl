@@ -5,6 +5,12 @@ Agency, E.~E. (2020).
 \newblock Corine land cover 2018 (vector), europe, 6-yearly - version
   2020_20u1, may 2020.
 
+\bibitem[Buckingham, 2016]{buckinha2024}
+Buckingham, H. (2016).
+\newblock pyfwi.
+\newblock \url{https://github.com/buckinha/pyfwi}.
+\newblock Accessed: 2024-02-21.
+
 \bibitem[{Central de Dados Github Repository}, 2017]{centraldedados_incendios}
 {Central de Dados Github Repository} (2017).
 \newblock Incendios data repository.
@@ -35,6 +41,12 @@ Danielson, J. and Gesch, D. (2011).
 \newblock Global multi-resolution terrain elevation data 2010 (gmted2010).
 \newblock Open-File Report 2011-1073, U.S. Geological Survey, Reston, VA, USA.
 
+\bibitem[do~Mar e~da Atmosfera, 2024]{IPMA2024}
+do~Mar e~da Atmosfera, I.~P. (2024).
+\newblock Risco de incêndio.
+\newblock
+  \url{https://www.ipma.pt/en/enciclopedia/otempo/risco.incendio/index.jsp}.
+
 \bibitem[{Encyclopædia Britannica, Inc.}, 2024]{britannica_portugal_climate}
 {Encyclopædia Britannica, Inc.} (2024).
 \newblock Climate of portugal.
@@ -51,10 +63,6 @@ Danielson, J. and Gesch, D. (2011).
 \bibitem[{GBIF.Org User}, 2024]{https://doi.org/10.15468/dl.zwfmbt}
 {GBIF.Org User} (2024).
 \newblock Occurrence download.
-
-\bibitem[Gillies et~al., 2013]{rasterio}
-Gillies, S. et~al. (2013).
-\newblock Rasterio: geospatial raster i/o for {Python} programmers.
 
 \bibitem[{Google}, 2024]{googlexmaps}
 {Google} (2024).
@@ -119,6 +127,11 @@ Uva, J.~S., Onofre, R., Moreira, J., Faias, S.~P., Barreiro, S., Santos, E.,
 \newblock Forestry inventory 2015.
 \newblock \url{https://doi.org/10.15468/33hvm4}.
 \newblock Accessed via GBIF.org on 2024-04-04.
+
+\bibitem[Van~Wagner et~al., 1985]{van1985equations}
+Van~Wagner, C., Pickett, T., et~al. (1985).
+\newblock {\em Equations and FORTRAN program for the Canadian forest fire
+  weather index system}, volume~33.
 
 \bibitem[Zippenfenig, 2023]{Zippenfenig_Open-Meteo}
 Zippenfenig, P. (2023).
