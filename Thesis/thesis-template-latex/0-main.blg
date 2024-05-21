@@ -7,51 +7,48 @@ Warning--entry type for "Zippenfenig_Open-Meteo" isn't style-file defined
 --line 870 of file references.bib
 Warning--entry type for "71c95a07-e296-44fc-b22b-415f42acfdf0" isn't style-file defined
 --line 1079 of file references.bib
-I was expecting a `,' or a `}'---line 1104 of file references.bib
- :  
- :  note = {Accessed: 2024-05-21}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+Warning--entry type for "ipma2015" isn't style-file defined
+--line 1124 of file references.bib
 Warning--empty publisher in van1985equations
-You've used 23 entries,
+You've used 24 entries,
             1935 wiz_defined-function locations,
-            597 strings with 8136 characters,
-and the built_in function-call counts, 8227 in all, are:
-= -- 782
-> -- 515
-< -- 21
-+ -- 186
-- -- 184
-* -- 678
-:= -- 1586
-add.period$ -- 69
-call.type$ -- 23
-change.case$ -- 204
-chr.to.int$ -- 23
-cite$ -- 24
-duplicate$ -- 252
-empty$ -- 393
-format.name$ -- 215
-if$ -- 1491
+            603 strings with 8326 characters,
+and the built_in function-call counts, 8481 in all, are:
+= -- 810
+> -- 522
+< -- 22
++ -- 188
+- -- 186
+* -- 693
+:= -- 1637
+add.period$ -- 73
+call.type$ -- 24
+change.case$ -- 210
+chr.to.int$ -- 24
+cite$ -- 25
+duplicate$ -- 262
+empty$ -- 408
+format.name$ -- 218
+if$ -- 1538
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 5
-newline$ -- 118
-num.names$ -- 69
-pop$ -- 152
+newline$ -- 124
+num.names$ -- 72
+pop$ -- 154
 preamble$ -- 1
-purify$ -- 206
+purify$ -- 212
 quote$ -- 0
-skip$ -- 217
+skip$ -- 226
 stack$ -- 0
-substring$ -- 327
+substring$ -- 339
 swap$ -- 12
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 134
+type$ -- 140
 warning$ -- 1
-while$ -- 51
+while$ -- 53
 width$ -- 0
-write$ -- 284
-(There was 1 error message)
+write$ -- 298
+(There were 4 warnings)

@@ -5,6 +5,12 @@ Agency, E.~E. (2020).
 \newblock Corine land cover 2018 (vector), europe, 6-yearly - version
   2020_20u1, may 2020.
 
+\bibitem[ATMOSFERA, 2015]{ipma2015}
+ATMOSFERA, I. P. D. M. E.~D. (2015).
+\newblock Apoio meteorológico prevenção e combate aos incêndios florestais:
+  RelatÓrio de maio de 2015.
+\newblock Accessed: 2024-04-12.
+
 \bibitem[Buckingham, 2016]{buckinha2024}
 Buckingham, H. (2016).
 \newblock pyfwi.
@@ -46,6 +52,7 @@ do~Mar e~da Atmosfera, I.~P. (2024).
 \newblock Risco de incêndio.
 \newblock
   \url{https://www.ipma.pt/en/enciclopedia/otempo/risco.incendio/index.jsp}.
+\newblock Accessed: 2024-05-21.
 
 \bibitem[{Encyclopædia Britannica, Inc.}, 2024]{britannica_portugal_climate}
 {Encyclopædia Britannica, Inc.} (2024).
