@@ -304,7 +304,7 @@ Fuel variables encompass two sources: Copernicus Climate Change Service \cite{Co
 
 \subsubsection{Copernicus Climate Change Service \cite{CopernicusCDS2019}}
 
-The Copernicus Climate Change Service contains historical reconstructions of fire danger indices, i.e., variables that emphasize conditions suitable for the origin, spread, and sustainability of naturally occurring fires. The fire danger indices are obtained from historical simulations and weather forecasts, and the available data starts in January 1940 and extends all the way through 2023. Variables contained in the dataset are expressed in the table \ref{copernicus_danger_indices}.
+The Copernicus Climate Change Service contains daily historical reconstructions of fire danger indices, i.e., variables that emphasize conditions suitable for the origin, spread, and sustainability of naturally occurring fires. The fire danger indices are obtained from historical simulations and weather forecasts, and the available data starts in January 1940 and extends all the way through 2023. Variables contained in the dataset are expressed in the table \ref{copernicus_danger_indices}.
 From this source, all variables that belong to the fire weather index system were extracted except the fire daily severity index, which is not necessary for the calculation of fwi.
 
 \begin{table}[H]
@@ -637,21 +637,33 @@ This time, instead of extracting each fire individually, batches were created to
 The same variables referenced in \ref{the_first_dataset}  were dropped aswell.
 
 \subsection{FWI Calculation}
+FWI is especially important because it can predict the risk of a wildfire by addressing the different fuels found in forest soils \cite{IPMA2024}. The source of data \ref{copernicus_danger_indices} contains daily data at 12:00 for fwi and the variables that compose it. However, for a further analysis of the topic, it is crucial to calculate the values of fwi and its variables for the remaining hours of the day. To ensure calculation accuracy, a Python library named \textit{pyfwi} \cite{buckinha2024} was used. The equations inside the library were compared to the official FWI guide \cite{van1985equations} to assure the calculations were being done correctly.
+A comparison between the results from IPMA and the calculated FWI values was done. In the paper \cite{ipma2015}, the authors show a chart for FWI in the month of May of 2015 (right-side of image \ref{fig:comparison_fwi_ipma}). This chart encompasses the average daily values for 68 different weather stations. However, the appendix to the report didn't specify the weather stations used. Instead, it provided a list of 80 weather stations. Without the chance of getting to know the weather stations used, an experiment was conducted with all 80 stations. Firstly, weather data for the last days of April and the entire month of May for 2015 were extracted for every location set in the report. Then, the months of April and May 2015 were downloaded from \cite{CopernicusCDS2019}. The equations for FWI require starting values. Those were extracted from the tabulated values of the last days of April from the Copernicus source. For the entire month of May, tabulated values weren't used. Instead, each value was calculated with the \textit{pyfwi} library.
+The results of this experiment are shown in image \ref{fig:comparison_fwi_ipma}. Even though the charts are not exactly the same, the underlying pattern remains the same, given the differences in the number of weather stations used in each example. Further comparisons between the continuous calculations of FWI and other sources will be assessed in the next chapter.
 
-\cite{IPMA2024}
+\begin{figure}[H]
+	\caption{Comparison of average FWI calculated values and IPMA - 2015}
+	\centering
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{chapter-images/Datasetcreation/FWI/fwi_X1_plot.png}
+		\caption{FWI - Calculated}
+		\label{fig:fwi_copernicus_2022_midday}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{chapter-images/Datasetcreation/FWI/fwi_ipma.png}
+		\caption{FWI - IPMA}
+		\label{fig:fwi_calculated_2022_midday}
+	\end{subfigure}
+	\label{fig:comparison_fwi_ipma}
+\end{figure}
 
-\cite{van1985equations}
 
-\cite{buckinha2024}
+For fires of natural origin, the same principles were applied. Every day at noon, the values were no longer calculated. The FWI equations require an initial value to work. The hourly FWI calculation worked in such a way that the initial values were those that were present in the previous hour. When the algorithm reached midday, it didn't use the values from the previous hour but the tabulated values from Copernicus. This method ensured that hours without a FWI tabulated value gained a value for FWI and all the variables necessary for it. This was conducted for each natural fire and for every hour of their 3-month weather history records.
 
-\cite{ipma2015}
-
-
-
-
-
-
-
+Falta o algorithmo criado
 
 
 
