@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.5)  22 MAY 2024 21:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.5)  22 MAY 2024 23:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1008,7 +1008,14 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count360
 \l__pdf_internal_box=\box81
 )
-(./0-main.aux)
+(./0-main.aux
+
+LaTeX Warning: Label `fig:montly_fire_count' multiply defined.
+
+
+LaTeX Warning: Label `fig:montly_fire_count' multiply defined.
+
+)
 \openout1 = `0-main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
@@ -1152,7 +1159,7 @@ LaTeX Info: Redefining \nameref on input line 139.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<frontmatter/logo-uc-gold.pdf, id=111, 285.065pt x 241.90375pt>
+<frontmatter/logo-uc-gold.pdf, id=23, 285.065pt x 241.90375pt>
 File: frontmatter/logo-uc-gold.pdf Graphic file (type pdf)
 <use frontmatter/logo-uc-gold.pdf>
 Package pdftex.def Info: frontmatter/logo-uc-gold.pdf  used on input line 15.
@@ -1199,7 +1206,7 @@ Package pdftex.def Info: frontmatter/logo-uc-gold.pdf  used on input line 15.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<frontmatter/logo-dei.pdf, id=126, 459.7175pt x 334.24875pt>
+<frontmatter/logo-dei.pdf, id=38, 459.7175pt x 334.24875pt>
 File: frontmatter/logo-dei.pdf Graphic file (type pdf)
 <use frontmatter/logo-dei.pdf>
 Package pdftex.def Info: frontmatter/logo-dei.pdf  used on input line 15.
@@ -1316,13 +1323,7 @@ n input line 219.
 
 ] [14
 
-] (./0-main.lot
-Overfull \hbox (8.541pt too wide) in paragraph at lines 9--9
- [][] [][]\T1/ppl/m/n/12 Fire dan-ger in-dices from his-tor-i-cal data ([]Coper
--ni-cus Cli-mate Change 
- []
-
-)
+] (./0-main.lot)
 \tf@lot=\write8
 \openout8 = `0-main.lot'.
 
@@ -1330,22 +1331,45 @@ Overfull \hbox (8.541pt too wide) in paragraph at lines 9--9
 
 ] [16
 
-] (./text/5-Implementation.tex
+] (./text/5_1-eda.tex
 Chapter 1.
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 5
-.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
-File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-)
-Overfull \hbox (3.84785pt too wide) in paragraph at lines 11--12
-[]\T1/ppl/m/n/12 Portugal's veg-e-ta-tion is a blend of At-lantic, Eu-ro-pean, 
-Mediter-ranean, and African
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 4.
+
+<chapter-images/5_1-eda/species_count.png, id=123, 867.24pt x 578.16pt>
+File: chapter-images/5_1-eda/species_count.png Graphic file (type png)
+<use chapter-images/5_1-eda/species_count.png>
+Package pdftex.def Info: chapter-images/5_1-eda/species_count.png  used on inpu
+t line 9.
+(pdftex.def)             Requested size: 426.79135pt x 284.52713pt.
+
+Overfull \hbox (3.84785pt too wide) in paragraph at lines 14--15
+\T1/ppl/m/n/12 Portugal's veg-e-ta-tion is a blend of At-lantic, Eu-ro-pean, Me
+diter-ranean, and African
  []
 
-[1
+
+Overfull \hbox (22.24318pt too wide) in paragraph at lines 18--20
+\T1/ppl/m/n/12 removed vari-ables: 'hourly.weather_code' 'hourly.sunshine_durat
+ion' 'hourly.is_day'
+ []
+
+<chapter-images/5_1-eda/distribution_weather_variables1FT.png, id=129, 1300.86p
+t x 2023.56pt>
+File: chapter-images/5_1-eda/distribution_weather_variables1FT.png Graphic file
+ (type png)
+<use chapter-images/5_1-eda/distribution_weather_variables1FT.png>
+Package pdftex.def Info: chapter-images/5_1-eda/distribution_weather_variables1
+FT.png  used on input line 25.
+(pdftex.def)             Requested size: 426.79135pt x 663.88637pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
 
 
-]
+ <./chapter-images/5_1-eda/species_count.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1358,7 +1382,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \vbox (0.10327pt too high) has occurred while \output is active []
 
 
 
@@ -1369,8 +1393,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3]
-Overfull \vbox (2.91647pt too high) has occurred while \output is active []
+[3 <./chapter-images/5_1-eda/distribution_weather_variables1FT.png>]
+<chapter-images/5_1-eda/distribution_weather_variables2FT.png, id=149, 1300.86p
+t x 867.24pt>
+File: chapter-images/5_1-eda/distribution_weather_variables2FT.png Graphic file
+ (type png)
+<use chapter-images/5_1-eda/distribution_weather_variables2FT.png>
+Package pdftex.def Info: chapter-images/5_1-eda/distribution_weather_variables2
+FT.png  used on input line 32.
+(pdftex.def)             Requested size: 426.79135pt x 284.52274pt.
+<chapter-images/5_1-eda/monthly_fire_count.png, id=150, 867.24pt x 578.16pt>
+File: chapter-images/5_1-eda/monthly_fire_count.png Graphic file (type png)
+<use chapter-images/5_1-eda/monthly_fire_count.png>
+Package pdftex.def Info: chapter-images/5_1-eda/monthly_fire_count.png  used on
+ input line 39.
+(pdftex.def)             Requested size: 426.79135pt x 284.52713pt.
+<chapter-images/5_1-eda/district_fire_count.png, id=151, 867.24pt x 578.16pt>
+File: chapter-images/5_1-eda/district_fire_count.png Graphic file (type png)
+<use chapter-images/5_1-eda/district_fire_count.png>
+Package pdftex.def Info: chapter-images/5_1-eda/district_fire_count.png  used o
+n input line 48.
+(pdftex.def)             Requested size: 426.79135pt x 284.52713pt.
+
+Underfull \vbox (badness 3724) has occurred while \output is active []
 
 
 
@@ -1381,19 +1426,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4]
-Overfull \hbox (8.08354pt too wide) in paragraph at lines 202--203
-[]\T1/ppl/m/n/12 The API in-cor-po-rates ob-ser-va-tions from weather sta-tions
-, aero-planes, buoys, radar,
- []
-
-
-Overfull \hbox (68.25555pt too wide) in paragraph at lines 230--294
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[4 <./chapter-images/5_1-eda/distribution_weather_variables2FT.png> <./chapter-
+images/5_1-eda/monthly_fire_count.png>]
+<chapter-images/5_1-eda/clc_code_count.png, id=159, 867.24pt x 578.16pt>
+File: chapter-images/5_1-eda/clc_code_count.png Graphic file (type png)
+<use chapter-images/5_1-eda/clc_code_count.png>
+Package pdftex.def Info: chapter-images/5_1-eda/clc_code_count.png  used on inp
+ut line 56.
+(pdftex.def)             Requested size: 426.79135pt x 284.52713pt.
+) (./0-main.bbl
+Underfull \vbox (badness 3724) has occurred while \output is active []
 
 
 
@@ -1404,22 +1446,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5]
-Overfull \hbox (9.76393pt too wide) in paragraph at lines 303--304
-\T1/ppl/m/n/12 Fuel vari-ables en-com-pass two sources: Coper-ni-cus Cli-mate C
-hange Ser-vice ([]Coper-
- []
-
-
-Overfull \hbox (1.36617pt too wide) in paragraph at lines 305--305
-|\T1/ppl/b/n/12 Copernicus Cli-mate Change Ser-vice ([]Coper-ni-cus Cli-mate Ch
-ange Ser-vice (C3S)
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[5 <./chapter-images/5_1-eda/district_fire_count.png> <./chapter-images/5_1-eda
+/clc_code_count.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1429,195 +1457,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
-Underfull \hbox (badness 1584) in paragraph at lines 321--322
-[]|\T1/ppl/m/n/10.95 Component rep-re-sent-ing fuel avail-abil-ity,
- []
-
-
-Underfull \hbox (badness 1308) in paragraph at lines 329--330
-[]|\T1/ppl/m/n/10.95 Combination of Ini-tial spread in-dex and
- []
-
-
-Overfull \hbox (10.56946pt too wide) in paragraph at lines 315--333
- [][] 
- []
-
-
-Overfull \hbox (11.61067pt too wide) in paragraph at lines 344--386
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[8]
-Overfull \hbox (29.42151pt too wide) in paragraph at lines 412--462
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[9]
-Underfull \vbox (badness 3525) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[11]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[12]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[13]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[14]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[15]
-<chapter-images/Datasetcreation/FWI/fwi_X1_plot.png, id=504, 608.2725pt x 442.7
-742pt>
-File: chapter-images/Datasetcreation/FWI/fwi_X1_plot.png Graphic file (type png
-)
-<use chapter-images/Datasetcreation/FWI/fwi_X1_plot.png>
-Package pdftex.def Info: chapter-images/Datasetcreation/FWI/fwi_X1_plot.png  us
-ed on input line 643.
-(pdftex.def)             Requested size: 209.1301pt x 152.23027pt.
-<chapter-images/Datasetcreation/FWI/fwi_ipma.png, id=506, 815.045pt x 502.87875
-pt>
-File: chapter-images/Datasetcreation/FWI/fwi_ipma.png Graphic file (type png)
-<use chapter-images/Datasetcreation/FWI/fwi_ipma.png>
-Package pdftex.def Info: chapter-images/Datasetcreation/FWI/fwi_ipma.png  used 
-on input line 650.
-(pdftex.def)             Requested size: 209.1301pt x 129.02657pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[16]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[17 <./chapter-images/Datasetcreation/FWI/fwi_X1_plot.png> <./chapter-images/Da
-tasetcreation/FWI/fwi_ipma.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[18]
-<chapter-images/Datasetcreation/dataset_conclusion/naturalfeuer.png, id=554, 16
-66.225pt x 768.8725pt>
-File: chapter-images/Datasetcreation/dataset_conclusion/naturalfeuer.png Graphi
-c file (type png)
-<use chapter-images/Datasetcreation/dataset_conclusion/naturalfeuer.png>
-Package pdftex.def Info: chapter-images/Datasetcreation/dataset_conclusion/natu
-ralfeuer.png  used on input line 684.
-(pdftex.def)             Requested size: 426.79135pt x 196.93393pt.
-) (./0-main.bbl
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[19 <./chapter-images/Datasetcreation/dataset_conclusion/naturalfeuer.png>]
-[20
-
-]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1684,7 +1523,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--44
 opernicus . eu / cdsapp # ! / dataset /
  []
 
-[21]
+[7
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 93--97
 []\T1/ppl/m/n/12 Living and Over-seas, I. (2023).  Por-tu-gal weather and cli-
  []
@@ -1734,34 +1575,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22] (./0-main.aux)
+[8] (./0-main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 
 Package rerunfilecheck Warning: File `0-main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `0-main.out':
-(rerunfilecheck)             Before: 774047A47AD40146DE585760F4B4849F;5335
-(rerunfilecheck)             After:  769092E6EBFF87A76AC66AAB4498E2FB;5251.
+(rerunfilecheck)             Before: 74CAD959B562E0C7D1113946F9EC35B5;831
+(rerunfilecheck)             After:  6919BDD476E4248A880E8BD00186941D;1072.
  ) 
 Here is how much of TeX's memory you used:
- 33821 strings out of 480129
- 632451 string characters out of 5893409
- 944114 words of memory out of 5000000
- 50997 multiletter control sequences out of 15000+600000
- 512738 words of font info for 105 fonts, out of 8000000 for 9000
+ 33686 strings out of 480129
+ 630903 string characters out of 5893409
+ 934590 words of memory out of 5000000
+ 50921 multiletter control sequences out of 15000+600000
+ 499414 words of font info for 75 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 99i,15n,131p,2375b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,11n,131p,1136b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/ori/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk
 >{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive
 /texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb>
-Output written on 0-main.pdf (38 pages, 696469 bytes).
+Output written on 0-main.pdf (24 pages, 1162397 bytes).
 PDF statistics:
- 692 PDF objects out of 1000 (max. 8388607)
- 567 compressed objects within 6 object streams
- 114 named destinations out of 1000 (max. 500000)
- 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 211 compressed objects within 3 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 
