@@ -1,0 +1,67 @@
+\chapter{Models}
+\label{sec:experiences}
+
+
+\section{Models}
+
+
+\subsection{Model Variables and their importance}
+
+porque de escolher soil moisture 7 to 28cm e nao os outros gráfico de correspondencia.
+
+temperature : 8
+relative humidity: 8
+precipitation': 16
+wind speed: 16
+soil temperature 28 to 100cm: 8
+soil moisture 7 to 28cm: 8
+direct normal irradiance: 8
+
+'fwix': 8,
+'ffmc': 8,
+'dmc': 16,
+'dc': 16,
+'isi': 8,
+
+roughness', 'aspect', 'slope', 'CLC CODE','scientificNames', 'mean elev'
+
+tree species foram one hot encoded with MultiLabelBinarizer()
+
+variables with multiple days were flattened
+
+Slope has a significant influence on fire behaviour since it speeds its spread \cite{Marques2011}.
+
+
+\subsection{Random Forest Classifier}
+
+
+
+\subsubsection{Model with only Weather Variables}
+
+Accuracy: 0.8248587570621468
+Precision: 0.8532608695652174
+Recall: 0.8177083333333334
+F1 Score: 0.8351063829787234
+
+
+\subsection{Model with weather and topography}
+
+Accuracy: 0.9887005649717514
+Precision: 0.9973544973544973
+Recall: 0.9817708333333334
+F1 Score: 0.989501312335958
+
+\subsection{Model with weather, topography and fire weather}
+
+Accuracy: 0.9830508474576272
+Precision: 0.9946808510638298
+Recall: 0.9739583333333334
+F1 Score: 0.9842105263157894
+
+
+\section{Python libraries used in the conception of the dataset}
+requests
+pandas
+os to check if files already existed.
+numpy
+sklearn

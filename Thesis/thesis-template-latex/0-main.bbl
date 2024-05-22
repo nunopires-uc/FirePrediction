@@ -111,6 +111,11 @@ Mora, C. and Vieira, G. (2020).
 Muñoz~Sabater, J. (2019).
 \newblock Era5-land hourly data from 2001 to present.
 
+\bibitem[{OpenStreetMap contributors}, 2017]{OpenStreetMap}
+{OpenStreetMap contributors} (2017).
+\newblock {Planet dump retrieved from https://planet.osm.org }.
+\newblock \url{ https://www.openstreetmap.org }.
+
 \bibitem[Schimanke et~al., 2021]{Schimanke_CERRA}
 Schimanke, S., Ridal, M., Le~Moigne, P., Berggren, L., Undén, P.,
   Randriamampianina, R., Andrea, U., Bazile, E., Bertelsen, A., Brousseau, P.,

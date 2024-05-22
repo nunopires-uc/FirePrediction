@@ -10,45 +10,45 @@ Warning--entry type for "71c95a07-e296-44fc-b22b-415f42acfdf0" isn't style-file 
 Warning--entry type for "ipma2015" isn't style-file defined
 --line 1124 of file references.bib
 Warning--empty publisher in van1985equations
-You've used 24 entries,
+You've used 25 entries,
             1935 wiz_defined-function locations,
-            603 strings with 8326 characters,
-and the built_in function-call counts, 8481 in all, are:
-= -- 810
-> -- 522
-< -- 22
-+ -- 188
-- -- 186
-* -- 693
-:= -- 1637
-add.period$ -- 73
-call.type$ -- 24
-change.case$ -- 210
-chr.to.int$ -- 24
-cite$ -- 25
-duplicate$ -- 262
-empty$ -- 408
-format.name$ -- 218
-if$ -- 1538
+            608 strings with 8469 characters,
+and the built_in function-call counts, 8726 in all, are:
+= -- 836
+> -- 529
+< -- 23
++ -- 190
+- -- 188
+* -- 708
+:= -- 1686
+add.period$ -- 76
+call.type$ -- 25
+change.case$ -- 216
+chr.to.int$ -- 25
+cite$ -- 26
+duplicate$ -- 272
+empty$ -- 423
+format.name$ -- 221
+if$ -- 1583
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 5
-newline$ -- 124
-num.names$ -- 72
-pop$ -- 154
+newline$ -- 129
+num.names$ -- 75
+pop$ -- 157
 preamble$ -- 1
-purify$ -- 212
+purify$ -- 218
 quote$ -- 0
-skip$ -- 226
+skip$ -- 235
 stack$ -- 0
-substring$ -- 339
+substring$ -- 351
 swap$ -- 12
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 140
+type$ -- 146
 warning$ -- 1
-while$ -- 53
+while$ -- 55
 width$ -- 0
-write$ -- 298
+write$ -- 310
 (There were 4 warnings)

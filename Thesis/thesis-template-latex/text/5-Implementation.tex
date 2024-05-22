@@ -610,18 +610,10 @@ Between 2013 and 2023, some of the featured locations provided by the \textit{IC
 These multiple geolocation errors were discovered when trying to pin multiple species of trees (\ref{tree_species_wildfires}) to a single location with the distance function calculator. The algorithm returned values that were outside of the range spectrum previously set at 1000 metres. Leading up to the manual confirmation of these errors with the help of the \textit{Google Maps service}.
 
 
-\subsection{Dataset description - Falta acabar}
-The dataset features 300874 entries. 
+\subsection{Dataset description}
+The dataset features 300874 distinct entries: 64207 have an unknown cause, 12301 are labelled as reignition, 222596 are undefined, and 1770 have a natural cause of ignition.
 
-number of entries of each type 300874
-1770 natural
-64207 Desconhecida Unknown
-222596 NC undefined
-12301 Reigniton
-
-
-
-This dataset does not contain any topographical data and fuel data, except for the surrouding tree species, corresponding to the location of the fires. It only features weather variables at the hour the fire ignited. Although the object of study is fires of natural origin, this dataset was created in order to have a historical reference for fires that occurred between 2001 and 2023 and whose cause could not be ascertained. So that in the future it would be possible to determine the origin of fires of uncertain origin and characterise them. From this dataset, all wildfires whose origin was only natural were extracted.
+This dataset does not contain any topographical data or fuel data, except for the surrounding tree species matched with the location of the fires. It only features weather variables at the hour the fire ignited. Although the object of study is fires of natural origin, this dataset was created in order to have a historical reference for fires that occurred between 2001 and 2023 and whose cause could not be ascertained. So that, in the future, it would be possible to determine the origin of fires of uncertain origin and characterise them. From this dataset, all wildfires whose origin was only natural were extracted.
 
 
 
@@ -632,11 +624,13 @@ This dataset does not contain any topographical data and fuel data, except for t
 The primary focus of the research is on naturally occurring fires. What has been done in relation to natural-origin fires is covered in this section. Fires whose cause was natural were taken out of the prior dataset with its weather records at the time of ignition and previously matched tree species. Making it 1770 natural-occurring fires. Another meteorological data extraction was done, this time encompassing a larger time frame. Then, a FWI calculation for the entries was performed, and each fire was then matched with the topographical data relating to its location.
 
 \subsection{Weather history extraction for natural fires}
+\label{weather_Extaction_natural_fires}
 Instead of only gathering hourly weather history relative to the day of wildfire igniton. For natural fires, a total of 3 months of weather data prior to and during the ignition were extracted. It also featured hourly data, and the variables were the same as previously described in Table (\ref{open_meteo_variables}).
 This time, instead of extracting each fire individually, batches were created to host 100 different fires per batch. Each batch held 3-month weather records for each fire. This proved to be faster for extracting and analysing. Still, each fire was split into an individual file containing only its weather records. This was done in order to save time, and it worked as a saving system for FWI calculation as it proved to be computationally expensive.
 The same variables referenced in \ref{the_first_dataset}  were dropped aswell.
 
 \subsection{FWI Calculation}
+\label{fwi_calc_natural_fires}
 FWI is especially important because it can predict the risk of a wildfire by addressing the different fuels found in forest soils \cite{IPMA2024}. The source of data \ref{copernicus_danger_indices} contains daily data at 12:00 for fwi and the variables that compose it. However, for a further analysis of the topic, it is crucial to calculate the values of fwi and its variables for the remaining hours of the day. To ensure calculation accuracy, a Python library named \textit{pyfwi} \cite{buckinha2024} was used. The equations inside the library were compared to the official FWI guide \cite{van1985equations} to assure the calculations were being done correctly.
 A comparison between the results from IPMA and the calculated FWI values was done. In the paper \cite{ipma2015}, the authors show a chart for FWI in the month of May of 2015 (right-side of image \ref{fig:comparison_fwi_ipma}). This chart encompasses the average daily values for 68 different weather stations. However, the appendix to the report didn't specify the weather stations used. Instead, it provided a list of 80 weather stations. Without the chance of getting to know the weather stations used, an experiment was conducted with all 80 stations. Firstly, weather data for the last days of April and the entire month of May for 2015 were extracted for every location set in the report. Then, the months of April and May 2015 were downloaded from \cite{CopernicusCDS2019}. The equations for FWI require starting values. Those were extracted from the tabulated values of the last days of April from the Copernicus source. For the entire month of May, tabulated values weren't used. Instead, each value was calculated with the \textit{pyfwi} library.
 The results of this experiment are shown in image \ref{fig:comparison_fwi_ipma}. Even though the charts are not exactly the same, the underlying pattern remains the same, given the differences in the number of weather stations used in each example. Further comparisons between the continuous calculations of FWI and other sources will be assessed in the next chapter.
@@ -669,135 +663,25 @@ This calculation process continues throughout the wildfire weather record until 
 
 
 \subsection{Topography}
-
-slope, roughness, and aspect.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\label{natural_topography}
+As previously stated, topography encapsulates multiple sources. The algorithms developed for extracting topographic data are similar to each other. And they work as follows: There is one iteration for each fire location and a comparison with the nearest point of data. For slope, roughness, and aspect, the data source from \cite{ESA_Sinergise_2021} came in a geotiff format, and the algorithm checked if the wildfire site was within the borders of mainland Portugal, and then it extracted the value for the nearest point. This also applied to mean elevation from \cite{Danielson2011} (this source came in a shapefile). Corine land cover code \cite{71c95a07-e296-44fc-b22b-415f42acfdf0} extraction differed a bit. It offered a json file, but for every pair of coordinates, the algorithm audited if the pair was already tabulated in the file.
+The extracted values were then concatenated into the natural fire file with their respective wildfire sites.
 
 
 
 \subsection{Creating Areas without wildfires}
+In order to perform tests on models with balanced data, weather records without the occurrence of natural fires were extracted. A kind of twin fire was determined for each natural fire. The twin fire was not a fire per se, but a geographical point where no natural fire had occurred. The twin fire held the same date as the natural fire. The algorithm for the Twin Fire worked as follows: An entry from natural fires is selected. The date of the wildfire is extracted. The new event will occur on the same date as the natural fire. Then, the latitudes and longitudes of all fires within the extracted year are composed into lists. Next, the algorithm will find and generate a coordinate inside the spectrum for latitude (36.7, 42.3) and longitude (-9.8, -6) that has a distance of a minimum of 25 kilometres from all fire points from that year. This ensured that random coordinates were not equal to the ones from natural fires. The range of 25 kilometres was selected as the minimum distance between all the fires of a specific year because it is the maximum resolution described for \cite{Zippenfenig_Open-Meteo, Hersbach_ERA5, Munoz_ERA5_LAND, Schimanke_CERRA}. With \cite{OpenStreetMap} generated coordinates were geocoded to check if they belonged to Portugal and were on the mainland, far from bodies of water. The confirmation explicitly searched to see if the coordinate had an address and was inside a county. The newly generated pairs of coordinates and their respective dates were saved into a file. Subsequently, the same methods for weather record extraction with an hourly 3-month time window (\ref{weather_Extaction_natural_fires}), FWI calculation (\ref{fwi_calc_natural_fires}), and topography (\ref{natural_topography}) featured in the natural fires dataset (\ref{Natural_Fires_dataset}) were applied. At the end, the dataset without natural fires had the same number of occurrences as the dataset with natural fires.
 
-Random Coordinates that were not equal to the ones in Natural Fires. A minimum distance of 25 km for each generated coordinated and the ones in Natural fires. With openstreet map given the range for latitude (36.7, 42.3) and longitude (-9.8, -6) check if the generated coordinate is in Portugal and check if it belongs to a county to ensure it isn't in the middle of the sea.
-
-
-
-
+\section{Dataset creation conclusion}
+Three datasets were created. Figure \ref{fig:three_datasets} depicts the evolution of each dataset and their corresponding attributes and record associations. The first dataset served as a template for understanding the problem, how it was possible to extract meteorological data, and how to match the weather history, tree species, and the fire. The natural fires dataset comes from 1770 fires taken from the initial dataset. Topographical variables were added to this dataset, along with a longer meteorological history, and the FWI variables were calculated. Finally, in order to understand which meteorological phenomena are not associated with fire ignition, a dataset was created containing locations where no fires occurred on the same date as the fires stored in the natural fires dataset. It worked as an adversary counterpart that held the locations without an occurrence of a natural wildfire, mirroring the conditions that lead to the inexistence of a wildfire ignition. The methodologies for associating meteorological history, FWI, and topography were also applied to this dataset.
 
 
 
 
-\subsection{Creating Areas without wildfires}
-
-Random Coordinates that were not equal to the ones in Natural Fires. A minimum distance of 25 km for each generated coordinated and the ones in Natural fires. With openstreet map given the range for latitude (36.7, 42.3) and longitude (-9.8, -6) check if the generated coordinate is in Portugal and check if it belongs to a county to ensure it isn't in the middle of the sea.
-
-\subsection{Dataset description}
-
-%\begin{comment}
-%\end{comment}
-
-
-
-
-
-
-\section{Python libraries used in the conception of the dataset}
-requests
-pandas
-os to check if files already existed.
-numpy
-sklearn
-
-
-
-\section{Entry Selection}
-Specifity how many entries raw files have.
-
-
-
-
-
-
-
-\section{Models}
-
-
-\subsection{Model Variables and their importance}
-
-porque de escolher soil moisture 7 to 28cm e nao os outros gráfico de correspondencia.
-
-temperature : 8
-relative humidity: 8
-precipitation': 16
-wind speed: 16
-soil temperature 28 to 100cm: 8
-soil moisture 7 to 28cm: 8
-direct normal irradiance: 8
-
-'fwix': 8,
-'ffmc': 8,
-'dmc': 16,
-'dc': 16,
-'isi': 8,
-
-roughness', 'aspect', 'slope', 'CLC CODE','scientificNames', 'mean elev'
-
-tree species foram one hot encoded with MultiLabelBinarizer()
-
-variables with multiple days were flattened
-
-Slope has a significant influence on fire behaviour since it speeds its spread \cite{Marques2011}.
-
-
-\subsection{Random Forest Classifier}
-
-
-
-\subsubsection{Model with only Weather Variables}
-
-Accuracy: 0.8248587570621468
-Precision: 0.8532608695652174
-Recall: 0.8177083333333334
-F1 Score: 0.8351063829787234
-
-
-\subsection{Model with weather and topography}
-
-Accuracy: 0.9887005649717514
-Precision: 0.9973544973544973
-Recall: 0.9817708333333334
-F1 Score: 0.989501312335958
-
-\subsection{Model with weather, topography and fire weather}
-
-Accuracy: 0.9830508474576272
-Precision: 0.9946808510638298
-Recall: 0.9739583333333334
-F1 Score: 0.9842105263157894
-
-
-
-
-
+\begin{figure}[H]
+	\caption{The three created datasets}
+	\centering
+	\includegraphics[width=\textwidth]{chapter-images/Datasetcreation/dataset_conclusion/naturalfeuer.png}
+	\label{fig:three_datasets}
+\end{figure}
 

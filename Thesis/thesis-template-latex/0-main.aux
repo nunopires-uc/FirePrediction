@@ -111,16 +111,18 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.5.1}Matching historical wildfire with tree species}{14}{subsection.1.5.1}\protected@file@percent }
 \newlabel{tree_species_wildfires}{{1.5.1}{14}{Matching historical wildfire with tree species}{subsection.1.5.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.5.2}Locations in the middle of the sea.}{15}{subsection.1.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.5.3}Dataset description - Falta acabar}{15}{subsection.1.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.5.3}Dataset description}{15}{subsection.1.5.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {1.6}Natural Fires dataset}{15}{section.1.6}\protected@file@percent }
 \newlabel{Natural_Fires_dataset}{{1.6}{15}{Natural Fires dataset}{section.1.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.6.1}Weather history extraction for natural fires}{15}{subsection.1.6.1}\protected@file@percent }
+\newlabel{weather_Extaction_natural_fires}{{1.6.1}{15}{Weather history extraction for natural fires}{subsection.1.6.1}{}}
 \citation{IPMA2024}
 \citation{buckinha2024}
 \citation{van1985equations}
 \citation{ipma2015}
 \citation{CopernicusCDS2019}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.6.1}Weather history extraction for natural fires}{16}{subsection.1.6.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.6.2}FWI Calculation}{16}{subsection.1.6.2}\protected@file@percent }
+\newlabel{fwi_calc_natural_fires}{{1.6.2}{16}{FWI Calculation}{subsection.1.6.2}{}}
 \citation{CopernicusCDS2019}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Comparison of average FWI calculated values and IPMA - 2015\relax }}{17}{figure.caption.23}\protected@file@percent }
 \newlabel{fig:fwi_copernicus_2022_midday}{{1.1a}{17}{FWI - Calculated\relax }{figure.caption.23}{}}
@@ -129,21 +131,19 @@
 \newlabel{sub@fig:fwi_calculated_2022_midday}{{b}{17}{FWI - IPMA\relax }{figure.caption.23}{}}
 \newlabel{fig:comparison_fwi_ipma}{{1.1}{17}{Comparison of average FWI calculated values and IPMA - 2015\relax }{figure.caption.23}{}}
 \citation{CopernicusCDS2019}
+\citation{ESA_Sinergise_2021}
+\citation{Danielson2011}
+\citation{71c95a07-e296-44fc-b22b-415f42acfdf0}
+\citation{Zippenfenig_Open-Meteo,Hersbach_ERA5,Munoz_ERA5_LAND,Schimanke_CERRA}
+\citation{OpenStreetMap}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.6.3}Topography}{18}{subsection.1.6.3}\protected@file@percent }
+\newlabel{natural_topography}{{1.6.3}{18}{Topography}{subsection.1.6.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.6.4}Creating Areas without wildfires}{18}{subsection.1.6.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.6.5}Creating Areas without wildfires}{18}{subsection.1.6.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.6.6}Dataset description}{18}{subsection.1.6.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {1.7}Python libraries used in the conception of the dataset}{18}{section.1.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {1.8}Entry Selection}{18}{section.1.8}\protected@file@percent }
-\citation{Marques2011}
 \bibstyle{apalike}
 \bibdata{references}
-\@writefile{toc}{\contentsline {section}{\numberline {1.9}Models}{19}{section.1.9}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.9.1}Model Variables and their importance}{19}{subsection.1.9.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.9.2}Random Forest Classifier}{19}{subsection.1.9.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Model with only Weather Variables}{19}{subsubsection*.24}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.9.3}Model with weather and topography}{19}{subsection.1.9.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.9.4}Model with weather, topography and fire weather}{19}{subsection.1.9.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1.7}Dataset creation conclusion}{19}{section.1.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces The three created datasets\relax }}{19}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:three_datasets}{{1.2}{19}{The three created datasets\relax }{figure.caption.24}{}}
 \bibcite{71c95a07-e296-44fc-b22b-415f42acfdf0}{{1}{2020}{{Agency}}{{}}}
 \bibcite{ipma2015}{{2}{2015}{{ATMOSFERA}}{{}}}
 \bibcite{buckinha2024}{{3}{2016}{{Buckingham}}{{}}}
@@ -164,9 +164,10 @@
 \bibcite{Marques2011}{{17}{2011}{{Marques et~al.}}{{}}}
 \bibcite{Mora2020}{{18}{2020}{{Mora and Vieira}}{{}}}
 \bibcite{Munoz_ERA5_LAND}{{19}{2019}{{Muñoz~Sabater}}{{}}}
-\bibcite{Schimanke_CERRA}{{20}{2021}{{Schimanke et~al.}}{{}}}
-\bibcite{esri2024}{{21}{2017}{{SimonKettle}}{{}}}
-\bibcite{uva2021forestry}{{22}{2021}{{Uva et~al.}}{{}}}
-\bibcite{van1985equations}{{23}{1985}{{Van~Wagner et~al.}}{{}}}
-\bibcite{Zippenfenig_Open-Meteo}{{24}{2023}{{Zippenfenig}}{{}}}
+\bibcite{OpenStreetMap}{{20}{2017}{{OpenStreetMap contributors}}{{}}}
+\bibcite{Schimanke_CERRA}{{21}{2021}{{Schimanke et~al.}}{{}}}
+\bibcite{esri2024}{{22}{2017}{{SimonKettle}}{{}}}
+\bibcite{uva2021forestry}{{23}{2021}{{Uva et~al.}}{{}}}
+\bibcite{van1985equations}{{24}{1985}{{Van~Wagner et~al.}}{{}}}
+\bibcite{Zippenfenig_Open-Meteo}{{25}{2023}{{Zippenfenig}}{{}}}
 \gdef \@abspage@last{38}
