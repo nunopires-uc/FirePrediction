@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.5)  21 MAY 2024 17:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.5)  22 MAY 2024 10:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1553,7 +1553,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
-<chapter-images/Datasetcreation/FWI/fwi_X1_plot.png, id=538, 608.2725pt x 442.7
+<chapter-images/Datasetcreation/FWI/fwi_X1_plot.png, id=537, 608.2725pt x 442.7
 742pt>
 File: chapter-images/Datasetcreation/FWI/fwi_X1_plot.png Graphic file (type png
 )
@@ -1561,7 +1561,7 @@ File: chapter-images/Datasetcreation/FWI/fwi_X1_plot.png Graphic file (type png
 Package pdftex.def Info: chapter-images/Datasetcreation/FWI/fwi_X1_plot.png  us
 ed on input line 649.
 (pdftex.def)             Requested size: 209.1301pt x 152.23027pt.
-<chapter-images/Datasetcreation/FWI/fwi_ipma.png, id=540, 815.045pt x 502.87875
+<chapter-images/Datasetcreation/FWI/fwi_ipma.png, id=539, 815.045pt x 502.87875
 pt>
 File: chapter-images/Datasetcreation/FWI/fwi_ipma.png Graphic file (type png)
 <use chapter-images/Datasetcreation/FWI/fwi_ipma.png>
@@ -1581,7 +1581,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
-Overfull \hbox (23.22913pt too wide) in paragraph at lines 699--699
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17 <./chapter-images/Datasetcreation/FWI/fwi_X1_plot.png> <./chapter-images/Da
+tasetcreation/FWI/fwi_ipma.png>]
+Overfull \hbox (23.22913pt too wide) in paragraph at lines 725--725
 |[]\T1/ppl/b/n/17.28 Python li-braries used in the con-cep-tion of the dataset|
  
  []
@@ -1594,21 +1604,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17 <./chapter-images/Datasetcreation/FWI/fwi_X1_plot.png> <./chapter-images/Da
-tasetcreation/FWI/fwi_ipma.png>]
-Overfull \hbox (42.34691pt too wide) in paragraph at lines 753--757
+[18]
+Overfull \hbox (42.34691pt too wide) in paragraph at lines 779--783
 \T1/ppl/m/n/12 Accuracy: 0.8248587570621468 Pre-ci-sion: 0.8532608695652174 Re-
 call: 0.8177083333333334
  []
 
 
-Overfull \hbox (42.34691pt too wide) in paragraph at lines 761--765
+Overfull \hbox (42.34691pt too wide) in paragraph at lines 787--791
 \T1/ppl/m/n/12 Accuracy: 0.9887005649717514 Pre-ci-sion: 0.9973544973544973 Re-
 call: 0.9817708333333334
  []
 
 
-Overfull \hbox (42.34691pt too wide) in paragraph at lines 768--772
+Overfull \hbox (42.34691pt too wide) in paragraph at lines 794--798
 \T1/ppl/m/n/12 Accuracy: 0.9830508474576272 Pre-ci-sion: 0.9946808510638298 Re-
 call: 0.9739583333333334
  []
@@ -1622,7 +1631,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18]
+[19] [20
+
+]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1689,9 +1700,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--44
 opernicus . eu / cdsapp # ! / dataset /
  []
 
-[19
-
-]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 93--97
 []\T1/ppl/m/n/12 Living and Over-seas, I. (2023).  Por-tu-gal weather and cli-
  []
@@ -1735,31 +1744,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20] (./0-main.aux)
+[22] (./0-main.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package rerunfilecheck Warning: File `0-main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: File `0-main.out' has not changed.
-(rerunfilecheck)             Checksum: F209F8F20608CB03B743F72A8B203C3C;6981.
+Package rerunfilecheck Info: Checksums for `0-main.out':
+(rerunfilecheck)             Before: F209F8F20608CB03B743F72A8B203C3C;6981
+(rerunfilecheck)             After:  1FA5D7C6EA5F3BC1CFE150561286C621;7093.
  ) 
 Here is how much of TeX's memory you used:
- 33817 strings out of 480129
- 631984 string characters out of 5893409
- 943865 words of memory out of 5000000
+ 33820 strings out of 480129
+ 632014 string characters out of 5893409
+ 943833 words of memory out of 5000000
  50991 multiletter control sequences out of 15000+600000
  512738 words of font info for 105 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 99i,15n,131p,1136b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,15n,131p,2375b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/ori/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk
 >{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive
 /texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb>
-Output written on 0-main.pdf (36 pages, 625886 bytes).
+Output written on 0-main.pdf (38 pages, 629482 bytes).
 PDF statistics:
- 689 PDF objects out of 1000 (max. 8388607)
- 568 compressed objects within 6 object streams
- 118 named destinations out of 1000 (max. 500000)
+ 707 PDF objects out of 1000 (max. 8388607)
+ 584 compressed objects within 6 object streams
+ 121 named destinations out of 1000 (max. 500000)
  297 words of extra memory for PDF output out of 10000 (max. 10000000)
 

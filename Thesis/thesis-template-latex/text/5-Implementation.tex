@@ -663,7 +663,36 @@ The results of this experiment are shown in image \ref{fig:comparison_fwi_ipma}.
 
 For fires of natural origin, the same principles were applied. Every day at noon, the values were no longer calculated. The FWI equations require an initial value to work. The hourly FWI calculation worked in such a way that the initial values were those that were present in the previous hour. When the algorithm reached midday, it didn't use the values from the previous hour but the tabulated values from Copernicus. This method ensured that hours without a FWI tabulated value gained a value for FWI and all the variables necessary for it. This was conducted for each natural fire and for every hour of their 3-month weather history records.
 
-Falta o algorithmo criado
+The FWI calculation algorithm worked as follows: A start index is assigned to 36 hours after the first entry of each wildfire weather record. This is made to ensure the values for rain are correctly calculated, as it needs a 24-hour time window. Then, the coordinates of the wildfire site would be compared to the nearest point in the source \cite{CopernicusCDS2019} concerning the wildfire year. This is due to the structure of Copernicus. As it only holds specific locations, it is necessary to compare the wildfire site to its closest location (this is calculated with the Haversine formula for geographical distance). After a match with the Copernicus point is done, it is necessary to extract the FWI variables from the entry at 12:00, this being the start index. The variables extracted are the drought code, the duff moisture code, and the fine fuel moisture code. After the starting variables are set, the algorithm iterates from the start index to the last row of weather records for each wildfire. Inside the loop, the month, day, hour, year, temperature, relative humidity, and wind were extracted from each entry. Subsequently, a check is made to verify if the current year is a leap year. This is done because, given the 3-month record period for wildfires, some may extend between years. Then, the initial date and final date for the rain sum are calculated. This had multiple conditions, taking into consideration the first day, last day of the month, and sums that cross years. The total precipitation is then calculated by summing the values of the column rain between the initial and final dates; to this sum, the variable rain is assigned. Afterwards, the ffmc code is calculated; this takes temperature, relative humidity, wind, rain, and the previous ffmc code as inputs. The duff moisture code is next, and it takes as input temperature, relative humidity, rain, the previous duff moisture code, the latitude of the wildfire site, and the current month. Followed by the drought code, it takes temperature, rain, the previous drought code, wildfire site latitude, and month. Next, ISI, BUI, and FWI are computed. ISI takes wind and the calculated ffmc code; BUI takes the calculated duff moisture code and drought code. Finally, FWI is calculated by taking as input parameters ISI and BUI. 
+
+This calculation process continues throughout the wildfire weather record until it reaches noon. At noon, the FWI variables are not calculated using the \textit{pyfwi} library. Instead, they are taken from the tabulated values in \cite{CopernicusCDS2019}. By always resetting the calculation at noon, it is possible to get results that are more similar to Copernicus. Then the algorithm goes back to perform the FWI calculation with only the \textit{pyfwi} functions.
+
+
+\subsection{Topography}
+
+slope, roughness, and aspect.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
