@@ -1,6 +1,7 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Exploratory Data Analysis}{1}{chapter.1}%
-\contentsline {subsection}{\numberline {1.0.1}Introdutory Data Exploration}{1}{subsection.1.0.1}%
-\contentsline {subsection}{\numberline {1.0.2}Weather variables distribution at the time of ignition}{2}{subsection.1.0.2}%
-\contentsline {section}{\numberline {1.1}Average conditions at ignition time}{6}{section.1.1}%
-\contentsline {chapter}{References}{7}{chapter*.13}%
+\contentsline {section}{\numberline {1.1}Introdutory Data Exploration}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Land types and Tree Species}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Weather variables distribution at the time of ignition}{5}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Average conditions at ignition time}{8}{section.1.2}%
+\contentsline {chapter}{References}{11}{chapter*.19}%

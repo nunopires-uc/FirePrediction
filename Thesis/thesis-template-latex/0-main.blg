@@ -3,52 +3,47 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 0-main.aux
 The style file: apalike.bst
 Database file #1: references.bib
-Warning--entry type for "Zippenfenig_Open-Meteo" isn't style-file defined
---line 870 of file references.bib
 Warning--entry type for "71c95a07-e296-44fc-b22b-415f42acfdf0" isn't style-file defined
 --line 1079 of file references.bib
-Warning--entry type for "ipma2015" isn't style-file defined
---line 1124 of file references.bib
-Warning--empty publisher in van1985equations
-You've used 25 entries,
+You've used 6 entries,
             1935 wiz_defined-function locations,
-            608 strings with 8469 characters,
-and the built_in function-call counts, 8726 in all, are:
-= -- 836
-> -- 529
-< -- 23
-+ -- 190
-- -- 188
-* -- 708
-:= -- 1686
-add.period$ -- 76
-call.type$ -- 25
-change.case$ -- 216
-chr.to.int$ -- 25
-cite$ -- 26
-duplicate$ -- 272
-empty$ -- 423
-format.name$ -- 221
-if$ -- 1583
+            503 strings with 4553 characters,
+and the built_in function-call counts, 1884 in all, are:
+= -- 191
+> -- 83
+< -- 5
++ -- 28
+- -- 28
+* -- 140
+:= -- 368
+add.period$ -- 21
+call.type$ -- 6
+change.case$ -- 44
+chr.to.int$ -- 6
+cite$ -- 6
+duplicate$ -- 64
+empty$ -- 106
+format.name$ -- 34
+if$ -- 344
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 5
-newline$ -- 129
-num.names$ -- 75
-pop$ -- 157
+missing$ -- 1
+newline$ -- 36
+num.names$ -- 18
+pop$ -- 24
 preamble$ -- 1
-purify$ -- 218
+purify$ -- 44
 quote$ -- 0
-skip$ -- 235
+skip$ -- 56
 stack$ -- 0
-substring$ -- 351
-swap$ -- 12
-text.length$ -- 3
+substring$ -- 97
+swap$ -- 1
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 146
-warning$ -- 1
-while$ -- 55
+type$ -- 36
+warning$ -- 0
+while$ -- 14
 width$ -- 0
-write$ -- 310
-(There were 4 warnings)
+write$ -- 81
+(There was 1 warning)
